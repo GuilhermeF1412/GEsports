@@ -1,0 +1,64 @@
+/* Reset margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Topbar */
+.topbar-custom {
+    background-color: #001e28; /* Dark background */
+    color: #ffffff; /* Light text color */
+    padding: 10px; /* Adjust padding as needed */
+}
+
+/* Subtopbar */
+.subtopbar-custom {
+    background-color: #010a0f; /* Dark background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Example box shadow */
+    border-bottom: 2px solid #001e28; /* Border to divide subtopbar and content */
+}
+
+.subtopbar-custom .nav-link {
+    display: flex;
+    align-items: center;
+    color: #ffffff; /* Text color */
+    text-decoration: none;
+    padding: 12px 24px; /* Adjust padding as needed */
+    transition: background-color 0.3s ease;
+}
+
+.subtopbar-custom .nav-link:hover {
+    background-color: #ddd; /* Light grey background on hover */
+}
+
+.subtopbar-custom .nav-link img {
+    width: 36px; /* Adjust icon size */
+    height: 36px;
+    margin-right: 12px; /* Adjust icon margin */
+    vertical-align: middle; /* Ensures icons align vertically with text */
+}
+
+.subtopbar-custom .nav-link span {
+    font-size: 18px; /* Adjust text size */
+}
+
+/* Main content area */
+main {
+    padding: 20px;
+    background-color: #010a0f; /* Dark background */
+    min-height: calc(100vh - 100px); /* Calculate minimum height to push footer down */
+    padding-bottom: 100px; /* Padding bottom equal to footer height */
+    color: #ffffff; /* White text color */
+}
+
+/* Footer */
+.footer-custom {
+    background-color: #010a0f; /* Dark background */
+    color: #fff; /* Light text color */
+    padding: 20px; /* Adjust padding as needed */
+    text-align: center;
+    position: fixed; /* Fix footer to the bottom */
+    width: 100%; /* Full width */
+    bottom: 0; /* Stick to the bottom */
+}
