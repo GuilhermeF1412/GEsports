@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body .transition-regular { -moz-transition: all 1s; -o-transition: all 1s; -webkit-transition: all 1s; transition: all 1s; }
+body .transition-fast { -moz-transition: all 0.5s; -o-transition: all 0.5s; -webkit-transition: all 0.5s; transition: all 0.5s; }
+body .transition-very-fast { -moz-transition: all 0.2s; -o-transition: all 0.2s; -webkit-transition: all 0.2s; transition: all 0.2s; }
+
 /* Topbar */
 .topbar-custom {
     background-color: #001e28; /* Dark background */
@@ -61,4 +65,53 @@ main {
     position: fixed; /* Fix footer to the bottom */
     width: 100%; /* Full width */
     bottom: 0; /* Stick to the bottom */
+}
+
+.match {
+    display: block;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+.match:hover {
+    background-color: #001e28;
+}
+
+.live {
+    width: 100px;
+    display: inline-block;
+}
+
+.datetime {
+    width: 100px;
+    display: inline-block;
+}
+
+.teams {
+    display: inline-block;
+    width: 400px;
+}
+
+.result {
+    display: inline-block;
+    width: 100px
+}
+
+.stream {
+    display: inline-block;
+}
+
+.teams img {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.stream img {
+    height: 40px;
+    margin-bottom: 25px;
+    margin-left: 40px;
 }

@@ -1,36 +1,45 @@
 @extends('layouts.app')
 
 @section('content')
-
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h1>Welcome to NiceAdmin</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-                <h2>Section 1: Overview</h2>
-                <p>Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida.</p>
-
-                <h2>Section 2: Features</h2>
-                <ul>
-                    <li>Feature 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                    <li>Feature 2: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                    <li>Feature 3: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                </ul>
-
-                <h2>Section 3: Getting Started</h2>
-                <p>To get started with NiceAdmin, follow these steps:</p>
-                <ol>
-                    <li>Step 1: Download the template from <a href="https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/">BootstrapMade</a>.</li>
-                    <li>Step 2: Customize the template to suit your needs.</li>
-                    <li>Step 3: Deploy the template to your web server.</li>
-                </ol>
-
-                <h2>Section 4: Contact Us</h2>
-                <p>If you have any questions or need further assistance, please contact us at <a href="mailto:support@example.com">support@example.com</a>.</p>
+        @if (!empty($todayMatches))
+            <div class="league">
+                @foreach($todayMatches as $match)
+                    <div class="match transition-fast">
+                        <div class="status">{{ $match['status'] }}</div>
+                        <div class="datetime">{{ date('G:i', strtotime($match['DateTime UTC'])) }}</div>
+                        <div class="teams">
+                            <div class="team1">
+                                @if (!empty($match['Team1ImageUrl']))
+                                    <img src="{{ $match['Team1ImageUrl'] }}" alt="{{ $match['Team1'] }}"/>
+                                @else
+                                    <img src="{{ asset('img/placeholder.png') }}" alt="{{ $match['Team1'] }}"/>
+                                @endif
+                                {{ $match['Team1'] }}
+                            </div>
+                            <div class="team2">
+                                @if (!empty($match['Team2ImageUrl']))
+                                    <img src="{{ $match['Team2ImageUrl'] }}" alt="{{ $match['Team2'] }}"/>
+                                @else
+                                    <img src="{{ asset('img/placeholder.png') }}" alt="{{ $match['Team2'] }}"/>
+                                @endif
+                                {{ $match['Team2'] }}
+                            </div>
+                        </div>
+                        <div class="result">
+                            <div class="result1">@if($match['Team1Score'] === null)-@else{{ $match['Team1Score'] }}@endif</div>
+                            <div class="result1">@if($match['Team2Score'] === null)-@else{{ $match['Team2Score'] }}@endif</div>
+                        </div>
+                        <div class="stream">
+                            <a href="{{ $match['Stream'] }}" target="_blank">
+                                <img src="{{ asset('img/tv_icon.png') }}" alt="Stream Link">
+                            </a>
+                        </div>
+                    </div>
+                @endforeach
             </div>
-        </div>
+        @else
+            <p>No data available.</p>
+        @endif
     </div>
-
 @endsection
