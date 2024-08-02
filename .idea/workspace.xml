@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b057854-e260-4ee6-aab0-d1c35ccecd8b" name="Changes" comment="" />
+    <list default="true" id="1b057854-e260-4ee6-aab0-d1c35ccecd8b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GEsportsApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GEsportsApi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/1494f1bf93d8dade9bce9ffaf7131a35.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/1494f1bf93d8dade9bce9ffaf7131a35.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,7 +170,7 @@
     &quot;PHP Script.ImageMaker.php.executor&quot;: &quot;Run&quot;,
     &quot;PHPUnit.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;//wsl.localhost/Ubuntu/var/www/GEsports&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -254,6 +260,8 @@
       <workItem from="1722334223491" duration="10089000" />
       <workItem from="1722586552965" duration="299000" />
       <workItem from="1722587391467" duration="248000" />
+      <workItem from="1722587653047" duration="328000" />
+      <workItem from="1722601935247" duration="1518000" />
     </task>
     <servers />
   </component>
