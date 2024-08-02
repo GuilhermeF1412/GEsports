@@ -31,7 +31,7 @@ Route::get('/home', [APIController::class, 'todayMatches']);
 Route::get('/test', [APIController::class, 'index']);
 
 // Team Image Route
-Route::post('/store-team-images', [TeamImageController::class, 'storeTeamImage'])->name('store.team.images');
+Route::get('/store-team-images', [TeamImageController::class, 'storeTeamImage'])->name('store.team.images');
 
 // User Profile Route
 Route::get('/profile', [ProfileController::class, 'index'])->name('profile');
@@ -40,3 +40,6 @@ Route::get('/profile', [ProfileController::class, 'index'])->name('profile');
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/home-test', [APIController::class, 'todayMatches'])->name('home-test');

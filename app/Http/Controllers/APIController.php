@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Services\APIService;
 use App\Helpers\ImageBuilder;
+use App\Models\TeamImage;
 
 class APIController extends Controller
 {
@@ -26,25 +27,6 @@ class APIController extends Controller
     {
         $todayMatches = $this->apiService->getTodayMatches();
 
-        // Add image URLs to the matches
-        /*$filenames = [];
-        foreach ($todayMatches as $match) {
-            if (!empty($match['Team1Image'])) {
-                $filenames[] = $match['Team1Image'];
-            }
-            if (!empty($match['Team2Image'])) {
-                $filenames[] = $match['Team2Image'];
-            }
-        }
-        $filenames = array_unique($filenames);
-
-        // Fetch image URLs for the images
-        $imageUrls = [];
-        foreach ($filenames as $filename) {
-            $imageUrls[$filename] = $this->imageBuilder->getFilenameUrlToOpen($filename);
-        }*/
-
-        // Add image URLs and status to the matches
         $currentTime = time(); // Current timestamp for comparison
         foreach ($todayMatches as &$match) {
             $matchStartTime = strtotime($match['DateTime UTC']);
@@ -61,11 +43,21 @@ class APIController extends Controller
                 $match['status'] = ''; // Optional: No status for matches not yet live
             }
 
-            // Set image URLs
-            /*$match['Team1ImageUrl'] = !empty($match['Team1Image']) ? $imageUrls[$match['Team1Image']] : null;
-            $match['Team2ImageUrl'] = !empty($match['Team2Image']) ? $imageUrls[$match['Team2Image']] : null;*/
+            $match['Team1Image'] = $this->getTeamImage($match['Team1OverviewPage']);
+            $match['Team2Image'] = $this->getTeamImage($match['Team2OverviewPage']);
+
         }
 
+        usort($todayMatches, function($a, $b) {
+            return strcmp($a['Name'], $b['Name']);
+        });
+
         return view('pages.home', compact('todayMatches'));
+    }
+
+    private function getTeamImage($teamId)
+    {
+        $teamImage = TeamImage::where('team_id', $teamId)->first();
+        return $teamImage ? asset('storage/' . $teamImage->source) : asset('img/placeholder.png');
     }
 }

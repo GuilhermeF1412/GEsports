@@ -3,41 +3,49 @@
 @section('content')
     <div class="container">
         @if (!empty($todayMatches))
+            @php
+                $currentTournament = '';
+            @endphp
             <div class="league">
                 @foreach($todayMatches as $match)
-                    <div class="match transition-fast">
-                        <div class="status">{{ $match['status'] }}</div>
-                        <div class="datetime">{{ date('G:i', strtotime($match['DateTime UTC'])) }}</div>
-                        <div class="teams">
-                            <div class="team1">
-                                @if (!empty($match['Team1ImageUrl']))
-                                    <img src="{{ $match['Team1ImageUrl'] }}" alt="{{ $match['Team1'] }}"/>
-                                @else
-                                    <img src="{{ asset('img/placeholder.png') }}" alt="{{ $match['Team1'] }}"/>
-                                @endif
-                                {{ $match['Team1'] }}
-                            </div>
-                            <div class="team2">
-                                @if (!empty($match['Team2ImageUrl']))
-                                    <img src="{{ $match['Team2ImageUrl'] }}" alt="{{ $match['Team2'] }}"/>
-                                @else
-                                    <img src="{{ asset('img/placeholder.png') }}" alt="{{ $match['Team2'] }}"/>
-                                @endif
-                                {{ $match['Team2'] }}
-                            </div>
-                        </div>
-                        <div class="result">
-                            <div class="result1">@if($match['Team1Score'] === null)-@else{{ $match['Team1Score'] }}@endif</div>
-                            <div class="result1">@if($match['Team2Score'] === null)-@else{{ $match['Team2Score'] }}@endif</div>
-                        </div>
-                        <div class="stream">
-                            <a href="{{ $match['Stream'] }}" target="_blank">
-                                <img src="{{ asset('img/tv_icon.png') }}" alt="Stream Link">
-                            </a>
-                        </div>
+                    @if ($currentTournament !== $match['Name'])
+                        @if ($currentTournament !== '')
+            </div> <!-- Close the previous tournament div -->
+        @endif
+        @php
+            $currentTournament = $match['Name'];
+        @endphp
+        <div class="tournament">
+            <h2>{{ $currentTournament }}</h2>
+            @endif
+            <div class="match transition-fast">
+                <div class="status">{{ $match['status'] }}</div>
+                <div class="datetime">{{ date('G:i', strtotime($match['DateTime UTC'])) }}</div>
+                <div class="teams">
+                    <div class="team1">
+                        <img src="{{ $match['Team1Image'] }}" alt="{{ $match['Team1'] }}"/>
+                        {{ $match['Team1'] }}
                     </div>
-                @endforeach
+                    <div class="team2">
+                        <img src="{{ $match['Team2Image'] }}" alt="{{ $match['Team2'] }}"/>
+                        {{ $match['Team2'] }}
+                    </div>
+                </div>
+                <div class="result">
+                    <div class="result1">{{ $match['Team1Score'] ?? '-' }}</div>
+                    <div class="result2">{{ $match['Team2Score'] ?? '-' }}</div>
+                </div>
+                <div class="stream">
+                    @if(!empty($match['Stream']))
+                        <a href="{{ $match['Stream'] }}" target="_blank">
+                            <img src="{{ asset('img/tv_icon.png') }}" alt="Stream Link">
+                        </a>
+                    @else
+                    @endif
+                </div>
             </div>
+            @endforeach
+        </div>
         @else
             <p>No data available.</p>
         @endif

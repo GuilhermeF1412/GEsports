@@ -25,7 +25,7 @@ class TeamImageController extends Controller
     {
         $teamImagesAndIDs = $this->apiService->getTeamImagesAndIDs();
 
-        foreach ($teamImagesAndIDs as $team) {
+        foreach ($teamImagesAndIDs as $key => $team) {
             $teamId = $team['OverviewPage'];
             $teamImageFilename = $team['Image'];
 
@@ -33,15 +33,18 @@ class TeamImageController extends Controller
 
             $imageContents = file_get_contents($imageUrl);
             $directory = 'teamimages';
+            if (!Storage::disk('public')->exists($directory)) {
+                Storage::disk('public')->makeDirectory($directory);
+            }
             $filename = $teamId . '.png';
             $filePath = $directory . '/' . $filename;
 
             Storage::disk('public')->put($filePath, $imageContents);
 
-            TeamImage::create([
-                'team_id' => $teamId,
-                'source' => $filePath
-            ]);
+            $teamImage = new TeamImage;
+            $teamImage->team_id = $teamId;
+            $teamImage->source = $filePath;
+            $teamImage->save();
         }
 
         return response()->json(['message' => 'Team images stored successfully']);
