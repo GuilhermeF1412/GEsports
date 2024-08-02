@@ -164,6 +164,7 @@
     &quot;PHP Script.ImageMaker.php.executor&quot;: &quot;Run&quot;,
     &quot;PHPUnit.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;//wsl.localhost/Ubuntu/var/www/GEsports&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -252,6 +253,7 @@
       <workItem from="1722332820515" duration="916000" />
       <workItem from="1722334223491" duration="10089000" />
       <workItem from="1722586552965" duration="299000" />
+      <workItem from="1722587391467" duration="248000" />
     </task>
     <servers />
   </component>
