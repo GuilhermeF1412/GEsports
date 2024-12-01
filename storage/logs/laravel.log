@@ -8609,3 +8609,29 @@ Internal Server Error
 [2024-12-01 20:15:16] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
 [2024-12-01 20:15:16] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
 [2024-12-01 20:15:16] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
+[2024-12-01 20:26:20] local.INFO: Raw date parameter received in APIService: {"date":"2024-11-30"} 
+[2024-12-01 20:26:20] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-11-30"} 
+[2024-12-01 20:26:21] local.INFO: Successfully fetched matches {"count":19,"first_match":{"Name":"KeG League 2024 Championship","DateTime_UTC":"2024-11-30 04:00:00","Team1":"Jeonnam","Team1Score":0,"Team1Final":"Jeonnam","Team2":"Daejeon","Team2Score":2,"Team2Final":"Daejeon","Winner":"2","Stream":"https://www.youtube.com/kespa","BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"KeG League 2024 Championship","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-01 20:26:22] local.INFO: Match data: {"Team1":"DRX","Team1OverviewPage":"DRX","Team2":"BNK FearX","Team2OverviewPage":"BNK FearX"} 
+[2024-12-01 20:26:22] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-01 20:26:22] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
+[2024-12-01 20:26:22] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-01 20:26:22] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
+[2024-12-01 20:26:22] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/DRX.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/BNK FearX.png"} 
+[2024-12-01 20:26:22] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-01 20:26:22] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
+[2024-12-01 20:26:22] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-01 20:26:22] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
+[2024-12-01 20:27:59] local.INFO: Raw date parameter received in APIService: {"date":"2024-11-30"} 
+[2024-12-01 20:27:59] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-11-30"} 
+[2024-12-01 20:27:59] local.INFO: Successfully fetched matches {"count":19,"first_match":{"Name":"KeG League 2024 Championship","DateTime_UTC":"2024-11-30 04:00:00","Team1":"Jeonnam","Team1Score":0,"Team1Final":"Jeonnam","Team2":"Daejeon","Team2Score":2,"Team2Final":"Daejeon","Winner":"2","Stream":"https://www.youtube.com/kespa","BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"KeG League 2024 Championship","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-01 20:28:00] local.INFO: Match data: {"Team1":"DRX","Team1OverviewPage":"DRX","Team2":"BNK FearX","Team2OverviewPage":"BNK FearX"} 
+[2024-12-01 20:28:00] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-01 20:28:00] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
+[2024-12-01 20:28:00] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-01 20:28:00] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
+[2024-12-01 20:28:00] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/DRX.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/BNK FearX.png"} 
+[2024-12-01 20:28:00] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-01 20:28:00] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
+[2024-12-01 20:28:00] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-01 20:28:00] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 

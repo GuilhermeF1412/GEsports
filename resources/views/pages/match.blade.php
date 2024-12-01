@@ -128,73 +128,47 @@ use App\Helpers\ChampionIconHelper;
                             <!-- Player Stats and Picks -->
                             <div class="col-12">
                                 <div class="player-picks-container">
-                                    @if(is_array($game['Team1Players']))
-                                        @foreach($game['Team1Players'] as $index => $player)
+                                    @if(is_array($game['Team1Players']) && is_array($game['Team2Players']))
+                                        @foreach($game['Team1Players'] as $index => $bluePlayer)
                                             <div class="player-pick-row">
                                                 <!-- Blue Side Player Stats -->
                                                 <div class="player-stats blue-side text-end">
-                                                    <div class="player-name">{{ $player['name'] }}</div>
-                                                    <div class="player-kda">{{ $player['kills'] }}/{{ $player['deaths'] }}/{{ $player['assists'] }}</div>
-                                                    <div class="player-gold">{{ number_format($player['gold']) }} gold</div>
-                                                    <div class="player-cs">{{ $player['cs'] }} CS</div>
+                                                    <div class="player-name">{{ $bluePlayer['name'] }}</div>
+                                                    <div class="player-kda">{{ $bluePlayer['kills'] }}/{{ $bluePlayer['deaths'] }}/{{ $bluePlayer['assists'] }}</div>
+                                                    <div class="player-gold">{{ number_format($bluePlayer['gold']) }} gold</div>
+                                                    <div class="player-cs">{{ $bluePlayer['cs'] }} CS</div>
                                                 </div>
 
-                                                <!-- Champion Pick -->
+                                                <!-- Blue Side Champion Pick -->
                                                 <div class="champion-pick">
-                                                    <div class="champion-icon" title="{{ $player['champion'] }}">
-                                                        <img src="{{ ChampionIconHelper::getChampionIcon($player['champion']) }}" 
-                                                             alt="{{ $player['champion'] }}" 
+                                                    <div class="champion-icon" title="{{ $bluePlayer['champion'] }}">
+                                                        <img src="{{ ChampionIconHelper::getChampionIcon($bluePlayer['champion']) }}" 
+                                                             alt="{{ $bluePlayer['champion'] }}" 
                                                              class="img-fluid">
                                                     </div>
                                                 </div>
 
-                                                <!-- Red Side Player Stats -->
-                                                <div class="player-stats red-side text-start">
-                                                    @php
-                                                        $redPlayer = $game['Team2Players'][$index] ?? null;
-                                                    @endphp
-                                                    @if($redPlayer)
+                                                <!-- Red Side Champion Pick -->
+                                                @php
+                                                    $redPlayer = $game['Team2Players'][$index] ?? null;
+                                                @endphp
+                                                @if($redPlayer)
+                                                    <div class="champion-pick">
+                                                        <div class="champion-icon" title="{{ $redPlayer['champion'] }}">
+                                                            <img src="{{ ChampionIconHelper::getChampionIcon($redPlayer['champion']) }}" 
+                                                                 alt="{{ $redPlayer['champion'] }}" 
+                                                                 class="img-fluid">
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- Red Side Player Stats -->
+                                                    <div class="player-stats red-side text-start">
                                                         <div class="player-name">{{ $redPlayer['name'] }}</div>
                                                         <div class="player-kda">{{ $redPlayer['kills'] }}/{{ $redPlayer['deaths'] }}/{{ $redPlayer['assists'] }}</div>
                                                         <div class="player-gold">{{ number_format($redPlayer['gold']) }} gold</div>
                                                         <div class="player-cs">{{ $redPlayer['cs'] }} CS</div>
-                                                    @else
-                                                        <div class="player-name">Unknown</div>
-                                                        <div class="player-kda">0/0/0</div>
-                                                        <div class="player-gold">0 gold</div>
-                                                        <div class="player-cs">0 CS</div>
-                                                    @endif
-                                                </div>
-                                            </div>
-                                        @endforeach
-                                    @else
-                                        <!-- Fallback for old format -->
-                                        @foreach(ChampionIconHelper::formatChampionList($game['Team1Picks']) as $index => $champion)
-                                            <div class="player-pick-row">
-                                                <!-- Blue Side Player Stats -->
-                                                <div class="player-stats blue-side text-end">
-                                                    <div class="player-name">{{ $champion }}</div>
-                                                    <div class="player-kda">0/0/0</div>
-                                                    <div class="player-gold">0 gold</div>
-                                                    <div class="player-cs">0 CS</div>
-                                                </div>
-
-                                                <!-- Champion Pick -->
-                                                <div class="champion-pick">
-                                                    <div class="champion-icon" title="{{ $champion }}">
-                                                        <img src="{{ ChampionIconHelper::getChampionIcon($champion) }}" 
-                                                             alt="{{ $champion }}" 
-                                                             class="img-fluid">
                                                     </div>
-                                                </div>
-
-                                                <!-- Red Side Player Stats -->
-                                                <div class="player-stats red-side text-start">
-                                                    <div class="player-name">Unknown</div>
-                                                    <div class="player-kda">0/0/0</div>
-                                                    <div class="player-gold">0 gold</div>
-                                                    <div class="player-cs">0 CS</div>
-                                                </div>
+                                                @endif
                                             </div>
                                         @endforeach
                                     @endif
