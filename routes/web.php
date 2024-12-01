@@ -27,8 +27,9 @@ Route::get('/register', [App\Http\Controllers\Auth\RegisterController::class, 's
 Route::post('/register', [App\Http\Controllers\Auth\RegisterController::class, 'register']);
 
 // API Routes
-Route::get('/home', [APIController::class, 'todayMatches']);
+Route::get('/home', [APIController::class, 'todayMatches'])->name('home');
 Route::get('/test', [APIController::class, 'index']);
+Route::get('/match/{matchId}', [APIController::class, 'showMatch'])->name('match.show');
 
 // Team Image Route
 Route::get('/store-team-images', [TeamImageController::class, 'storeTeamImage'])->name('store.team.images');
