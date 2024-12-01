@@ -43,6 +43,38 @@ class Match(BaseModel):
     Venue: Optional[str]
     GroupName: Optional[str]
 
+class MatchGame(BaseModel):
+    Team1: str
+    Team2: str
+    WinTeam: Optional[str]
+    LossTeam: Optional[str]
+    Team1Score: Optional[int]
+    Team2Score: Optional[int]
+    Winner: Optional[str]
+    Gamelength: Optional[str]
+    Team1Bans: Optional[str]
+    Team2Bans: Optional[str]
+    Team1Picks: Optional[str]
+    Team2Picks: Optional[str]
+    Team1Players: Optional[str]
+    Team2Players: Optional[str]
+    Team1Dragons: Optional[int]
+    Team2Dragons: Optional[int]
+    Team1Barons: Optional[int]
+    Team2Barons: Optional[int]
+    Team1Towers: Optional[int]
+    Team2Towers: Optional[int]
+    Team1Gold: Optional[float]
+    Team2Gold: Optional[float]
+    Team1Kills: Optional[int]
+    Team2Kills: Optional[int]
+    VOD: Optional[str]
+    Team1RiftHeralds: Optional[int]
+    Team2RiftHeralds: Optional[int]
+    Team1Inhibitors: Optional[int]
+    Team2Inhibitors: Optional[int]
+    DateTime_UTC: str
+
 @app.get("/TodayMatches", response_model=List[Match])
 def get_today_matches(date: Optional[str] = None):
     site = EsportsClient("lol")
@@ -109,6 +141,70 @@ def get_all_team_images():
         )
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error fetching team images: {str(e)}")
+
+@app.get("/MatchGames", response_model=List[MatchGame])
+def get_match_games(team1: str, team2: str, date: str):
+    site = EsportsClient("lol")
+    
+    try:
+        # Parse and validate the date
+        parsed_date = datetime.strptime(date, '%Y-%m-%d')
+        date_pattern = parsed_date.strftime('%Y-%m-%d')
+        
+        print(f"Searching for games between {team1} and {team2} on {date_pattern}")
+        
+        where_clause = f"""
+            SG.DateTime_UTC LIKE '{date_pattern}%' AND
+            (
+                (SG.Team1 LIKE '%{team1}%' OR SG.Team1 LIKE '%{team2}%') AND
+                (SG.Team2 LIKE '%{team1}%' OR SG.Team2 LIKE '%{team2}%')
+            )
+        """
+        
+        print(f"Using where clause: {where_clause}")
+        
+        response = site.cargo_client.query(
+            tables="ScoreboardGames=SG",
+            where=where_clause,
+            fields="""
+                SG.Team1, SG.Team2, SG.WinTeam, SG.LossTeam,
+                SG.Team1Score, SG.Team2Score, SG.Winner,
+                SG.Gamelength, SG.Team1Bans, SG.Team2Bans,
+                SG.Team1Picks, SG.Team2Picks, SG.Team1Players,
+                SG.Team2Players, SG.Team1Dragons, SG.Team2Dragons,
+                SG.Team1Barons, SG.Team2Barons, SG.Team1Towers,
+                SG.Team2Towers, SG.Team1Gold, SG.Team2Gold,
+                SG.Team1Kills, SG.Team2Kills, SG.VOD,
+                SG.Team1RiftHeralds, SG.Team2RiftHeralds,
+                SG.Team1Inhibitors, SG.Team2Inhibitors,
+                SG.DateTime_UTC=DateTime_UTC
+            """,
+            order_by="SG.DateTime_UTC"
+        )
+        
+        if response:
+            # Transform the response to match our model
+            transformed_response = []
+            for game in response:
+                # Create a new dict with the correct field name
+                game_dict = dict(game)
+                if 'DateTime UTC' in game_dict:
+                    game_dict['DateTime_UTC'] = game_dict.pop('DateTime UTC')
+                transformed_response.append(game_dict)
+            
+            print(f"Found {len(transformed_response)} games")
+            if transformed_response:
+                print(f"First game: {transformed_response[0]}")
+            
+            return transformed_response
+            
+    except Exception as e:
+        print(f"Error in get_match_games: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Error fetching game details: {str(e)}")
+
+@app.get("/test")
+def test():
+    return {"message": "API is working"}
 
 if __name__ == "__main__":
     import uvicorn

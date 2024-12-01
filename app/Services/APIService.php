@@ -55,4 +55,21 @@ class APIService
             return [];
         }
     }
+
+    public function getMatchGames($team1, $team2, $date)
+    {
+        try {
+            $response = $this->client->get('/MatchGames', [
+                'query' => [
+                    'team1' => $team1,
+                    'team2' => $team2,
+                    'date' => $date
+                ]
+            ]);
+            return json_decode($response->getBody()->getContents(), true);
+        } catch (GuzzleException $e) {
+            Log::error('Error fetching match games: ' . $e->getMessage());
+            return [];
+        }
+    }
 }

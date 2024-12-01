@@ -107,6 +107,13 @@ class APIController extends Controller
                 return redirect()->route('home')->with('error', 'Match not found');
             }
 
+            // Fetch game details
+            $gameDetails = $this->apiService->getMatchGames(
+                $match['Team1'],
+                $match['Team2'],
+                $date ?? now()->format('Y-m-d')
+            );
+
             // Add status
             $currentTime = time();
             $matchStartTime = strtotime($match['DateTime_UTC']);
@@ -126,7 +133,7 @@ class APIController extends Controller
             $match['Team1Image'] = $this->getTeamImage($match['Team1OverviewPage']);
             $match['Team2Image'] = $this->getTeamImage($match['Team2OverviewPage']);
 
-            return view('pages.match', compact('match'));
+            return view('pages.match', compact('match', 'gameDetails'));
         } catch (\Exception $e) {
             Log::error('Error in showMatch: ' . $e->getMessage());
             return redirect()->route('home')->with('error', 'Unable to fetch match details');
