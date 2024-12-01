@@ -115,3 +115,151 @@ main {
     margin-bottom: 25px;
     margin-left: 40px;
 }
+
+/* Match details page styles */
+.champion-icon {
+    position: relative;
+    transition: transform 0.2s;
+}
+
+.champion-icon:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.champion-icon img {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.gap-2 {
+    gap: 0.5rem !important;
+}
+
+.side-label {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* Team colors */
+.blue-side {
+    color: #0d6efd !important;
+}
+
+.red-side {
+    color: #dc3545 !important;
+}
+
+/* Match details layout */
+.match-details-container {
+    background-color: #ffffff !important;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.match-details-container .card-header {
+    background-color: rgba(0, 0, 0, 0.03) !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    color: #000000;
+}
+
+.match-details-container .card-body {
+    background-color: #ffffff !important;
+    color: #000000;
+}
+
+/* Update the main match header card as well */
+.card {
+    background-color: #ffffff !important;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card .card-body {
+    background-color: #ffffff !important;
+    color: #000000;
+}
+
+/* Update list items color */
+.list-unstyled li {
+    color: #000000;
+}
+
+/* Team icons in match details */
+.team-icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    border-radius: 50%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+/* Adjust the vertical alignment of all elements in the header */
+h6.blue-side, h6.red-side {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+h6.blue-side i, h6.red-side i {
+    font-size: 12px;
+}
+
+/* Player picks layout */
+.player-picks-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.player-pick-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    gap: 20px;
+}
+
+.player-stats {
+    width: 200px;
+    padding: 10px;
+}
+
+.player-stats.blue-side {
+    text-align: right;
+}
+
+.player-stats.red-side {
+    text-align: left;
+}
+
+.player-name {
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.player-kda {
+    font-size: 0.85em;
+}
+
+.player-gold {
+    font-size: 0.85em;
+    color: #ffd700;
+}
+
+.player-cs {
+    font-size: 0.85em;
+    color: #808080;
+}
+
+.champion-pick .champion-icon img {
+    width: 60px;
+    height: 60px;
+}
+
+/* Center the picks section */
+.champion-pick {
+    display: flex;
+    justify-content: center;
+    width: 80px;
+}

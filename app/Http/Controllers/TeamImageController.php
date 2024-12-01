@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Storage;
 use App\Models\TeamImage;
 use App\Services\APIService;
 use App\Helpers\ImageBuilder;
+use Illuminate\Support\Facades\Log;
 
 class TeamImageController extends Controller
 {
@@ -21,22 +22,29 @@ class TeamImageController extends Controller
 
     public function getTeamImagePath($teamId)
     {
+        Log::info('Getting team image for:', ['teamId' => $teamId]);
+        
         if (empty($teamId)) {
+            Log::info('TeamId is empty, returning placeholder');
             return asset('storage/teamimages/placeholder.png');
         }
         
         $teamImage = TeamImage::where('team_id', $teamId)->first();
+        Log::info('Found team image:', ['teamImage' => $teamImage]);
         
         if ($teamImage && Storage::disk('public')->exists('teamimages/' . $teamId . '.png')) {
             $filename = rawurlencode($teamId . '.png');
+            Log::info('Returning team image:', ['path' => 'storage/teamimages/' . $filename]);
             return asset('storage/teamimages/' . $filename);
         }
         
         if (Storage::disk('public')->exists('teamimages/' . $teamId . '.png')) {
             $filename = rawurlencode($teamId . '.png');
+            Log::info('Returning direct team image:', ['path' => 'storage/teamimages/' . $filename]);
             return asset('storage/teamimages/' . $filename);
         }
 
+        Log::info('No image found, returning placeholder');
         return asset('storage/teamimages/placeholder.png');
     }
 

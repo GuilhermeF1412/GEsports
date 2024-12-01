@@ -8,6 +8,7 @@ use App\Models\TeamImage;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
 class APIController extends Controller
 {
@@ -129,9 +130,29 @@ class APIController extends Controller
                 $match['status'] = '';
             }
 
+            Log::info('Match data:', [
+                'Team1' => $match['Team1'],
+                'Team1OverviewPage' => $match['Team1OverviewPage'],
+                'Team2' => $match['Team2'],
+                'Team2OverviewPage' => $match['Team2OverviewPage']
+            ]);
+
             // Get team images
-            $match['Team1Image'] = $this->getTeamImage($match['Team1OverviewPage']);
-            $match['Team2Image'] = $this->getTeamImage($match['Team2OverviewPage']);
+            $match['Team1Image'] = $this->getTeamImage($match['Team1']);
+            $match['Team2Image'] = $this->getTeamImage($match['Team2']);
+
+            Log::info('Team images:', [
+                'Team1Image' => $match['Team1Image'],
+                'Team2Image' => $match['Team2Image']
+            ]);
+
+            if (!empty($gameDetails)) {
+                foreach ($gameDetails as &$game) {
+                    // Add team images for each game
+                    $game['Team1Image'] = $this->getTeamImage($game['Team1']);
+                    $game['Team2Image'] = $this->getTeamImage($game['Team2']);
+                }
+            }
 
             return view('pages.match', compact('match', 'gameDetails'));
         } catch (\Exception $e) {
@@ -140,13 +161,28 @@ class APIController extends Controller
         }
     }
 
-    private function getTeamImage($teamId)
+    private function getTeamImage($teamName)
     {
-        if (!$teamId) {
+        if (!$teamName) {
             return asset('storage/teamimages/placeholder.png');
         }
         
-        $teamImage = TeamImage::where('team_id', $teamId)->first();
-        return $teamImage ? asset('storage/' . $teamImage->source) : asset('storage/teamimages/placeholder.png');
+        Log::info('Looking up team image for:', ['teamName' => $teamName]);
+        
+        // Try to find by team name
+        $teamImage = TeamImage::where('team_id', $teamName)->first();
+        if ($teamImage) {
+            Log::info('Found team image:', ['source' => $teamImage->source]);
+            return asset('storage/' . $teamImage->source);
+        }
+        
+        // Check if image exists directly
+        if (Storage::disk('public')->exists('teamimages/' . $teamName . '.png')) {
+            Log::info('Found direct image file for team');
+            return asset('storage/teamimages/' . $teamName . '.png');
+        }
+        
+        Log::info('No image found for team, using placeholder');
+        return asset('storage/teamimages/placeholder.png');
     }
 }
