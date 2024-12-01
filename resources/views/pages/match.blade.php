@@ -60,121 +60,138 @@ use App\Helpers\ChampionIconHelper;
             </div>
             <div class="card-body">
                 <div class="row">
-                    <!-- Blue Side Stats -->
-                    <div class="col-md-6">
-                        <h6 class="blue-side">
-                            <i class="bi bi-circle-fill me-2"></i>
-                            <img src="{{ $game['Team1Image'] }}" alt="{{ $game['Team1'] }}" class="team-icon me-2">
-                            {{ $game['Team1'] }} (Blue Side)
-                        </h6>
-                        <ul class="list-unstyled">
-                            <li>Gold: {{ number_format($game['Team1Gold']) }}</li>
-                            <li>Kills: {{ $game['Team1Kills'] }}</li>
-                            <li>Towers: {{ $game['Team1Towers'] }}</li>
-                            <li>Dragons: {{ $game['Team1Dragons'] }}</li>
-                            <li>Barons: {{ $game['Team1Barons'] }}</li>
-                        </ul>
+                    <!-- Team Stats Row -->
+                    <div class="row mb-4">
+                        <!-- Blue Side Stats -->
+                        <div class="col-md-5">
+                            <h6 class="blue-side">
+                                <i class="bi bi-circle-fill me-2"></i>
+                                <img src="{{ $game['Team1Image'] }}" alt="{{ $game['Team1'] }}" class="team-icon me-2">
+                                {{ $game['Team1'] }} (Blue Side)
+                            </h6>
+                            <ul class="list-unstyled">
+                                <li>Gold: {{ number_format($game['Team1Gold']) }}</li>
+                                <li>Kills: {{ $game['Team1Kills'] }}</li>
+                                <li>Towers: {{ $game['Team1Towers'] }}</li>
+                                <li>Dragons: {{ $game['Team1Dragons'] }}</li>
+                                <li>Barons: {{ $game['Team1Barons'] }}</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-2">
+                            <!-- Remove bans container from here -->
+                        </div>
+
+                        <!-- Red Side Stats -->
+                        <div class="col-md-5">
+                            <h6 class="red-side">
+                                <i class="bi bi-circle-fill me-2"></i>
+                                <img src="{{ $game['Team2Image'] }}" alt="{{ $game['Team2'] }}" class="team-icon me-2">
+                                {{ $game['Team2'] }} (Red Side)
+                            </h6>
+                            <ul class="list-unstyled">
+                                <li>Gold: {{ number_format($game['Team2Gold']) }}</li>
+                                <li>Kills: {{ $game['Team2Kills'] }}</li>
+                                <li>Towers: {{ $game['Team2Towers'] }}</li>
+                                <li>Dragons: {{ $game['Team2Dragons'] }}</li>
+                                <li>Barons: {{ $game['Team2Barons'] }}</li>
+                            </ul>
+                        </div>
                     </div>
 
-                    <!-- Red Side Stats -->
-                    <div class="col-md-6">
-                        <h6 class="red-side">
-                            <i class="bi bi-circle-fill me-2"></i>
-                            <img src="{{ $game['Team2Image'] }}" alt="{{ $game['Team2'] }}" class="team-icon me-2">
-                            {{ $game['Team2'] }} (Red Side)
-                        </h6>
-                        <ul class="list-unstyled">
-                            <li>Gold: {{ number_format($game['Team2Gold']) }}</li>
-                            <li>Kills: {{ $game['Team2Kills'] }}</li>
-                            <li>Towers: {{ $game['Team2Towers'] }}</li>
-                            <li>Dragons: {{ $game['Team2Dragons'] }}</li>
-                            <li>Barons: {{ $game['Team2Barons'] }}</li>
-                        </ul>
-                    </div>
-
-                    <!-- Picks & Bans -->
-                    <div class="col-12 mt-3">
-                        <div class="row">
-                            <!-- Blue Side Bans -->
-                            <div class="col-md-6">
-                                <h6 class="blue-side">Blue Side Bans</h6>
-                                <div class="d-flex flex-wrap gap-2 mb-3">
+                    <!-- Add bans above the table -->
+                    <div class="row mb-4">
+                        <div class="col-6">
+                            <div class="text-center blue-side">
+                                <h6 class="mb-3">Blue Side Bans</h6>
+                                <div class="d-flex justify-content-center gap-2">
                                     @foreach(ChampionIconHelper::formatChampionList($game['Team1Bans']) as $champion)
                                         <div class="champion-icon" title="{{ $champion }}">
                                             <img src="{{ ChampionIconHelper::getChampionIcon($champion, 'banned') }}" 
                                                  alt="{{ $champion }}" 
                                                  class="img-fluid" 
-                                                 style="width: 40px; height: 40px; opacity: 0.7;">
+                                                 style="width: 50px; height: 50px; opacity: 0.7;">
                                         </div>
                                     @endforeach
                                 </div>
                             </div>
-
-                            <!-- Red Side Bans -->
-                            <div class="col-md-6">
-                                <h6 class="red-side">Red Side Bans</h6>
-                                <div class="d-flex flex-wrap gap-2 mb-3">
+                        </div>
+                        <div class="col-6">
+                            <div class="text-center red-side">
+                                <h6 class="mb-3">Red Side Bans</h6>
+                                <div class="d-flex justify-content-center gap-2">
                                     @foreach(ChampionIconHelper::formatChampionList($game['Team2Bans']) as $champion)
                                         <div class="champion-icon" title="{{ $champion }}">
                                             <img src="{{ ChampionIconHelper::getChampionIcon($champion, 'banned') }}" 
                                                  alt="{{ $champion }}" 
                                                  class="img-fluid" 
-                                                 style="width: 40px; height: 40px; opacity: 0.7;">
+                                                 style="width: 50px; height: 50px; opacity: 0.7;">
                                         </div>
                                     @endforeach
                                 </div>
                             </div>
-
-                            <!-- Player Stats and Picks -->
-                            <div class="col-12">
-                                <div class="player-picks-container">
-                                    @if(is_array($game['Team1Players']) && is_array($game['Team2Players']))
-                                        @foreach($game['Team1Players'] as $index => $bluePlayer)
-                                            <div class="player-pick-row">
-                                                <!-- Blue Side Player Stats -->
-                                                <div class="player-stats blue-side text-end">
-                                                    <div class="player-name">{{ $bluePlayer['name'] }}</div>
-                                                    <div class="player-kda">{{ $bluePlayer['kills'] }}/{{ $bluePlayer['deaths'] }}/{{ $bluePlayer['assists'] }}</div>
-                                                    <div class="player-gold">{{ number_format($bluePlayer['gold']) }} gold</div>
-                                                    <div class="player-cs">{{ $bluePlayer['cs'] }} CS</div>
-                                                </div>
-
-                                                <!-- Blue Side Champion Pick -->
-                                                <div class="champion-pick">
-                                                    <div class="champion-icon" title="{{ $bluePlayer['champion'] }}">
-                                                        <img src="{{ ChampionIconHelper::getChampionIcon($bluePlayer['champion']) }}" 
-                                                             alt="{{ $bluePlayer['champion'] }}" 
-                                                             class="img-fluid">
-                                                    </div>
-                                                </div>
-
-                                                <!-- Red Side Champion Pick -->
-                                                @php
-                                                    $redPlayer = $game['Team2Players'][$index] ?? null;
-                                                @endphp
-                                                @if($redPlayer)
-                                                    <div class="champion-pick">
-                                                        <div class="champion-icon" title="{{ $redPlayer['champion'] }}">
-                                                            <img src="{{ ChampionIconHelper::getChampionIcon($redPlayer['champion']) }}" 
-                                                                 alt="{{ $redPlayer['champion'] }}" 
-                                                                 class="img-fluid">
-                                                        </div>
-                                                    </div>
-
-                                                    <!-- Red Side Player Stats -->
-                                                    <div class="player-stats red-side text-start">
-                                                        <div class="player-name">{{ $redPlayer['name'] }}</div>
-                                                        <div class="player-kda">{{ $redPlayer['kills'] }}/{{ $redPlayer['deaths'] }}/{{ $redPlayer['assists'] }}</div>
-                                                        <div class="player-gold">{{ number_format($redPlayer['gold']) }} gold</div>
-                                                        <div class="player-cs">{{ $redPlayer['cs'] }} CS</div>
-                                                    </div>
-                                                @endif
-                                            </div>
-                                        @endforeach
-                                    @endif
-                                </div>
-                            </div>
                         </div>
+                    </div>
+
+                    <!-- Player Stats Table -->
+                    <div class="col-12">
+                        <table class="table table-sm table-hover">
+                            <thead>
+                                <tr>
+                                    <th class="text-center">CS</th>
+                                    <th class="text-center">Gold</th>
+                                    <th class="text-center">Damage</th>
+                                    <th class="text-center">KDA</th>
+                                    <th class="text-end">Blue Side</th>
+                                    <th class="text-center">Champion</th>
+                                    <th class="text-center">Role</th>
+                                    <th class="text-center">Champion</th>
+                                    <th>Red Side</th>
+                                    <th class="text-center">KDA</th>
+                                    <th class="text-center">Damage</th>
+                                    <th class="text-center">Gold</th>
+                                    <th class="text-center">CS</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if(is_array($game['Team1Players']) && is_array($game['Team2Players']))
+                                    @php
+                                        $roles = ['Top', 'Jungle', 'Mid', 'Bot', 'Support'];
+                                        foreach ($roles as $role) {
+                                            $bluePlayer = collect($game['Team1Players'])->firstWhere('role', $role);
+                                            $redPlayer = collect($game['Team2Players'])->firstWhere('role', $role);
+                                    @endphp
+                                        <tr>
+                                            <td class="text-center blue-side">{{ $bluePlayer['cs'] }}</td>
+                                            <td class="text-center blue-side">{{ number_format($bluePlayer['gold']) }}</td>
+                                            <td class="text-center blue-side">{{ number_format($bluePlayer['damage']) }}</td>
+                                            <td class="text-center blue-side">{{ $bluePlayer['kills'] }}/{{ $bluePlayer['deaths'] }}/{{ $bluePlayer['assists'] }}</td>
+                                            <td class="text-end blue-side">{{ $bluePlayer['name'] }}</td>
+                                            <td class="text-center">
+                                                <img src="{{ ChampionIconHelper::getChampionIcon($bluePlayer['champion']) }}" 
+                                                     alt="{{ $bluePlayer['champion'] }}"
+                                                     title="{{ $bluePlayer['champion'] }}"
+                                                     style="width: 40px; height: 40px;">
+                                            </td>
+                                            <td class="text-center">{{ $role }}</td>
+                                            <td class="text-center">
+                                                <img src="{{ ChampionIconHelper::getChampionIcon($redPlayer['champion']) }}" 
+                                                     alt="{{ $redPlayer['champion'] }}"
+                                                     title="{{ $redPlayer['champion'] }}"
+                                                     style="width: 40px; height: 40px;">
+                                            </td>
+                                            <td class="red-side">{{ $redPlayer['name'] }}</td>
+                                            <td class="text-center red-side">{{ $redPlayer['kills'] }}/{{ $redPlayer['deaths'] }}/{{ $redPlayer['assists'] }}</td>
+                                            <td class="text-center red-side">{{ number_format($redPlayer['damage']) }}</td>
+                                            <td class="text-center red-side">{{ number_format($redPlayer['gold']) }}</td>
+                                            <td class="text-center red-side">{{ $redPlayer['cs'] }}</td>
+                                        </tr>
+                                    @php
+                                        }
+                                    @endphp
+                                @endif
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
