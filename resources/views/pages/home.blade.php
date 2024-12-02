@@ -17,7 +17,7 @@ $teamImageController = new TeamImageController(new APIService, new ImageBuilder)
                 <i class="bi bi-chevron-left"></i>
             </button>
             
-            <div class="date-selector">
+            <form action="{{ route('home') }}" method="GET" class="date-selector">
                 <input type="date" name="date" id="dateSelect" 
                        value="{{ $selectedDate }}" 
                        onchange="this.form.submit()"
@@ -25,7 +25,7 @@ $teamImageController = new TeamImageController(new APIService, new ImageBuilder)
                 <div class="current-date">
                     {{ \Carbon\Carbon::parse($selectedDate)->format('l, F j, Y') }}
                 </div>
-            </div>
+            </form>
             
             <button type="button" class="date-nav-btn" onclick="changeDate(1)">
                 <i class="bi bi-chevron-right"></i>
@@ -56,7 +56,6 @@ $teamImageController = new TeamImageController(new APIService, new ImageBuilder)
                         <div class="tournament-header" data-bs-toggle="collapse" 
                              data-bs-target="#tournament{{ $tournamentIndex }}">
                             <div class="tournament-name">
-                                <img src="{{ asset('img/tournament-icon.png') }}" class="tournament-icon" alt="Tournament">
                                 {{ $currentTournament }}
                             </div>
                             <i class="bi bi-chevron-down toggle-icon"></i>

@@ -190,11 +190,15 @@ def get_match_games(team1: str, team2: str, date: str):
         match_id = match_query[0]['MatchId']
         print(f"\nStep 1 - Found MatchId: {match_id}")
         
-        # Step 2: Get games - Use simpler query
+        # Step 2: Get games - Modified query to handle team side switches
         try:
             games = site.cargo_client.query(
                 tables="ScoreboardGames",
-                where=f"DateTime_UTC LIKE '{date_pattern}%' AND Team1 = '{team1}' AND Team2 = '{team2}'",
+                where=f"""
+                    DateTime_UTC LIKE '{date_pattern}%' AND 
+                    ((Team1 = '{team1}' AND Team2 = '{team2}') OR 
+                     (Team1 = '{team2}' AND Team2 = '{team1}'))
+                """,
                 fields="""
                     Team1, Team2, WinTeam, LossTeam,
                     Team1Score, Team2Score, Winner, Gamelength,

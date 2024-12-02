@@ -6,28 +6,37 @@ class ChampionIconHelper
 {
     public static function getChampionIcon($championName, $type = 'default')
     {
-        // Clean the champion name (remove special characters and spaces)
-        $championName = str_replace([' ', "'", '.'], '', $championName);
-        
-        // Special cases for champion names
+        // Special cases for champion names - verified with Data Dragon
         $specialCases = [
-            'KSante' => 'KSante',
-            'RenataGlasc' => 'Renata',
-            'Nunu&Willump' => 'Nunu',
-            'Kaisa' => 'KaiSa',
-            'Khazix' => 'KhaZix',
-            'Reksai' => 'RekSai',
-            'Velkoz' => 'VelKoz',
-            // Add more special cases as needed
+            'Wukong' => 'MonkeyKing',
+            'Xin Zhao' => 'XinZhao',
+            'Jarvan IV' => 'JarvanIV',
+            "Kai'Sa" => 'Kaisa',
+            "K'Sante" => 'KSante',
+            'Renata Glasc' => 'Renata',
+            'Miss Fortune' => 'MissFortune',
+            "Kog'Maw" => 'KogMaw',
+            "Kha'Zix" => 'Khazix',
+            "Cho'Gath" => 'Chogath',
+            "Vel'Koz" => 'Velkoz',
+            "Rek'Sai" => 'RekSai',
+            "Bel'Veth" => 'Belveth',
+            'Lee Sin' => 'LeeSin',
+            'Aurelion Sol' => 'AurelionSol',
+            'Dr. Mundo' => 'DrMundo',
+            'Master Yi' => 'MasterYi',
+            'Nunu & Willump' => 'Nunu',
+            'Twisted Fate' => 'TwistedFate'
         ];
 
-        $championName = $specialCases[$championName] ?? $championName;
+        // Convert champion name if it's a special case
+        $championId = $specialCases[$championName] ?? $championName;
         
         // Determine the path based on type
         $path = $type === 'banned' ? 'champions/banned/' : 'champions/default/';
         
         // Check if the image exists
-        $imagePath = 'storage/' . $path . $championName . '.png';
+        $imagePath = 'storage/' . $path . $championId . '.png';
         
         if (file_exists(public_path($imagePath))) {
             return asset($imagePath);

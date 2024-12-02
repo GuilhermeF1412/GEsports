@@ -114,6 +114,19 @@ class APIController extends Controller
                 $match['Team2'],
                 $date ?? now()->format('Y-m-d')
             );
+            
+            \Log::info('Game Details:', [
+                'Number of games' => count($gameDetails),
+                'Match BestOf' => $match['BestOf'],
+                'Match Score' => $match['Team1Score'] . '-' . $match['Team2Score'],
+                'Games' => array_map(function($game) {
+                    return [
+                        'DateTime' => $game['DateTime_UTC'],
+                        'Winner' => $game['Winner'],
+                        'Score' => $game['Team1Score'] . '-' . $game['Team2Score']
+                    ];
+                }, $gameDetails)
+            ]);
 
             // Add status
             $currentTime = time();

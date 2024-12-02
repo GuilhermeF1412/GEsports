@@ -24,8 +24,11 @@
 </div>
 
 <footer class="footer-custom">
-    <div class="main-container">
-        @include('layouts.footer')
+    <div class="container">
+        <div class="text-center">
+            <div>PROJECT MADE BY GUILHERME FERNANDES</div>
+            <div>GESPORTS</div>
+        </div>
     </div>
 </footer>
 

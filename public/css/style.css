@@ -58,13 +58,18 @@ main {
 
 /* Footer */
 .footer-custom {
-    background-color: #010a0f; /* Dark background */
-    color: #fff; /* Light text color */
-    padding: 20px; /* Adjust padding as needed */
+    background-color: #010a0f;
+    color: #fff;
+    padding: 20px;
     text-align: center;
-    position: fixed; /* Fix footer to the bottom */
-    width: 100%; /* Full width */
-    bottom: 0; /* Stick to the bottom */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-weight: 500;
+}
+
+.footer-custom div:first-child {
+    margin-bottom: 5px;
 }
 
 .match {
@@ -332,7 +337,6 @@ h6.blue-side i, h6.red-side i {
     align-items: center;
     color: #fff;
     font-weight: 500;
-    font-size: 1.1em;
 }
 
 .toggle-icon {
@@ -704,7 +708,18 @@ h6.blue-side i, h6.red-side i {
     width: 30px;
     height: 30px;
     border-radius: 4px;
-    opacity: 0.7;
+    position: relative;
+}
+
+.ban-icon img::after {
+    content: '×';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .bans-label {
@@ -841,84 +856,46 @@ h6.blue-side i, h6.red-side i {
     font-size: 0.9em;
 }
 
-/* Players Table */
-.players-table th, .players-table td {
-    padding: 10px;
-}
-
-/* Header alignment */
-.players-table th:nth-child(1) { /* Player */
-    text-align: left;
-    width: 150px;
-}
-
-.players-table th:nth-child(2) { /* Champion */
-    text-align: left;
-    width: 100px;
-}
-
-.players-table th:nth-child(3) { /* KDA */
-    text-align: center;
-    width: 100px;
-}
-
-.players-table th:nth-child(4), /* CS */
-.players-table th:nth-child(5), /* Gold */
-.players-table th:nth-child(6) { /* Damage */
-    text-align: center;
-    width: 80px;
-}
-
-.players-table th:nth-child(7) { /* Items */
-    text-align: left;
-    width: 160px;
-}
-
-/* Cell alignment to match headers */
-.players-table td:nth-child(1) { /* Player */
-    text-align: left;
-}
-
-.players-table td:nth-child(2) { /* Champion */
-    text-align: left;
-}
-
-.players-table td:nth-child(3) { /* KDA */
-    text-align: center;
-}
-
-.players-table td:nth-child(4), /* CS */
-.players-table td:nth-child(5), /* Gold */
-.players-table td:nth-child(6) { /* Damage */
-    text-align: center;
-}
-
-.players-table td:nth-child(7) { /* Items */
-    text-align: left;
-}
-
-/* Keep existing styles */
+/* Players Table Headers */
 .players-table th {
     color: #888;
     font-weight: normal;
     border-bottom: 1px solid #2c2c2c;
-}
-
-.players-table td {
-    color: #fff;
-}
-
-/* Header Alignment */
-.players-table th {
-    text-align: center !important;
     padding: 15px 10px;
+    text-align: center;
+    white-space: nowrap;  /* Keep header text in one line */
 }
 
-.players-table th:first-child,
-.players-table th:nth-child(2),
-.players-table th:last-child {
-    text-align: left !important;
+/* Remove flex display from headers */
+.players-table th {
+    display: table-cell !important;  /* Override any flex display */
+}
+
+/* Header icon alignment */
+.players-table th img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* Specific column alignments */
+.players-table th:first-child,  /* Player */
+.players-table th:nth-child(2), /* Champion */
+.players-table th:last-child {  /* Items */
+    text-align: left;
     padding-left: 20px;
+}
+
+.players-table th:nth-child(3), /* KDA */
+.players-table th:nth-child(4), /* CS */
+.players-table th:nth-child(5), /* Gold */
+.players-table th:nth-child(6) { /* Damage */
+    text-align: center;
+}
+
+/* Keep cell alignments */
+.players-table td {
+    padding: 10px;
+    color: #fff;
 }
 
 /* Item icon size */
@@ -976,4 +953,29 @@ h6.blue-side i, h6.red-side i {
     font-size: 2.5em;
     font-weight: bold;
     color: #fff;
+}
+
+.stat-label, .stat-value {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.stat-icon {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+}
+
+/* For table headers */
+.players-table th {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.players-table th:first-child,
+.players-table th:nth-child(2) {
+    justify-content: left;
 }

@@ -67,23 +67,38 @@ use App\Helpers\GameIconHelper;
                     <div class="game-overview">
                         <div class="team-stats blue-side">
                             <div class="stat-row">
-                                <span class="stat-value">{{ number_format($game['Team1Gold']) }}</span>
+                                <span class="stat-value">
+                                    <img src="/storage/icons/ui/gold.png" alt="Gold" class="stat-icon">
+                                    {{ number_format($game['Team1Gold']) }}
+                                </span>
                                 <span class="stat-label">Gold</span>
                             </div>
                             <div class="stat-row">
-                                <span class="stat-value">{{ $game['Team1Kills'] }}</span>
+                                <span class="stat-value">
+                                    <img src="/storage/icons/ui/blue_kills.png" alt="Kills" class="stat-icon">
+                                    {{ $game['Team1Kills'] }}
+                                </span>
                                 <span class="stat-label">Kills</span>
                             </div>
                             <div class="stat-row">
-                                <span class="stat-value">{{ $game['Team1Towers'] }}</span>
+                                <span class="stat-value">
+                                    <img src="/storage/icons/ui/blue_tower.png" alt="Towers" class="stat-icon">
+                                    {{ $game['Team1Towers'] }}
+                                </span>
                                 <span class="stat-label">Towers</span>
                             </div>
                             <div class="stat-row">
-                                <span class="stat-value">{{ $game['Team1Dragons'] }}</span>
+                                <span class="stat-value">
+                                    <img src="/storage/icons/ui/blue_dragon.png" alt="Dragons" class="stat-icon">
+                                    {{ $game['Team1Dragons'] }}
+                                </span>
                                 <span class="stat-label">Dragons</span>
                             </div>
                             <div class="stat-row">
-                                <span class="stat-value">{{ $game['Team1Barons'] }}</span>
+                                <span class="stat-value">
+                                    <img src="/storage/icons/ui/blue_baron.png" alt="Barons" class="stat-icon">
+                                    {{ $game['Team1Barons'] }}
+                                </span>
                                 <span class="stat-label">Barons</span>
                             </div>
                         </div>
@@ -95,48 +110,76 @@ use App\Helpers\GameIconHelper;
 
                         <div class="team-stats red-side">
                             <div class="stat-row">
-                                <span class="stat-value">{{ number_format($game['Team2Gold']) }}</span>
+                                <span class="stat-value">
+                                    <img src="/storage/icons/ui/gold.png" alt="Gold" class="stat-icon">
+                                    {{ number_format($game['Team2Gold']) }}
+                                </span>
                                 <span class="stat-label">Gold</span>
                             </div>
                             <div class="stat-row">
-                                <span class="stat-value">{{ $game['Team2Kills'] }}</span>
+                                <span class="stat-value">
+                                    <img src="/storage/icons/ui/red_kills.png" alt="Kills" class="stat-icon">
+                                    {{ $game['Team2Kills'] }}
+                                </span>
                                 <span class="stat-label">Kills</span>
                             </div>
                             <div class="stat-row">
-                                <span class="stat-value">{{ $game['Team2Towers'] }}</span>
+                                <span class="stat-value">
+                                    <img src="/storage/icons/ui/red_tower.png" alt="Towers" class="stat-icon">
+                                    {{ $game['Team2Towers'] }}
+                                </span>
                                 <span class="stat-label">Towers</span>
                             </div>
                             <div class="stat-row">
-                                <span class="stat-value">{{ $game['Team2Dragons'] }}</span>
+                                <span class="stat-value">
+                                    <img src="/storage/icons/ui/red_dragon.png" alt="Dragons" class="stat-icon">
+                                    {{ $game['Team2Dragons'] }}
+                                </span>
                                 <span class="stat-label">Dragons</span>
                             </div>
                             <div class="stat-row">
-                                <span class="stat-value">{{ $game['Team2Barons'] }}</span>
+                                <span class="stat-value">
+                                    <img src="/storage/icons/ui/red_baron.png" alt="Barons" class="stat-icon">
+                                    {{ $game['Team2Barons'] }}
+                                </span>
                                 <span class="stat-label">Barons</span>
                             </div>
                         </div>
                     </div>
 
                     <!-- Bans Section -->
-                    <div class="bans-section">
-                        <div class="team-bans blue-side">
-                            @foreach(ChampionIconHelper::formatChampionList($game['Team1Bans']) as $champion)
-                                <div class="ban-icon" title="{{ $champion }}">
-                                    <img src="{{ ChampionIconHelper::getChampionIcon($champion, 'banned') }}" 
-                                         alt="{{ $champion }}">
-                                </div>
-                            @endforeach
+                    @php
+                        $team1Bans = ChampionIconHelper::formatChampionList($game['Team1Bans']);
+                        $team2Bans = ChampionIconHelper::formatChampionList($game['Team2Bans']);
+                        $hasBans = !empty(array_filter($team1Bans, fn($ban) => $ban !== 'None')) || 
+                                   !empty(array_filter($team2Bans, fn($ban) => $ban !== 'None'));
+                    @endphp
+
+                    @if($hasBans)
+                        <div class="bans-section">
+                            <div class="team-bans blue-side">
+                                @foreach($team1Bans as $champion)
+                                    @if($champion !== 'None')
+                                        <div class="ban-icon" title="{{ $champion }}">
+                                            <img src="{{ ChampionIconHelper::getChampionIcon($champion, 'banned') }}" 
+                                                 alt="{{ $champion }}">
+                                        </div>
+                                    @endif
+                                @endforeach
+                            </div>
+                            <div class="bans-label">Bans</div>
+                            <div class="team-bans red-side">
+                                @foreach($team2Bans as $champion)
+                                    @if($champion !== 'None')
+                                        <div class="ban-icon" title="{{ $champion }}">
+                                            <img src="{{ ChampionIconHelper::getChampionIcon($champion, 'banned') }}" 
+                                                 alt="{{ $champion }}">
+                                        </div>
+                                    @endif
+                                @endforeach
+                            </div>
                         </div>
-                        <div class="bans-label">Bans</div>
-                        <div class="team-bans red-side">
-                            @foreach(ChampionIconHelper::formatChampionList($game['Team2Bans']) as $champion)
-                                <div class="ban-icon" title="{{ $champion }}">
-                                    <img src="{{ ChampionIconHelper::getChampionIcon($champion, 'banned') }}" 
-                                         alt="{{ $champion }}">
-                                </div>
-                            @endforeach
-                        </div>
-                    </div>
+                    @endif
 
                     <!-- Players Stats Table -->
                     <div class="players-table-container">
@@ -145,11 +188,11 @@ use App\Helpers\GameIconHelper;
                                 <tr>
                                     <th>Player</th>
                                     <th>Champion</th>
-                                    <th>KDA</th>
-                                    <th>CS</th>
-                                    <th>Gold</th>
-                                    <th>Damage</th>
-                                    <th>Items</th>
+                                    <th><img src="/storage/icons/ui/kills.png" alt="KDA" class="stat-icon">KDA</th>
+                                    <th><img src="/storage/icons/ui/blue_cs.png" alt="CS" class="stat-icon">CS</th>
+                                    <th><img src="/storage/icons/ui/gold.png" alt="Gold" class="stat-icon">Gold</th>
+                                    <th><img src="/storage/icons/ui/damage.png" alt="Damage" class="stat-icon">Damage</th>
+                                    <th><img src="/storage/icons/ui/items.png" alt="Items" class="stat-icon">Items</th>
                                 </tr>
                             </thead>
                             <tbody>
