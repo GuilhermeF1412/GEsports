@@ -6,301 +6,259 @@ use App\Helpers\GameIconHelper;
 @endphp
 
 @section('content')
-<div class="container mt-4">
-    <div class="card mb-4">
-        <div class="card-body">
-            <div class="row align-items-center">
-                <!-- Blue Side (Team1) -->
-                <div class="col-md-4 text-center">
-                    <div class="side-label blue-side mb-2">Blue Side</div>
-                    <img src="{{ $match['Team1Image'] }}" alt="{{ $match['Team1'] }}" class="img-fluid rounded-circle mb-2" style="max-width: 150px;">
-                    <h3>{{ $match['Team1'] }}</h3>
-                    <h4 class="blue-side">{{ $match['Team1Score'] }}</h4>
-                </div>
+<div class="match-container">
+    <!-- Match Header -->
+    <div class="match-header">
+        <div class="tournament-info">
+            <h3>{{ $match['Name'] }}</h3>
+            <span class="match-date">{{ \Carbon\Carbon::parse($match['DateTime_UTC'])->format('l, F j, Y') }}</span>
+        </div>
 
-                <!-- Match Info -->
-                <div class="col-md-4 text-center">
-                    <div class="match-status mb-3">
-                        @if($match['status'] === 'IS LIVE')
-                            <span class="badge bg-danger">LIVE</span>
-                        @elseif($match['status'] === 'FINISHED')
-                            <span class="badge bg-secondary">FINISHED</span>
-                        @else
-                            <span class="badge bg-primary">UPCOMING</span>
-                        @endif
-                    </div>
-                    <div class="match-time">
-                        <p class="mb-1">{{ \Carbon\Carbon::parse($match['DateTime_UTC'])->format('F j, Y') }}</p>
-                        <p class="mb-1">{{ \Carbon\Carbon::parse($match['DateTime_UTC'])->format('H:i') }} UTC</p>
-                    </div>
-                    <div class="match-details mt-3">
-                        <p class="mb-1">Best of {{ $match['BestOf'] }}</p>
-                        @if($match['Stream'])
-                            <a href="{{ $match['Stream'] }}" target="_blank" class="btn btn-sm btn-primary mt-2">Watch Stream</a>
-                        @endif
-                    </div>
-                </div>
+        <div class="match-status-bar">
+            <div class="match-status {{ $match['status'] === 'IS LIVE' ? 'status-live' : ($match['status'] === 'FINISHED' ? 'status-finished' : 'status-upcoming') }}">
+                {{ $match['status'] ?: 'UPCOMING' }}
+            </div>
+            @if($match['status'] === 'FINISHED')
+                @if(!empty($match['Stream']))
+                    <a href="{{ $match['Stream'] }}" target="_blank" class="vod-button">
+                        <i class="bi bi-play-circle"></i> Watch VOD
+                    </a>
+                @else
+                    <span class="no-vod">No VOD Available</span>
+                @endif
+            @elseif(!empty($match['Stream']))
+                <a href="{{ $match['Stream'] }}" target="_blank" class="stream-button">
+                    <i class="bi bi-broadcast"></i> Watch Live
+                </a>
+            @endif
+        </div>
 
-                <!-- Red Side (Team2) -->
-                <div class="col-md-4 text-center">
-                    <div class="side-label red-side mb-2">Red Side</div>
-                    <img src="{{ $match['Team2Image'] }}" alt="{{ $match['Team2'] }}" class="img-fluid rounded-circle mb-2" style="max-width: 150px;">
-                    <h3>{{ $match['Team2'] }}</h3>
-                    <h4 class="red-side">{{ $match['Team2Score'] }}</h4>
-                </div>
+        <div class="teams-overview">
+            <div class="team-column">
+                <img src="{{ $match['Team1Image'] }}" alt="{{ $match['Team1'] }}" class="team-logo">
+                <h2 class="team-name">{{ $match['Team1'] }}</h2>
+                <div class="team-score {{ $match['Winner'] === '1' ? 'winner' : '' }}">{{ $match['Team1Score'] ?? '0' }}</div>
+            </div>
+            
+            <div class="match-info-center">
+                <div class="match-type">Best of {{ $match['BestOf'] }}</div>
+                <div class="match-time">{{ \Carbon\Carbon::parse($match['DateTime_UTC'])->format('H:i') }} UTC</div>
+            </div>
+
+            <div class="team-column">
+                <img src="{{ $match['Team2Image'] }}" alt="{{ $match['Team2'] }}" class="team-logo">
+                <h2 class="team-name">{{ $match['Team2'] }}</h2>
+                <div class="team-score {{ $match['Winner'] === '2' ? 'winner' : '' }}">{{ $match['Team2Score'] ?? '0' }}</div>
             </div>
         </div>
     </div>
 
-    <!-- Games Details -->
+    <!-- Games Section -->
     @if(!empty($gameDetails))
-        @foreach($gameDetails as $index => $game)
-        <div class="card mb-3 match-details-container">
-            <div class="card-header">
-                <h5>Game {{ $index + 1 }} - {{ \Carbon\Carbon::parse($game['DateTime_UTC'])->format('H:i') }} UTC</h5>
-            </div>
-            <div class="card-body">
-                <div class="row">
-                    <!-- Team Stats Row -->
-                    <div class="row mb-4">
-                        <!-- Blue Side Stats -->
-                        <div class="col-md-5">
-                            <h6 class="blue-side">
-                                <i class="bi bi-circle-fill me-2"></i>
-                                <img src="{{ $game['Team1Image'] }}" alt="{{ $game['Team1'] }}" class="team-icon me-2">
-                                {{ $game['Team1'] }} (Blue Side)
-                            </h6>
-                            <ul class="list-unstyled">
-                                <li>Gold: {{ number_format($game['Team1Gold']) }}</li>
-                                <li>Kills: {{ $game['Team1Kills'] }}</li>
-                                <li>Towers: {{ $game['Team1Towers'] }}</li>
-                                <li>Dragons: {{ $game['Team1Dragons'] }}</li>
-                                <li>Barons: {{ $game['Team1Barons'] }}</li>
-                            </ul>
-                        </div>
-
-                        <div class="col-md-2">
-                            <!-- Remove bans container from here -->
-                        </div>
-
-                        <!-- Red Side Stats -->
-                        <div class="col-md-5">
-                            <h6 class="red-side">
-                                <i class="bi bi-circle-fill me-2"></i>
-                                <img src="{{ $game['Team2Image'] }}" alt="{{ $game['Team2'] }}" class="team-icon me-2">
-                                {{ $game['Team2'] }} (Red Side)
-                            </h6>
-                            <ul class="list-unstyled">
-                                <li>Gold: {{ number_format($game['Team2Gold']) }}</li>
-                                <li>Kills: {{ $game['Team2Kills'] }}</li>
-                                <li>Towers: {{ $game['Team2Towers'] }}</li>
-                                <li>Dragons: {{ $game['Team2Dragons'] }}</li>
-                                <li>Barons: {{ $game['Team2Barons'] }}</li>
-                            </ul>
-                        </div>
+        <div class="games-section">
+            @foreach($gameDetails as $index => $game)
+                <div class="game-card">
+                    <div class="game-header">
+                        <h4>Game {{ $index + 1 }}</h4>
+                        <span class="game-time">{{ \Carbon\Carbon::parse($game['DateTime_UTC'])->format('H:i') }} UTC</span>
                     </div>
 
-                    <!-- Add bans above the table -->
-                    <div class="row mb-4">
-                        <div class="col-6">
-                            <div class="text-center blue-side">
-                                <h6 class="mb-3">Blue Side Bans</h6>
-                                <div class="d-flex justify-content-center gap-2">
-                                    @foreach(ChampionIconHelper::formatChampionList($game['Team1Bans']) as $champion)
-                                        <div class="champion-icon" title="{{ $champion }}">
-                                            <img src="{{ ChampionIconHelper::getChampionIcon($champion, 'banned') }}" 
-                                                 alt="{{ $champion }}" 
-                                                 class="img-fluid" 
-                                                 style="width: 50px; height: 50px; opacity: 0.7;">
-                                        </div>
-                                    @endforeach
-                                </div>
+                    <!-- Team Stats Overview -->
+                    <div class="game-overview">
+                        <div class="team-stats blue-side">
+                            <div class="stat-row">
+                                <span class="stat-value">{{ number_format($game['Team1Gold']) }}</span>
+                                <span class="stat-label">Gold</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-value">{{ $game['Team1Kills'] }}</span>
+                                <span class="stat-label">Kills</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-value">{{ $game['Team1Towers'] }}</span>
+                                <span class="stat-label">Towers</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-value">{{ $game['Team1Dragons'] }}</span>
+                                <span class="stat-label">Dragons</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-value">{{ $game['Team1Barons'] }}</span>
+                                <span class="stat-label">Barons</span>
                             </div>
                         </div>
-                        <div class="col-6">
-                            <div class="text-center red-side">
-                                <h6 class="mb-3">Red Side Bans</h6>
-                                <div class="d-flex justify-content-center gap-2">
-                                    @foreach(ChampionIconHelper::formatChampionList($game['Team2Bans']) as $champion)
-                                        <div class="champion-icon" title="{{ $champion }}">
-                                            <img src="{{ ChampionIconHelper::getChampionIcon($champion, 'banned') }}" 
-                                                 alt="{{ $champion }}" 
-                                                 class="img-fluid" 
-                                                 style="width: 50px; height: 50px; opacity: 0.7;">
-                                        </div>
-                                    @endforeach
-                                </div>
+
+                        <div class="game-result">
+                            <div class="winner-label">{{ $game['WinTeam'] }} Victory</div>
+                            <div class="game-length">{{ $game['Gamelength'] }}</div>
+                        </div>
+
+                        <div class="team-stats red-side">
+                            <div class="stat-row">
+                                <span class="stat-value">{{ number_format($game['Team2Gold']) }}</span>
+                                <span class="stat-label">Gold</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-value">{{ $game['Team2Kills'] }}</span>
+                                <span class="stat-label">Kills</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-value">{{ $game['Team2Towers'] }}</span>
+                                <span class="stat-label">Towers</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-value">{{ $game['Team2Dragons'] }}</span>
+                                <span class="stat-label">Dragons</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-value">{{ $game['Team2Barons'] }}</span>
+                                <span class="stat-label">Barons</span>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Player Stats Table -->
-                    <div class="col-12">
-                        <table class="table table-sm table-hover">
+                    <!-- Bans Section -->
+                    <div class="bans-section">
+                        <div class="team-bans blue-side">
+                            @foreach(ChampionIconHelper::formatChampionList($game['Team1Bans']) as $champion)
+                                <div class="ban-icon" title="{{ $champion }}">
+                                    <img src="{{ ChampionIconHelper::getChampionIcon($champion, 'banned') }}" 
+                                         alt="{{ $champion }}">
+                                </div>
+                            @endforeach
+                        </div>
+                        <div class="bans-label">Bans</div>
+                        <div class="team-bans red-side">
+                            @foreach(ChampionIconHelper::formatChampionList($game['Team2Bans']) as $champion)
+                                <div class="ban-icon" title="{{ $champion }}">
+                                    <img src="{{ ChampionIconHelper::getChampionIcon($champion, 'banned') }}" 
+                                         alt="{{ $champion }}">
+                                </div>
+                            @endforeach
+                        </div>
+                    </div>
+
+                    <!-- Players Stats Table -->
+                    <div class="players-table-container">
+                        <table class="players-table">
                             <thead>
                                 <tr>
-                                    <th class="text-center">CS</th>
-                                    <th class="text-center">Gold</th>
-                                    <th class="text-center">Damage</th>
-                                    <th class="text-center">KDA</th>
-                                    <th class="text-end">Blue Side</th>
-                                    <th class="text-center">Champion</th>
-                                    <th class="text-center">Role</th>
-                                    <th class="text-center">Champion</th>
-                                    <th>Red Side</th>
-                                    <th class="text-center">KDA</th>
-                                    <th class="text-center">Damage</th>
-                                    <th class="text-center">Gold</th>
-                                    <th class="text-center">CS</th>
+                                    <th>Player</th>
+                                    <th>Champion</th>
+                                    <th>KDA</th>
+                                    <th>CS</th>
+                                    <th>Gold</th>
+                                    <th>Damage</th>
+                                    <th>Items</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                @if(is_array($game['Team1Players']) && is_array($game['Team2Players']))
-                                    @php
-                                        $roles = ['Top', 'Jungle', 'Mid', 'Bot', 'Support'];
-                                        foreach ($roles as $role) {
-                                            $bluePlayer = collect($game['Team1Players'])->firstWhere('role', $role);
-                                            $redPlayer = collect($game['Team2Players'])->firstWhere('role', $role);
-                                    @endphp
-                                        <tr>
-                                            <td class="text-center blue-side">
+                                @foreach($game['Team1Players'] as $player)
+                                    <tr class="blue-team">
+                                        <td class="player-cell">
+                                            <span class="player-name">{{ $player['name'] }}</span>
+                                            <span class="player-role">{{ $player['role'] }}</span>
+                                        </td>
+                                        <td class="champion-cell">
+                                            <div class="champion-info">
+                                                <img src="{{ ChampionIconHelper::getChampionIcon($player['champion']) }}" 
+                                                     alt="{{ $player['champion'] }}"
+                                                     class="champion-icon">
+                                                <div class="summoner-spells">
+                                                    @foreach($player['summonerSpells'] as $spell)
+                                                        <img src="{{ GameIconHelper::getSummonerSpellIcon($spell) }}" 
+                                                             alt="{{ $spell }}"
+                                                             class="spell-icon">
+                                                    @endforeach
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="kda-cell">
+                                            {{ $player['kills'] }}/{{ $player['deaths'] }}/{{ $player['assists'] }}
+                                        </td>
+                                        <td>{{ $player['cs'] }}</td>
+                                        <td>{{ number_format($player['gold']) }}</td>
+                                        <td>{{ number_format($player['damage']) }}</td>
+                                        <td class="items-cell">
+                                            <div class="items-grid">
                                                 @php
-                                                    // Get items array and pad it to 6 slots
                                                     $items = array_pad(
-                                                        array_filter($bluePlayer['items'] ?? [], fn($item) => !empty($item)), // Remove empty slots
-                                                        6,  // Total length
-                                                        null  // Fill with null
+                                                        array_filter($player['items'], fn($item) => !empty($item)),
+                                                        6,
+                                                        null
                                                     );
                                                 @endphp
-                                                <div class="items-grid">
-                                                    <div class="d-flex justify-content-center gap-1 mb-1">
-                                                        @for ($i = 0; $i < 3; $i++)
-                                                            <div class="item-icon">
-                                                                @if ($items[$i])
-                                                                    <img src="{{ GameIconHelper::getItemIcon($items[$i]) }}" 
-                                                                         alt="{{ $items[$i] }}"
-                                                                         title="{{ $items[$i] }}"
-                                                                         style="width: 25px; height: 25px;">
-                                                                @else
-                                                                    <img src="/storage/items/7050.png" 
-                                                                         alt="Empty Slot"
-                                                                         title="Empty Slot"
-                                                                         style="width: 25px; height: 25px; opacity: 0.3;">
-                                                                @endif
-                                                            </div>
-                                                        @endfor
+                                                @foreach($items as $item)
+                                                    <div class="item-slot">
+                                                        @if($item)
+                                                            <img src="{{ GameIconHelper::getItemIcon($item) }}" 
+                                                                 alt="{{ $item }}"
+                                                                 title="{{ $item }}">
+                                                        @endif
                                                     </div>
-                                                    <div class="d-flex justify-content-center gap-1">
-                                                        @for ($i = 3; $i < 6; $i++)
-                                                            <div class="item-icon">
-                                                                @if ($items[$i])
-                                                                    <img src="{{ GameIconHelper::getItemIcon($items[$i]) }}" 
-                                                                         alt="{{ $items[$i] }}"
-                                                                         title="{{ $items[$i] }}"
-                                                                         style="width: 25px; height: 25px;">
-                                                                @else
-                                                                    <img src="/storage/items/7050.png" 
-                                                                         alt="Empty Slot"
-                                                                         title="Empty Slot"
-                                                                         style="width: 25px; height: 25px; opacity: 0.3;">
-                                                                @endif
-                                                            </div>
-                                                        @endfor
-                                                    </div>
+                                                @endforeach
+                                            </div>
+                                        </td>
+                                    </tr>
+                                @endforeach
+                                @foreach($game['Team2Players'] as $player)
+                                    <tr class="red-team">
+                                        <td class="player-cell">
+                                            <span class="player-name">{{ $player['name'] }}</span>
+                                            <span class="player-role">{{ $player['role'] }}</span>
+                                        </td>
+                                        <td class="champion-cell">
+                                            <div class="champion-info">
+                                                <img src="{{ ChampionIconHelper::getChampionIcon($player['champion']) }}" 
+                                                     alt="{{ $player['champion'] }}"
+                                                     class="champion-icon">
+                                                <div class="summoner-spells">
+                                                    @foreach($player['summonerSpells'] as $spell)
+                                                        <img src="{{ GameIconHelper::getSummonerSpellIcon($spell) }}" 
+                                                             alt="{{ $spell }}"
+                                                             class="spell-icon">
+                                                    @endforeach
                                                 </div>
-                                            </td>
-                                            <td class="text-center blue-side">{{ $bluePlayer['cs'] }}</td>
-                                            <td class="text-center blue-side">{{ number_format($bluePlayer['damage']) }}</td>
-                                            <td class="text-center blue-side">{{ $bluePlayer['kills'] }}/{{ $bluePlayer['deaths'] }}/{{ $bluePlayer['assists'] }}</td>
-                                            <td class="text-end blue-side">{{ $bluePlayer['name'] }}</td>
-                                            <td class="text-center">
-                                                <div class="d-flex align-items-center justify-content-center">
-                                                    <img src="{{ ChampionIconHelper::getChampionIcon($bluePlayer['champion']) }}" 
-                                                         alt="{{ $bluePlayer['champion'] }}"
-                                                         title="{{ $bluePlayer['champion'] }}"
-                                                         style="width: 40px; height: 40px;">
-                                                    <div class="summoner-spells ms-1">
-                                                        @foreach($bluePlayer['summonerSpells'] as $spell)
-                                                            <div class="mb-1">
-                                                                <img src="{{ GameIconHelper::getSummonerSpellIcon($spell) }}" 
-                                                                     alt="{{ $spell }}"
-                                                                     title="{{ $spell }}"
-                                                                     style="width: 20px; height: 20px;">
-                                                            </div>
-                                                        @endforeach
+                                            </div>
+                                        </td>
+                                        <td class="kda-cell">
+                                            {{ $player['kills'] }}/{{ $player['deaths'] }}/{{ $player['assists'] }}
+                                        </td>
+                                        <td>{{ $player['cs'] }}</td>
+                                        <td>{{ number_format($player['gold']) }}</td>
+                                        <td>{{ number_format($player['damage']) }}</td>
+                                        <td class="items-cell">
+                                            <div class="items-grid">
+                                                @php
+                                                    $items = array_pad(
+                                                        array_filter($player['items'], fn($item) => !empty($item)),
+                                                        6,
+                                                        null
+                                                    );
+                                                @endphp
+                                                @foreach($items as $item)
+                                                    <div class="item-slot">
+                                                        @if($item)
+                                                            <img src="{{ GameIconHelper::getItemIcon($item) }}" 
+                                                                 alt="{{ $item }}"
+                                                                 title="{{ $item }}">
+                                                        @endif
                                                     </div>
-                                                </div>
-                                            </td>
-                                            <td class="text-center">{{ $role }}</td>
-                                            <td class="text-center">
-                                                <div class="d-flex align-items-center justify-content-center">
-                                                    <div class="summoner-spells me-1">
-                                                        @foreach($redPlayer['summonerSpells'] as $spell)
-                                                            <div class="mb-1">
-                                                                <img src="{{ GameIconHelper::getSummonerSpellIcon($spell) }}" 
-                                                                     alt="{{ $spell }}"
-                                                                     title="{{ $spell }}"
-                                                                     style="width: 20px; height: 20px;">
-                                                            </div>
-                                                        @endforeach
-                                                    </div>
-                                                    <img src="{{ ChampionIconHelper::getChampionIcon($redPlayer['champion']) }}" 
-                                                         alt="{{ $redPlayer['champion'] }}"
-                                                         title="{{ $redPlayer['champion'] }}"
-                                                         style="width: 40px; height: 40px;">
-                                                </div>
-                                            </td>
-                                            <td class="red-side">{{ $redPlayer['name'] }}</td>
-                                            <td class="text-center red-side">{{ $redPlayer['kills'] }}/{{ $redPlayer['deaths'] }}/{{ $redPlayer['assists'] }}</td>
-                                            <td class="text-center red-side">{{ number_format($redPlayer['damage']) }}</td>
-                                            <td class="text-center red-side">{{ number_format($redPlayer['gold']) }}</td>
-                                            <td class="text-center red-side">{{ $redPlayer['cs'] }}</td>
-                                            <td class="text-center red-side">
-                                                <div class="items-grid">
-                                                    <div class="d-flex justify-content-center gap-1 mb-1">
-                                                        @for ($i = 0; $i < 3; $i++)
-                                                            <div class="item-icon">
-                                                                @if (isset($redPlayer['items'][$i]) && $redPlayer['items'][$i])
-                                                                    <img src="{{ GameIconHelper::getItemIcon($redPlayer['items'][$i]) }}" 
-                                                                         alt="{{ $redPlayer['items'][$i] }}"
-                                                                         title="{{ $redPlayer['items'][$i] }}"
-                                                                         style="width: 25px; height: 25px;">
-                                                                @else
-                                                                    <div class="empty-item" style="width: 25px; height: 25px; background: #eee;"></div>
-                                                                @endif
-                                                            </div>
-                                                        @endfor
-                                                    </div>
-                                                    <div class="d-flex justify-content-center gap-1">
-                                                        @for ($i = 3; $i < 6; $i++)
-                                                            <div class="item-icon">
-                                                                @if (isset($redPlayer['items'][$i]) && $redPlayer['items'][$i])
-                                                                    <img src="{{ GameIconHelper::getItemIcon($redPlayer['items'][$i]) }}" 
-                                                                         alt="{{ $redPlayer['items'][$i] }}"
-                                                                         title="{{ $redPlayer['items'][$i] }}"
-                                                                         style="width: 25px; height: 25px;">
-                                                                @else
-                                                                    <div class="empty-item" style="width: 25px; height: 25px; background: #eee;"></div>
-                                                                @endif
-                                                            </div>
-                                                        @endfor
-                                                    </div>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                    @php
-                                        }
-                                    @endphp
-                                @endif
+                                                @endforeach
+                                            </div>
+                                        </td>
+                                    </tr>
+                                @endforeach
                             </tbody>
                         </table>
                     </div>
                 </div>
-            </div>
+            @endforeach
         </div>
-        @endforeach
     @else
-        <div class="alert alert-info">No game details available yet.</div>
+        <div class="no-games">
+            <p>No game details available yet.</p>
+        </div>
     @endif
 </div>
 @endsection
