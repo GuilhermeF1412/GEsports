@@ -8726,3 +8726,450 @@ Internal Server Error
 [2024-12-01 20:53:09] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
 [2024-12-01 20:53:09] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
 [2024-12-01 20:53:09] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
+[2024-12-01 21:02:47] local.ERROR: There are no commands defined in the "sorage" namespace.
+
+Did you mean this?
+    storage {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"sorage\" namespace.
+
+Did you mean this?
+    storage at C:\\Users\\Gigabyte\\GEsports\\vendor\\symfony\\console\\Application.php:669)
+[stacktrace]
+#0 C:\\Users\\Gigabyte\\GEsports\\vendor\\symfony\\console\\Application.php(720): Symfony\\Component\\Console\\Application->findNamespace('sorage')
+#1 C:\\Users\\Gigabyte\\GEsports\\vendor\\symfony\\console\\Application.php(266): Symfony\\Component\\Console\\Application->find('sorage:link')
+#2 C:\\Users\\Gigabyte\\GEsports\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\Users\\Gigabyte\\GEsports\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2024-12-01 21:12:40] local.INFO: Raw date parameter received in APIService: {"date":"2024-11-30"} 
+[2024-12-01 21:12:40] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-11-30"} 
+[2024-12-01 21:12:40] local.INFO: Successfully fetched matches {"count":19,"first_match":{"Name":"KeG League 2024 Championship","DateTime_UTC":"2024-11-30 04:00:00","Team1":"Jeonnam","Team1Score":0,"Team1Final":"Jeonnam","Team2":"Daejeon","Team2Score":2,"Team2Final":"Daejeon","Winner":"2","Stream":"https://www.youtube.com/kespa","BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"KeG League 2024 Championship","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-01 21:12:41] local.INFO: Match data: {"Team1":"DRX","Team1OverviewPage":"DRX","Team2":"BNK FearX","Team2OverviewPage":"BNK FearX"} 
+[2024-12-01 21:12:41] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-01 21:12:41] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
+[2024-12-01 21:12:41] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-01 21:12:41] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
+[2024-12-01 21:12:41] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/DRX.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/BNK FearX.png"} 
+[2024-12-01 21:12:41] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-01 21:12:41] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
+[2024-12-01 21:12:41] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-01 21:12:41] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
+[2024-12-01 21:27:33] local.INFO: Raw date parameter received in APIService: {"date":"2024-11-30"} 
+[2024-12-01 21:27:33] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-11-30"} 
+[2024-12-01 21:27:34] local.INFO: Successfully fetched matches {"count":19,"first_match":{"Name":"KeG League 2024 Championship","DateTime_UTC":"2024-11-30 04:00:00","Team1":"Jeonnam","Team1Score":0,"Team1Final":"Jeonnam","Team2":"Daejeon","Team2Score":2,"Team2Final":"Daejeon","Winner":"2","Stream":"https://www.youtube.com/kespa","BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"KeG League 2024 Championship","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-01 21:27:35] local.INFO: Match data: {"Team1":"DRX","Team1OverviewPage":"DRX","Team2":"BNK FearX","Team2OverviewPage":"BNK FearX"} 
+[2024-12-01 21:27:35] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-01 21:27:35] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
+[2024-12-01 21:27:35] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-01 21:27:35] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
+[2024-12-01 21:27:35] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/DRX.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/BNK FearX.png"} 
+[2024-12-01 21:27:35] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-01 21:27:35] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
+[2024-12-01 21:27:35] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-01 21:27:35] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
+[2024-12-01 21:34:54] local.INFO: Raw date parameter received in APIService: {"date":"2024-11-30"} 
+[2024-12-01 21:34:54] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-11-30"} 
+[2024-12-01 21:34:55] local.INFO: Successfully fetched matches {"count":19,"first_match":{"Name":"KeG League 2024 Championship","DateTime_UTC":"2024-11-30 04:00:00","Team1":"Jeonnam","Team1Score":0,"Team1Final":"Jeonnam","Team2":"Daejeon","Team2Score":2,"Team2Final":"Daejeon","Winner":"2","Stream":"https://www.youtube.com/kespa","BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"KeG League 2024 Championship","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-01 21:34:55] local.INFO: Match data: {"Team1":"DRX","Team1OverviewPage":"DRX","Team2":"BNK FearX","Team2OverviewPage":"BNK FearX"} 
+[2024-12-01 21:34:55] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-01 21:34:55] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
+[2024-12-01 21:34:55] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-01 21:34:55] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
+[2024-12-01 21:34:55] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/DRX.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/BNK FearX.png"} 
+[2024-12-01 21:34:55] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-01 21:34:55] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
+[2024-12-01 21:34:55] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-01 21:34:55] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
+[2024-12-01 21:36:59] local.INFO: Raw date parameter received in APIService: {"date":"2024-11-30"} 
+[2024-12-01 21:36:59] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-11-30"} 
+[2024-12-01 21:37:00] local.INFO: Successfully fetched matches {"count":19,"first_match":{"Name":"KeG League 2024 Championship","DateTime_UTC":"2024-11-30 04:00:00","Team1":"Jeonnam","Team1Score":0,"Team1Final":"Jeonnam","Team2":"Daejeon","Team2Score":2,"Team2Final":"Daejeon","Winner":"2","Stream":"https://www.youtube.com/kespa","BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"KeG League 2024 Championship","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-01 21:37:01] local.INFO: Match data: {"Team1":"DRX","Team1OverviewPage":"DRX","Team2":"BNK FearX","Team2OverviewPage":"BNK FearX"} 
+[2024-12-01 21:37:01] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-01 21:37:01] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
+[2024-12-01 21:37:01] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-01 21:37:01] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
+[2024-12-01 21:37:01] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/DRX.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/BNK FearX.png"} 
+[2024-12-01 21:37:01] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-01 21:37:01] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
+[2024-12-01 21:37:01] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-01 21:37:01] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
+[2024-12-01 21:37:01] local.INFO: Missing item mapping for: Stormsurge  
+[2024-12-01 21:37:01] local.INFO: Missing item mapping for: Malignance  
+[2024-12-01 21:37:01] local.INFO: Missing item mapping for: Dream Maker  
+[2024-12-01 21:37:01] local.INFO: Missing item mapping for: Solstice Sleigh  
+[2024-12-01 21:43:34] local.INFO: Raw date parameter received in APIService: {"date":"2024-11-30"} 
+[2024-12-01 21:43:34] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-11-30"} 
+[2024-12-01 21:43:35] local.INFO: Successfully fetched matches {"count":19,"first_match":{"Name":"KeG League 2024 Championship","DateTime_UTC":"2024-11-30 04:00:00","Team1":"Jeonnam","Team1Score":0,"Team1Final":"Jeonnam","Team2":"Daejeon","Team2Score":2,"Team2Final":"Daejeon","Winner":"2","Stream":"https://www.youtube.com/kespa","BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"KeG League 2024 Championship","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-01 21:43:36] local.INFO: Match data: {"Team1":"DRX","Team1OverviewPage":"DRX","Team2":"BNK FearX","Team2OverviewPage":"BNK FearX"} 
+[2024-12-01 21:43:36] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-01 21:43:36] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
+[2024-12-01 21:43:36] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-01 21:43:36] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
+[2024-12-01 21:43:36] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/DRX.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/BNK FearX.png"} 
+[2024-12-01 21:43:36] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-01 21:43:36] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
+[2024-12-01 21:43:36] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-01 21:43:36] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
+[2024-12-01 21:43:36] local.INFO: Missing item mapping for: Stormsurge  
+[2024-12-01 21:43:36] local.INFO: Missing item mapping for: Malignance  
+[2024-12-01 21:43:36] local.INFO: Missing item mapping for: Dream Maker  
+[2024-12-01 21:43:36] local.INFO: Missing item mapping for: Solstice Sleigh  
+[2024-12-01 21:58:12] local.INFO: Raw date parameter received in APIService: {"date":"2024-11-30"} 
+[2024-12-01 21:58:12] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-11-30"} 
+[2024-12-01 21:58:13] local.INFO: Successfully fetched matches {"count":19,"first_match":{"Name":"KeG League 2024 Championship","DateTime_UTC":"2024-11-30 04:00:00","Team1":"Jeonnam","Team1Score":0,"Team1Final":"Jeonnam","Team2":"Daejeon","Team2Score":2,"Team2Final":"Daejeon","Winner":"2","Stream":"https://www.youtube.com/kespa","BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"KeG League 2024 Championship","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-01 21:58:14] local.INFO: Match data: {"Team1":"DRX","Team1OverviewPage":"DRX","Team2":"BNK FearX","Team2OverviewPage":"BNK FearX"} 
+[2024-12-01 21:58:14] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-01 21:58:14] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
+[2024-12-01 21:58:14] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-01 21:58:14] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
+[2024-12-01 21:58:14] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/DRX.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/BNK FearX.png"} 
+[2024-12-01 21:58:14] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-01 21:58:14] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
+[2024-12-01 21:58:14] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-01 21:58:14] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
+[2024-12-01 22:51:02] local.INFO: Raw date parameter received in APIService: {"date":"2024-11-30"} 
+[2024-12-01 22:51:02] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-11-30"} 
+[2024-12-01 22:51:02] local.INFO: Successfully fetched matches {"count":19,"first_match":{"Name":"KeG League 2024 Championship","DateTime_UTC":"2024-11-30 04:00:00","Team1":"Jeonnam","Team1Score":0,"Team1Final":"Jeonnam","Team2":"Daejeon","Team2Score":2,"Team2Final":"Daejeon","Winner":"2","Stream":"https://www.youtube.com/kespa","BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"KeG League 2024 Championship","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-01 22:51:03] local.INFO: Match data: {"Team1":"DRX","Team1OverviewPage":"DRX","Team2":"BNK FearX","Team2OverviewPage":"BNK FearX"} 
+[2024-12-01 22:51:03] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-01 22:51:03] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
+[2024-12-01 22:51:03] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-01 22:51:03] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
+[2024-12-01 22:51:03] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/DRX.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/BNK FearX.png"} 
+[2024-12-01 22:51:03] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-01 22:51:03] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
+[2024-12-01 22:51:03] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-01 22:51:03] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
+[2024-12-01 23:07:04] local.INFO: Raw date parameter received in APIService: {"date":"2024-11-30"} 
+[2024-12-01 23:07:04] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-11-30"} 
+[2024-12-01 23:07:05] local.INFO: Successfully fetched matches {"count":19,"first_match":{"Name":"KeG League 2024 Championship","DateTime_UTC":"2024-11-30 04:00:00","Team1":"Jeonnam","Team1Score":0,"Team1Final":"Jeonnam","Team2":"Daejeon","Team2Score":2,"Team2Final":"Daejeon","Winner":"2","Stream":"https://www.youtube.com/kespa","BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"KeG League 2024 Championship","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-01 23:07:06] local.INFO: Match data: {"Team1":"DRX","Team1OverviewPage":"DRX","Team2":"BNK FearX","Team2OverviewPage":"BNK FearX"} 
+[2024-12-01 23:07:06] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-01 23:07:06] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
+[2024-12-01 23:07:06] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-01 23:07:06] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
+[2024-12-01 23:07:06] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/DRX.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/BNK FearX.png"} 
+[2024-12-01 23:07:06] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-01 23:07:06] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
+[2024-12-01 23:07:06] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-01 23:07:06] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
+[2024-12-01 23:07:06] local.INFO: Missing item mapping for: Blade of the Ruined King  
+[2024-12-01 23:38:51] local.INFO: Raw date parameter received in APIService: {"date":"2024-11-30"} 
+[2024-12-01 23:38:51] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-11-30"} 
+[2024-12-01 23:38:52] local.INFO: Successfully fetched matches {"count":19,"first_match":{"Name":"KeG League 2024 Championship","DateTime_UTC":"2024-11-30 04:00:00","Team1":"Jeonnam","Team1Score":0,"Team1Final":"Jeonnam","Team2":"Daejeon","Team2Score":2,"Team2Final":"Daejeon","Winner":"2","Stream":"https://www.youtube.com/kespa","BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"KeG League 2024 Championship","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-01 23:38:53] local.INFO: Match data: {"Team1":"DRX","Team1OverviewPage":"DRX","Team2":"BNK FearX","Team2OverviewPage":"BNK FearX"} 
+[2024-12-01 23:38:53] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-01 23:38:53] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
+[2024-12-01 23:38:53] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-01 23:38:53] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
+[2024-12-01 23:38:53] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/DRX.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/BNK FearX.png"} 
+[2024-12-01 23:38:53] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-01 23:38:53] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
+[2024-12-01 23:38:53] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-01 23:38:53] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
+[2024-12-01 23:38:53] local.INFO: Item name from API: 'Plated Steelcaps'  
+[2024-12-01 23:38:53] local.INFO: Loaded mappings: {"Boots":1001,"Faerie Charm":1004,"Rejuvenation Bead":1006,"Giant's Belt":1011,"Cloak of Agility":1018}  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Plated Steelcaps', found ID: 3047  
+[2024-12-01 23:38:53] local.INFO: Item name from API: 'Trinity Force'  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Trinity Force', found ID: 3078  
+[2024-12-01 23:38:53] local.INFO: Item name from API: 'Sterak's Gage'  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Sterak's Gage', found ID: 3053  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Iceborn Gauntlet', found ID: 6662  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Refillable Potion', found ID: 2031  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Kaenic Rookern', found ID: 2504  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Plated Steelcaps', found ID: 3047  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Cloth Armor', found ID: 1029  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Cloth Armor', found ID: 1029  
+[2024-12-01 23:38:53] local.INFO: Item name from API: 'Stridebreaker'  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Stridebreaker', found ID: 6631  
+[2024-12-01 23:38:53] local.INFO: Item name from API: 'Black Cleaver'  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Black Cleaver', found ID: 3071  
+[2024-12-01 23:38:53] local.INFO: Item name from API: 'Plated Steelcaps'  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Plated Steelcaps', found ID: 3047  
+[2024-12-01 23:38:53] local.INFO: Item name from API: 'Warden's Mail'  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Warden's Mail', found ID: 3082  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Mercury's Treads', found ID: 3111  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Trinity Force', found ID: 3078  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Control Ward', found ID: 2055  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Tunneler', found ID: 2021  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Ruby Crystal', found ID: 1028  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Long Sword', found ID: 1036  
+[2024-12-01 23:38:53] local.INFO: Item name from API: 'Stormsurge'  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Stormsurge', found ID: 4646  
+[2024-12-01 23:38:53] local.INFO: Item name from API: 'Shattered Armguard'  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Shattered Armguard', found ID: 2421  
+[2024-12-01 23:38:53] local.INFO: Item name from API: 'Dark Seal'  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Dark Seal', found ID: 1082  
+[2024-12-01 23:38:53] local.INFO: Item name from API: 'Malignance'  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Malignance', found ID: 3118  
+[2024-12-01 23:38:53] local.INFO: Item name from API: 'Sorcerer's Shoes'  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Sorcerer's Shoes', found ID: 3020  
+[2024-12-01 23:38:53] local.INFO: Item name from API: 'Shadowflame'  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Shadowflame', found ID: 4645  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Control Ward', found ID: 2055  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Cosmic Drive', found ID: 4629  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Hextech Rocketbelt', found ID: 3152  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Sorcerer's Shoes', found ID: 3020  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Amplifying Tome', found ID: 1052  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Amplifying Tome', found ID: 1052  
+[2024-12-01 23:38:53] local.INFO: Item name from API: 'Doran's Blade'  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Doran's Blade', found ID: 1055  
+[2024-12-01 23:38:53] local.INFO: Item name from API: 'Runaan's Hurricane'  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Runaan's Hurricane', found ID: 3085  
+[2024-12-01 23:38:53] local.INFO: Item name from API: 'Infinity Edge'  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Infinity Edge', found ID: 3031  
+[2024-12-01 23:38:53] local.INFO: Item name from API: 'Kraken Slayer'  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Kraken Slayer', found ID: 6672  
+[2024-12-01 23:38:53] local.INFO: Item name from API: 'Berserker's Greaves'  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Berserker's Greaves', found ID: 3006  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Doran's Blade', found ID: 1055  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Guinsoo's Rageblade', found ID: 3124  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Blade of the Ruined King', found ID: 7050  
+[2024-12-01 23:38:53] local.INFO: Missing item mapping for: Blade of the Ruined King  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Hearthbound Axe', found ID: 3051  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Boots', found ID: 1001  
+[2024-12-01 23:38:53] local.INFO: Item name from API: 'Dream Maker'  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Dream Maker', found ID: 3870  
+[2024-12-01 23:38:53] local.INFO: Item name from API: 'Mikael's Blessing'  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Mikael's Blessing', found ID: 3222  
+[2024-12-01 23:38:53] local.INFO: Item name from API: 'Ionian Boots of Lucidity'  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Ionian Boots of Lucidity', found ID: 3158  
+[2024-12-01 23:38:53] local.INFO: Item name from API: 'Oblivion Orb'  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Oblivion Orb', found ID: 3916  
+[2024-12-01 23:38:53] local.INFO: Item name from API: 'Moonstone Renewer'  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Moonstone Renewer', found ID: 6617  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Mikael's Blessing', found ID: 3222  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Ionian Boots of Lucidity', found ID: 3158  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Solstice Sleigh', found ID: 3876  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Control Ward', found ID: 2055  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Kindlegem', found ID: 3067  
+[2024-12-01 23:38:53] local.INFO: Looking for item: 'Amplifying Tome', found ID: 1052  
+[2024-12-01 23:43:52] local.INFO: Raw date parameter received in APIService: {"date":"2024-11-30"} 
+[2024-12-01 23:43:52] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-11-30"} 
+[2024-12-01 23:43:53] local.INFO: Successfully fetched matches {"count":19,"first_match":{"Name":"KeG League 2024 Championship","DateTime_UTC":"2024-11-30 04:00:00","Team1":"Jeonnam","Team1Score":0,"Team1Final":"Jeonnam","Team2":"Daejeon","Team2Score":2,"Team2Final":"Daejeon","Winner":"2","Stream":"https://www.youtube.com/kespa","BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"KeG League 2024 Championship","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-01 23:43:54] local.INFO: Match data: {"Team1":"DRX","Team1OverviewPage":"DRX","Team2":"BNK FearX","Team2OverviewPage":"BNK FearX"} 
+[2024-12-01 23:43:54] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-01 23:43:54] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
+[2024-12-01 23:43:54] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-01 23:43:54] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
+[2024-12-01 23:43:54] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/DRX.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/BNK FearX.png"} 
+[2024-12-01 23:43:54] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-01 23:43:54] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
+[2024-12-01 23:43:54] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-01 23:43:54] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
+[2024-12-01 23:43:54] local.INFO: Item name from API: 'Plated Steelcaps'  
+[2024-12-01 23:43:54] local.INFO: Loaded mappings: {"Boots":1001,"Faerie Charm":1004,"Rejuvenation Bead":1006,"Giant's Belt":1011,"Cloak of Agility":1018}  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Plated Steelcaps', found ID: 3047  
+[2024-12-01 23:43:54] local.INFO: Item name from API: 'Trinity Force'  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Trinity Force', found ID: 3078  
+[2024-12-01 23:43:54] local.INFO: Item name from API: 'Sterak's Gage'  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Sterak's Gage', found ID: 3053  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Iceborn Gauntlet', found ID: 6662  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Refillable Potion', found ID: 2031  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Kaenic Rookern', found ID: 2504  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Plated Steelcaps', found ID: 3047  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Cloth Armor', found ID: 1029  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Cloth Armor', found ID: 1029  
+[2024-12-01 23:43:54] local.INFO: Item name from API: 'Stridebreaker'  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Stridebreaker', found ID: 6631  
+[2024-12-01 23:43:54] local.INFO: Item name from API: 'Black Cleaver'  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Black Cleaver', found ID: 3071  
+[2024-12-01 23:43:54] local.INFO: Item name from API: 'Plated Steelcaps'  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Plated Steelcaps', found ID: 3047  
+[2024-12-01 23:43:54] local.INFO: Item name from API: 'Warden's Mail'  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Warden's Mail', found ID: 3082  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Mercury's Treads', found ID: 3111  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Trinity Force', found ID: 3078  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Control Ward', found ID: 2055  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Tunneler', found ID: 2021  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Ruby Crystal', found ID: 1028  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Long Sword', found ID: 1036  
+[2024-12-01 23:43:54] local.INFO: Item name from API: 'Stormsurge'  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Stormsurge', found ID: 4646  
+[2024-12-01 23:43:54] local.INFO: Item name from API: 'Shattered Armguard'  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Shattered Armguard', found ID: 2421  
+[2024-12-01 23:43:54] local.INFO: Item name from API: 'Dark Seal'  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Dark Seal', found ID: 1082  
+[2024-12-01 23:43:54] local.INFO: Item name from API: 'Malignance'  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Malignance', found ID: 3118  
+[2024-12-01 23:43:54] local.INFO: Item name from API: 'Sorcerer's Shoes'  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Sorcerer's Shoes', found ID: 3020  
+[2024-12-01 23:43:54] local.INFO: Item name from API: 'Shadowflame'  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Shadowflame', found ID: 4645  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Control Ward', found ID: 2055  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Cosmic Drive', found ID: 4629  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Hextech Rocketbelt', found ID: 3152  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Sorcerer's Shoes', found ID: 3020  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Amplifying Tome', found ID: 1052  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Amplifying Tome', found ID: 1052  
+[2024-12-01 23:43:54] local.INFO: Item name from API: 'Doran's Blade'  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Doran's Blade', found ID: 1055  
+[2024-12-01 23:43:54] local.INFO: Item name from API: 'Runaan's Hurricane'  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Runaan's Hurricane', found ID: 3085  
+[2024-12-01 23:43:54] local.INFO: Item name from API: 'Infinity Edge'  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Infinity Edge', found ID: 3031  
+[2024-12-01 23:43:54] local.INFO: Item name from API: 'Kraken Slayer'  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Kraken Slayer', found ID: 6672  
+[2024-12-01 23:43:54] local.INFO: Item name from API: 'Berserker's Greaves'  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Berserker's Greaves', found ID: 3006  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Doran's Blade', found ID: 1055  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Guinsoo's Rageblade', found ID: 3124  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Blade of the Ruined King', found ID: 7050  
+[2024-12-01 23:43:54] local.INFO: Missing item mapping for: Blade of the Ruined King  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Hearthbound Axe', found ID: 3051  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Boots', found ID: 1001  
+[2024-12-01 23:43:54] local.INFO: Item name from API: 'Dream Maker'  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Dream Maker', found ID: 3870  
+[2024-12-01 23:43:54] local.INFO: Item name from API: 'Mikael's Blessing'  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Mikael's Blessing', found ID: 3222  
+[2024-12-01 23:43:54] local.INFO: Item name from API: 'Ionian Boots of Lucidity'  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Ionian Boots of Lucidity', found ID: 3158  
+[2024-12-01 23:43:54] local.INFO: Item name from API: 'Oblivion Orb'  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Oblivion Orb', found ID: 3916  
+[2024-12-01 23:43:54] local.INFO: Item name from API: 'Moonstone Renewer'  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Moonstone Renewer', found ID: 6617  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Mikael's Blessing', found ID: 3222  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Ionian Boots of Lucidity', found ID: 3158  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Solstice Sleigh', found ID: 3876  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Control Ward', found ID: 2055  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Kindlegem', found ID: 3067  
+[2024-12-01 23:43:54] local.INFO: Looking for item: 'Amplifying Tome', found ID: 1052  
+[2024-12-02 00:18:19] local.INFO: Raw date parameter received in APIService: {"date":"2024-11-30"} 
+[2024-12-02 00:18:19] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-11-30"} 
+[2024-12-02 00:18:20] local.INFO: Successfully fetched matches {"count":19,"first_match":{"Name":"KeG League 2024 Championship","DateTime_UTC":"2024-11-30 04:00:00","Team1":"Jeonnam","Team1Score":0,"Team1Final":"Jeonnam","Team2":"Daejeon","Team2Score":2,"Team2Final":"Daejeon","Winner":"2","Stream":"https://www.youtube.com/kespa","BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"KeG League 2024 Championship","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-02 00:18:21] local.INFO: Match data: {"Team1":"DRX","Team1OverviewPage":"DRX","Team2":"BNK FearX","Team2OverviewPage":"BNK FearX"} 
+[2024-12-02 00:18:21] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-02 00:18:21] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
+[2024-12-02 00:18:21] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-02 00:18:21] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
+[2024-12-02 00:18:21] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/DRX.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/BNK FearX.png"} 
+[2024-12-02 00:18:21] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-02 00:18:21] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
+[2024-12-02 00:18:21] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-02 00:18:21] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
+[2024-12-02 00:18:21] local.INFO: Item name from API: 'Plated Steelcaps'  
+[2024-12-02 00:18:21] local.INFO: Loaded mappings: {"Boots":1001,"Faerie Charm":1004,"Rejuvenation Bead":1006,"Giant's Belt":1011,"Cloak of Agility":1018}  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Plated Steelcaps', found ID: 3047  
+[2024-12-02 00:18:21] local.INFO: Item name from API: 'Trinity Force'  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Trinity Force', found ID: 3078  
+[2024-12-02 00:18:21] local.INFO: Item name from API: 'Sterak's Gage'  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Sterak's Gage', found ID: 3053  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Iceborn Gauntlet', found ID: 6662  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Refillable Potion', found ID: 2031  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Kaenic Rookern', found ID: 2504  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Plated Steelcaps', found ID: 3047  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Cloth Armor', found ID: 1029  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Cloth Armor', found ID: 1029  
+[2024-12-02 00:18:21] local.INFO: Item name from API: 'Stridebreaker'  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Stridebreaker', found ID: 6631  
+[2024-12-02 00:18:21] local.INFO: Item name from API: 'Black Cleaver'  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Black Cleaver', found ID: 3071  
+[2024-12-02 00:18:21] local.INFO: Item name from API: 'Plated Steelcaps'  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Plated Steelcaps', found ID: 3047  
+[2024-12-02 00:18:21] local.INFO: Item name from API: 'Warden's Mail'  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Warden's Mail', found ID: 3082  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Mercury's Treads', found ID: 3111  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Trinity Force', found ID: 3078  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Control Ward', found ID: 2055  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Tunneler', found ID: 2021  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Ruby Crystal', found ID: 1028  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Long Sword', found ID: 1036  
+[2024-12-02 00:18:21] local.INFO: Item name from API: 'Stormsurge'  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Stormsurge', found ID: 4646  
+[2024-12-02 00:18:21] local.INFO: Item name from API: 'Shattered Armguard'  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Shattered Armguard', found ID: 2421  
+[2024-12-02 00:18:21] local.INFO: Item name from API: 'Dark Seal'  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Dark Seal', found ID: 1082  
+[2024-12-02 00:18:21] local.INFO: Item name from API: 'Malignance'  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Malignance', found ID: 3118  
+[2024-12-02 00:18:21] local.INFO: Item name from API: 'Sorcerer's Shoes'  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Sorcerer's Shoes', found ID: 3020  
+[2024-12-02 00:18:21] local.INFO: Item name from API: 'Shadowflame'  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Shadowflame', found ID: 4645  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Control Ward', found ID: 2055  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Cosmic Drive', found ID: 4629  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Hextech Rocketbelt', found ID: 3152  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Sorcerer's Shoes', found ID: 3020  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Amplifying Tome', found ID: 1052  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Amplifying Tome', found ID: 1052  
+[2024-12-02 00:18:21] local.INFO: Item name from API: 'Doran's Blade'  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Doran's Blade', found ID: 1055  
+[2024-12-02 00:18:21] local.INFO: Item name from API: 'Runaan's Hurricane'  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Runaan's Hurricane', found ID: 3085  
+[2024-12-02 00:18:21] local.INFO: Item name from API: 'Infinity Edge'  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Infinity Edge', found ID: 3031  
+[2024-12-02 00:18:21] local.INFO: Item name from API: 'Kraken Slayer'  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Kraken Slayer', found ID: 6672  
+[2024-12-02 00:18:21] local.INFO: Item name from API: 'Berserker's Greaves'  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Berserker's Greaves', found ID: 3006  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Doran's Blade', found ID: 1055  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Guinsoo's Rageblade', found ID: 3124  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Blade of the Ruined King', found ID: 7050  
+[2024-12-02 00:18:21] local.INFO: Missing item mapping for: Blade of the Ruined King  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Hearthbound Axe', found ID: 3051  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Boots', found ID: 1001  
+[2024-12-02 00:18:21] local.INFO: Item name from API: 'Dream Maker'  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Dream Maker', found ID: 3870  
+[2024-12-02 00:18:21] local.INFO: Item name from API: 'Mikael's Blessing'  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Mikael's Blessing', found ID: 3222  
+[2024-12-02 00:18:21] local.INFO: Item name from API: 'Ionian Boots of Lucidity'  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Ionian Boots of Lucidity', found ID: 3158  
+[2024-12-02 00:18:21] local.INFO: Item name from API: 'Oblivion Orb'  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Oblivion Orb', found ID: 3916  
+[2024-12-02 00:18:21] local.INFO: Item name from API: 'Moonstone Renewer'  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Moonstone Renewer', found ID: 6617  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Mikael's Blessing', found ID: 3222  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Ionian Boots of Lucidity', found ID: 3158  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Solstice Sleigh', found ID: 3876  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Control Ward', found ID: 2055  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Kindlegem', found ID: 3067  
+[2024-12-02 00:18:21] local.INFO: Looking for item: 'Amplifying Tome', found ID: 1052  
+[2024-12-02 00:20:54] local.INFO: Raw date parameter received in APIService: {"date":"2024-11-30"} 
+[2024-12-02 00:20:54] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-11-30"} 
+[2024-12-02 00:20:55] local.INFO: Successfully fetched matches {"count":19,"first_match":{"Name":"KeG League 2024 Championship","DateTime_UTC":"2024-11-30 04:00:00","Team1":"Jeonnam","Team1Score":0,"Team1Final":"Jeonnam","Team2":"Daejeon","Team2Score":2,"Team2Final":"Daejeon","Winner":"2","Stream":"https://www.youtube.com/kespa","BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"KeG League 2024 Championship","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-02 00:20:56] local.INFO: Match data: {"Team1":"DRX","Team1OverviewPage":"DRX","Team2":"BNK FearX","Team2OverviewPage":"BNK FearX"} 
+[2024-12-02 00:20:56] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-02 00:20:56] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
+[2024-12-02 00:20:56] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-02 00:20:56] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
+[2024-12-02 00:20:56] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/DRX.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/BNK FearX.png"} 
+[2024-12-02 00:20:56] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-02 00:20:56] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
+[2024-12-02 00:20:56] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-02 00:20:56] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
+[2024-12-02 00:20:56] local.INFO: Item name from API: 'Plated Steelcaps'  
+[2024-12-02 00:20:56] local.INFO: Item name from API: 'Trinity Force'  
+[2024-12-02 00:20:56] local.INFO: Item name from API: 'Sterak's Gage'  
+[2024-12-02 00:20:56] local.INFO: Item name from API: 'Stridebreaker'  
+[2024-12-02 00:20:56] local.INFO: Item name from API: 'Black Cleaver'  
+[2024-12-02 00:20:56] local.INFO: Item name from API: 'Plated Steelcaps'  
+[2024-12-02 00:20:56] local.INFO: Item name from API: 'Warden's Mail'  
+[2024-12-02 00:20:56] local.INFO: Item name from API: 'Stormsurge'  
+[2024-12-02 00:20:56] local.INFO: Item name from API: 'Shattered Armguard'  
+[2024-12-02 00:20:56] local.INFO: Item name from API: 'Dark Seal'  
+[2024-12-02 00:20:56] local.INFO: Item name from API: 'Malignance'  
+[2024-12-02 00:20:56] local.INFO: Item name from API: 'Sorcerer's Shoes'  
+[2024-12-02 00:20:56] local.INFO: Item name from API: 'Shadowflame'  
+[2024-12-02 00:20:56] local.INFO: Item name from API: 'Doran's Blade'  
+[2024-12-02 00:20:56] local.INFO: Item name from API: 'Runaan's Hurricane'  
+[2024-12-02 00:20:56] local.INFO: Item name from API: 'Infinity Edge'  
+[2024-12-02 00:20:56] local.INFO: Item name from API: 'Kraken Slayer'  
+[2024-12-02 00:20:56] local.INFO: Item name from API: 'Berserker's Greaves'  
+[2024-12-02 00:20:56] local.INFO: Item name from API: 'Dream Maker'  
+[2024-12-02 00:20:56] local.INFO: Item name from API: 'Mikael's Blessing'  
+[2024-12-02 00:20:56] local.INFO: Item name from API: 'Ionian Boots of Lucidity'  
+[2024-12-02 00:20:56] local.INFO: Item name from API: 'Oblivion Orb'  
+[2024-12-02 00:20:56] local.INFO: Item name from API: 'Moonstone Renewer'  
+[2024-12-02 00:22:41] local.INFO: Raw date parameter received in APIService: {"date":"2024-11-30"} 
+[2024-12-02 00:22:41] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-11-30"} 
+[2024-12-02 00:22:41] local.INFO: Successfully fetched matches {"count":19,"first_match":{"Name":"KeG League 2024 Championship","DateTime_UTC":"2024-11-30 04:00:00","Team1":"Jeonnam","Team1Score":0,"Team1Final":"Jeonnam","Team2":"Daejeon","Team2Score":2,"Team2Final":"Daejeon","Winner":"2","Stream":"https://www.youtube.com/kespa","BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"KeG League 2024 Championship","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-02 00:22:42] local.INFO: Match data: {"Team1":"DRX","Team1OverviewPage":"DRX","Team2":"BNK FearX","Team2OverviewPage":"BNK FearX"} 
+[2024-12-02 00:22:42] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-02 00:22:42] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
+[2024-12-02 00:22:42] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-02 00:22:42] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
+[2024-12-02 00:22:42] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/DRX.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/BNK FearX.png"} 
+[2024-12-02 00:22:42] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-02 00:22:42] local.INFO: Found team image: {"source":"teamimages/DRX.png"} 
+[2024-12-02 00:22:42] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-02 00:22:42] local.INFO: Found team image: {"source":"teamimages/BNK FearX.png"} 
