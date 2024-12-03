@@ -186,8 +186,8 @@ use App\Helpers\GameIconHelper;
                         <table class="players-table">
                             <thead>
                                 <tr>
-                                    <th>Player</th>
-                                    <th>Champion</th>
+                                    <th><img src="/storage/icons/ui/player.png" alt="Player" class="stat-icon">Player</th>
+                                    <th><img src="/storage/icons/ui/champion.png" alt="Champion" class="stat-icon">Champion</th>
                                     <th><img src="/storage/icons/ui/kills.png" alt="KDA" class="stat-icon">KDA</th>
                                     <th><img src="/storage/icons/ui/blue_cs.png" alt="CS" class="stat-icon">CS</th>
                                     <th><img src="/storage/icons/ui/gold.png" alt="Gold" class="stat-icon">Gold</th>
@@ -204,6 +204,26 @@ use App\Helpers\GameIconHelper;
                                         </td>
                                         <td class="champion-cell">
                                             <div class="champion-info">
+                                                <div class="runes-column">
+                                                    @if($player['keystone'])
+                                                        <img src="{{ GameIconHelper::getRuneIcon($player['keystone']) }}" 
+                                                             alt="{{ $player['keystone'] }}"
+                                                             class="keystone-icon"
+                                                             title="{{ $player['keystone'] }}">
+                                                    @endif
+                                                    @if($player['primaryTree'])
+                                                        <img src="{{ GameIconHelper::getRuneIcon($player['primaryTree']) }}" 
+                                                             alt="{{ $player['primaryTree'] }}"
+                                                             class="rune-tree-icon"
+                                                             title="{{ $player['primaryTree'] }}">
+                                                    @endif
+                                                    @if($player['secondaryTree'])
+                                                        <img src="{{ GameIconHelper::getRuneIcon($player['secondaryTree']) }}" 
+                                                             alt="{{ $player['secondaryTree'] }}"
+                                                             class="rune-tree-icon"
+                                                             title="{{ $player['secondaryTree'] }}">
+                                                    @endif
+                                                </div>
                                                 <img src="{{ ChampionIconHelper::getChampionIcon($player['champion']) }}" 
                                                      alt="{{ $player['champion'] }}"
                                                      class="champion-icon">
@@ -252,6 +272,26 @@ use App\Helpers\GameIconHelper;
                                         </td>
                                         <td class="champion-cell">
                                             <div class="champion-info">
+                                                <div class="runes-column">
+                                                    @if($player['keystone'])
+                                                        <img src="{{ GameIconHelper::getRuneIcon($player['keystone']) }}" 
+                                                             alt="{{ $player['keystone'] }}"
+                                                             class="keystone-icon"
+                                                             title="{{ $player['keystone'] }}">
+                                                    @endif
+                                                    @if($player['primaryTree'])
+                                                        <img src="{{ GameIconHelper::getRuneIcon($player['primaryTree']) }}" 
+                                                             alt="{{ $player['primaryTree'] }}"
+                                                             class="rune-tree-icon"
+                                                             title="{{ $player['primaryTree'] }}">
+                                                    @endif
+                                                    @if($player['secondaryTree'])
+                                                        <img src="{{ GameIconHelper::getRuneIcon($player['secondaryTree']) }}" 
+                                                             alt="{{ $player['secondaryTree'] }}"
+                                                             class="rune-tree-icon"
+                                                             title="{{ $player['secondaryTree'] }}">
+                                                    @endif
+                                                </div>
                                                 <img src="{{ ChampionIconHelper::getChampionIcon($player['champion']) }}" 
                                                      alt="{{ $player['champion'] }}"
                                                      class="champion-icon">

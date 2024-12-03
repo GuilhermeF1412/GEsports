@@ -18,6 +18,23 @@ class GameIconHelper
 
     private static $itemMappings = null;
 
+    private static $runeNameMap = [
+        'Lethal Tempo' => 'lethalstempo',
+        'Press the Attack' => 'presstheattack',
+        'Fleet Footwork' => 'fleetfootwork',
+        'Conqueror' => 'conqueror',
+        'Electrocute' => 'electrocute',
+        'Dark Harvest' => 'darkharvest',
+        'Hail of Blades' => 'hailofblades',
+        'Phase Rush' => 'phaserush',
+        'Grasp of the Undying' => 'graspoftheundying',
+        'Aftershock' => 'aftershock',
+        'Guardian' => 'guardian',
+        'Glacial Augment' => 'glacialaugment',
+        'Unsealed Spellbook' => 'unsealedspellbook',
+        'First Strike' => 'firststrike'
+    ];
+
     public static function getSummonerSpellIcon($spellName)
     {
         $mappedName = self::$summonerSpellMap[$spellName] ?? $spellName;
@@ -48,6 +65,42 @@ class GameIconHelper
             \Log::info("Missing item mapping for: " . $itemName);
         }
         return "/storage/items/7050.png";
+    }
+
+    public static function getRuneIcon($runeName)
+    {
+        // Use mapping if available
+        if (isset(self::$runeNameMap[$runeName])) {
+            $fileName = self::$runeNameMap[$runeName] . '.png';
+            return asset('storage/icons/runes/' . $fileName);
+        }
+        
+        // Debug the incoming rune name
+        \Log::info("Getting rune icon for: " . $runeName);
+        
+        // First, try the lowercase format (this is what we want to use)
+        $path = 'storage/icons/runes/' . strtolower(str_replace(' ', '', $runeName)) . '.png';
+        if (file_exists(public_path($path))) {
+            return asset($path);
+        }
+        
+        // If not found, try the format with _rune suffix
+        $path = 'storage/icons/runes/' . str_replace(' ', '_', $runeName) . '_rune.png';
+        if (file_exists(public_path($path))) {
+            return asset($path);
+        }
+        
+        // If still not found, try with first letter capitalized
+        $path = 'storage/icons/runes/' . ucfirst(strtolower(str_replace(' ', '_', $runeName))) . '_rune.png';
+        if (file_exists(public_path($path))) {
+            return asset($path);
+        }
+        
+        // Log if we can't find the file
+        \Log::warning("Rune icon not found for: " . $runeName);
+        
+        // Return placeholder
+        return asset('storage/icons/runes/placeholder.png');
     }
 
     // Helper function to get all available item mappings

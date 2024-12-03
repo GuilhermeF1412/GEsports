@@ -755,7 +755,7 @@ h6.blue-side i, h6.red-side i {
 }
 
 .champion-cell {
-    width: 120px;
+    width: 160px !important;
     padding-left: 20px !important;
 }
 
@@ -763,12 +763,7 @@ h6.blue-side i, h6.red-side i {
     display: flex;
     align-items: center;
     gap: 6px;
-}
-
-.champion-icon {
-    width: 48px;
-    height: 48px;
-    border-radius: 4px;
+    padding: 4px;
 }
 
 .kda-cell {
@@ -863,32 +858,35 @@ h6.blue-side i, h6.red-side i {
     border-bottom: 1px solid #2c2c2c;
     padding: 15px 10px;
     text-align: center;
-    white-space: nowrap;  /* Keep header text in one line */
-}
-
-/* Remove flex display from headers */
-.players-table th {
-    display: table-cell !important;  /* Override any flex display */
+    white-space: nowrap;
+    display: table-cell !important;
 }
 
 /* Header icon alignment */
 .players-table th img {
     vertical-align: middle;
     margin-right: 5px;
+    width: 16px;
+    height: 16px;
 }
 
 /* Specific column alignments */
-.players-table th:first-child,  /* Player */
-.players-table th:nth-child(2), /* Champion */
-.players-table th:last-child {  /* Items */
+.players-table th:first-child {  /* Player */
     text-align: left;
     padding-left: 20px;
 }
 
+.players-table th:nth-child(2) { /* Champion */
+    text-align: left;
+    padding-left: 46px; /* Reduced padding to align with champion icon */
+}
+
+/* Center alignment for other columns */
 .players-table th:nth-child(3), /* KDA */
 .players-table th:nth-child(4), /* CS */
 .players-table th:nth-child(5), /* Gold */
-.players-table th:nth-child(6) { /* Damage */
+.players-table th:nth-child(6), /* Damage */
+.players-table th:nth-child(7) { /* Items */
     text-align: center;
 }
 
@@ -978,4 +976,42 @@ h6.blue-side i, h6.red-side i {
 .players-table th:first-child,
 .players-table th:nth-child(2) {
     justify-content: left;
+}
+
+/* Add these styles to the existing CSS file */
+
+.runes-column {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-right: 6px;
+    width: 30px; /* Fixed width for alignment */
+    align-items: center; /* Center the icons horizontally */
+}
+
+.keystone-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.rune-tree-icon {
+    width: 20px;
+    height: 20px;
+    opacity: 0.8;
+}
+
+/* Update the champion-info class */
+.champion-info {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px;
+    min-width: 120px; /* Ensure consistent width */
+}
+
+/* Adjust the champion-cell width */
+.champion-cell {
+    width: 160px !important;
+    padding-left: 20px !important;
 }
