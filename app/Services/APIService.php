@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Log;
 class APIService
 {
     protected $client;
+    protected $lastResponse;
 
     public function __construct()
     {
@@ -69,6 +70,52 @@ class APIService
             return json_decode($response->getBody()->getContents(), true);
         } catch (GuzzleException $e) {
             Log::error('Error fetching match games: ' . $e->getMessage());
+            return [];
+        }
+    }
+
+    public function getTeamDetails($teamName)
+    {
+        try {
+            $response = $this->client->get('/TeamDetails', [
+                'query' => ['team' => $teamName]
+            ]);
+            $this->lastResponse = $response;
+            return json_decode($response->getBody()->getContents(), true);
+        } catch (GuzzleException $e) {
+            Log::error('Error fetching team details: ' . $e->getMessage());
+            $this->lastResponse = $e->getResponse();
+            return null;
+        }
+    }
+
+    public function getLastResponse()
+    {
+        return $this->lastResponse;
+    }
+
+    public function getTeamMatches($teamName)
+    {
+        try {
+            $response = $this->client->get('/TeamMatches', [
+                'query' => ['team' => $teamName]
+            ]);
+            return json_decode($response->getBody()->getContents(), true);
+        } catch (GuzzleException $e) {
+            Log::error('Error fetching team matches: ' . $e->getMessage());
+            return [];
+        }
+    }
+
+    public function getTeamFutureMatches($teamName)
+    {
+        try {
+            $response = $this->client->get('/TeamFutureMatches', [
+                'query' => ['team' => $teamName]
+            ]);
+            return json_decode($response->getBody()->getContents(), true);
+        } catch (GuzzleException $e) {
+            Log::error('Error fetching future matches: ' . $e->getMessage());
             return [];
         }
     }

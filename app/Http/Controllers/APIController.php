@@ -83,17 +83,11 @@ class APIController extends Controller
         }
     }
 
-    public function showMatch($matchId, Request $request)
+    public function showMatch($matchId, Request $request, $date = null)
     {
         try {
-            // Get the date from the referer URL or use today's date
-            $referer = $request->header('Referer');
-            $date = null;
-            
-            if ($referer) {
-                parse_str(parse_url($referer, PHP_URL_QUERY), $query);
-                $date = $query['date'] ?? null;
-            }
+            // Use provided date or today's date
+            $date = $date ?? now()->format('Y-m-d');
 
             $matches = $this->apiService->getTodayMatches($date);
             $match = collect($matches)->first(function ($match) use ($matchId) {
@@ -108,7 +102,7 @@ class APIController extends Controller
             $gameDetails = $this->apiService->getMatchGames(
                 $match['Team1'],
                 $match['Team2'],
-                $date ?? now()->format('Y-m-d')
+                $date
             );
             
             \Log::info('Game Details:', [

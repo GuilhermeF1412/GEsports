@@ -5,6 +5,7 @@ use App\Http\Controllers\APIController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\TeamImageController;
+use App\Http\Controllers\TeamController;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,7 +30,7 @@ Route::post('/register', [App\Http\Controllers\Auth\RegisterController::class, '
 // API Routes
 Route::get('/lolhome', [APIController::class, 'todayMatches'])->name('lolhome');
 Route::get('/test', [APIController::class, 'index']);
-Route::get('/match/{matchId}', [APIController::class, 'showMatch'])->name('match.show');
+Route::get('/match/{matchId}/{date?}', [APIController::class, 'showMatch'])->name('match.show');
 
 // Team Image Route
 Route::get('/store-team-images', [TeamImageController::class, 'storeTeamImage'])->name('store.team.images');
@@ -44,3 +45,5 @@ Route::get('/', function () {
 
 
 Route::get('/home-test', [APIController::class, 'todayMatches'])->name('home-test');
+
+Route::get('/team/{teamName}', [TeamController::class, 'show'])->name('team.show');

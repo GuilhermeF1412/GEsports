@@ -35,8 +35,14 @@ use App\Helpers\GameIconHelper;
 
         <div class="teams-overview">
             <div class="team-column">
-                <img src="{{ $match['Team1Image'] }}" alt="{{ $match['Team1'] }}" class="team-logo">
-                <h2 class="team-name">{{ $match['Team1'] }}</h2>
+                <a href="{{ route('team.show', ['teamName' => $match['Team1']]) }}">
+                    <img src="{{ $match['Team1Image'] }}" alt="{{ $match['Team1'] }}" class="team-logo">
+                </a>
+                <h2 class="team-name">
+                    <a href="{{ route('team.show', ['teamName' => $match['Team1']]) }}" class="team-link">
+                        {{ $match['Team1'] }}
+                    </a>
+                </h2>
                 <div class="team-score {{ $match['Winner'] === '1' ? 'winner' : '' }}">{{ $match['Team1Score'] ?? '0' }}</div>
             </div>
             
@@ -46,8 +52,14 @@ use App\Helpers\GameIconHelper;
             </div>
 
             <div class="team-column">
-                <img src="{{ $match['Team2Image'] }}" alt="{{ $match['Team2'] }}" class="team-logo">
-                <h2 class="team-name">{{ $match['Team2'] }}</h2>
+                <a href="{{ route('team.show', ['teamName' => $match['Team2']]) }}">
+                    <img src="{{ $match['Team2Image'] }}" alt="{{ $match['Team2'] }}" class="team-logo">
+                </a>
+                <h2 class="team-name">
+                    <a href="{{ route('team.show', ['teamName' => $match['Team2']]) }}" class="team-link">
+                        {{ $match['Team2'] }}
+                    </a>
+                </h2>
                 <div class="team-score {{ $match['Winner'] === '2' ? 'winner' : '' }}">{{ $match['Team2Score'] ?? '0' }}</div>
             </div>
         </div>
@@ -345,3 +357,16 @@ use App\Helpers\GameIconHelper;
     @endif
 </div>
 @endsection
+
+<style>
+/* Add these styles */
+.team-link {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.team-link:hover {
+    color: #4CAF50;
+}
+</style>

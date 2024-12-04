@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from mwrogue.esports_client import EsportsClient
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import List, Optional
 from pydantic import BaseModel
 
@@ -92,6 +92,21 @@ class MatchGame(BaseModel):
     DateTime_UTC: str
     Team1Players: List[PlayerStats] = []
     Team2Players: List[PlayerStats] = []
+
+class TeamDetails(BaseModel):
+    Name: str
+    OverviewPage: str
+    Location: Optional[str]
+    TeamLocation: Optional[str]
+    Region: Optional[str]
+    Image: Optional[str]
+    Twitter: Optional[str]
+    Youtube: Optional[str]
+    Facebook: Optional[str]
+    Instagram: Optional[str]
+    Discord: Optional[str]
+    Website: Optional[str]
+    IsDisbanded: Optional[bool]
 
 @app.get("/TodayMatches", response_model=List[Match])
 def get_today_matches(date: Optional[str] = None):
@@ -618,6 +633,149 @@ def test_match_steps():
             "step": "unknown",
             "details": getattr(e, 'details', None)
         }
+
+@app.get("/TeamDetails", response_model=TeamDetails, response_model_exclude_none=True)
+def get_team_details(team: str):
+    site = EsportsClient("lol")
+    try:
+        print(f"Looking up team: {team}")
+        teams = site.cargo_client.query(
+            tables="Teams",
+            where=f"Name = '{team}'",
+            fields="""
+                Name, OverviewPage, Location, TeamLocation, Region,
+                Image, Twitter, Youtube, Facebook, Instagram,
+                Discord, Website, IsDisbanded
+            """
+        )
+        print(f"Query result: {teams}")
+        return teams[0] if teams else None
+    except Exception as e:
+        print(f"Error in get_team_details: {e}")
+        return None
+
+@app.get("/TeamMatches")
+def get_team_matches(team: str):
+    site = EsportsClient("lol")
+    try:
+        # Get matches from the past year with full datetime
+        current_datetime = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        one_year_ago = (datetime.now() - timedelta(days=365)).strftime('%Y-%m-%d %H:%M:%S')
+        
+        # Query matches directly using team name
+        matches = site.cargo_client.query(
+            tables="MatchSchedule=MS, Tournaments=T",
+            join_on="MS.OverviewPage=T.OverviewPage",
+            where=f"""
+                (MS.Team1 = '{team}' OR MS.Team2 = '{team}') AND
+                MS.DateTime_UTC < '{current_datetime}' AND
+                MS.DateTime_UTC >= '{one_year_ago}' AND
+                MS.IsNullified = false
+            """,
+            fields="""
+                T.Name, 
+                MS.DateTime_UTC=DateTime_UTC,
+                MS.Team1, MS.Team1Score,
+                MS.Team2, MS.Team2Score,
+                MS.Winner, MS.BestOf,
+                MS.Phase
+            """,
+            order_by="MS.DateTime_UTC DESC",
+            limit=20
+        )
+        
+        print(f"Current datetime: {current_datetime}")
+        print(f"Found {len(matches)} matches for team {team}")
+        if matches:
+            print("First match:", matches[0])
+            
+        return matches
+    except Exception as e:
+        print(f"Error fetching team matches: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/TestTeamMatches")
+def test_team_matches(team: str):
+    site = EsportsClient("lol")
+    try:
+        print("\nTest 1: Looking up team in Teams table")
+        team_query = site.cargo_client.query(
+            tables="Teams",
+            where=f"Name = '{team}'",
+            fields="Name, OverviewPage"
+        )
+        print("Team query result:", team_query)
+
+        print("\nTest 2: Simple MatchSchedule query")
+        matches = site.cargo_client.query(
+            tables="MatchSchedule",
+            where="Team1 = 'DRX'",  # Using a simple team name as test
+            fields="DateTime_UTC, Team1, Team2",
+            limit=5
+        )
+        print("Simple match query result:", matches)
+
+        print("\nTest 3: Join query")
+        join_matches = site.cargo_client.query(
+            tables="MatchSchedule=MS, Tournaments=T",
+            join_on="MS.OverviewPage=T.OverviewPage",
+            where="MS.Team1 = 'DRX'",
+            fields="T.Name, MS.DateTime_UTC, MS.Team1, MS.Team2",
+            limit=5
+        )
+        print("Join query result:", join_matches)
+
+        return {
+            "team_query": team_query,
+            "simple_matches": matches,
+            "join_matches": join_matches
+        }
+    except Exception as e:
+        print(f"Error in test: {e}")
+        return {
+            "error": str(e),
+            "type": type(e).__name__,
+            "location": "test_team_matches"
+        }
+
+@app.get("/TeamFutureMatches")
+def get_team_future_matches(team: str):
+    site = EsportsClient("lol")
+    try:
+        # Get matches for the next month with full datetime
+        current_datetime = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        one_month_ahead = (datetime.now() + timedelta(days=30)).strftime('%Y-%m-%d %H:%M:%S')
+        
+        # Query future matches
+        matches = site.cargo_client.query(
+            tables="MatchSchedule=MS, Tournaments=T",
+            join_on="MS.OverviewPage=T.OverviewPage",
+            where=f"""
+                (MS.Team1 = '{team}' OR MS.Team2 = '{team}') AND
+                MS.DateTime_UTC >= '{current_datetime}' AND
+                MS.DateTime_UTC <= '{one_month_ahead}' AND
+                MS.IsNullified = false
+            """,
+            fields="""
+                T.Name, 
+                MS.DateTime_UTC=DateTime_UTC,
+                MS.Team1, MS.Team1Score,
+                MS.Team2, MS.Team2Score,
+                MS.Winner, MS.BestOf,
+                MS.Phase
+            """,
+            order_by="MS.DateTime_UTC ASC",  # Ascending for future matches
+            limit=10
+        )
+        
+        print(f"Found {len(matches)} future matches for team {team}")
+        if matches:
+            print("First future match:", matches[0])
+            
+        return matches
+    except Exception as e:
+        print(f"Error fetching future matches: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
 
 if __name__ == "__main__":
     import uvicorn

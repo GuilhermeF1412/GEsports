@@ -149,16 +149,15 @@ $teamImageController = new TeamImageController(new APIService, new ImageBuilder)
     gap: 10px;
 }
 
-.date-input {
-    opacity: 0;
-    cursor: pointer;
-}
-
 .current-date {
     color: #fff;
     font-size: 1.2em;
     font-weight: 500;
-    margin-right: 10px;
+}
+
+.date-input {
+    opacity: 0;
+    cursor: pointer;
 }
 
 .tournament-section {
@@ -209,6 +208,7 @@ $teamImageController = new TeamImageController(new APIService, new ImageBuilder)
 .match-time {
     width: 80px;
     text-align: center;
+    flex-shrink: 0;
 }
 
 .live-indicator {
@@ -223,18 +223,20 @@ $teamImageController = new TeamImageController(new APIService, new ImageBuilder)
     display: flex;
     flex-direction: column;
     gap: 8px;
+    padding: 0 20px;
 }
 
 .team {
     display: flex;
     align-items: center;
-    gap: 10px;
+    width: 100%;
 }
 
 .team-logo {
     width: 24px;
     height: 24px;
     object-fit: contain;
+    margin-right: 10px;
 }
 
 .team-name {
@@ -258,7 +260,8 @@ $teamImageController = new TeamImageController(new APIService, new ImageBuilder)
     display: flex;
     align-items: center;
     gap: 15px;
-    padding-left: 20px;
+    flex-shrink: 0;
+    width: 100px;
 }
 
 .match-format {
@@ -290,6 +293,14 @@ $teamImageController = new TeamImageController(new APIService, new ImageBuilder)
 .no-matches i {
     font-size: 2em;
     margin-bottom: 10px;
+}
+
+.match-link {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    color: inherit;
 }
 </style>
 @endsection
