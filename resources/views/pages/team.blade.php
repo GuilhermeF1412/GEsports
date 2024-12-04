@@ -111,36 +111,36 @@
         <div class="matches-section">
             <h2>Recent Matches</h2>
             <div class="matches-list">
-                @forelse($recentMatches as $index => $match)
+                @forelse($recentMatches as $index => $recentMatch)
                     <a href="{{ route('match.show', [
-                        'matchId' => $match['Team1'] . '-vs-' . $match['Team2'],
-                        'date' => \Carbon\Carbon::parse($match['DateTime_UTC'])->format('Y-m-d')
+                        'matchId' => $recentMatch['Team1'] . '-vs-' . $recentMatch['Team2'],
+                        'date' => \Carbon\Carbon::parse($recentMatch['DateTime_UTC'])->format('Y-m-d')
                     ]) }}" 
                        class="match-item {{ $index >= 5 ? 'hidden' : '' }}">
                         <div class="match-date">
-                            <div class="date">{{ \Carbon\Carbon::parse($match['DateTime_UTC'])->format('M j, Y') }}</div>
-                            <div class="time">{{ \Carbon\Carbon::parse($match['DateTime_UTC'])->format('H:i') }} UTC</div>
+                            <div class="date">{{ \Carbon\Carbon::parse($recentMatch['DateTime_UTC'])->format('M j, Y') }}</div>
+                            <div class="time">{{ \Carbon\Carbon::parse($recentMatch['DateTime_UTC'])->format('H:i') }} UTC</div>
                         </div>
                         <div class="match-teams">
-                            <div class="team {{ $match['Team1'] === $team['Name'] ? 'current-team' : '' }}">
-                                <span class="team-name {{ $match['Winner'] === '1' ? 'winner' : '' }}">
-                                    {{ $match['Team1'] }}
+                            <div class="team {{ $recentMatch['Team1'] === $team['Name'] ? 'current-team' : '' }}">
+                                <span class="team-name {{ $recentMatch['Winner'] === '1' ? 'winner' : '' }}">
+                                    {{ $recentMatch['Team1'] }}
                                 </span>
-                                @if($match['Team1Score'] !== null)
-                                    <span class="score {{ $match['Winner'] === '1' ? 'winner' : '' }}">
-                                        {{ $match['Team1Score'] }}
+                                @if($recentMatch['Team1Score'] !== null)
+                                    <span class="score {{ $recentMatch['Winner'] === '1' ? 'winner' : '' }}">
+                                        {{ $recentMatch['Team1Score'] }}
                                     </span>
                                 @else
                                     <span class="score">-</span>
                                 @endif
                             </div>
-                            <div class="team {{ $match['Team2'] === $team['Name'] ? 'current-team' : '' }}">
-                                <span class="team-name {{ $match['Winner'] === '2' ? 'winner' : '' }}">
-                                    {{ $match['Team2'] }}
+                            <div class="team {{ $recentMatch['Team2'] === $team['Name'] ? 'current-team' : '' }}">
+                                <span class="team-name {{ $recentMatch['Winner'] === '2' ? 'winner' : '' }}">
+                                    {{ $recentMatch['Team2'] }}
                                 </span>
-                                @if($match['Team2Score'] !== null)
-                                    <span class="score {{ $match['Winner'] === '2' ? 'winner' : '' }}">
-                                        {{ $match['Team2Score'] }}
+                                @if($recentMatch['Team2Score'] !== null)
+                                    <span class="score {{ $recentMatch['Winner'] === '2' ? 'winner' : '' }}">
+                                        {{ $recentMatch['Team2Score'] }}
                                     </span>
                                 @else
                                     <span class="score">-</span>
@@ -148,7 +148,7 @@
                             </div>
                         </div>
                         <div class="match-tournament">
-                            {{ $match['Name'] }}
+                            {{ $recentMatch['Name'] }}
                         </div>
                     </a>
                 @empty

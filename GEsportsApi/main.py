@@ -681,7 +681,7 @@ def get_team_matches(team: str):
                 MS.Phase
             """,
             order_by="MS.DateTime_UTC DESC",
-            limit=5
+            limit=20
         )
         
         print(f"Current datetime: {current_datetime}")
@@ -776,6 +776,24 @@ def get_team_future_matches(team: str):
     except Exception as e:
         print(f"Error fetching future matches: {e}")
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/SearchTeams")
+def search_teams(q: str):
+    site = EsportsClient("lol")
+    try:
+        print(f"Searching for teams with query: {q}")
+        teams = site.cargo_client.query(
+            tables="Teams",
+            where=f"Name LIKE '%{q}%' OR Name LIKE '{q}%' OR Name LIKE '%{q}'",
+            fields="Name, OverviewPage",
+            limit=5,
+            order_by="Name ASC"
+        )
+        print(f"Found teams: {teams}")
+        return teams
+    except Exception as e:
+        print(f"Error searching teams: {e}")
+        return []
 
 if __name__ == "__main__":
     import uvicorn

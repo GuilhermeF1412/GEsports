@@ -192,4 +192,45 @@ class APIController extends Controller
         Log::info('No image found for team, using placeholder');
         return asset('storage/teamimages/placeholder.png');
     }
+
+    public function search(Request $request)
+    {
+        $query = $request->get('q');
+        Log::info('Search request received', ['query' => $query]);
+        
+        if (strlen($query) < 2) {
+            return response()->json([]);
+        }
+
+        try {
+            // Search for teams
+            $teams = $this->apiService->searchTeams($query);
+            Log::info('Teams found', ['teams' => $teams]);
+            
+            // Make sure $teams is an array
+            $teams = is_array($teams) ? $teams : [];
+            
+            $teamResults = collect($teams)->map(function($team) {
+                Log::info('Processing team', ['team' => $team]);
+                return [
+                    'name' => $team['Name'],
+                    'image' => asset('storage/teamimages/' . $team['Name'] . '.png'),
+                    'url' => route('team.show', ['teamName' => $team['Name']]),
+                    'type' => 'Team'
+                ];
+            });
+
+            $results = $teamResults->take(10);
+            Log::info('Final results', ['results' => $results]);
+            
+            if ($results->isEmpty()) {
+                Log::info('No results found');
+            }
+            
+            return response()->json($results);
+        } catch (\Exception $e) {
+            Log::error('Search error', ['error' => $e->getMessage(), 'trace' => $e->getTraceAsString()]);
+            return response()->json([]);
+        }
+    }
 }

@@ -119,4 +119,17 @@ class APIService
             return [];
         }
     }
+
+    public function searchTeams($query)
+    {
+        try {
+            $response = $this->client->get('/SearchTeams', [
+                'query' => ['q' => $query]
+            ]);
+            return json_decode($response->getBody()->getContents(), true);
+        } catch (GuzzleException $e) {
+            Log::error('Error searching teams: ' . $e->getMessage());
+            return [];
+        }
+    }
 }
