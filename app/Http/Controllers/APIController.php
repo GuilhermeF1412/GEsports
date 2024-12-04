@@ -98,6 +98,10 @@ class APIController extends Controller
                 return redirect()->route('lolhome')->with('error', 'Match not found');
             }
 
+            // Get recent matches for both teams
+            $team1RecentMatches = $this->apiService->getTeamMatches($match['Team1']);
+            $team2RecentMatches = $this->apiService->getTeamMatches($match['Team2']);
+
             // Fetch game details
             $gameDetails = $this->apiService->getMatchGames(
                 $match['Team1'],
@@ -157,7 +161,7 @@ class APIController extends Controller
                 }
             }
 
-            return view('pages.match', compact('match', 'gameDetails'));
+            return view('pages.match', compact('match', 'gameDetails', 'team1RecentMatches', 'team2RecentMatches'));
         } catch (\Exception $e) {
             Log::error('Error in showMatch: ' . $e->getMessage());
             return redirect()->route('lolhome')->with('error', 'Unable to fetch match details');

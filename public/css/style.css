@@ -382,16 +382,21 @@ h6.blue-side i, h6.red-side i {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 4px;
     min-width: 0;
+    justify-content: center;
+    overflow: hidden;
 }
 
 .team {
     display: flex;
+    justify-content: space-between;
+    color: #888;
+    font-size: 0.5em;
     align-items: center;
     gap: 10px;
-    min-width: 200px;
-    flex: 1;
+    min-height: 24px;
+    width: 100%;
 }
 
 .team-logo {
@@ -401,11 +406,12 @@ h6.blue-side i, h6.red-side i {
 }
 
 .team-name {
-    color: #fff;
-    white-space: normal;
-    overflow: visible;
-    text-overflow: clip;
-    word-wrap: break-word;
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+    max-width: calc(100% - 30px);
 }
 
 .match-scores {
@@ -450,13 +456,8 @@ h6.blue-side i, h6.red-side i {
 
 .no-matches {
     text-align: center;
-    padding: 40px;
+    padding: 20px;
     color: #888;
-}
-
-.no-matches i {
-    font-size: 2em;
-    margin-bottom: 10px;
 }
 
 .teams-container {
@@ -506,20 +507,36 @@ h6.blue-side i, h6.red-side i {
 .tournament-info {
     text-align: center;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .tournament-info h3 {
     color: #fff;
     margin: 0;
-    font-size: 1.5em;
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
+.tournament-info .match-date {
+    color: #fff;
+    font-size: 1.1em;
+    margin: 0;
+    width: auto;
+    display: block;
+    text-align: center;
 }
 
 .match-date {
-    width: 120px;
+    width: 90px;
     color: #888;
+    font-size: 0.85em;
+    flex-shrink: 0;
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    justify-content: center;
+    line-height: 1.2;
 }
 
 .match-date .date {
@@ -583,24 +600,29 @@ h6.blue-side i, h6.red-side i {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 30px 0;
+    gap: 40px;
 }
 
 .team-column {
     text-align: center;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 
 .team-logo {
     width: 80px;
     height: 80px;
-    margin-bottom: 10px;
+    object-fit: contain;
 }
 
 .team-name {
     color: #fff;
-    margin: 10px 0;
     font-size: 1.8em;
+    font-weight: 500;
 }
 
 .team-score {
@@ -613,9 +635,16 @@ h6.blue-side i, h6.red-side i {
     color: #4CAF50;
 }
 
+.team-column.winner .team-name {
+    color: #4CAF50;
+}
+
 .match-info-center {
     text-align: center;
     padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .match-type {
@@ -1098,84 +1127,159 @@ h6.blue-side i, h6.red-side i {
     color: #4CAF50;
 }
 
-/* Team Recent Matches */
-.recent-matches {
+/* Match Page Recent Matches */
+.recent-matches-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.team-recent-matches {
+    flex: 1;
     background: #242424;
     border-radius: 8px;
     padding: 20px;
 }
 
-.recent-matches h2 {
+.team-recent-matches h3 {
     color: #fff;
-    margin-bottom: 20px;
+    margin: 0;
+    font-size: 1.2em;
+    flex: 1;
+}
+
+.recent-matches-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #333;
+    margin-bottom: 10px;
+}
+
+.recent-matches-team-logo {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
 }
 
 .match-item {
     display: flex;
     align-items: center;
-    padding: 15px;
+    min-height: 70px;
+    padding: 8px 15px;
     border-bottom: 1px solid #333;
     color: #fff;
     text-decoration: none;
     transition: background-color 0.2s;
+    gap: 15px;
+    line-height: 1.2;
+    margin-bottom: 1px;
 }
 
-.match-item:hover {
+.team1-matches .match-item:hover {
     background: #2c2c2c;
 }
 
-.match-date {
-    width: 120px;
-    color: #888;
+.team2-matches .match-item:hover {
+    background: #2c2c2c;
 }
 
-.match-teams {
+.team-recent-matches .match-teams {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 6px;
+    min-width: 0;
+    justify-content: center;
+    padding: 6px 0;
 }
 
-.team {
+.team-recent-matches .team {
     display: flex;
     justify-content: space-between;
     color: #888;
+    font-size: 0.6em;
+    align-items: center;
+    gap: 10px;
+    height: 24px;
+    width: 100%;
+    padding: 0;
+    margin-top: 6px;
+    position: relative;
 }
 
-.current-team {
-    color: #fff;
-    font-weight: 500;
+.team-recent-matches .team-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+    min-width: 0;
+    height: 100%;
+    padding-top: 6px;
 }
 
-.match-tournament {
-    width: 200px;
+.team-recent-matches .match-team-logo {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    flex-shrink: 0;
+    display: block;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+.team-recent-matches .team-name {
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+    line-height: 1.2;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-top: 5px;
+}
+
+.team-recent-matches .score {
+    flex-shrink: 0;
+    min-width: 20px;
+    text-align: right;
+    font-size: 1.6em;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: -4px;
+}
+
+.team-recent-matches .match-tournament {
+    width: 120px;
     text-align: right;
     color: #888;
-}
-
-.no-matches {
-    text-align: center;
-    padding: 20px;
-    color: #888;
-}
-
-.team-column a {
-    display: inline-block;
-    transition: transform 0.2s;
-}
-
-.team-column a:hover {
-    transform: scale(1.05);
-}
-
-/* Page layout */
-.page-container {
+    font-size: 0.75em;
+    flex-shrink: 0;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-height: 1.2;
+    min-height: 28px;
     display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color: #010a0f;
+    align-items: center;
+    justify-content: flex-end;
 }
 
-.content-wrap {
-    flex: 1;
+.team-recent-matches .current-team {
+    color: #fff;
+    font-weight: 500;
+    min-height: 16px;
+    padding: 0;
+}
+
+.team-recent-matches .winner {
+    color: #4CAF50;
 }

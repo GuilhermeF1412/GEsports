@@ -11,7 +11,7 @@ use App\Helpers\GameIconHelper;
     <div class="match-header">
         <div class="tournament-info">
             <h3>{{ $match['Name'] }}</h3>
-            <span class="match-date">{{ \Carbon\Carbon::parse($match['DateTime_UTC'])->format('l, F j, Y') }}</span>
+            <span class="match-date">{{ \Carbon\Carbon::parse($match['DateTime_UTC'])->format('l, F jS, Y') }}</span>
         </div>
 
         <div class="match-status-bar">
@@ -34,7 +34,7 @@ use App\Helpers\GameIconHelper;
         </div>
 
         <div class="teams-overview">
-            <div class="team-column">
+            <div class="team-column {{ $match['Winner'] === '1' ? 'winner' : '' }}">
                 <a href="{{ route('team.show', ['teamName' => $match['Team1']]) }}">
                     <img src="{{ $match['Team1Image'] }}" alt="{{ $match['Team1'] }}" class="team-logo">
                 </a>
@@ -43,7 +43,9 @@ use App\Helpers\GameIconHelper;
                         {{ $match['Team1'] }}
                     </a>
                 </h2>
-                <div class="team-score {{ $match['Winner'] === '1' ? 'winner' : '' }}">{{ $match['Team1Score'] ?? '0' }}</div>
+                <div class="team-score {{ $match['Winner'] === '1' ? 'winner' : '' }}">
+                    {{ $match['Team1Score'] ?? '0' }}
+                </div>
             </div>
             
             <div class="match-info-center">
@@ -51,7 +53,7 @@ use App\Helpers\GameIconHelper;
                 <div class="match-time">{{ \Carbon\Carbon::parse($match['DateTime_UTC'])->format('H:i') }} UTC</div>
             </div>
 
-            <div class="team-column">
+            <div class="team-column {{ $match['Winner'] === '2' ? 'winner' : '' }}">
                 <a href="{{ route('team.show', ['teamName' => $match['Team2']]) }}">
                     <img src="{{ $match['Team2Image'] }}" alt="{{ $match['Team2'] }}" class="team-logo">
                 </a>
@@ -60,7 +62,9 @@ use App\Helpers\GameIconHelper;
                         {{ $match['Team2'] }}
                     </a>
                 </h2>
-                <div class="team-score {{ $match['Winner'] === '2' ? 'winner' : '' }}">{{ $match['Team2Score'] ?? '0' }}</div>
+                <div class="team-score {{ $match['Winner'] === '2' ? 'winner' : '' }}">
+                    {{ $match['Team2Score'] ?? '0' }}
+                </div>
             </div>
         </div>
     </div>
@@ -355,6 +359,123 @@ use App\Helpers\GameIconHelper;
             <p>No game details available yet.</p>
         </div>
     @endif
+
+    <!-- Recent Matches Section -->
+    <div class="recent-matches-container">
+        <!-- Team 1 Recent Matches -->
+        <div class="team-recent-matches team1-matches">
+            <div class="recent-matches-header">
+                <img src="{{ $match['Team1Image'] }}" alt="{{ $match['Team1'] }}" class="recent-matches-team-logo">
+                <h3>{{ $match['Team1'] }} Recent Matches</h3>
+            </div>
+            <div class="matches-list">
+                @forelse($team1RecentMatches as $recentMatch)
+                    <a href="{{ route('match.show', [
+                        'matchId' => $recentMatch['Team1'] . '-vs-' . $recentMatch['Team2'],
+                        'date' => \Carbon\Carbon::parse($recentMatch['DateTime_UTC'])->format('Y-m-d')
+                    ]) }}" 
+                       class="match-item">
+                        <div class="match-date">
+                            <div class="date">{{ \Carbon\Carbon::parse($recentMatch['DateTime_UTC'])->format('M j, Y') }}</div>
+                            <div class="time">{{ \Carbon\Carbon::parse($recentMatch['DateTime_UTC'])->format('H:i') }} UTC</div>
+                        </div>
+                        <div class="match-teams">
+                            <div class="team {{ $recentMatch['Team1'] === $match['Team1'] ? 'current-team' : '' }}">
+                                <div class="team-info">
+                                    <img src="{{ asset('storage/teamimages/' . $recentMatch['Team1'] . '.png') }}" 
+                                         alt="{{ $recentMatch['Team1'] }}" 
+                                         class="match-team-logo"
+                                         onerror="this.src='{{ asset('storage/teamimages/placeholder.png') }}'">
+                                    <span class="team-name {{ $recentMatch['Winner'] === '1' ? 'winner' : '' }}">
+                                        {{ $recentMatch['Team1'] }}
+                                    </span>
+                                </div>
+                                <span class="score {{ $recentMatch['Winner'] === '1' ? 'winner' : '' }}">
+                                    {{ $recentMatch['Team1Score'] ?? '-' }}
+                                </span>
+                            </div>
+                            <div class="team {{ $recentMatch['Team2'] === $match['Team1'] ? 'current-team' : '' }}">
+                                <div class="team-info">
+                                    <img src="{{ asset('storage/teamimages/' . $recentMatch['Team2'] . '.png') }}" 
+                                         alt="{{ $recentMatch['Team2'] }}" 
+                                         class="match-team-logo"
+                                         onerror="this.src='{{ asset('storage/teamimages/placeholder.png') }}'">
+                                    <span class="team-name {{ $recentMatch['Winner'] === '2' ? 'winner' : '' }}">
+                                        {{ $recentMatch['Team2'] }}
+                                    </span>
+                                </div>
+                                <span class="score {{ $recentMatch['Winner'] === '2' ? 'winner' : '' }}">
+                                    {{ $recentMatch['Team2Score'] ?? '-' }}
+                                </span>
+                            </div>
+                        </div>
+                        <div class="match-tournament">
+                            {{ $recentMatch['Name'] }}
+                        </div>
+                    </a>
+                @empty
+                    <div class="no-matches">No recent matches found</div>
+                @endforelse
+            </div>
+        </div>
+
+        <!-- Team 2 Recent Matches -->
+        <div class="team-recent-matches team2-matches">
+            <div class="recent-matches-header">
+                <img src="{{ $match['Team2Image'] }}" alt="{{ $match['Team2'] }}" class="recent-matches-team-logo">
+                <h3>{{ $match['Team2'] }} Recent Matches</h3>
+            </div>
+            <div class="matches-list">
+                @forelse($team2RecentMatches as $recentMatch)
+                    <a href="{{ route('match.show', [
+                        'matchId' => $recentMatch['Team1'] . '-vs-' . $recentMatch['Team2'],
+                        'date' => \Carbon\Carbon::parse($recentMatch['DateTime_UTC'])->format('Y-m-d')
+                    ]) }}" 
+                       class="match-item">
+                        <div class="match-date">
+                            <div class="date">{{ \Carbon\Carbon::parse($recentMatch['DateTime_UTC'])->format('M j, Y') }}</div>
+                            <div class="time">{{ \Carbon\Carbon::parse($recentMatch['DateTime_UTC'])->format('H:i') }} UTC</div>
+                        </div>
+                        <div class="match-teams">
+                            <div class="team {{ $recentMatch['Team1'] === $match['Team2'] ? 'current-team' : '' }}">
+                                <div class="team-info">
+                                    <img src="{{ asset('storage/teamimages/' . $recentMatch['Team1'] . '.png') }}" 
+                                         alt="{{ $recentMatch['Team1'] }}" 
+                                         class="match-team-logo"
+                                         onerror="this.src='{{ asset('storage/teamimages/placeholder.png') }}'">
+                                    <span class="team-name {{ $recentMatch['Winner'] === '1' ? 'winner' : '' }}">
+                                        {{ $recentMatch['Team1'] }}
+                                    </span>
+                                </div>
+                                <span class="score {{ $recentMatch['Winner'] === '1' ? 'winner' : '' }}">
+                                    {{ $recentMatch['Team1Score'] ?? '-' }}
+                                </span>
+                            </div>
+                            <div class="team {{ $recentMatch['Team2'] === $match['Team2'] ? 'current-team' : '' }}">
+                                <div class="team-info">
+                                    <img src="{{ asset('storage/teamimages/' . $recentMatch['Team2'] . '.png') }}" 
+                                         alt="{{ $recentMatch['Team2'] }}" 
+                                         class="match-team-logo"
+                                         onerror="this.src='{{ asset('storage/teamimages/placeholder.png') }}'">
+                                    <span class="team-name {{ $recentMatch['Winner'] === '2' ? 'winner' : '' }}">
+                                        {{ $recentMatch['Team2'] }}
+                                    </span>
+                                </div>
+                                <span class="score {{ $recentMatch['Winner'] === '2' ? 'winner' : '' }}">
+                                    {{ $recentMatch['Team2Score'] ?? '-' }}
+                                </span>
+                            </div>
+                        </div>
+                        <div class="match-tournament">
+                            {{ $recentMatch['Name'] }}
+                        </div>
+                    </a>
+                @empty
+                    <div class="no-matches">No recent matches found</div>
+                @endforelse
+            </div>
+        </div>
+    </div>
 </div>
 @endsection
 

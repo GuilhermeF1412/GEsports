@@ -681,7 +681,7 @@ def get_team_matches(team: str):
                 MS.Phase
             """,
             order_by="MS.DateTime_UTC DESC",
-            limit=20
+            limit=5
         )
         
         print(f"Current datetime: {current_datetime}")

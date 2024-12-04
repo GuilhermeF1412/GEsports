@@ -3935,3 +3935,1825 @@ Internal Server Error
 [2024-12-04 02:39:11] local.INFO: Looking up team image for: {"teamName":"Gen.G"} 
 [2024-12-04 02:39:11] local.INFO: Found direct image file for team  
 [2024-12-04 02:39:11] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/OKSavingsBank BRION.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Gen.G.png"} 
+[2024-12-04 18:31:41] local.INFO: Fetching matches with date: {"date":null} 
+[2024-12-04 18:31:41] local.INFO: Raw date parameter received in APIService: {"date":null} 
+[2024-12-04 18:31:41] local.INFO: Making request to URL: {"url":"/TodayMatches"} 
+[2024-12-04 18:31:42] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 18:31:42] local.INFO: Raw matches response: {"matches":[{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"KeSPA Cup 2024","DateTime_UTC":"2024-12-04 07:00:00","Team1":"DRX","Team1Score":0,"Team1Final":"DRX","Team2":"Nongshim RedForce","Team2Score":1,"Team2Final":"Nongshim RedForce","Winner":"2","Stream":"https://www.youtube.com/c/KeSPA","BestOf":1,"Team1Image":"DRXlogo profile.png","Team2Image":"Nongshim RedForcelogo square.png","Team1OverviewPage":"DRX","Team2OverviewPage":"Nongshim RedForce","Phase":null,"ShownName":"KeSPA Cup 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 08:00:00","Team1":"LGD Gaming","Team1Score":2,"Team1Final":"LGD Gaming","Team2":"Anyone's Legend","Team2Score":0,"Team2Final":"Anyone's Legend","Winner":"1","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"LGD_logo.png","Team2Image":"Anyone's Legendlogo profile.png","Team1OverviewPage":"LGD Gaming","Team2OverviewPage":"Anyone's Legend","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"KeSPA Cup 2024","DateTime_UTC":"2024-12-04 08:15:00","Team1":"KT Rolster","Team1Score":1,"Team1Final":"KT Rolster","Team2":"Hanwha Life Esports","Team2Score":0,"Team2Final":"Hanwha Life Esports","Winner":"1","Stream":"https://www.youtube.com/c/KeSPA","BestOf":1,"Team1Image":"KT Rolsterlogo profile.png","Team2Image":"Hanwha Life Esportslogo profile.png","Team1OverviewPage":"KT Rolster","Team2OverviewPage":"Hanwha Life Esports","Phase":null,"ShownName":"KeSPA Cup 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"KeSPA Cup 2024","DateTime_UTC":"2024-12-04 09:30:00","Team1":"Chinese Taipei (National Team)","Team1Score":0,"Team1Final":"Chinese Taipei (National Team)","Team2":"Dplus KIA","Team2Score":1,"Team2Final":"Dplus KIA","Winner":"2","Stream":"https://www.youtube.com/c/KeSPA","BestOf":1,"Team1Image":null,"Team2Image":"Dplus KIAlogo profile.png","Team1OverviewPage":null,"Team2OverviewPage":"Dplus KIA","Phase":null,"ShownName":"KeSPA Cup 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 10:00:00","Team1":"LNG Esports","Team1Score":1,"Team1Final":"LNG Esports","Team2":"Team WE","Team2Score":1,"Team2Final":"Team WE","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"LNG Esportslogo square.png","Team2Image":"Team WElogo profile.png","Team1OverviewPage":"LNG Esports","Team2OverviewPage":"Team WE","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"KeSPA Cup 2024","DateTime_UTC":"2024-12-04 10:45:00","Team1":"OKSavingsBank BRION","Team1Score":0,"Team1Final":"OKSavingsBank BRION","Team2":"Gen.G","Team2Score":1,"Team2Final":"Gen.G","Winner":"2","Stream":"https://www.youtube.com/c/KeSPA","BestOf":1,"Team1Image":"OKSavingsBank BRIONlogo profile.png","Team2Image":"Gen.Glogo profile.png","Team1OverviewPage":"OKSavingsBank BRION","Team2OverviewPage":"Gen.G","Phase":null,"ShownName":"KeSPA Cup 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"ARAM League - Hòa Nhịp Arcane","DateTime_UTC":"2024-12-04 11:00:00","Team1":"Team 402","Team1Score":0,"Team1Final":"Team 402","Team2":"KAC5","Team2Score":2,"Team2Final":"KAC5","Winner":"2","Stream":"https://www.youtube.com/watch?v=Oz7QdxmDWy0","BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"ARAM League - Hòa Nhịp Arcane","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"ARAM League - Hòa Nhịp Arcane","DateTime_UTC":"2024-12-04 12:00:00","Team1":"Hehe Kaka (HUFLIT)","Team1Score":0,"Team1Final":"Hehe Kaka (HUFLIT)","Team2":"1 game rồi về","Team2Score":2,"Team2Final":"1 game rồi về","Winner":"2","Stream":"https://www.youtube.com/watch?v=Oz7QdxmDWy0","BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"ARAM League - Hòa Nhịp Arcane","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"KeSPA Cup 2024","DateTime_UTC":"2024-12-04 12:00:00","Team1":"OKSavingsBank BRION","Team1Score":1,"Team1Final":"OKSavingsBank BRION","Team2":"Dplus KIA","Team2Score":0,"Team2Final":"Dplus KIA","Winner":"1","Stream":"https://www.youtube.com/c/KeSPA","BestOf":1,"Team1Image":"OKSavingsBank BRIONlogo profile.png","Team2Image":"Dplus KIAlogo profile.png","Team1OverviewPage":"OKSavingsBank BRION","Team2OverviewPage":"Dplus KIA","Phase":null,"ShownName":"KeSPA Cup 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"NNO Cup Season 2","DateTime_UTC":"2024-12-04 18:00:00","Team1":"French Flair","Team1Score":null,"Team1Final":"French Flair","Team2":"5 Pigs 1 Team","Team2Score":null,"Team2Final":"5 Pigs 1 Team","Winner":null,"Stream":"http://twitch.tv/nnoprime","BestOf":5,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"NNO Cup Season 2","MatchDay":2,"HasTime":true,"Venue":null,"GroupName":null}]} 
+[2024-12-04 18:31:42] local.INFO: Processed matches: {"count":11,"first_match":{"Name":"ARAM League - Hòa Nhịp Arcane","DateTime_UTC":"2024-12-04 11:00:00","Team1":"Team 402","Team1Score":0,"Team1Final":"Team 402","Team2":"KAC5","Team2Score":2,"Team2Final":"KAC5","Winner":"2","Stream":"https://www.youtube.com/watch?v=Oz7QdxmDWy0","BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"ARAM League - Hòa Nhịp Arcane","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null,"status":"FINISHED"}} 
+[2024-12-04 18:31:43] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-04 18:31:43] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-04 18:31:43] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-04 18:31:43] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-04 18:31:43] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-04 18:31:43] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-04 18:31:43] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-04 18:31:43] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-04 18:31:43] local.INFO: Getting team image for: {"teamId":"DRX"} 
+[2024-12-04 18:31:44] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-04 18:31:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/DRX.png"} 
+[2024-12-04 18:31:45] local.INFO: Getting team image for: {"teamId":"Nongshim RedForce"} 
+[2024-12-04 18:31:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-04 18:31:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/Nongshim%20RedForce.png"} 
+[2024-12-04 18:31:45] local.INFO: Getting team image for: {"teamId":"KT Rolster"} 
+[2024-12-04 18:31:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-04 18:31:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/KT%20Rolster.png"} 
+[2024-12-04 18:31:45] local.INFO: Getting team image for: {"teamId":"Hanwha Life Esports"} 
+[2024-12-04 18:31:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-04 18:31:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/Hanwha%20Life%20Esports.png"} 
+[2024-12-04 18:31:45] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-04 18:31:45] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-04 18:31:45] local.INFO: Getting team image for: {"teamId":"Dplus KIA"} 
+[2024-12-04 18:31:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-04 18:31:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/Dplus%20KIA.png"} 
+[2024-12-04 18:31:45] local.INFO: Getting team image for: {"teamId":"OKSavingsBank BRION"} 
+[2024-12-04 18:31:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-04 18:31:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/OKSavingsBank%20BRION.png"} 
+[2024-12-04 18:31:45] local.INFO: Getting team image for: {"teamId":"Gen.G"} 
+[2024-12-04 18:31:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-04 18:31:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/Gen.G.png"} 
+[2024-12-04 18:31:45] local.INFO: Getting team image for: {"teamId":"OKSavingsBank BRION"} 
+[2024-12-04 18:31:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-04 18:31:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/OKSavingsBank%20BRION.png"} 
+[2024-12-04 18:31:45] local.INFO: Getting team image for: {"teamId":"Dplus KIA"} 
+[2024-12-04 18:31:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-04 18:31:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/Dplus%20KIA.png"} 
+[2024-12-04 18:31:45] local.INFO: Getting team image for: {"teamId":"Weibo Gaming"} 
+[2024-12-04 18:31:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-04 18:31:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/Weibo%20Gaming.png"} 
+[2024-12-04 18:31:45] local.INFO: Getting team image for: {"teamId":"Bilibili Gaming"} 
+[2024-12-04 18:31:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-04 18:31:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/Bilibili%20Gaming.png"} 
+[2024-12-04 18:31:45] local.INFO: Getting team image for: {"teamId":"LGD Gaming"} 
+[2024-12-04 18:31:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-04 18:31:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/LGD%20Gaming.png"} 
+[2024-12-04 18:31:45] local.INFO: Getting team image for: {"teamId":"Anyone's Legend"} 
+[2024-12-04 18:31:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-04 18:31:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/Anyone%27s%20Legend.png"} 
+[2024-12-04 18:31:45] local.INFO: Getting team image for: {"teamId":"LNG Esports"} 
+[2024-12-04 18:31:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-04 18:31:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/LNG%20Esports.png"} 
+[2024-12-04 18:31:45] local.INFO: Getting team image for: {"teamId":"Team WE"} 
+[2024-12-04 18:31:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-04 18:31:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/Team%20WE.png"} 
+[2024-12-04 18:31:45] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-04 18:31:45] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-04 18:31:45] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-04 18:31:45] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-04 18:31:50] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 18:31:50] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 18:31:51] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 18:31:51] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 18:31:51] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 18:31:51] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:31:51] local.INFO: Found direct image file for team  
+[2024-12-04 18:31:51] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:31:51] local.INFO: Found direct image file for team  
+[2024-12-04 18:31:51] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 18:31:51] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:31:51] local.INFO: Found direct image file for team  
+[2024-12-04 18:31:51] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:31:51] local.INFO: Found direct image file for team  
+[2024-12-04 18:31:52] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:31:52] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:31:52] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:31:52] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:31:52] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 18:31:52] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:31:52] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:31:52] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:31:52] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:31:52] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:31:52] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:31:52] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:31:52] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:31:52] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:31:52] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:31:52] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 18:31:52] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:31:52] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:31:52] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:31:52] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:31:52] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:31:52] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:34:30] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 18:34:30] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 18:34:31] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 18:34:32] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 18:34:32] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 18:34:32] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:34:32] local.INFO: Found direct image file for team  
+[2024-12-04 18:34:32] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:34:32] local.INFO: Found direct image file for team  
+[2024-12-04 18:34:32] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 18:34:32] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:34:32] local.INFO: Found direct image file for team  
+[2024-12-04 18:34:32] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:34:32] local.INFO: Found direct image file for team  
+[2024-12-04 18:34:33] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:34:33] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:34:33] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:34:33] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:34:33] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 18:34:33] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:34:33] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:34:33] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:34:33] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:34:33] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:34:33] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:34:33] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:34:33] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:34:33] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:34:33] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:34:33] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 18:34:33] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:34:33] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:34:33] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:34:33] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:34:33] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:34:33] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:34:40] local.INFO: Fetching matches with date: {"date":null} 
+[2024-12-04 18:34:40] local.INFO: Raw date parameter received in APIService: {"date":null} 
+[2024-12-04 18:34:40] local.INFO: Making request to URL: {"url":"/TodayMatches"} 
+[2024-12-04 18:34:41] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 18:34:41] local.INFO: Raw matches response: {"matches":[{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"KeSPA Cup 2024","DateTime_UTC":"2024-12-04 07:00:00","Team1":"DRX","Team1Score":0,"Team1Final":"DRX","Team2":"Nongshim RedForce","Team2Score":1,"Team2Final":"Nongshim RedForce","Winner":"2","Stream":"https://www.youtube.com/c/KeSPA","BestOf":1,"Team1Image":"DRXlogo profile.png","Team2Image":"Nongshim RedForcelogo square.png","Team1OverviewPage":"DRX","Team2OverviewPage":"Nongshim RedForce","Phase":null,"ShownName":"KeSPA Cup 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 08:00:00","Team1":"LGD Gaming","Team1Score":2,"Team1Final":"LGD Gaming","Team2":"Anyone's Legend","Team2Score":0,"Team2Final":"Anyone's Legend","Winner":"1","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"LGD_logo.png","Team2Image":"Anyone's Legendlogo profile.png","Team1OverviewPage":"LGD Gaming","Team2OverviewPage":"Anyone's Legend","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"KeSPA Cup 2024","DateTime_UTC":"2024-12-04 08:15:00","Team1":"KT Rolster","Team1Score":1,"Team1Final":"KT Rolster","Team2":"Hanwha Life Esports","Team2Score":0,"Team2Final":"Hanwha Life Esports","Winner":"1","Stream":"https://www.youtube.com/c/KeSPA","BestOf":1,"Team1Image":"KT Rolsterlogo profile.png","Team2Image":"Hanwha Life Esportslogo profile.png","Team1OverviewPage":"KT Rolster","Team2OverviewPage":"Hanwha Life Esports","Phase":null,"ShownName":"KeSPA Cup 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"KeSPA Cup 2024","DateTime_UTC":"2024-12-04 09:30:00","Team1":"Chinese Taipei (National Team)","Team1Score":0,"Team1Final":"Chinese Taipei (National Team)","Team2":"Dplus KIA","Team2Score":1,"Team2Final":"Dplus KIA","Winner":"2","Stream":"https://www.youtube.com/c/KeSPA","BestOf":1,"Team1Image":null,"Team2Image":"Dplus KIAlogo profile.png","Team1OverviewPage":null,"Team2OverviewPage":"Dplus KIA","Phase":null,"ShownName":"KeSPA Cup 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 10:00:00","Team1":"LNG Esports","Team1Score":1,"Team1Final":"LNG Esports","Team2":"Team WE","Team2Score":1,"Team2Final":"Team WE","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"LNG Esportslogo square.png","Team2Image":"Team WElogo profile.png","Team1OverviewPage":"LNG Esports","Team2OverviewPage":"Team WE","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"KeSPA Cup 2024","DateTime_UTC":"2024-12-04 10:45:00","Team1":"OKSavingsBank BRION","Team1Score":0,"Team1Final":"OKSavingsBank BRION","Team2":"Gen.G","Team2Score":1,"Team2Final":"Gen.G","Winner":"2","Stream":"https://www.youtube.com/c/KeSPA","BestOf":1,"Team1Image":"OKSavingsBank BRIONlogo profile.png","Team2Image":"Gen.Glogo profile.png","Team1OverviewPage":"OKSavingsBank BRION","Team2OverviewPage":"Gen.G","Phase":null,"ShownName":"KeSPA Cup 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"ARAM League - Hòa Nhịp Arcane","DateTime_UTC":"2024-12-04 11:00:00","Team1":"Team 402","Team1Score":0,"Team1Final":"Team 402","Team2":"KAC5","Team2Score":2,"Team2Final":"KAC5","Winner":"2","Stream":"https://www.youtube.com/watch?v=Oz7QdxmDWy0","BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"ARAM League - Hòa Nhịp Arcane","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"ARAM League - Hòa Nhịp Arcane","DateTime_UTC":"2024-12-04 12:00:00","Team1":"Hehe Kaka (HUFLIT)","Team1Score":0,"Team1Final":"Hehe Kaka (HUFLIT)","Team2":"1 game rồi về","Team2Score":2,"Team2Final":"1 game rồi về","Winner":"2","Stream":"https://www.youtube.com/watch?v=Oz7QdxmDWy0","BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"ARAM League - Hòa Nhịp Arcane","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"KeSPA Cup 2024","DateTime_UTC":"2024-12-04 12:00:00","Team1":"OKSavingsBank BRION","Team1Score":1,"Team1Final":"OKSavingsBank BRION","Team2":"Dplus KIA","Team2Score":0,"Team2Final":"Dplus KIA","Winner":"1","Stream":"https://www.youtube.com/c/KeSPA","BestOf":1,"Team1Image":"OKSavingsBank BRIONlogo profile.png","Team2Image":"Dplus KIAlogo profile.png","Team1OverviewPage":"OKSavingsBank BRION","Team2OverviewPage":"Dplus KIA","Phase":null,"ShownName":"KeSPA Cup 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"NNO Cup Season 2","DateTime_UTC":"2024-12-04 18:00:00","Team1":"French Flair","Team1Score":null,"Team1Final":"French Flair","Team2":"5 Pigs 1 Team","Team2Score":null,"Team2Final":"5 Pigs 1 Team","Winner":null,"Stream":"http://twitch.tv/nnoprime","BestOf":5,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"NNO Cup Season 2","MatchDay":2,"HasTime":true,"Venue":null,"GroupName":null}]} 
+[2024-12-04 18:34:41] local.INFO: Processed matches: {"count":11,"first_match":{"Name":"ARAM League - Hòa Nhịp Arcane","DateTime_UTC":"2024-12-04 11:00:00","Team1":"Team 402","Team1Score":0,"Team1Final":"Team 402","Team2":"KAC5","Team2Score":2,"Team2Final":"KAC5","Winner":"2","Stream":"https://www.youtube.com/watch?v=Oz7QdxmDWy0","BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"ARAM League - Hòa Nhịp Arcane","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null,"status":"FINISHED"}} 
+[2024-12-04 18:34:41] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-04 18:34:41] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-04 18:34:41] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-04 18:34:41] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-04 18:34:41] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-04 18:34:41] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-04 18:34:41] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-04 18:34:41] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-04 18:34:41] local.INFO: Getting team image for: {"teamId":"DRX"} 
+[2024-12-04 18:34:41] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-04 18:34:41] local.INFO: Returning direct team image: {"path":"storage/teamimages/DRX.png"} 
+[2024-12-04 18:34:41] local.INFO: Getting team image for: {"teamId":"Nongshim RedForce"} 
+[2024-12-04 18:34:41] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-04 18:34:41] local.INFO: Returning direct team image: {"path":"storage/teamimages/Nongshim%20RedForce.png"} 
+[2024-12-04 18:34:41] local.INFO: Getting team image for: {"teamId":"KT Rolster"} 
+[2024-12-04 18:34:41] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-04 18:34:41] local.INFO: Returning direct team image: {"path":"storage/teamimages/KT%20Rolster.png"} 
+[2024-12-04 18:34:41] local.INFO: Getting team image for: {"teamId":"Hanwha Life Esports"} 
+[2024-12-04 18:34:41] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-04 18:34:41] local.INFO: Returning direct team image: {"path":"storage/teamimages/Hanwha%20Life%20Esports.png"} 
+[2024-12-04 18:34:41] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-04 18:34:41] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-04 18:34:41] local.INFO: Getting team image for: {"teamId":"Dplus KIA"} 
+[2024-12-04 18:34:41] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-04 18:34:41] local.INFO: Returning direct team image: {"path":"storage/teamimages/Dplus%20KIA.png"} 
+[2024-12-04 18:34:41] local.INFO: Getting team image for: {"teamId":"OKSavingsBank BRION"} 
+[2024-12-04 18:34:41] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-04 18:34:41] local.INFO: Returning direct team image: {"path":"storage/teamimages/OKSavingsBank%20BRION.png"} 
+[2024-12-04 18:34:41] local.INFO: Getting team image for: {"teamId":"Gen.G"} 
+[2024-12-04 18:34:41] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-04 18:34:41] local.INFO: Returning direct team image: {"path":"storage/teamimages/Gen.G.png"} 
+[2024-12-04 18:34:41] local.INFO: Getting team image for: {"teamId":"OKSavingsBank BRION"} 
+[2024-12-04 18:34:41] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-04 18:34:41] local.INFO: Returning direct team image: {"path":"storage/teamimages/OKSavingsBank%20BRION.png"} 
+[2024-12-04 18:34:41] local.INFO: Getting team image for: {"teamId":"Dplus KIA"} 
+[2024-12-04 18:34:41] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-04 18:34:41] local.INFO: Returning direct team image: {"path":"storage/teamimages/Dplus%20KIA.png"} 
+[2024-12-04 18:34:41] local.INFO: Getting team image for: {"teamId":"Weibo Gaming"} 
+[2024-12-04 18:34:41] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-04 18:34:41] local.INFO: Returning direct team image: {"path":"storage/teamimages/Weibo%20Gaming.png"} 
+[2024-12-04 18:34:41] local.INFO: Getting team image for: {"teamId":"Bilibili Gaming"} 
+[2024-12-04 18:34:41] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-04 18:34:41] local.INFO: Returning direct team image: {"path":"storage/teamimages/Bilibili%20Gaming.png"} 
+[2024-12-04 18:34:41] local.INFO: Getting team image for: {"teamId":"LGD Gaming"} 
+[2024-12-04 18:34:41] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-04 18:34:41] local.INFO: Returning direct team image: {"path":"storage/teamimages/LGD%20Gaming.png"} 
+[2024-12-04 18:34:41] local.INFO: Getting team image for: {"teamId":"Anyone's Legend"} 
+[2024-12-04 18:34:41] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-04 18:34:41] local.INFO: Returning direct team image: {"path":"storage/teamimages/Anyone%27s%20Legend.png"} 
+[2024-12-04 18:34:41] local.INFO: Getting team image for: {"teamId":"LNG Esports"} 
+[2024-12-04 18:34:41] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-04 18:34:41] local.INFO: Returning direct team image: {"path":"storage/teamimages/LNG%20Esports.png"} 
+[2024-12-04 18:34:41] local.INFO: Getting team image for: {"teamId":"Team WE"} 
+[2024-12-04 18:34:41] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-04 18:34:41] local.INFO: Returning direct team image: {"path":"storage/teamimages/Team%20WE.png"} 
+[2024-12-04 18:34:41] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-04 18:34:41] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-04 18:34:41] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-04 18:34:41] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-04 18:36:05] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 18:36:05] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 18:36:06] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 18:36:07] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 18:36:07] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 18:36:07] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:36:07] local.INFO: Found direct image file for team  
+[2024-12-04 18:36:07] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:36:07] local.INFO: Found direct image file for team  
+[2024-12-04 18:36:07] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 18:36:07] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:36:07] local.INFO: Found direct image file for team  
+[2024-12-04 18:36:07] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:36:07] local.INFO: Found direct image file for team  
+[2024-12-04 18:36:08] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:36:08] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:36:08] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:36:08] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:36:08] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 18:36:08] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:36:08] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:36:08] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:36:08] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:36:08] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:36:08] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:36:08] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:36:08] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:36:08] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:36:08] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:36:08] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 18:36:08] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:36:08] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:36:08] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:36:08] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:36:08] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:36:08] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:37:02] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 18:37:02] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 18:37:03] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 18:37:04] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 18:37:04] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 18:37:04] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:37:04] local.INFO: Found direct image file for team  
+[2024-12-04 18:37:04] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:37:04] local.INFO: Found direct image file for team  
+[2024-12-04 18:37:04] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 18:37:04] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:37:04] local.INFO: Found direct image file for team  
+[2024-12-04 18:37:04] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:37:04] local.INFO: Found direct image file for team  
+[2024-12-04 18:37:04] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:37:04] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:37:04] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:37:04] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:37:04] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 18:37:04] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:37:04] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:37:04] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:37:04] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:37:04] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:37:04] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:37:04] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:37:04] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:37:04] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:37:04] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:37:04] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 18:37:04] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:37:04] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:37:04] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:37:04] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:37:04] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:37:04] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:37:53] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 18:37:53] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 18:37:54] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 18:37:55] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 18:37:55] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 18:37:55] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:37:55] local.INFO: Found direct image file for team  
+[2024-12-04 18:37:55] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:37:55] local.INFO: Found direct image file for team  
+[2024-12-04 18:37:55] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 18:37:55] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:37:55] local.INFO: Found direct image file for team  
+[2024-12-04 18:37:55] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:37:55] local.INFO: Found direct image file for team  
+[2024-12-04 18:37:55] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:37:55] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:37:55] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:37:55] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:37:55] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 18:37:55] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:37:55] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:37:55] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:37:55] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:37:55] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:37:55] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:37:55] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:37:55] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:37:55] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:37:55] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:37:55] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 18:37:55] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:37:55] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:37:55] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:37:55] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:37:55] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:37:55] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:38:45] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 18:38:45] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 18:38:46] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 18:38:47] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 18:38:47] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 18:38:47] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:38:47] local.INFO: Found direct image file for team  
+[2024-12-04 18:38:47] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:38:47] local.INFO: Found direct image file for team  
+[2024-12-04 18:38:47] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 18:38:47] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:38:47] local.INFO: Found direct image file for team  
+[2024-12-04 18:38:47] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:38:47] local.INFO: Found direct image file for team  
+[2024-12-04 18:38:48] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:38:48] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:38:48] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:38:48] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:38:48] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 18:38:48] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:38:48] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:38:48] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:38:48] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:38:48] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:38:48] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:38:48] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:38:48] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:38:48] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:38:48] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:38:48] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 18:38:48] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:38:48] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:38:48] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:38:48] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:38:48] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:38:48] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:39:40] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 18:39:40] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 18:39:41] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 18:39:42] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 18:39:42] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 18:39:42] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:39:42] local.INFO: Found direct image file for team  
+[2024-12-04 18:39:42] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:39:42] local.INFO: Found direct image file for team  
+[2024-12-04 18:39:42] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 18:39:42] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:39:42] local.INFO: Found direct image file for team  
+[2024-12-04 18:39:42] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:39:42] local.INFO: Found direct image file for team  
+[2024-12-04 18:39:42] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:39:42] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:39:42] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:39:42] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:39:42] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 18:39:42] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:39:42] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:39:42] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:39:42] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:39:42] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:39:42] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:39:42] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:39:42] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:39:42] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:39:42] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:39:42] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 18:39:42] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:39:42] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:39:42] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:39:42] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:39:42] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:39:42] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:40:37] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 18:40:37] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 18:40:38] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 18:40:39] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 18:40:39] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 18:40:39] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:40:39] local.INFO: Found direct image file for team  
+[2024-12-04 18:40:39] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:40:39] local.INFO: Found direct image file for team  
+[2024-12-04 18:40:39] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 18:40:39] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:40:39] local.INFO: Found direct image file for team  
+[2024-12-04 18:40:39] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:40:39] local.INFO: Found direct image file for team  
+[2024-12-04 18:40:40] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:40:40] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:40:40] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:40:40] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:40:40] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 18:40:40] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:40:40] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:40:40] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:40:40] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:40:40] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:40:40] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:40:40] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:40:40] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:40:40] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:40:40] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:40:40] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 18:40:40] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:40:40] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:40:40] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:40:40] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:40:40] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:40:40] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:42:33] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 18:42:33] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 18:42:33] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 18:42:35] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 18:42:35] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 18:42:35] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:42:35] local.INFO: Found direct image file for team  
+[2024-12-04 18:42:35] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:42:35] local.INFO: Found direct image file for team  
+[2024-12-04 18:42:35] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 18:42:35] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:42:35] local.INFO: Found direct image file for team  
+[2024-12-04 18:42:35] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:42:35] local.INFO: Found direct image file for team  
+[2024-12-04 18:42:35] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:42:35] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:42:35] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:42:35] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:42:35] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 18:42:35] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:42:35] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:42:35] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:42:35] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:42:35] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:42:35] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:42:35] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:42:35] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:42:35] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:42:35] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:42:35] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 18:42:35] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:42:35] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:42:35] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:42:35] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:42:35] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:42:35] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:44:15] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 18:44:15] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 18:44:15] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 18:44:16] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 18:44:16] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 18:44:16] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:44:17] local.INFO: Found direct image file for team  
+[2024-12-04 18:44:17] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:44:17] local.INFO: Found direct image file for team  
+[2024-12-04 18:44:17] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 18:44:17] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:44:17] local.INFO: Found direct image file for team  
+[2024-12-04 18:44:17] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:44:17] local.INFO: Found direct image file for team  
+[2024-12-04 18:44:17] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:44:17] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:44:17] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:44:17] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:44:17] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 18:44:17] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:44:17] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:44:17] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:44:17] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:44:17] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:44:17] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:44:17] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:44:17] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:44:17] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:44:17] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:44:17] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 18:44:17] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:44:17] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:44:17] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:44:17] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:44:17] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:44:17] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:45:41] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 18:45:41] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 18:45:41] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 18:45:42] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 18:45:42] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 18:45:42] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:45:42] local.INFO: Found direct image file for team  
+[2024-12-04 18:45:42] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:45:42] local.INFO: Found direct image file for team  
+[2024-12-04 18:45:42] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 18:45:42] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:45:42] local.INFO: Found direct image file for team  
+[2024-12-04 18:45:42] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:45:43] local.INFO: Found direct image file for team  
+[2024-12-04 18:45:43] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:45:43] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:45:43] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:45:43] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:45:43] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 18:45:43] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:45:43] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:45:43] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:45:43] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:45:43] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:45:43] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:45:43] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:45:43] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:45:43] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:45:43] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:45:43] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 18:45:43] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:45:43] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:45:43] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:45:43] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:45:43] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:45:43] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:46:33] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 18:46:33] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 18:46:34] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 18:46:35] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 18:46:35] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 18:46:35] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:46:35] local.INFO: Found direct image file for team  
+[2024-12-04 18:46:35] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:46:35] local.INFO: Found direct image file for team  
+[2024-12-04 18:46:35] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 18:46:35] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:46:35] local.INFO: Found direct image file for team  
+[2024-12-04 18:46:35] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:46:35] local.INFO: Found direct image file for team  
+[2024-12-04 18:46:35] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:46:35] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:46:35] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:46:35] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:46:35] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 18:46:35] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:46:35] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:46:35] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:46:35] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:46:35] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:46:35] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:46:35] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:46:35] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:46:35] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:46:35] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:46:35] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 18:46:35] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:46:35] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:46:35] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:46:35] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:46:35] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:46:35] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:47:23] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 18:47:23] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 18:47:24] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 18:47:25] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 18:47:25] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 18:47:25] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:47:25] local.INFO: Found direct image file for team  
+[2024-12-04 18:47:25] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:47:25] local.INFO: Found direct image file for team  
+[2024-12-04 18:47:25] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 18:47:25] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:47:25] local.INFO: Found direct image file for team  
+[2024-12-04 18:47:25] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:47:25] local.INFO: Found direct image file for team  
+[2024-12-04 18:47:25] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:47:25] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:47:25] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:47:25] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:47:25] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 18:47:25] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:47:25] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:47:25] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:47:25] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:47:25] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:47:25] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:47:25] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:47:25] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:47:25] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:47:25] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:47:25] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 18:47:25] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:47:25] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:47:25] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:47:25] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:47:25] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:47:25] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:48:14] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 18:48:14] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 18:48:14] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 18:48:15] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 18:48:15] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 18:48:15] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:48:15] local.INFO: Found direct image file for team  
+[2024-12-04 18:48:15] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:48:15] local.INFO: Found direct image file for team  
+[2024-12-04 18:48:15] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 18:48:15] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:48:15] local.INFO: Found direct image file for team  
+[2024-12-04 18:48:15] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:48:15] local.INFO: Found direct image file for team  
+[2024-12-04 18:48:15] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:48:15] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:48:15] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:48:15] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:48:15] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 18:48:15] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:48:15] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:48:15] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:48:15] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:48:15] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:48:15] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:48:15] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:48:15] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:48:15] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:48:15] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:48:15] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 18:48:15] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:48:15] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:48:15] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:48:15] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:48:15] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:48:15] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:49:45] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 18:49:45] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 18:49:46] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 18:49:47] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 18:49:47] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 18:49:47] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:49:47] local.INFO: Found direct image file for team  
+[2024-12-04 18:49:47] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:49:47] local.INFO: Found direct image file for team  
+[2024-12-04 18:49:47] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 18:49:47] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:49:47] local.INFO: Found direct image file for team  
+[2024-12-04 18:49:47] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:49:47] local.INFO: Found direct image file for team  
+[2024-12-04 18:49:47] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:49:47] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:49:47] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:49:47] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:49:47] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 18:49:47] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:49:47] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:49:47] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:49:47] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:49:47] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:49:47] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:49:47] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:49:47] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:49:47] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:49:47] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:49:47] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 18:49:47] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:49:47] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:49:47] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:49:47] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:49:47] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:49:47] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:51:02] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 18:51:02] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 18:51:03] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 18:51:04] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 18:51:04] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 18:51:04] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:51:04] local.INFO: Found direct image file for team  
+[2024-12-04 18:51:04] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:51:04] local.INFO: Found direct image file for team  
+[2024-12-04 18:51:04] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 18:51:04] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:51:04] local.INFO: Found direct image file for team  
+[2024-12-04 18:51:04] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:51:04] local.INFO: Found direct image file for team  
+[2024-12-04 18:51:04] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:51:04] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:51:04] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:51:04] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:51:04] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 18:51:04] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:51:04] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:51:04] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:51:04] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:51:04] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:51:04] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:51:04] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:51:04] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:51:04] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:51:04] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:51:04] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 18:51:04] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:51:04] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:51:04] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:51:04] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:51:04] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:51:04] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:52:31] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 18:52:31] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 18:52:32] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 18:52:33] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 18:52:33] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 18:52:33] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:52:33] local.INFO: Found direct image file for team  
+[2024-12-04 18:52:33] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:52:33] local.INFO: Found direct image file for team  
+[2024-12-04 18:52:33] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 18:52:33] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:52:33] local.INFO: Found direct image file for team  
+[2024-12-04 18:52:33] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:52:33] local.INFO: Found direct image file for team  
+[2024-12-04 18:52:33] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:52:33] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:52:33] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:52:33] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:52:33] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 18:52:33] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:52:33] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:52:33] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:52:33] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:52:33] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:52:33] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:52:33] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:52:33] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:52:33] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:52:33] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:52:33] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 18:52:33] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:52:33] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:52:33] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:52:33] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:52:33] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:52:33] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:54:44] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 18:54:44] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 18:54:45] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 18:54:46] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 18:54:46] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 18:54:46] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:54:46] local.INFO: Found direct image file for team  
+[2024-12-04 18:54:46] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:54:46] local.INFO: Found direct image file for team  
+[2024-12-04 18:54:46] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 18:54:46] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:54:46] local.INFO: Found direct image file for team  
+[2024-12-04 18:54:46] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:54:46] local.INFO: Found direct image file for team  
+[2024-12-04 18:54:47] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:54:47] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:54:47] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:54:47] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:54:47] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 18:54:47] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:54:47] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:54:47] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:54:47] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:54:47] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:54:47] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:54:47] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:54:47] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:54:47] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:54:47] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:54:47] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 18:54:47] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:54:47] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:54:47] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:54:47] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:54:47] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:54:47] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:55:32] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 18:55:32] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 18:55:33] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 18:55:34] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 18:55:34] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 18:55:34] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:55:34] local.INFO: Found direct image file for team  
+[2024-12-04 18:55:34] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:55:34] local.INFO: Found direct image file for team  
+[2024-12-04 18:55:34] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 18:55:34] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:55:34] local.INFO: Found direct image file for team  
+[2024-12-04 18:55:34] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:55:34] local.INFO: Found direct image file for team  
+[2024-12-04 18:55:35] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:55:35] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:55:35] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:55:35] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:55:35] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 18:55:35] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:55:35] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:55:35] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:55:35] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:55:35] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:55:35] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:55:35] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:55:35] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:55:35] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:55:35] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:55:35] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 18:55:35] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:55:35] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:55:35] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:55:35] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:55:35] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:55:35] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:56:27] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 18:56:27] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 18:56:28] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 18:56:29] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 18:56:29] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 18:56:29] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:56:29] local.INFO: Found direct image file for team  
+[2024-12-04 18:56:29] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:56:29] local.INFO: Found direct image file for team  
+[2024-12-04 18:56:29] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 18:56:29] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:56:29] local.INFO: Found direct image file for team  
+[2024-12-04 18:56:29] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:56:29] local.INFO: Found direct image file for team  
+[2024-12-04 18:56:29] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:56:29] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:56:29] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:56:29] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:56:29] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 18:56:29] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:56:29] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:56:29] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:56:29] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:56:29] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:56:29] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:56:29] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:56:29] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:56:29] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:56:29] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:56:29] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 18:56:29] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:56:29] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:56:29] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:56:29] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:56:29] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:56:29] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:57:37] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 18:57:37] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 18:57:38] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 18:57:39] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 18:57:39] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 18:57:39] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:57:39] local.INFO: Found direct image file for team  
+[2024-12-04 18:57:39] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:57:39] local.INFO: Found direct image file for team  
+[2024-12-04 18:57:39] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 18:57:39] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:57:39] local.INFO: Found direct image file for team  
+[2024-12-04 18:57:39] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:57:39] local.INFO: Found direct image file for team  
+[2024-12-04 18:57:39] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:57:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:57:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:57:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:57:39] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 18:57:39] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:57:39] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:57:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:57:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:57:39] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:57:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:57:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:57:39] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:57:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:57:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:57:39] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 18:57:39] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:57:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:57:39] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:57:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:57:39] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:57:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:58:30] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 18:58:30] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 18:58:31] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 18:58:32] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 18:58:32] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 18:58:32] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:58:32] local.INFO: Found direct image file for team  
+[2024-12-04 18:58:32] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:58:32] local.INFO: Found direct image file for team  
+[2024-12-04 18:58:32] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 18:58:32] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 18:58:32] local.INFO: Found direct image file for team  
+[2024-12-04 18:58:32] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 18:58:32] local.INFO: Found direct image file for team  
+[2024-12-04 18:58:32] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:58:32] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:58:32] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:58:32] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:58:32] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 18:58:32] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:58:32] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:58:32] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:58:32] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:58:32] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:58:32] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:58:32] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:58:32] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:58:32] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 18:58:32] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:58:32] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 18:58:32] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 18:58:32] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:58:32] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 18:58:32] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 18:58:32] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 18:58:32] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:00:01] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 19:00:01] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 19:00:02] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 19:00:03] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 19:00:03] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 19:00:03] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 19:00:03] local.INFO: Found direct image file for team  
+[2024-12-04 19:00:03] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 19:00:03] local.INFO: Found direct image file for team  
+[2024-12-04 19:00:03] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 19:00:03] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 19:00:03] local.INFO: Found direct image file for team  
+[2024-12-04 19:00:03] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 19:00:03] local.INFO: Found direct image file for team  
+[2024-12-04 19:00:03] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 19:00:03] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:00:03] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 19:00:03] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:00:03] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 19:00:03] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 19:00:03] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 19:00:03] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 19:00:03] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:00:03] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 19:00:03] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:00:03] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 19:00:03] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 19:00:03] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 19:00:03] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:00:03] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 19:00:03] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 19:00:03] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:00:03] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 19:00:03] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:00:03] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 19:00:03] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:01:12] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 19:01:12] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 19:01:13] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 19:01:14] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 19:01:14] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 19:01:14] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 19:01:14] local.INFO: Found direct image file for team  
+[2024-12-04 19:01:14] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 19:01:14] local.INFO: Found direct image file for team  
+[2024-12-04 19:01:14] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 19:01:14] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 19:01:14] local.INFO: Found direct image file for team  
+[2024-12-04 19:01:14] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 19:01:14] local.INFO: Found direct image file for team  
+[2024-12-04 19:01:14] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 19:01:14] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:01:14] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 19:01:14] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:01:14] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 19:01:14] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 19:01:14] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 19:01:14] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 19:01:14] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:01:14] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 19:01:14] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:01:14] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 19:01:14] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 19:01:14] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 19:01:14] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:01:14] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 19:01:14] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 19:01:14] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:01:14] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 19:01:14] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:01:14] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 19:01:14] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:02:14] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 19:02:14] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 19:02:15] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 19:02:16] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 19:02:16] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 19:02:16] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 19:02:16] local.INFO: Found direct image file for team  
+[2024-12-04 19:02:16] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 19:02:16] local.INFO: Found direct image file for team  
+[2024-12-04 19:02:16] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 19:02:16] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 19:02:16] local.INFO: Found direct image file for team  
+[2024-12-04 19:02:16] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 19:02:16] local.INFO: Found direct image file for team  
+[2024-12-04 19:02:16] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 19:02:16] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:02:16] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 19:02:16] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:02:16] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 19:02:16] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 19:02:16] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 19:02:16] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 19:02:16] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:02:16] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 19:02:16] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:02:16] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 19:02:16] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 19:02:16] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 19:02:16] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:02:16] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 19:02:16] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 19:02:16] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:02:16] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 19:02:16] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:02:16] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 19:02:16] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:04:53] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 19:04:53] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 19:04:54] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 19:04:55] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 19:04:55] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 19:04:55] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 19:04:55] local.INFO: Found direct image file for team  
+[2024-12-04 19:04:55] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 19:04:55] local.INFO: Found direct image file for team  
+[2024-12-04 19:04:55] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 19:04:55] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 19:04:55] local.INFO: Found direct image file for team  
+[2024-12-04 19:04:55] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 19:04:55] local.INFO: Found direct image file for team  
+[2024-12-04 19:04:55] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 19:04:55] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:04:55] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 19:04:55] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:04:55] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 19:04:55] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 19:04:55] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 19:04:55] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 19:04:55] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:04:55] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 19:04:55] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:04:55] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 19:04:55] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 19:04:55] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 19:04:55] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:04:55] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 19:04:55] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 19:04:55] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:04:55] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 19:04:55] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:04:55] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 19:04:55] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:55:02] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 19:55:02] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 19:55:04] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 19:55:05] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 19:55:05] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 19:55:05] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 19:55:06] local.INFO: Found direct image file for team  
+[2024-12-04 19:55:06] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 19:55:06] local.INFO: Found direct image file for team  
+[2024-12-04 19:55:06] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 19:55:06] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 19:55:06] local.INFO: Found direct image file for team  
+[2024-12-04 19:55:06] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 19:55:06] local.INFO: Found direct image file for team  
+[2024-12-04 19:55:08] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 19:55:08] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:55:08] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 19:55:08] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:55:08] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 19:55:08] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 19:55:08] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 19:55:08] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 19:55:08] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:55:08] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 19:55:08] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:55:08] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 19:55:08] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 19:55:08] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 19:55:08] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:55:08] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 19:55:08] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 19:55:08] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:55:08] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 19:55:08] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 19:55:08] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 19:55:08] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:26:49] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 20:26:49] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 20:26:50] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 20:26:51] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 20:26:51] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 20:26:51] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 20:26:51] local.INFO: Found direct image file for team  
+[2024-12-04 20:26:51] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 20:26:51] local.INFO: Found direct image file for team  
+[2024-12-04 20:26:51] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 20:26:51] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 20:26:51] local.INFO: Found direct image file for team  
+[2024-12-04 20:26:51] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 20:26:51] local.INFO: Found direct image file for team  
+[2024-12-04 20:26:52] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:26:52] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:26:52] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:26:52] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:26:52] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 20:26:52] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 20:26:52] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 20:26:52] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:26:52] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:26:52] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:26:52] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:26:52] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:26:52] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:26:52] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:26:52] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:26:52] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 20:26:52] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 20:26:52] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:26:52] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 20:26:52] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:26:52] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:26:52] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:34:27] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 20:34:27] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 20:34:28] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 20:34:29] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 20:34:29] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 20:34:29] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 20:34:29] local.INFO: Found direct image file for team  
+[2024-12-04 20:34:29] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 20:34:29] local.INFO: Found direct image file for team  
+[2024-12-04 20:34:29] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 20:34:29] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 20:34:29] local.INFO: Found direct image file for team  
+[2024-12-04 20:34:29] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 20:34:29] local.INFO: Found direct image file for team  
+[2024-12-04 20:34:30] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:34:30] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:34:30] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:34:30] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:34:30] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 20:34:30] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 20:34:30] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 20:34:30] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:34:30] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:34:30] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:34:30] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:34:30] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:34:30] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:34:30] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:34:30] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:34:30] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 20:34:30] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 20:34:30] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:34:30] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 20:34:30] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:34:30] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:34:30] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:37:44] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 20:37:44] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 20:37:44] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 20:37:46] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 20:37:46] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 20:37:46] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 20:37:46] local.INFO: Found direct image file for team  
+[2024-12-04 20:37:46] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 20:37:46] local.INFO: Found direct image file for team  
+[2024-12-04 20:37:46] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 20:37:46] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 20:37:46] local.INFO: Found direct image file for team  
+[2024-12-04 20:37:46] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 20:37:46] local.INFO: Found direct image file for team  
+[2024-12-04 20:37:46] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:37:46] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:37:46] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:37:46] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:37:46] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 20:37:46] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 20:37:46] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 20:37:46] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:37:46] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:37:46] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:37:46] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:37:46] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:37:46] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:37:46] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:37:46] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:37:46] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 20:37:46] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 20:37:46] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:37:46] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 20:37:46] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:37:46] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:37:46] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:38:57] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 20:38:57] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 20:38:57] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 20:38:58] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 20:38:58] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 20:38:58] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 20:38:58] local.INFO: Found direct image file for team  
+[2024-12-04 20:38:58] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 20:38:58] local.INFO: Found direct image file for team  
+[2024-12-04 20:38:58] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 20:38:58] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 20:38:58] local.INFO: Found direct image file for team  
+[2024-12-04 20:38:58] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 20:38:58] local.INFO: Found direct image file for team  
+[2024-12-04 20:38:59] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:38:59] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:38:59] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:38:59] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:38:59] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 20:38:59] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 20:38:59] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 20:38:59] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:38:59] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:38:59] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:38:59] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:38:59] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:38:59] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:38:59] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:38:59] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:38:59] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 20:38:59] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 20:38:59] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:38:59] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 20:38:59] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:38:59] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:38:59] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:40:19] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 20:40:19] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 20:40:20] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 20:40:21] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 20:40:21] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 20:40:21] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 20:40:21] local.INFO: Found direct image file for team  
+[2024-12-04 20:40:21] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 20:40:21] local.INFO: Found direct image file for team  
+[2024-12-04 20:40:21] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 20:40:21] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 20:40:21] local.INFO: Found direct image file for team  
+[2024-12-04 20:40:21] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 20:40:21] local.INFO: Found direct image file for team  
+[2024-12-04 20:40:21] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:40:21] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:40:21] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:40:21] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:40:21] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 20:40:21] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 20:40:21] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 20:40:21] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:40:21] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:40:21] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:40:21] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:40:21] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:40:21] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:40:21] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:40:21] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:40:21] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 20:40:21] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 20:40:21] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:40:21] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 20:40:21] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:40:21] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:40:21] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:47:09] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 20:47:09] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 20:47:09] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 20:47:11] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 20:47:11] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 20:47:11] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 20:47:11] local.INFO: Found direct image file for team  
+[2024-12-04 20:47:11] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 20:47:11] local.INFO: Found direct image file for team  
+[2024-12-04 20:47:11] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 20:47:11] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 20:47:11] local.INFO: Found direct image file for team  
+[2024-12-04 20:47:11] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 20:47:11] local.INFO: Found direct image file for team  
+[2024-12-04 20:47:11] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:47:11] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:47:11] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:47:11] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:47:11] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 20:47:11] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 20:47:11] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 20:47:11] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:47:11] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:47:11] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:47:11] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:47:11] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:47:11] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:47:11] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:47:11] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:47:11] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 20:47:11] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 20:47:11] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:47:11] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 20:47:11] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:47:11] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:47:11] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:48:07] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 20:48:07] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 20:48:08] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 20:48:09] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 20:48:09] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 20:48:09] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 20:48:09] local.INFO: Found direct image file for team  
+[2024-12-04 20:48:09] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 20:48:09] local.INFO: Found direct image file for team  
+[2024-12-04 20:48:09] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 20:48:09] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 20:48:09] local.INFO: Found direct image file for team  
+[2024-12-04 20:48:09] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 20:48:09] local.INFO: Found direct image file for team  
+[2024-12-04 20:48:09] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:48:09] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:48:09] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:48:09] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:48:09] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 20:48:09] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 20:48:09] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 20:48:09] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:48:09] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:48:09] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:48:09] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:48:09] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:48:09] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:48:09] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:48:09] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:48:09] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 20:48:09] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 20:48:09] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:48:09] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 20:48:09] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:48:09] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:48:09] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:48:46] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 20:48:46] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 20:48:46] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 20:48:47] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 20:48:47] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 20:48:47] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 20:48:47] local.INFO: Found direct image file for team  
+[2024-12-04 20:48:47] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 20:48:47] local.INFO: Found direct image file for team  
+[2024-12-04 20:48:47] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 20:48:47] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 20:48:47] local.INFO: Found direct image file for team  
+[2024-12-04 20:48:47] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 20:48:47] local.INFO: Found direct image file for team  
+[2024-12-04 20:48:47] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:48:47] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:48:47] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:48:47] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:48:47] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 20:48:47] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 20:48:47] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 20:48:47] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:48:47] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:48:47] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:48:47] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:48:47] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:48:47] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:48:47] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:48:47] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:48:47] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 20:48:47] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 20:48:47] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:48:47] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 20:48:47] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:48:47] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:48:47] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:51:44] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 20:51:44] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 20:51:44] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 20:51:45] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 20:51:45] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 20:51:45] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 20:51:46] local.INFO: Found direct image file for team  
+[2024-12-04 20:51:46] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 20:51:46] local.INFO: Found direct image file for team  
+[2024-12-04 20:51:46] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 20:51:46] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 20:51:46] local.INFO: Found direct image file for team  
+[2024-12-04 20:51:46] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 20:51:46] local.INFO: Found direct image file for team  
+[2024-12-04 20:51:46] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:51:46] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:51:46] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:51:46] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:51:46] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 20:51:46] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 20:51:46] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 20:51:46] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:51:46] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:51:46] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:51:46] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:51:46] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:51:46] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:51:46] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:51:46] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:51:46] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 20:51:46] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 20:51:46] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:51:46] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 20:51:46] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:51:46] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:51:46] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:55:11] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 20:55:11] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 20:55:12] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 20:55:13] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 20:55:13] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 20:55:13] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 20:55:13] local.INFO: Found direct image file for team  
+[2024-12-04 20:55:13] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 20:55:13] local.INFO: Found direct image file for team  
+[2024-12-04 20:55:13] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 20:55:13] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 20:55:13] local.INFO: Found direct image file for team  
+[2024-12-04 20:55:13] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 20:55:13] local.INFO: Found direct image file for team  
+[2024-12-04 20:55:13] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:55:13] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:55:13] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:55:13] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:55:13] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 20:55:13] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 20:55:13] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 20:55:13] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:55:13] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:55:13] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:55:13] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:55:13] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:55:13] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:55:13] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:55:13] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:55:13] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 20:55:13] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 20:55:13] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:55:13] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 20:55:13] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:55:13] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:55:13] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:58:15] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 20:58:15] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 20:58:15] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 20:58:16] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 20:58:16] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 20:58:16] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 20:58:16] local.INFO: Found direct image file for team  
+[2024-12-04 20:58:16] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 20:58:16] local.INFO: Found direct image file for team  
+[2024-12-04 20:58:16] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 20:58:16] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 20:58:16] local.INFO: Found direct image file for team  
+[2024-12-04 20:58:16] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 20:58:16] local.INFO: Found direct image file for team  
+[2024-12-04 20:58:16] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:58:16] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:58:17] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:58:17] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:58:17] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 20:58:17] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 20:58:17] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 20:58:17] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:58:17] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:58:17] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:58:17] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:58:17] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:58:17] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:58:17] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:58:17] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:58:17] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 20:58:17] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 20:58:17] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:58:17] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 20:58:17] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:58:17] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:58:17] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:59:27] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 20:59:27] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 20:59:27] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 20:59:28] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 20:59:28] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 20:59:28] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 20:59:29] local.INFO: Found direct image file for team  
+[2024-12-04 20:59:29] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 20:59:29] local.INFO: Found direct image file for team  
+[2024-12-04 20:59:29] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 20:59:29] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 20:59:29] local.INFO: Found direct image file for team  
+[2024-12-04 20:59:29] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 20:59:29] local.INFO: Found direct image file for team  
+[2024-12-04 20:59:29] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:59:29] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:59:29] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:59:29] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:59:29] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 20:59:29] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 20:59:29] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 20:59:29] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:59:29] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:59:29] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:59:29] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:59:29] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:59:29] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:59:29] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 20:59:29] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:59:29] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 20:59:29] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 20:59:29] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:59:29] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 20:59:29] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 20:59:29] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 20:59:29] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:00:14] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 21:00:14] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 21:00:15] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 21:00:16] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 21:00:16] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 21:00:16] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 21:00:16] local.INFO: Found direct image file for team  
+[2024-12-04 21:00:16] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 21:00:16] local.INFO: Found direct image file for team  
+[2024-12-04 21:00:16] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 21:00:16] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 21:00:16] local.INFO: Found direct image file for team  
+[2024-12-04 21:00:16] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 21:00:16] local.INFO: Found direct image file for team  
+[2024-12-04 21:00:16] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:00:16] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:00:16] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:00:16] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:00:16] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 21:00:16] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 21:00:16] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 21:00:16] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:00:16] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:00:16] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:00:16] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:00:16] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:00:16] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:00:16] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:00:16] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:00:16] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 21:00:16] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 21:00:16] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:00:16] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 21:00:16] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:00:16] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:00:16] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:05:50] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 21:05:50] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 21:05:50] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 21:05:52] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 21:05:52] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 21:05:52] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 21:05:52] local.INFO: Found direct image file for team  
+[2024-12-04 21:05:52] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 21:05:52] local.INFO: Found direct image file for team  
+[2024-12-04 21:05:52] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 21:05:52] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 21:05:52] local.INFO: Found direct image file for team  
+[2024-12-04 21:05:52] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 21:05:52] local.INFO: Found direct image file for team  
+[2024-12-04 21:05:52] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:05:52] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:05:52] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:05:52] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:05:52] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 21:05:52] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 21:05:52] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 21:05:52] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:05:52] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:05:52] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:05:52] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:05:52] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:05:52] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:05:52] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:05:52] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:05:52] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 21:05:52] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 21:05:52] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:05:52] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 21:05:52] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:05:52] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:05:52] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:06:56] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 21:06:56] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 21:06:57] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 21:06:58] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 21:06:58] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 21:06:58] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 21:06:58] local.INFO: Found direct image file for team  
+[2024-12-04 21:06:58] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 21:06:58] local.INFO: Found direct image file for team  
+[2024-12-04 21:06:58] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 21:06:58] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 21:06:58] local.INFO: Found direct image file for team  
+[2024-12-04 21:06:58] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 21:06:58] local.INFO: Found direct image file for team  
+[2024-12-04 21:06:58] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:06:58] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:06:58] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:06:58] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:06:58] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 21:06:58] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 21:06:58] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 21:06:58] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:06:58] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:06:58] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:06:58] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:06:58] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:06:58] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:06:58] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:06:58] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:06:58] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 21:06:58] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 21:06:58] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:06:58] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 21:06:58] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:06:58] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:06:58] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:10:08] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 21:10:08] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 21:10:09] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 21:10:10] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 21:10:10] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 21:10:10] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 21:10:10] local.INFO: Found direct image file for team  
+[2024-12-04 21:10:10] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 21:10:10] local.INFO: Found direct image file for team  
+[2024-12-04 21:10:10] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 21:10:10] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 21:10:10] local.INFO: Found direct image file for team  
+[2024-12-04 21:10:10] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 21:10:10] local.INFO: Found direct image file for team  
+[2024-12-04 21:10:10] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:10:10] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:10:10] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:10:10] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:10:10] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 21:10:10] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 21:10:10] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 21:10:10] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:10:10] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:10:10] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:10:10] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:10:10] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:10:10] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:10:10] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:10:10] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:10:10] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 21:10:10] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 21:10:10] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:10:10] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 21:10:10] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:10:10] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:10:10] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:10:19] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 21:10:19] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 21:10:20] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 21:10:21] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 21:10:21] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 21:10:21] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 21:10:21] local.INFO: Found direct image file for team  
+[2024-12-04 21:10:21] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 21:10:21] local.INFO: Found direct image file for team  
+[2024-12-04 21:10:21] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 21:10:21] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 21:10:21] local.INFO: Found direct image file for team  
+[2024-12-04 21:10:21] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 21:10:21] local.INFO: Found direct image file for team  
+[2024-12-04 21:10:21] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:10:21] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:10:21] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:10:21] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:10:21] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 21:10:21] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 21:10:21] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 21:10:21] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:10:21] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:10:21] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:10:21] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:10:21] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:10:21] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:10:21] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:10:21] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:10:21] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 21:10:21] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 21:10:21] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:10:21] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 21:10:21] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:10:21] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:10:21] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:11:23] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 21:11:23] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 21:11:23] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 21:11:24] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 21:11:24] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 21:11:24] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 21:11:24] local.INFO: Found direct image file for team  
+[2024-12-04 21:11:24] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 21:11:24] local.INFO: Found direct image file for team  
+[2024-12-04 21:11:24] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 21:11:24] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 21:11:24] local.INFO: Found direct image file for team  
+[2024-12-04 21:11:24] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 21:11:24] local.INFO: Found direct image file for team  
+[2024-12-04 21:11:24] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:11:24] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:11:24] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:11:24] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:11:24] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 21:11:24] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 21:11:24] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 21:11:24] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:11:24] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:11:24] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:11:24] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:11:24] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:11:24] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:11:24] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:11:24] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:11:24] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 21:11:24] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 21:11:24] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:11:24] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 21:11:24] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:11:24] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:11:24] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:13:14] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 21:13:14] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 21:13:15] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 21:13:16] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 21:13:16] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 21:13:16] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 21:13:16] local.INFO: Found direct image file for team  
+[2024-12-04 21:13:16] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 21:13:16] local.INFO: Found direct image file for team  
+[2024-12-04 21:13:16] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 21:13:16] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 21:13:16] local.INFO: Found direct image file for team  
+[2024-12-04 21:13:16] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 21:13:16] local.INFO: Found direct image file for team  
+[2024-12-04 21:13:16] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:13:16] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:13:16] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:13:16] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:13:16] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 21:13:16] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 21:13:16] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 21:13:16] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:13:16] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:13:16] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:13:16] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:13:16] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:13:16] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:13:16] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:13:16] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:13:16] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 21:13:16] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 21:13:16] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:13:16] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 21:13:16] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:13:16] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:13:16] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:17:40] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-04 21:17:40] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-04 21:17:41] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-04 21:17:42] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-04 21:17:42] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-04 21:17:42] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 21:17:42] local.INFO: Found direct image file for team  
+[2024-12-04 21:17:42] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 21:17:42] local.INFO: Found direct image file for team  
+[2024-12-04 21:17:42] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-04 21:17:42] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-04 21:17:42] local.INFO: Found direct image file for team  
+[2024-12-04 21:17:42] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-04 21:17:42] local.INFO: Found direct image file for team  
+[2024-12-04 21:17:42] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:17:42] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:17:42] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:17:42] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:17:42] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-04 21:17:42] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 21:17:42] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 21:17:42] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:17:42] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:17:42] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:17:42] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:17:42] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:17:42] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:17:42] local.INFO: Getting rune icon for: Precision  
+[2024-12-04 21:17:42] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:17:42] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-04 21:17:42] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-04 21:17:42] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:17:42] local.INFO: Getting rune icon for: Domination  
+[2024-12-04 21:17:42] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-04 21:17:42] local.INFO: Getting rune icon for: Resolve  
+[2024-12-04 21:17:42] local.INFO: Getting rune icon for: Inspiration  
