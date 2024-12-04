@@ -54,14 +54,18 @@ $teamImageController = new TeamImageController(new APIService, new ImageBuilder)
                     
                     <div class="tournament-section">
                         <div class="tournament-header" data-bs-toggle="collapse" 
-                             data-bs-target="#tournament{{ $tournamentIndex }}">
+                             data-bs-target="#tournament{{ $tournamentIndex }}"
+                             aria-expanded="true"
+                             aria-controls="tournament{{ $tournamentIndex }}">
                             <div class="tournament-name">
                                 {{ $currentTournament }}
                             </div>
                             <i class="bi bi-chevron-down toggle-icon"></i>
                         </div>
                         
-                        <div id="tournament{{ $tournamentIndex }}" class="tournament-matches collapse show">
+                        <div id="tournament{{ $tournamentIndex }}" 
+                             class="tournament-matches collapse show"
+                             aria-labelledby="tournament{{ $tournamentIndex }}">
                 @endif
 
                 <div class="match-row {{ $match['status'] === 'IS LIVE' ? 'match-live' : '' }}">

@@ -392,7 +392,7 @@ h6.blue-side i, h6.red-side i {
     display: flex;
     justify-content: space-between;
     color: #888;
-    font-size: 0.5em;
+    font-size: 1.1em;
     align-items: center;
     gap: 10px;
     min-height: 24px;
@@ -412,6 +412,7 @@ h6.blue-side i, h6.red-side i {
     text-overflow: ellipsis;
     min-width: 0;
     max-width: calc(100% - 30px);
+    font-size: 1.1em;
 }
 
 .match-scores {
@@ -420,6 +421,7 @@ h6.blue-side i, h6.red-side i {
     gap: 5px;
     font-weight: bold;
     color: #fff;
+    font-size: 1.1em;
 }
 
 .score-divider {
@@ -1241,6 +1243,7 @@ h6.blue-side i, h6.red-side i {
     align-items: center;
     height: 100%;
     margin-top: 5px;
+    font-size: 1em;
 }
 
 .team-recent-matches .score {
