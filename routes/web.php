@@ -27,7 +27,7 @@ Route::get('/register', [App\Http\Controllers\Auth\RegisterController::class, 's
 Route::post('/register', [App\Http\Controllers\Auth\RegisterController::class, 'register']);
 
 // API Routes
-Route::get('/home', [APIController::class, 'todayMatches'])->name('home');
+Route::get('/lolhome', [APIController::class, 'todayMatches'])->name('lolhome');
 Route::get('/test', [APIController::class, 'index']);
 Route::get('/match/{matchId}', [APIController::class, 'showMatch'])->name('match.show');
 
@@ -39,7 +39,7 @@ Route::get('/profile', [ProfileController::class, 'index'])->name('profile');
 
 // Default Welcome Route
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('lolhome');
 });
 
 

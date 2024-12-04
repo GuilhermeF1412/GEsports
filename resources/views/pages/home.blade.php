@@ -17,7 +17,7 @@ $teamImageController = new TeamImageController(new APIService, new ImageBuilder)
                 <i class="bi bi-chevron-left"></i>
             </button>
             
-            <form action="{{ route('home') }}" method="GET" class="date-selector">
+            <form action="{{ route('lolhome') }}" method="GET" class="date-selector">
                 <input type="date" name="date" id="dateSelect" 
                        value="{{ $selectedDate }}" 
                        onchange="this.form.submit()"
@@ -144,17 +144,21 @@ $teamImageController = new TeamImageController(new APIService, new ImageBuilder)
 }
 
 .date-selector {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .date-input {
-    display: none;
+    opacity: 0;
+    cursor: pointer;
 }
 
 .current-date {
     color: #fff;
     font-size: 1.2em;
     font-weight: 500;
+    margin-right: 10px;
 }
 
 .tournament-section {

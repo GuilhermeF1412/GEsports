@@ -4,7 +4,7 @@
     <nav class="header-nav mx-auto">
         <ul class="nav d-flex align-items-center">
             <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link active" href="{{ route('lolhome') }}">
                     <img src="{{ asset('icons/league_of_legends.svg') }}" alt="League of Legends Icon" class="icon">
                     <span>League of Legends</span>
                 </a>

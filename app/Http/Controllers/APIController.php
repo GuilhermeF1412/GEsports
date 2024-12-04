@@ -79,11 +79,7 @@ class APIController extends Controller
             ]);
         } catch (\Exception $e) {
             Log::error('Error in todayMatches: ' . $e->getMessage(), ['trace' => $e->getTraceAsString()]);
-            return view('pages.home', [
-                'todayMatches' => [], 
-                'error' => 'Unable to fetch matches',
-                'selectedDate' => $date ?? now()->format('Y-m-d')
-            ]);
+            return redirect()->route('lolhome')->with('error', 'Unable to fetch matches');
         }
     }
 
@@ -105,7 +101,7 @@ class APIController extends Controller
             });
 
             if (!$match) {
-                return redirect()->route('home')->with('error', 'Match not found');
+                return redirect()->route('lolhome')->with('error', 'Match not found');
             }
 
             // Fetch game details
@@ -170,7 +166,7 @@ class APIController extends Controller
             return view('pages.match', compact('match', 'gameDetails'));
         } catch (\Exception $e) {
             Log::error('Error in showMatch: ' . $e->getMessage());
-            return redirect()->route('home')->with('error', 'Unable to fetch match details');
+            return redirect()->route('lolhome')->with('error', 'Unable to fetch match details');
         }
     }
 
