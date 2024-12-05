@@ -396,6 +396,7 @@ h6.blue-side i, h6.red-side i {
     width: 24px;
     height: 24px;
     object-fit: contain;
+    margin-right: 10px;
 }
 
 .team-name {
@@ -606,9 +607,10 @@ h6.blue-side i, h6.red-side i {
 }
 
 .team-logo {
-    width: 80px;
-    height: 80px;
+    width: 24px;
+    height: 24px;
     object-fit: contain;
+    margin-right: 10px;
 }
 
 .team-name {
@@ -735,22 +737,30 @@ h6.blue-side i, h6.red-side i {
     gap: 10px;
 }
 
-.ban-icon img {
+.ban-icon {
+    position: relative;
     width: 30px;
     height: 30px;
-    border-radius: 4px;
-    position: relative;
 }
 
-.ban-icon img::after {
+.ban-icon::after {
     content: '×';
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: red;
-    font-size: 24px;
-    font-weight: bold;
+    color: rgba(255, 0, 0, 0.8);
+    font-size: 36px;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+}
+
+.ban-icon img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    opacity: 0.7;
 }
 
 .bans-label {
@@ -1412,8 +1422,8 @@ h6.blue-side i, h6.red-side i {
 }
 
 .recent-matches-team-logo {
-    width: 24px;  /* Reduced from previous size */
-    height: 24px; /* Reduced from previous size */
+    width: 24px;
+    height: 24px;
     object-fit: contain;
     flex-shrink: 0;
 }
@@ -1421,4 +1431,341 @@ h6.blue-side i, h6.red-side i {
 /* Update hover effect */
 .match-item:hover {
     background: #2c2c2c;
+}
+
+/* Team link styles */
+.team-link {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.team-link:hover {
+    color: #4CAF50;
+}
+
+/* Team page styles */
+.matches-section {
+    background: #242424;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.show-more-btn {
+    width: 100%;
+    background: #2c2c2c;
+    border: none;
+    color: #888;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.show-more-btn:hover {
+    background: #333;
+}
+
+.show-more-btn i {
+    font-size: 1.2em;
+}
+
+.show-more-text {
+    font-size: 0.9em;
+}
+
+.winner {
+    color: #4CAF50;
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.team-name {
+    min-width: 200px;
+    font-size: 1em;
+    margin: 0;
+}
+
+.score {
+    min-width: 30px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.match-teams {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.team-not-found {
+    background: #242424;
+    border-radius: 8px;
+    padding: 40px;
+    text-align: center;
+}
+
+.error-message {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.error-message i {
+    font-size: 3em;
+    color: #888;
+}
+
+.error-message h2 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+.error-message p {
+    color: #888;
+    margin: 0;
+}
+
+.back-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.2s;
+}
+
+.back-button:hover {
+    background: #45a049;
+    color: #fff;
+    text-decoration: none;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* Home page styles */
+.esports-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.date-navigation {
+    background: #1a1a1a;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.date-nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.date-nav-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.date-selector {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.current-date {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.date-input {
+    opacity: 0;
+    cursor: pointer;
+}
+
+.tournament-section {
+    background: #242424;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.tournament-header {
+    background: #2c2c2c;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tournament-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.tournament-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.match-row {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    border-bottom: 1px solid #2c2c2c;
+    transition: background-color 0.2s;
+}
+
+.match-row:hover {
+    background: #2c2c2c;
+}
+
+.match-live {
+    background: rgba(255, 0, 0, 0.1);
+}
+
+.match-time {
+    width: 80px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.live-indicator {
+    color: #ff4444;
+    font-weight: bold;
+    font-size: 0.8em;
+    animation: blink 1s infinite;
+}
+
+.match-teams {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0 20px;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.team-logo {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.team-name {
+    flex: 1;
+    color: #fff;
+}
+
+.team-score {
+    font-weight: bold;
+    color: #fff;
+    width: 30px;
+    text-align: center;
+}
+
+.winner .team-name,
+.winner .team-score {
+    color: #4CAF50;
+}
+
+.match-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-shrink: 0;
+    width: 100px;
+}
+
+.match-format {
+    color: #888;
+    font-size: 0.9em;
+}
+
+.stream-link {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.stream-link:hover {
+    color: #ff4444;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+.no-matches {
+    text-align: center;
+    padding: 40px;
+    color: #888;
+}
+
+.no-matches i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.match-link {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Team page header logo */
+.team-header .team-logo {
+    width: 120px !important;
+    height: 120px !important;
+    object-fit: contain;
+    border-radius: 8px;
+    margin-right: 0;
+}
+
+/* Match page team overview logos */
+.teams-overview .team-logo {
+    width: 120px !important;
+    height: 120px !important;
+    object-fit: contain;
+    margin-right: 0;
 }

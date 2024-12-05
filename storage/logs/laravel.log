@@ -6800,3 +6800,476 @@ Internal Server Error
 [2024-12-05 00:24:51] local.INFO: Looking up team image for: {"teamName":"Nongshim RedForce"} 
 [2024-12-05 00:24:51] local.INFO: Found direct image file for team  
 [2024-12-05 00:24:51] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Nongshim RedForce.png"} 
+[2024-12-05 00:31:32] local.INFO: Fetching matches with date: {"date":null} 
+[2024-12-05 00:31:32] local.INFO: Raw date parameter received in APIService: {"date":null} 
+[2024-12-05 00:31:32] local.INFO: Making request to URL: {"url":"/TodayMatches"} 
+[2024-12-05 00:31:33] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":null,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":null,"Team2Final":"LGD Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-05 00:31:33] local.INFO: Raw matches response: {"matches":[{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":null,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":null,"Team2Final":"LGD Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"KeSPA Cup 2024","DateTime_UTC":"2024-12-05 07:00:00","Team1":"Hanwha Life Esports","Team1Score":null,"Team1Final":"Hanwha Life Esports","Team2":"Nongshim RedForce","Team2Score":null,"Team2Final":"Nongshim RedForce","Winner":null,"Stream":"https://www.youtube.com/c/KeSPA","BestOf":1,"Team1Image":"Hanwha Life Esportslogo profile.png","Team2Image":"Nongshim RedForcelogo square.png","Team1OverviewPage":"Hanwha Life Esports","Team2OverviewPage":"Nongshim RedForce","Phase":null,"ShownName":"KeSPA Cup 2024","MatchDay":2,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 08:00:00","Team1":"Weibo Gaming","Team1Score":null,"Team1Final":"Weibo Gaming","Team2":"Anyone's Legend","Team2Score":null,"Team2Final":"Anyone's Legend","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Anyone's Legendlogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Anyone's Legend","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"KeSPA Cup 2024","DateTime_UTC":"2024-12-05 08:15:00","Team1":"Chinese Taipei (National Team)","Team1Score":null,"Team1Final":"Chinese Taipei (National Team)","Team2":"KT Rolster","Team2Score":null,"Team2Final":"KT Rolster","Winner":null,"Stream":"https://www.youtube.com/c/KeSPA","BestOf":1,"Team1Image":null,"Team2Image":"KT Rolsterlogo profile.png","Team1OverviewPage":null,"Team2OverviewPage":"KT Rolster","Phase":null,"ShownName":"KeSPA Cup 2024","MatchDay":2,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"KeSPA Cup 2024","DateTime_UTC":"2024-12-05 09:30:00","Team1":"TBD","Team1Score":null,"Team1Final":"TBD","Team2":"TBD","Team2Score":null,"Team2Final":"TBD","Winner":null,"Stream":"https://www.youtube.com/c/KeSPA","BestOf":1,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"KeSPA Cup 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 10:00:00","Team1":"Royal Never Give Up","Team1Score":null,"Team1Final":"Royal Never Give Up","Team2":"Oh My God","Team2Score":null,"Team2Final":"Oh My God","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Royal Never Give Uplogo square.png","Team2Image":"Oh My Godlogo square.png","Team1OverviewPage":"Royal Never Give Up","Team2OverviewPage":"Oh My God","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"KeSPA Cup 2024","DateTime_UTC":"2024-12-05 10:45:00","Team1":"Dplus KIA","Team1Score":null,"Team1Final":"Dplus KIA","Team2":"TBD","Team2Score":null,"Team2Final":"TBD","Winner":null,"Stream":"https://www.youtube.com/c/KeSPA","BestOf":1,"Team1Image":"Dplus KIAlogo profile.png","Team2Image":null,"Team1OverviewPage":"Dplus KIA","Team2OverviewPage":null,"Phase":null,"ShownName":"KeSPA Cup 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"ARAM League - Hòa Nhịp Arcane","DateTime_UTC":"2024-12-05 11:00:00","Team1":"Danh Cho Zui","Team1Score":null,"Team1Final":"Danh Cho Zui","Team2":"NEWBIE (Vietnamese Team)","Team2Score":null,"Team2Final":"NEWBIE (Vietnamese Team)","Winner":null,"Stream":null,"BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"ARAM League - Hòa Nhịp Arcane","MatchDay":2,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"ARAM League - Hòa Nhịp Arcane","DateTime_UTC":"2024-12-05 12:00:00","Team1":"Revenge (Vietnamese Team)","Team1Score":null,"Team1Final":"Revenge (Vietnamese Team)","Team2":"Bạc Đoàn Gaming","Team2Score":null,"Team2Final":"Bạc Đoàn Gaming","Winner":null,"Stream":null,"BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"ARAM League - Hòa Nhịp Arcane","MatchDay":2,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"KeSPA Cup 2024","DateTime_UTC":"2024-12-05 12:00:00","Team1":"TBD","Team1Score":null,"Team1Final":"TBD","Team2":"TBD","Team2Score":null,"Team2Final":"TBD","Winner":null,"Stream":"https://www.youtube.com/c/KeSPA","BestOf":1,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"KeSPA Cup 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}]} 
+[2024-12-05 00:31:33] local.INFO: Processed matches: {"count":10,"first_match":{"Name":"ARAM League - Hòa Nhịp Arcane","DateTime_UTC":"2024-12-05 11:00:00","Team1":"Danh Cho Zui","Team1Score":null,"Team1Final":"Danh Cho Zui","Team2":"NEWBIE (Vietnamese Team)","Team2Score":null,"Team2Final":"NEWBIE (Vietnamese Team)","Winner":null,"Stream":null,"BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"ARAM League - Hòa Nhịp Arcane","MatchDay":2,"HasTime":true,"Venue":null,"GroupName":null,"status":""}} 
+[2024-12-05 00:31:33] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-05 00:31:33] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-05 00:31:33] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-05 00:31:33] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-05 00:31:33] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-05 00:31:33] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-05 00:31:33] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-05 00:31:33] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-05 00:31:33] local.INFO: Getting team image for: {"teamId":"Hanwha Life Esports"} 
+[2024-12-05 00:31:33] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-05 00:31:33] local.INFO: Returning direct team image: {"path":"storage/teamimages/Hanwha%20Life%20Esports.png"} 
+[2024-12-05 00:31:33] local.INFO: Getting team image for: {"teamId":"Nongshim RedForce"} 
+[2024-12-05 00:31:33] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-05 00:31:33] local.INFO: Returning direct team image: {"path":"storage/teamimages/Nongshim%20RedForce.png"} 
+[2024-12-05 00:31:33] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-05 00:31:33] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-05 00:31:33] local.INFO: Getting team image for: {"teamId":"KT Rolster"} 
+[2024-12-05 00:31:33] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-05 00:31:33] local.INFO: Returning direct team image: {"path":"storage/teamimages/KT%20Rolster.png"} 
+[2024-12-05 00:31:33] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-05 00:31:33] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-05 00:31:33] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-05 00:31:33] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-05 00:31:33] local.INFO: Getting team image for: {"teamId":"Dplus KIA"} 
+[2024-12-05 00:31:33] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-05 00:31:33] local.INFO: Returning direct team image: {"path":"storage/teamimages/Dplus%20KIA.png"} 
+[2024-12-05 00:31:33] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-05 00:31:33] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-05 00:31:33] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-05 00:31:33] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-05 00:31:33] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-05 00:31:33] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-05 00:31:33] local.INFO: Getting team image for: {"teamId":"FunPlus Phoenix"} 
+[2024-12-05 00:31:33] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-05 00:31:33] local.INFO: Returning direct team image: {"path":"storage/teamimages/FunPlus%20Phoenix.png"} 
+[2024-12-05 00:31:33] local.INFO: Getting team image for: {"teamId":"LGD Gaming"} 
+[2024-12-05 00:31:33] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-05 00:31:33] local.INFO: Returning direct team image: {"path":"storage/teamimages/LGD%20Gaming.png"} 
+[2024-12-05 00:31:33] local.INFO: Getting team image for: {"teamId":"Weibo Gaming"} 
+[2024-12-05 00:31:33] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-05 00:31:33] local.INFO: Returning direct team image: {"path":"storage/teamimages/Weibo%20Gaming.png"} 
+[2024-12-05 00:31:33] local.INFO: Getting team image for: {"teamId":"Anyone's Legend"} 
+[2024-12-05 00:31:33] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-05 00:31:33] local.INFO: Returning direct team image: {"path":"storage/teamimages/Anyone%27s%20Legend.png"} 
+[2024-12-05 00:31:33] local.INFO: Getting team image for: {"teamId":"Royal Never Give Up"} 
+[2024-12-05 00:31:33] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-05 00:31:33] local.INFO: Returning direct team image: {"path":"storage/teamimages/Royal%20Never%20Give%20Up.png"} 
+[2024-12-05 00:31:33] local.INFO: Getting team image for: {"teamId":"Oh My God"} 
+[2024-12-05 00:31:33] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-05 00:31:33] local.INFO: Returning direct team image: {"path":"storage/teamimages/Oh%20My%20God.png"} 
+[2024-12-05 00:31:51] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-05"} 
+[2024-12-05 00:31:51] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-05"} 
+[2024-12-05 00:31:52] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":null,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":null,"Team2Final":"LGD Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-05 00:31:53] local.INFO: Game Details: {"Number of games":0,"Match BestOf":3,"Match Score":"-","Games":[]} 
+[2024-12-05 00:31:53] local.INFO: Match data: {"Team1":"Revenge (Vietnamese Team)","Team1OverviewPage":null,"Team2":"Bạc Đoàn Gaming","Team2OverviewPage":null} 
+[2024-12-05 00:31:53] local.INFO: Looking up team image for: {"teamName":"Revenge (Vietnamese Team)"} 
+[2024-12-05 00:31:53] local.INFO: No image found for team, using placeholder  
+[2024-12-05 00:31:53] local.INFO: Looking up team image for: {"teamName":"Bạc Đoàn Gaming"} 
+[2024-12-05 00:31:53] local.INFO: No image found for team, using placeholder  
+[2024-12-05 00:31:53] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/placeholder.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/placeholder.png"} 
+[2024-12-05 00:32:03] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-05"} 
+[2024-12-05 00:32:03] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-05"} 
+[2024-12-05 00:32:04] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":null,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":null,"Team2Final":"LGD Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-05 00:32:05] local.INFO: Game Details: {"Number of games":0,"Match BestOf":1,"Match Score":"-","Games":[]} 
+[2024-12-05 00:32:05] local.INFO: Match data: {"Team1":"Hanwha Life Esports","Team1OverviewPage":"Hanwha Life Esports","Team2":"Nongshim RedForce","Team2OverviewPage":"Nongshim RedForce"} 
+[2024-12-05 00:32:05] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-05 00:32:05] local.INFO: Found direct image file for team  
+[2024-12-05 00:32:05] local.INFO: Looking up team image for: {"teamName":"Nongshim RedForce"} 
+[2024-12-05 00:32:05] local.INFO: Found direct image file for team  
+[2024-12-05 00:32:05] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Nongshim RedForce.png"} 
+[2024-12-05 00:35:50] local.INFO: Fetching matches with date: {"date":null} 
+[2024-12-05 00:35:50] local.INFO: Raw date parameter received in APIService: {"date":null} 
+[2024-12-05 00:35:50] local.INFO: Making request to URL: {"url":"/TodayMatches"} 
+[2024-12-05 00:35:50] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":null,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":null,"Team2Final":"LGD Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-05 00:35:50] local.INFO: Raw matches response: {"matches":[{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":null,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":null,"Team2Final":"LGD Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"KeSPA Cup 2024","DateTime_UTC":"2024-12-05 07:00:00","Team1":"Hanwha Life Esports","Team1Score":null,"Team1Final":"Hanwha Life Esports","Team2":"Nongshim RedForce","Team2Score":null,"Team2Final":"Nongshim RedForce","Winner":null,"Stream":"https://www.youtube.com/c/KeSPA","BestOf":1,"Team1Image":"Hanwha Life Esportslogo profile.png","Team2Image":"Nongshim RedForcelogo square.png","Team1OverviewPage":"Hanwha Life Esports","Team2OverviewPage":"Nongshim RedForce","Phase":null,"ShownName":"KeSPA Cup 2024","MatchDay":2,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 08:00:00","Team1":"Weibo Gaming","Team1Score":null,"Team1Final":"Weibo Gaming","Team2":"Anyone's Legend","Team2Score":null,"Team2Final":"Anyone's Legend","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Anyone's Legendlogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Anyone's Legend","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"KeSPA Cup 2024","DateTime_UTC":"2024-12-05 08:15:00","Team1":"Chinese Taipei (National Team)","Team1Score":null,"Team1Final":"Chinese Taipei (National Team)","Team2":"KT Rolster","Team2Score":null,"Team2Final":"KT Rolster","Winner":null,"Stream":"https://www.youtube.com/c/KeSPA","BestOf":1,"Team1Image":null,"Team2Image":"KT Rolsterlogo profile.png","Team1OverviewPage":null,"Team2OverviewPage":"KT Rolster","Phase":null,"ShownName":"KeSPA Cup 2024","MatchDay":2,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"KeSPA Cup 2024","DateTime_UTC":"2024-12-05 09:30:00","Team1":"TBD","Team1Score":null,"Team1Final":"TBD","Team2":"TBD","Team2Score":null,"Team2Final":"TBD","Winner":null,"Stream":"https://www.youtube.com/c/KeSPA","BestOf":1,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"KeSPA Cup 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 10:00:00","Team1":"Royal Never Give Up","Team1Score":null,"Team1Final":"Royal Never Give Up","Team2":"Oh My God","Team2Score":null,"Team2Final":"Oh My God","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Royal Never Give Uplogo square.png","Team2Image":"Oh My Godlogo square.png","Team1OverviewPage":"Royal Never Give Up","Team2OverviewPage":"Oh My God","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"KeSPA Cup 2024","DateTime_UTC":"2024-12-05 10:45:00","Team1":"Dplus KIA","Team1Score":null,"Team1Final":"Dplus KIA","Team2":"TBD","Team2Score":null,"Team2Final":"TBD","Winner":null,"Stream":"https://www.youtube.com/c/KeSPA","BestOf":1,"Team1Image":"Dplus KIAlogo profile.png","Team2Image":null,"Team1OverviewPage":"Dplus KIA","Team2OverviewPage":null,"Phase":null,"ShownName":"KeSPA Cup 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"ARAM League - Hòa Nhịp Arcane","DateTime_UTC":"2024-12-05 11:00:00","Team1":"Danh Cho Zui","Team1Score":null,"Team1Final":"Danh Cho Zui","Team2":"NEWBIE (Vietnamese Team)","Team2Score":null,"Team2Final":"NEWBIE (Vietnamese Team)","Winner":null,"Stream":null,"BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"ARAM League - Hòa Nhịp Arcane","MatchDay":2,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"ARAM League - Hòa Nhịp Arcane","DateTime_UTC":"2024-12-05 12:00:00","Team1":"Revenge (Vietnamese Team)","Team1Score":null,"Team1Final":"Revenge (Vietnamese Team)","Team2":"Bạc Đoàn Gaming","Team2Score":null,"Team2Final":"Bạc Đoàn Gaming","Winner":null,"Stream":null,"BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"ARAM League - Hòa Nhịp Arcane","MatchDay":2,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"KeSPA Cup 2024","DateTime_UTC":"2024-12-05 12:00:00","Team1":"TBD","Team1Score":null,"Team1Final":"TBD","Team2":"TBD","Team2Score":null,"Team2Final":"TBD","Winner":null,"Stream":"https://www.youtube.com/c/KeSPA","BestOf":1,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"KeSPA Cup 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}]} 
+[2024-12-05 00:35:50] local.INFO: Processed matches: {"count":10,"first_match":{"Name":"ARAM League - Hòa Nhịp Arcane","DateTime_UTC":"2024-12-05 11:00:00","Team1":"Danh Cho Zui","Team1Score":null,"Team1Final":"Danh Cho Zui","Team2":"NEWBIE (Vietnamese Team)","Team2Score":null,"Team2Final":"NEWBIE (Vietnamese Team)","Winner":null,"Stream":null,"BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"ARAM League - Hòa Nhịp Arcane","MatchDay":2,"HasTime":true,"Venue":null,"GroupName":null,"status":""}} 
+[2024-12-05 00:35:51] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-05 00:35:51] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-05 00:35:51] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-05 00:35:51] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-05 00:35:51] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-05 00:35:51] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-05 00:35:51] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-05 00:35:51] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-05 00:35:51] local.INFO: Getting team image for: {"teamId":"Hanwha Life Esports"} 
+[2024-12-05 00:35:51] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-05 00:35:51] local.INFO: Returning direct team image: {"path":"storage/teamimages/Hanwha%20Life%20Esports.png"} 
+[2024-12-05 00:35:51] local.INFO: Getting team image for: {"teamId":"Nongshim RedForce"} 
+[2024-12-05 00:35:51] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-05 00:35:51] local.INFO: Returning direct team image: {"path":"storage/teamimages/Nongshim%20RedForce.png"} 
+[2024-12-05 00:35:51] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-05 00:35:51] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-05 00:35:51] local.INFO: Getting team image for: {"teamId":"KT Rolster"} 
+[2024-12-05 00:35:51] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-05 00:35:51] local.INFO: Returning direct team image: {"path":"storage/teamimages/KT%20Rolster.png"} 
+[2024-12-05 00:35:51] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-05 00:35:51] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-05 00:35:51] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-05 00:35:51] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-05 00:35:51] local.INFO: Getting team image for: {"teamId":"Dplus KIA"} 
+[2024-12-05 00:35:51] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-05 00:35:51] local.INFO: Returning direct team image: {"path":"storage/teamimages/Dplus%20KIA.png"} 
+[2024-12-05 00:35:51] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-05 00:35:51] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-05 00:35:51] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-05 00:35:51] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-05 00:35:51] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-05 00:35:51] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-05 00:35:51] local.INFO: Getting team image for: {"teamId":"FunPlus Phoenix"} 
+[2024-12-05 00:35:51] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-05 00:35:51] local.INFO: Returning direct team image: {"path":"storage/teamimages/FunPlus%20Phoenix.png"} 
+[2024-12-05 00:35:51] local.INFO: Getting team image for: {"teamId":"LGD Gaming"} 
+[2024-12-05 00:35:51] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-05 00:35:51] local.INFO: Returning direct team image: {"path":"storage/teamimages/LGD%20Gaming.png"} 
+[2024-12-05 00:35:51] local.INFO: Getting team image for: {"teamId":"Weibo Gaming"} 
+[2024-12-05 00:35:51] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-05 00:35:51] local.INFO: Returning direct team image: {"path":"storage/teamimages/Weibo%20Gaming.png"} 
+[2024-12-05 00:35:51] local.INFO: Getting team image for: {"teamId":"Anyone's Legend"} 
+[2024-12-05 00:35:51] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-05 00:35:51] local.INFO: Returning direct team image: {"path":"storage/teamimages/Anyone%27s%20Legend.png"} 
+[2024-12-05 00:35:51] local.INFO: Getting team image for: {"teamId":"Royal Never Give Up"} 
+[2024-12-05 00:35:51] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-05 00:35:51] local.INFO: Returning direct team image: {"path":"storage/teamimages/Royal%20Never%20Give%20Up.png"} 
+[2024-12-05 00:35:51] local.INFO: Getting team image for: {"teamId":"Oh My God"} 
+[2024-12-05 00:35:51] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-05 00:35:51] local.INFO: Returning direct team image: {"path":"storage/teamimages/Oh%20My%20God.png"} 
+[2024-12-05 00:35:53] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-05"} 
+[2024-12-05 00:35:53] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-05"} 
+[2024-12-05 00:35:54] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":null,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":null,"Team2Final":"LGD Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-05 00:35:55] local.INFO: Game Details: {"Number of games":0,"Match BestOf":3,"Match Score":"-","Games":[]} 
+[2024-12-05 00:35:55] local.INFO: Match data: {"Team1":"Danh Cho Zui","Team1OverviewPage":null,"Team2":"NEWBIE (Vietnamese Team)","Team2OverviewPage":null} 
+[2024-12-05 00:35:55] local.INFO: Looking up team image for: {"teamName":"Danh Cho Zui"} 
+[2024-12-05 00:35:55] local.INFO: No image found for team, using placeholder  
+[2024-12-05 00:35:55] local.INFO: Looking up team image for: {"teamName":"NEWBIE (Vietnamese Team)"} 
+[2024-12-05 00:35:55] local.INFO: No image found for team, using placeholder  
+[2024-12-05 00:35:55] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/placeholder.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/placeholder.png"} 
+[2024-12-05 00:36:13] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-05"} 
+[2024-12-05 00:36:13] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-05"} 
+[2024-12-05 00:36:14] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":null,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":null,"Team2Final":"LGD Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-05 00:36:15] local.INFO: Game Details: {"Number of games":0,"Match BestOf":1,"Match Score":"-","Games":[]} 
+[2024-12-05 00:36:15] local.INFO: Match data: {"Team1":"Hanwha Life Esports","Team1OverviewPage":"Hanwha Life Esports","Team2":"Nongshim RedForce","Team2OverviewPage":"Nongshim RedForce"} 
+[2024-12-05 00:36:15] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-05 00:36:15] local.INFO: Found direct image file for team  
+[2024-12-05 00:36:15] local.INFO: Looking up team image for: {"teamName":"Nongshim RedForce"} 
+[2024-12-05 00:36:15] local.INFO: Found direct image file for team  
+[2024-12-05 00:36:15] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Nongshim RedForce.png"} 
+[2024-12-05 00:36:28] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-05"} 
+[2024-12-05 00:36:28] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-05"} 
+[2024-12-05 00:36:28] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":null,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":null,"Team2Final":"LGD Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-05 00:36:29] local.INFO: Game Details: {"Number of games":0,"Match BestOf":1,"Match Score":"-","Games":[]} 
+[2024-12-05 00:36:29] local.INFO: Match data: {"Team1":"Hanwha Life Esports","Team1OverviewPage":"Hanwha Life Esports","Team2":"Nongshim RedForce","Team2OverviewPage":"Nongshim RedForce"} 
+[2024-12-05 00:36:29] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-05 00:36:29] local.INFO: Found direct image file for team  
+[2024-12-05 00:36:29] local.INFO: Looking up team image for: {"teamName":"Nongshim RedForce"} 
+[2024-12-05 00:36:29] local.INFO: Found direct image file for team  
+[2024-12-05 00:36:29] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Nongshim RedForce.png"} 
+[2024-12-05 00:37:10] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-05"} 
+[2024-12-05 00:37:10] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-05"} 
+[2024-12-05 00:37:11] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":null,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":null,"Team2Final":"LGD Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-05 00:37:12] local.INFO: Game Details: {"Number of games":0,"Match BestOf":1,"Match Score":"-","Games":[]} 
+[2024-12-05 00:37:12] local.INFO: Match data: {"Team1":"Hanwha Life Esports","Team1OverviewPage":"Hanwha Life Esports","Team2":"Nongshim RedForce","Team2OverviewPage":"Nongshim RedForce"} 
+[2024-12-05 00:37:12] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-05 00:37:12] local.INFO: Found direct image file for team  
+[2024-12-05 00:37:12] local.INFO: Looking up team image for: {"teamName":"Nongshim RedForce"} 
+[2024-12-05 00:37:12] local.INFO: Found direct image file for team  
+[2024-12-05 00:37:12] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Nongshim RedForce.png"} 
+[2024-12-05 00:37:16] local.INFO: Fetching matches with date: {"date":null} 
+[2024-12-05 00:37:16] local.INFO: Raw date parameter received in APIService: {"date":null} 
+[2024-12-05 00:37:16] local.INFO: Making request to URL: {"url":"/TodayMatches"} 
+[2024-12-05 00:37:17] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":null,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":null,"Team2Final":"LGD Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-05 00:37:17] local.INFO: Raw matches response: {"matches":[{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":null,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":null,"Team2Final":"LGD Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"KeSPA Cup 2024","DateTime_UTC":"2024-12-05 07:00:00","Team1":"Hanwha Life Esports","Team1Score":null,"Team1Final":"Hanwha Life Esports","Team2":"Nongshim RedForce","Team2Score":null,"Team2Final":"Nongshim RedForce","Winner":null,"Stream":"https://www.youtube.com/c/KeSPA","BestOf":1,"Team1Image":"Hanwha Life Esportslogo profile.png","Team2Image":"Nongshim RedForcelogo square.png","Team1OverviewPage":"Hanwha Life Esports","Team2OverviewPage":"Nongshim RedForce","Phase":null,"ShownName":"KeSPA Cup 2024","MatchDay":2,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 08:00:00","Team1":"Weibo Gaming","Team1Score":null,"Team1Final":"Weibo Gaming","Team2":"Anyone's Legend","Team2Score":null,"Team2Final":"Anyone's Legend","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Anyone's Legendlogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Anyone's Legend","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"KeSPA Cup 2024","DateTime_UTC":"2024-12-05 08:15:00","Team1":"Chinese Taipei (National Team)","Team1Score":null,"Team1Final":"Chinese Taipei (National Team)","Team2":"KT Rolster","Team2Score":null,"Team2Final":"KT Rolster","Winner":null,"Stream":"https://www.youtube.com/c/KeSPA","BestOf":1,"Team1Image":null,"Team2Image":"KT Rolsterlogo profile.png","Team1OverviewPage":null,"Team2OverviewPage":"KT Rolster","Phase":null,"ShownName":"KeSPA Cup 2024","MatchDay":2,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"KeSPA Cup 2024","DateTime_UTC":"2024-12-05 09:30:00","Team1":"TBD","Team1Score":null,"Team1Final":"TBD","Team2":"TBD","Team2Score":null,"Team2Final":"TBD","Winner":null,"Stream":"https://www.youtube.com/c/KeSPA","BestOf":1,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"KeSPA Cup 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 10:00:00","Team1":"Royal Never Give Up","Team1Score":null,"Team1Final":"Royal Never Give Up","Team2":"Oh My God","Team2Score":null,"Team2Final":"Oh My God","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Royal Never Give Uplogo square.png","Team2Image":"Oh My Godlogo square.png","Team1OverviewPage":"Royal Never Give Up","Team2OverviewPage":"Oh My God","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"KeSPA Cup 2024","DateTime_UTC":"2024-12-05 10:45:00","Team1":"Dplus KIA","Team1Score":null,"Team1Final":"Dplus KIA","Team2":"TBD","Team2Score":null,"Team2Final":"TBD","Winner":null,"Stream":"https://www.youtube.com/c/KeSPA","BestOf":1,"Team1Image":"Dplus KIAlogo profile.png","Team2Image":null,"Team1OverviewPage":"Dplus KIA","Team2OverviewPage":null,"Phase":null,"ShownName":"KeSPA Cup 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"ARAM League - Hòa Nhịp Arcane","DateTime_UTC":"2024-12-05 11:00:00","Team1":"Danh Cho Zui","Team1Score":null,"Team1Final":"Danh Cho Zui","Team2":"NEWBIE (Vietnamese Team)","Team2Score":null,"Team2Final":"NEWBIE (Vietnamese Team)","Winner":null,"Stream":null,"BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"ARAM League - Hòa Nhịp Arcane","MatchDay":2,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"ARAM League - Hòa Nhịp Arcane","DateTime_UTC":"2024-12-05 12:00:00","Team1":"Revenge (Vietnamese Team)","Team1Score":null,"Team1Final":"Revenge (Vietnamese Team)","Team2":"Bạc Đoàn Gaming","Team2Score":null,"Team2Final":"Bạc Đoàn Gaming","Winner":null,"Stream":null,"BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"ARAM League - Hòa Nhịp Arcane","MatchDay":2,"HasTime":true,"Venue":null,"GroupName":null},{"Name":"KeSPA Cup 2024","DateTime_UTC":"2024-12-05 12:00:00","Team1":"TBD","Team1Score":null,"Team1Final":"TBD","Team2":"TBD","Team2Score":null,"Team2Final":"TBD","Winner":null,"Stream":"https://www.youtube.com/c/KeSPA","BestOf":1,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"KeSPA Cup 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}]} 
+[2024-12-05 00:37:17] local.INFO: Processed matches: {"count":10,"first_match":{"Name":"ARAM League - Hòa Nhịp Arcane","DateTime_UTC":"2024-12-05 11:00:00","Team1":"Danh Cho Zui","Team1Score":null,"Team1Final":"Danh Cho Zui","Team2":"NEWBIE (Vietnamese Team)","Team2Score":null,"Team2Final":"NEWBIE (Vietnamese Team)","Winner":null,"Stream":null,"BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"ARAM League - Hòa Nhịp Arcane","MatchDay":2,"HasTime":true,"Venue":null,"GroupName":null,"status":""}} 
+[2024-12-05 00:37:17] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-05 00:37:17] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-05 00:37:17] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-05 00:37:17] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-05 00:37:17] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-05 00:37:17] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-05 00:37:17] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-05 00:37:17] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-05 00:37:17] local.INFO: Getting team image for: {"teamId":"Hanwha Life Esports"} 
+[2024-12-05 00:37:17] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-05 00:37:17] local.INFO: Returning direct team image: {"path":"storage/teamimages/Hanwha%20Life%20Esports.png"} 
+[2024-12-05 00:37:17] local.INFO: Getting team image for: {"teamId":"Nongshim RedForce"} 
+[2024-12-05 00:37:17] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-05 00:37:17] local.INFO: Returning direct team image: {"path":"storage/teamimages/Nongshim%20RedForce.png"} 
+[2024-12-05 00:37:17] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-05 00:37:17] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-05 00:37:17] local.INFO: Getting team image for: {"teamId":"KT Rolster"} 
+[2024-12-05 00:37:17] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-05 00:37:17] local.INFO: Returning direct team image: {"path":"storage/teamimages/KT%20Rolster.png"} 
+[2024-12-05 00:37:17] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-05 00:37:17] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-05 00:37:17] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-05 00:37:17] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-05 00:37:17] local.INFO: Getting team image for: {"teamId":"Dplus KIA"} 
+[2024-12-05 00:37:17] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-05 00:37:17] local.INFO: Returning direct team image: {"path":"storage/teamimages/Dplus%20KIA.png"} 
+[2024-12-05 00:37:17] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-05 00:37:17] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-05 00:37:17] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-05 00:37:17] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-05 00:37:17] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-05 00:37:17] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-05 00:37:17] local.INFO: Getting team image for: {"teamId":"FunPlus Phoenix"} 
+[2024-12-05 00:37:17] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-05 00:37:17] local.INFO: Returning direct team image: {"path":"storage/teamimages/FunPlus%20Phoenix.png"} 
+[2024-12-05 00:37:17] local.INFO: Getting team image for: {"teamId":"LGD Gaming"} 
+[2024-12-05 00:37:17] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-05 00:37:17] local.INFO: Returning direct team image: {"path":"storage/teamimages/LGD%20Gaming.png"} 
+[2024-12-05 00:37:17] local.INFO: Getting team image for: {"teamId":"Weibo Gaming"} 
+[2024-12-05 00:37:17] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-05 00:37:17] local.INFO: Returning direct team image: {"path":"storage/teamimages/Weibo%20Gaming.png"} 
+[2024-12-05 00:37:17] local.INFO: Getting team image for: {"teamId":"Anyone's Legend"} 
+[2024-12-05 00:37:17] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-05 00:37:17] local.INFO: Returning direct team image: {"path":"storage/teamimages/Anyone%27s%20Legend.png"} 
+[2024-12-05 00:37:17] local.INFO: Getting team image for: {"teamId":"Royal Never Give Up"} 
+[2024-12-05 00:37:17] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-05 00:37:17] local.INFO: Returning direct team image: {"path":"storage/teamimages/Royal%20Never%20Give%20Up.png"} 
+[2024-12-05 00:37:17] local.INFO: Getting team image for: {"teamId":"Oh My God"} 
+[2024-12-05 00:37:17] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-05 00:37:17] local.INFO: Returning direct team image: {"path":"storage/teamimages/Oh%20My%20God.png"} 
+[2024-12-05 00:37:18] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-05"} 
+[2024-12-05 00:37:18] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-05"} 
+[2024-12-05 00:37:19] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":null,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":null,"Team2Final":"LGD Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-05 00:37:20] local.INFO: Game Details: {"Number of games":0,"Match BestOf":1,"Match Score":"-","Games":[]} 
+[2024-12-05 00:37:20] local.INFO: Match data: {"Team1":"Hanwha Life Esports","Team1OverviewPage":"Hanwha Life Esports","Team2":"Nongshim RedForce","Team2OverviewPage":"Nongshim RedForce"} 
+[2024-12-05 00:37:20] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-05 00:37:20] local.INFO: Found direct image file for team  
+[2024-12-05 00:37:20] local.INFO: Looking up team image for: {"teamName":"Nongshim RedForce"} 
+[2024-12-05 00:37:20] local.INFO: Found direct image file for team  
+[2024-12-05 00:37:20] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Nongshim RedForce.png"} 
+[2024-12-05 00:37:46] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-05"} 
+[2024-12-05 00:37:46] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-05"} 
+[2024-12-05 00:37:46] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":null,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":null,"Team2Final":"LGD Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-05 00:37:47] local.INFO: Game Details: {"Number of games":0,"Match BestOf":1,"Match Score":"-","Games":[]} 
+[2024-12-05 00:37:47] local.INFO: Match data: {"Team1":"Hanwha Life Esports","Team1OverviewPage":"Hanwha Life Esports","Team2":"Nongshim RedForce","Team2OverviewPage":"Nongshim RedForce"} 
+[2024-12-05 00:37:47] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-05 00:37:47] local.INFO: Found direct image file for team  
+[2024-12-05 00:37:47] local.INFO: Looking up team image for: {"teamName":"Nongshim RedForce"} 
+[2024-12-05 00:37:47] local.INFO: Found direct image file for team  
+[2024-12-05 00:37:47] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Nongshim RedForce.png"} 
+[2024-12-05 00:37:54] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-05 00:37:54] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-05 00:37:54] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-05 00:37:56] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-04 08:22:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-05 00:37:56] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Hanwha Life Esports","Team2OverviewPage":"Hanwha Life Esports"} 
+[2024-12-05 00:37:56] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-05 00:37:56] local.INFO: Found direct image file for team  
+[2024-12-05 00:37:56] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-05 00:37:56] local.INFO: Found direct image file for team  
+[2024-12-05 00:37:56] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png"} 
+[2024-12-05 00:37:56] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-05 00:37:56] local.INFO: Found direct image file for team  
+[2024-12-05 00:37:56] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-05 00:37:56] local.INFO: Found direct image file for team  
+[2024-12-05 00:37:56] local.INFO: Getting rune icon for: Resolve  
+[2024-12-05 00:37:56] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:37:56] local.INFO: Getting rune icon for: Precision  
+[2024-12-05 00:37:56] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:37:56] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-05 00:37:56] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-05 00:37:56] local.INFO: Getting rune icon for: Domination  
+[2024-12-05 00:37:56] local.INFO: Getting rune icon for: Precision  
+[2024-12-05 00:37:56] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:37:56] local.INFO: Getting rune icon for: Resolve  
+[2024-12-05 00:37:56] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:37:56] local.INFO: Getting rune icon for: Precision  
+[2024-12-05 00:37:56] local.INFO: Getting rune icon for: Resolve  
+[2024-12-05 00:37:56] local.INFO: Getting rune icon for: Precision  
+[2024-12-05 00:37:56] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:37:56] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-05 00:37:56] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-05 00:37:56] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:37:56] local.INFO: Getting rune icon for: Domination  
+[2024-12-05 00:37:56] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:37:56] local.INFO: Getting rune icon for: Resolve  
+[2024-12-05 00:37:56] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:38:09] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-02"} 
+[2024-12-05 00:38:09] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-02"} 
+[2024-12-05 00:38:09] local.INFO: Successfully fetched matches {"count":12,"first_match":{"Name":"KeSPA Cup 2024","DateTime_UTC":"2024-12-02 05:00:00","Team1":"DRX","Team1Score":1,"Team1Final":"DRX","Team2":"Chinese Taipei (National Team)","Team2Score":0,"Team2Final":"Chinese Taipei (National Team)","Winner":"1","Stream":"https://www.youtube.com/c/KeSPA","BestOf":1,"Team1Image":"DRXlogo profile.png","Team2Image":null,"Team1OverviewPage":"DRX","Team2OverviewPage":null,"Phase":null,"ShownName":"KeSPA Cup 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-05 00:38:10] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-12-02 12:37:00","Winner":"1","Score":"1-0"}]} 
+[2024-12-05 00:38:10] local.INFO: Match data: {"Team1":"KT Rolster","Team1OverviewPage":"KT Rolster","Team2":"Kwangdong Freecs","Team2OverviewPage":"Kwangdong Freecs"} 
+[2024-12-05 00:38:10] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-05 00:38:10] local.INFO: Found direct image file for team  
+[2024-12-05 00:38:10] local.INFO: Looking up team image for: {"teamName":"Kwangdong Freecs"} 
+[2024-12-05 00:38:10] local.INFO: Found direct image file for team  
+[2024-12-05 00:38:10] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Kwangdong Freecs.png"} 
+[2024-12-05 00:38:10] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-05 00:38:10] local.INFO: Found direct image file for team  
+[2024-12-05 00:38:10] local.INFO: Looking up team image for: {"teamName":"Kwangdong Freecs"} 
+[2024-12-05 00:38:10] local.INFO: Found direct image file for team  
+[2024-12-05 00:38:10] local.INFO: Getting rune icon for: Resolve  
+[2024-12-05 00:38:10] local.INFO: Getting rune icon for: Domination  
+[2024-12-05 00:38:10] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-05 00:38:10] local.INFO: Getting rune icon for: Domination  
+[2024-12-05 00:38:10] local.INFO: Getting rune icon for: Precision  
+[2024-12-05 00:38:10] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-05 00:38:10] local.INFO: Getting rune icon for: Domination  
+[2024-12-05 00:38:10] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:38:10] local.INFO: Getting rune icon for: Resolve  
+[2024-12-05 00:38:10] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:38:10] local.INFO: Getting rune icon for: Precision  
+[2024-12-05 00:38:10] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:38:10] local.INFO: Getting rune icon for: Resolve  
+[2024-12-05 00:38:10] local.INFO: Getting rune icon for: Domination  
+[2024-12-05 00:38:10] local.INFO: Getting rune icon for: Precision  
+[2024-12-05 00:38:10] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:38:10] local.INFO: Getting rune icon for: Precision  
+[2024-12-05 00:38:10] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:38:10] local.INFO: Getting rune icon for: Resolve  
+[2024-12-05 00:38:10] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:38:17] local.INFO: Raw date parameter received in APIService: {"date":"2024-11-30"} 
+[2024-12-05 00:38:17] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-11-30"} 
+[2024-12-05 00:38:17] local.INFO: Successfully fetched matches {"count":21,"first_match":{"Name":"KeG League 2024 Championship","DateTime_UTC":"2024-11-30 04:00:00","Team1":"Jeonnam","Team1Score":0,"Team1Final":"Jeonnam","Team2":"Daejeon","Team2Score":2,"Team2Final":"Daejeon","Winner":"2","Stream":"https://www.youtube.com/kespa","BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"KeG League 2024 Championship","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-05 00:38:18] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-11-30 11:38:00","Winner":"1","Score":"1-0"}]} 
+[2024-12-05 00:38:18] local.INFO: Match data: {"Team1":"BNK FearX","Team1OverviewPage":"BNK FearX","Team2":"KT Rolster","Team2OverviewPage":"KT Rolster"} 
+[2024-12-05 00:38:18] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-05 00:38:18] local.INFO: Found direct image file for team  
+[2024-12-05 00:38:18] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-05 00:38:18] local.INFO: Found direct image file for team  
+[2024-12-05 00:38:18] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/BNK FearX.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png"} 
+[2024-12-05 00:38:18] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-05 00:38:18] local.INFO: Found direct image file for team  
+[2024-12-05 00:38:18] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-05 00:38:18] local.INFO: Found direct image file for team  
+[2024-12-05 00:38:18] local.INFO: Getting rune icon for: Resolve  
+[2024-12-05 00:38:18] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:38:18] local.INFO: Getting rune icon for: Resolve  
+[2024-12-05 00:38:18] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:38:18] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-05 00:38:18] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-05 00:38:18] local.INFO: Getting rune icon for: Precision  
+[2024-12-05 00:38:18] local.INFO: Getting rune icon for: Precision  
+[2024-12-05 00:38:18] local.INFO: Getting rune icon for: Domination  
+[2024-12-05 00:38:18] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:38:18] local.INFO: Getting rune icon for: Domination  
+[2024-12-05 00:38:18] local.INFO: Getting rune icon for: Resolve  
+[2024-12-05 00:38:18] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-05 00:38:18] local.INFO: Getting rune icon for: Precision  
+[2024-12-05 00:38:18] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:38:18] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-05 00:38:18] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:38:18] local.INFO: Getting rune icon for: Precision  
+[2024-12-05 00:38:18] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:38:18] local.INFO: Getting rune icon for: Resolve  
+[2024-12-05 00:38:18] local.INFO: Getting rune icon for: Domination  
+[2024-12-05 00:38:59] local.INFO: Raw date parameter received in APIService: {"date":"2024-11-30"} 
+[2024-12-05 00:38:59] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-11-30"} 
+[2024-12-05 00:39:00] local.INFO: Successfully fetched matches {"count":21,"first_match":{"Name":"KeG League 2024 Championship","DateTime_UTC":"2024-11-30 04:00:00","Team1":"Jeonnam","Team1Score":0,"Team1Final":"Jeonnam","Team2":"Daejeon","Team2Score":2,"Team2Final":"Daejeon","Winner":"2","Stream":"https://www.youtube.com/kespa","BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"KeG League 2024 Championship","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-05 00:39:01] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-11-30 11:38:00","Winner":"1","Score":"1-0"}]} 
+[2024-12-05 00:39:01] local.INFO: Match data: {"Team1":"BNK FearX","Team1OverviewPage":"BNK FearX","Team2":"KT Rolster","Team2OverviewPage":"KT Rolster"} 
+[2024-12-05 00:39:01] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-05 00:39:01] local.INFO: Found direct image file for team  
+[2024-12-05 00:39:01] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-05 00:39:01] local.INFO: Found direct image file for team  
+[2024-12-05 00:39:01] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/BNK FearX.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png"} 
+[2024-12-05 00:39:01] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-05 00:39:01] local.INFO: Found direct image file for team  
+[2024-12-05 00:39:01] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-05 00:39:01] local.INFO: Found direct image file for team  
+[2024-12-05 00:39:01] local.INFO: Getting rune icon for: Resolve  
+[2024-12-05 00:39:01] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:39:01] local.INFO: Getting rune icon for: Resolve  
+[2024-12-05 00:39:01] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:39:01] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-05 00:39:01] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-05 00:39:01] local.INFO: Getting rune icon for: Precision  
+[2024-12-05 00:39:01] local.INFO: Getting rune icon for: Precision  
+[2024-12-05 00:39:01] local.INFO: Getting rune icon for: Domination  
+[2024-12-05 00:39:01] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:39:01] local.INFO: Getting rune icon for: Domination  
+[2024-12-05 00:39:01] local.INFO: Getting rune icon for: Resolve  
+[2024-12-05 00:39:01] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-05 00:39:01] local.INFO: Getting rune icon for: Precision  
+[2024-12-05 00:39:01] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:39:01] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-05 00:39:01] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:39:01] local.INFO: Getting rune icon for: Precision  
+[2024-12-05 00:39:01] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:39:01] local.INFO: Getting rune icon for: Resolve  
+[2024-12-05 00:39:01] local.INFO: Getting rune icon for: Domination  
+[2024-12-05 00:39:30] local.INFO: Raw date parameter received in APIService: {"date":"2024-11-30"} 
+[2024-12-05 00:39:30] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-11-30"} 
+[2024-12-05 00:39:30] local.INFO: Successfully fetched matches {"count":21,"first_match":{"Name":"KeG League 2024 Championship","DateTime_UTC":"2024-11-30 04:00:00","Team1":"Jeonnam","Team1Score":0,"Team1Final":"Jeonnam","Team2":"Daejeon","Team2Score":2,"Team2Final":"Daejeon","Winner":"2","Stream":"https://www.youtube.com/kespa","BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"KeG League 2024 Championship","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-05 00:39:31] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-11-30 11:38:00","Winner":"1","Score":"1-0"}]} 
+[2024-12-05 00:39:31] local.INFO: Match data: {"Team1":"BNK FearX","Team1OverviewPage":"BNK FearX","Team2":"KT Rolster","Team2OverviewPage":"KT Rolster"} 
+[2024-12-05 00:39:31] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-05 00:39:31] local.INFO: Found direct image file for team  
+[2024-12-05 00:39:31] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-05 00:39:31] local.INFO: Found direct image file for team  
+[2024-12-05 00:39:31] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/BNK FearX.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png"} 
+[2024-12-05 00:39:31] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-05 00:39:31] local.INFO: Found direct image file for team  
+[2024-12-05 00:39:31] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-05 00:39:31] local.INFO: Found direct image file for team  
+[2024-12-05 00:39:31] local.INFO: Getting rune icon for: Resolve  
+[2024-12-05 00:39:31] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:39:31] local.INFO: Getting rune icon for: Resolve  
+[2024-12-05 00:39:31] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:39:31] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-05 00:39:31] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-05 00:39:31] local.INFO: Getting rune icon for: Precision  
+[2024-12-05 00:39:31] local.INFO: Getting rune icon for: Precision  
+[2024-12-05 00:39:31] local.INFO: Getting rune icon for: Domination  
+[2024-12-05 00:39:31] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:39:31] local.INFO: Getting rune icon for: Domination  
+[2024-12-05 00:39:31] local.INFO: Getting rune icon for: Resolve  
+[2024-12-05 00:39:31] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-05 00:39:31] local.INFO: Getting rune icon for: Precision  
+[2024-12-05 00:39:31] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:39:31] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-05 00:39:31] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:39:31] local.INFO: Getting rune icon for: Precision  
+[2024-12-05 00:39:31] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:39:31] local.INFO: Getting rune icon for: Resolve  
+[2024-12-05 00:39:31] local.INFO: Getting rune icon for: Domination  
+[2024-12-05 00:42:07] local.INFO: Raw date parameter received in APIService: {"date":"2024-11-30"} 
+[2024-12-05 00:42:07] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-11-30"} 
+[2024-12-05 00:42:08] local.INFO: Successfully fetched matches {"count":21,"first_match":{"Name":"KeG League 2024 Championship","DateTime_UTC":"2024-11-30 04:00:00","Team1":"Jeonnam","Team1Score":0,"Team1Final":"Jeonnam","Team2":"Daejeon","Team2Score":2,"Team2Final":"Daejeon","Winner":"2","Stream":"https://www.youtube.com/kespa","BestOf":3,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"KeG League 2024 Championship","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-05 00:42:09] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"1-0","Games":[{"DateTime":"2024-11-30 11:38:00","Winner":"1","Score":"1-0"}]} 
+[2024-12-05 00:42:09] local.INFO: Match data: {"Team1":"BNK FearX","Team1OverviewPage":"BNK FearX","Team2":"KT Rolster","Team2OverviewPage":"KT Rolster"} 
+[2024-12-05 00:42:09] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-05 00:42:09] local.INFO: Found direct image file for team  
+[2024-12-05 00:42:09] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-05 00:42:09] local.INFO: Found direct image file for team  
+[2024-12-05 00:42:09] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/BNK FearX.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/KT Rolster.png"} 
+[2024-12-05 00:42:09] local.INFO: Looking up team image for: {"teamName":"BNK FearX"} 
+[2024-12-05 00:42:09] local.INFO: Found direct image file for team  
+[2024-12-05 00:42:09] local.INFO: Looking up team image for: {"teamName":"KT Rolster"} 
+[2024-12-05 00:42:09] local.INFO: Found direct image file for team  
+[2024-12-05 00:42:09] local.INFO: Getting rune icon for: Resolve  
+[2024-12-05 00:42:09] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:42:09] local.INFO: Getting rune icon for: Resolve  
+[2024-12-05 00:42:09] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:42:09] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-05 00:42:09] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-05 00:42:09] local.INFO: Getting rune icon for: Precision  
+[2024-12-05 00:42:09] local.INFO: Getting rune icon for: Precision  
+[2024-12-05 00:42:09] local.INFO: Getting rune icon for: Domination  
+[2024-12-05 00:42:09] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:42:09] local.INFO: Getting rune icon for: Domination  
+[2024-12-05 00:42:09] local.INFO: Getting rune icon for: Resolve  
+[2024-12-05 00:42:09] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-05 00:42:09] local.INFO: Getting rune icon for: Precision  
+[2024-12-05 00:42:09] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:42:09] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-05 00:42:09] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:42:09] local.INFO: Getting rune icon for: Precision  
+[2024-12-05 00:42:09] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-05 00:42:09] local.INFO: Getting rune icon for: Resolve  
+[2024-12-05 00:42:09] local.INFO: Getting rune icon for: Domination  
+[2024-12-05 00:42:30] local.INFO: Search request received {"query":"DRX"} 
+[2024-12-05 00:42:31] local.INFO: Teams found {"teams":[{"Name":"DRX","OverviewPage":"DRX"},{"Name":"DRX Challengers","OverviewPage":"DRX Challengers"},{"Name":"DRX Shinhan Bank","OverviewPage":"DRX Shinhan Bank"}]} 
+[2024-12-05 00:42:31] local.INFO: Processing team {"team":{"Name":"DRX","OverviewPage":"DRX"}} 
+[2024-12-05 00:42:31] local.INFO: Processing team {"team":{"Name":"DRX Challengers","OverviewPage":"DRX Challengers"}} 
+[2024-12-05 00:42:31] local.INFO: Processing team {"team":{"Name":"DRX Shinhan Bank","OverviewPage":"DRX Shinhan Bank"}} 
+[2024-12-05 00:42:31] local.INFO: Final results {"results":{"Illuminate\\Support\\Collection":[{"name":"DRX","image":"http://127.0.0.1:8000/storage/teamimages/DRX.png","url":"http://127.0.0.1:8000/team/DRX","type":"Team"},{"name":"DRX Challengers","image":"http://127.0.0.1:8000/storage/teamimages/DRX Challengers.png","url":"http://127.0.0.1:8000/team/DRX%20Challengers","type":"Team"},{"name":"DRX Shinhan Bank","image":"http://127.0.0.1:8000/storage/teamimages/DRX Shinhan Bank.png","url":"http://127.0.0.1:8000/team/DRX%20Shinhan%20Bank","type":"Team"}]}} 
+[2024-12-05 00:42:34] local.INFO: Search request received {"query":"BK"} 
+[2024-12-05 00:42:34] local.INFO: Teams found {"teams":[{"Name":"BK ROG Esports","OverviewPage":"BK ROG Esports"}]} 
+[2024-12-05 00:42:34] local.INFO: Processing team {"team":{"Name":"BK ROG Esports","OverviewPage":"BK ROG Esports"}} 
+[2024-12-05 00:42:34] local.INFO: Final results {"results":{"Illuminate\\Support\\Collection":[{"name":"BK ROG Esports","image":"http://127.0.0.1:8000/storage/teamimages/BK ROG Esports.png","url":"http://127.0.0.1:8000/team/BK%20ROG%20Esports","type":"Team"}]}} 
+[2024-12-05 00:42:34] local.INFO: Search request received {"query":"BNK"} 
+[2024-12-05 00:42:35] local.INFO: Teams found {"teams":[{"Name":"BNK FearX","OverviewPage":"BNK FearX"},{"Name":"BNK FearX Youth","OverviewPage":"BNK FearX Youth"}]} 
+[2024-12-05 00:42:35] local.INFO: Processing team {"team":{"Name":"BNK FearX","OverviewPage":"BNK FearX"}} 
+[2024-12-05 00:42:35] local.INFO: Processing team {"team":{"Name":"BNK FearX Youth","OverviewPage":"BNK FearX Youth"}} 
+[2024-12-05 00:42:35] local.INFO: Final results {"results":{"Illuminate\\Support\\Collection":[{"name":"BNK FearX","image":"http://127.0.0.1:8000/storage/teamimages/BNK FearX.png","url":"http://127.0.0.1:8000/team/BNK%20FearX","type":"Team"},{"name":"BNK FearX Youth","image":"http://127.0.0.1:8000/storage/teamimages/BNK FearX Youth.png","url":"http://127.0.0.1:8000/team/BNK%20FearX%20Youth","type":"Team"}]}} 

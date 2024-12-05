@@ -177,7 +177,7 @@ use App\Helpers\GameIconHelper;
                                 @foreach($team1Bans as $champion)
                                     @if($champion !== 'None')
                                         <div class="ban-icon" title="{{ $champion }}">
-                                            <img src="{{ ChampionIconHelper::getChampionIcon($champion, 'banned') }}" 
+                                            <img src="{{ ChampionIconHelper::getChampionIcon($champion) }}" 
                                                  alt="{{ $champion }}">
                                         </div>
                                     @endif
@@ -188,7 +188,7 @@ use App\Helpers\GameIconHelper;
                                 @foreach($team2Bans as $champion)
                                     @if($champion !== 'None')
                                         <div class="ban-icon" title="{{ $champion }}">
-                                            <img src="{{ ChampionIconHelper::getChampionIcon($champion, 'banned') }}" 
+                                            <img src="{{ ChampionIconHelper::getChampionIcon($champion) }}" 
                                                  alt="{{ $champion }}">
                                         </div>
                                     @endif
@@ -478,16 +478,3 @@ use App\Helpers\GameIconHelper;
     </div>
 </div>
 @endsection
-
-<style>
-/* Add these styles */
-.team-link {
-    color: inherit;
-    text-decoration: none;
-    transition: color 0.2s;
-}
-
-.team-link:hover {
-    color: #4CAF50;
-}
-</style>
