@@ -1160,6 +1160,7 @@ main {
 .match-page .player-name {
     color: #fff;
     font-size: 1em;
+    margin-top: 12px;
 }
 
 .match-page .player-role {

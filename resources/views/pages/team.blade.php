@@ -198,30 +198,4 @@
         @endif
     </div>
 </div>
-
-@push('script')
-<script>
-function toggleMatches(type) {
-    const section = document.querySelector(`.matches-section:${type === 'future' ? 'first-of-type' : 'last-of-type'}`);
-    const items = section.querySelectorAll('.match-item');
-    const btn = section.querySelector('.show-more-btn');
-    const btnText = btn.querySelector('.show-more-text');
-    const btnIcon = btn.querySelector('i');
-    
-    // Toggle visibility of matches
-    items.forEach((item, index) => {
-        if (index >= 5) {
-            item.classList.toggle('hidden');
-        }
-    });
-    
-    // Check if we're showing or hiding matches
-    const isExpanded = !items[5]?.classList.contains('hidden');
-    
-    // Update button text and icon
-    btnText.textContent = isExpanded ? 'Show Less' : 'Show More';
-    btnIcon.className = isExpanded ? 'bi bi-chevron-up' : 'bi bi-chevron-down';
-}
-</script>
-@endpush
 @endsection 

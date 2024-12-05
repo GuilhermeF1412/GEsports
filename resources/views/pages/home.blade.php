@@ -121,15 +121,3 @@ $teamImageController = new TeamImageController(new APIService, new ImageBuilder)
     </div>
 </div>
 @endsection
-
-@push('script')
-<script>
-function changeDate(days) {
-    const dateInput = document.getElementById('dateSelect');
-    const currentDate = new Date(dateInput.value);
-    currentDate.setDate(currentDate.getDate() + days);
-    dateInput.value = currentDate.toISOString().split('T')[0];
-    dateInput.form.submit();
-}
-</script>
-@endpush
