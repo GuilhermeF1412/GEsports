@@ -12391,3 +12391,13 @@ Internal Server Error
 [2024-12-05 18:24:18] local.INFO: Getting team image for: {"teamId":"Oh My God"} 
 [2024-12-05 18:24:18] local.INFO: Found team image: {"teamImage":null} 
 [2024-12-05 18:24:18] local.INFO: Returning direct team image: {"path":"storage/teamimages/Oh%20My%20God.png"} 
+[2024-12-05 18:24:45] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-05"} 
+[2024-12-05 18:24:45] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-05"} 
+[2024-12-05 18:24:46] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":2,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":0,"Team2Final":"LGD Gaming","Winner":"1","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-05 18:24:47] local.INFO: Game Details: {"Number of games":0,"Match BestOf":2,"Match Score":"1-1","Games":[]} 
+[2024-12-05 18:24:47] local.INFO: Match data: {"Team1":"Gen.G","Team1OverviewPage":"Gen.G","Team2":"Team Vitality","Team2OverviewPage":"Team Vitality"} 
+[2024-12-05 18:24:47] local.INFO: Looking up team image for: {"teamName":"Gen.G"} 
+[2024-12-05 18:24:47] local.INFO: Found direct image file for team  
+[2024-12-05 18:24:47] local.INFO: Looking up team image for: {"teamName":"Team Vitality"} 
+[2024-12-05 18:24:47] local.INFO: Found direct image file for team  
+[2024-12-05 18:24:47] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Gen.G.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Team Vitality.png"} 
