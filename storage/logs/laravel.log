@@ -6680,3 +6680,123 @@ Internal Server Error
 [2024-12-04 23:35:04] local.INFO: Getting team image for: {"teamId":"Team WE"} 
 [2024-12-04 23:35:04] local.INFO: Found team image: {"teamImage":null} 
 [2024-12-04 23:35:04] local.INFO: Returning direct team image: {"path":"storage/teamimages/Team%20WE.png"} 
+[2024-12-05 00:13:45] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-05"} 
+[2024-12-05 00:13:45] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-05"} 
+[2024-12-05 00:13:45] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":null,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":null,"Team2Final":"LGD Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-05 00:13:46] local.INFO: Game Details: {"Number of games":0,"Match BestOf":1,"Match Score":"-","Games":[]} 
+[2024-12-05 00:13:46] local.INFO: Match data: {"Team1":"Hanwha Life Esports","Team1OverviewPage":"Hanwha Life Esports","Team2":"Nongshim RedForce","Team2OverviewPage":"Nongshim RedForce"} 
+[2024-12-05 00:13:46] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-05 00:13:46] local.INFO: Found direct image file for team  
+[2024-12-05 00:13:46] local.INFO: Looking up team image for: {"teamName":"Nongshim RedForce"} 
+[2024-12-05 00:13:46] local.INFO: Found direct image file for team  
+[2024-12-05 00:13:46] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Nongshim RedForce.png"} 
+[2024-12-05 00:15:24] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-05"} 
+[2024-12-05 00:15:24] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-05"} 
+[2024-12-05 00:15:25] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":null,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":null,"Team2Final":"LGD Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-05 00:15:26] local.INFO: Game Details: {"Number of games":0,"Match BestOf":1,"Match Score":"-","Games":[]} 
+[2024-12-05 00:15:26] local.INFO: Match data: {"Team1":"Hanwha Life Esports","Team1OverviewPage":"Hanwha Life Esports","Team2":"Nongshim RedForce","Team2OverviewPage":"Nongshim RedForce"} 
+[2024-12-05 00:15:26] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-05 00:15:26] local.INFO: Found direct image file for team  
+[2024-12-05 00:15:26] local.INFO: Looking up team image for: {"teamName":"Nongshim RedForce"} 
+[2024-12-05 00:15:26] local.INFO: Found direct image file for team  
+[2024-12-05 00:15:26] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Nongshim RedForce.png"} 
+[2024-12-05 00:16:09] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-05"} 
+[2024-12-05 00:16:09] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-05"} 
+[2024-12-05 00:16:10] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":null,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":null,"Team2Final":"LGD Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-05 00:16:11] local.INFO: Game Details: {"Number of games":0,"Match BestOf":1,"Match Score":"-","Games":[]} 
+[2024-12-05 00:16:11] local.INFO: Match data: {"Team1":"Hanwha Life Esports","Team1OverviewPage":"Hanwha Life Esports","Team2":"Nongshim RedForce","Team2OverviewPage":"Nongshim RedForce"} 
+[2024-12-05 00:16:11] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-05 00:16:11] local.INFO: Found direct image file for team  
+[2024-12-05 00:16:11] local.INFO: Looking up team image for: {"teamName":"Nongshim RedForce"} 
+[2024-12-05 00:16:11] local.INFO: Found direct image file for team  
+[2024-12-05 00:16:11] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Nongshim RedForce.png"} 
+[2024-12-05 00:17:09] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-05"} 
+[2024-12-05 00:17:09] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-05"} 
+[2024-12-05 00:17:10] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":null,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":null,"Team2Final":"LGD Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-05 00:17:11] local.INFO: Game Details: {"Number of games":0,"Match BestOf":1,"Match Score":"-","Games":[]} 
+[2024-12-05 00:17:11] local.INFO: Match data: {"Team1":"Hanwha Life Esports","Team1OverviewPage":"Hanwha Life Esports","Team2":"Nongshim RedForce","Team2OverviewPage":"Nongshim RedForce"} 
+[2024-12-05 00:17:11] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-05 00:17:11] local.INFO: Found direct image file for team  
+[2024-12-05 00:17:11] local.INFO: Looking up team image for: {"teamName":"Nongshim RedForce"} 
+[2024-12-05 00:17:11] local.INFO: Found direct image file for team  
+[2024-12-05 00:17:11] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Nongshim RedForce.png"} 
+[2024-12-05 00:18:21] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-05"} 
+[2024-12-05 00:18:21] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-05"} 
+[2024-12-05 00:18:21] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":null,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":null,"Team2Final":"LGD Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-05 00:18:22] local.INFO: Game Details: {"Number of games":0,"Match BestOf":1,"Match Score":"-","Games":[]} 
+[2024-12-05 00:18:22] local.INFO: Match data: {"Team1":"Hanwha Life Esports","Team1OverviewPage":"Hanwha Life Esports","Team2":"Nongshim RedForce","Team2OverviewPage":"Nongshim RedForce"} 
+[2024-12-05 00:18:22] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-05 00:18:22] local.INFO: Found direct image file for team  
+[2024-12-05 00:18:22] local.INFO: Looking up team image for: {"teamName":"Nongshim RedForce"} 
+[2024-12-05 00:18:22] local.INFO: Found direct image file for team  
+[2024-12-05 00:18:22] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Nongshim RedForce.png"} 
+[2024-12-05 00:19:22] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-05"} 
+[2024-12-05 00:19:22] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-05"} 
+[2024-12-05 00:19:23] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":null,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":null,"Team2Final":"LGD Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-05 00:19:23] local.INFO: Game Details: {"Number of games":0,"Match BestOf":1,"Match Score":"-","Games":[]} 
+[2024-12-05 00:19:23] local.INFO: Match data: {"Team1":"Hanwha Life Esports","Team1OverviewPage":"Hanwha Life Esports","Team2":"Nongshim RedForce","Team2OverviewPage":"Nongshim RedForce"} 
+[2024-12-05 00:19:23] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-05 00:19:23] local.INFO: Found direct image file for team  
+[2024-12-05 00:19:23] local.INFO: Looking up team image for: {"teamName":"Nongshim RedForce"} 
+[2024-12-05 00:19:23] local.INFO: Found direct image file for team  
+[2024-12-05 00:19:23] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Nongshim RedForce.png"} 
+[2024-12-05 00:20:05] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-05"} 
+[2024-12-05 00:20:05] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-05"} 
+[2024-12-05 00:20:06] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":null,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":null,"Team2Final":"LGD Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-05 00:20:07] local.INFO: Game Details: {"Number of games":0,"Match BestOf":1,"Match Score":"-","Games":[]} 
+[2024-12-05 00:20:07] local.INFO: Match data: {"Team1":"Hanwha Life Esports","Team1OverviewPage":"Hanwha Life Esports","Team2":"Nongshim RedForce","Team2OverviewPage":"Nongshim RedForce"} 
+[2024-12-05 00:20:07] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-05 00:20:07] local.INFO: Found direct image file for team  
+[2024-12-05 00:20:07] local.INFO: Looking up team image for: {"teamName":"Nongshim RedForce"} 
+[2024-12-05 00:20:07] local.INFO: Found direct image file for team  
+[2024-12-05 00:20:07] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Nongshim RedForce.png"} 
+[2024-12-05 00:20:53] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-05"} 
+[2024-12-05 00:20:53] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-05"} 
+[2024-12-05 00:20:54] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":null,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":null,"Team2Final":"LGD Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-05 00:20:55] local.INFO: Game Details: {"Number of games":0,"Match BestOf":1,"Match Score":"-","Games":[]} 
+[2024-12-05 00:20:55] local.INFO: Match data: {"Team1":"Hanwha Life Esports","Team1OverviewPage":"Hanwha Life Esports","Team2":"Nongshim RedForce","Team2OverviewPage":"Nongshim RedForce"} 
+[2024-12-05 00:20:55] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-05 00:20:55] local.INFO: Found direct image file for team  
+[2024-12-05 00:20:55] local.INFO: Looking up team image for: {"teamName":"Nongshim RedForce"} 
+[2024-12-05 00:20:55] local.INFO: Found direct image file for team  
+[2024-12-05 00:20:55] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Nongshim RedForce.png"} 
+[2024-12-05 00:22:03] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-05"} 
+[2024-12-05 00:22:03] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-05"} 
+[2024-12-05 00:22:04] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":null,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":null,"Team2Final":"LGD Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-05 00:22:05] local.INFO: Game Details: {"Number of games":0,"Match BestOf":1,"Match Score":"-","Games":[]} 
+[2024-12-05 00:22:05] local.INFO: Match data: {"Team1":"Hanwha Life Esports","Team1OverviewPage":"Hanwha Life Esports","Team2":"Nongshim RedForce","Team2OverviewPage":"Nongshim RedForce"} 
+[2024-12-05 00:22:05] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-05 00:22:05] local.INFO: Found direct image file for team  
+[2024-12-05 00:22:05] local.INFO: Looking up team image for: {"teamName":"Nongshim RedForce"} 
+[2024-12-05 00:22:05] local.INFO: Found direct image file for team  
+[2024-12-05 00:22:05] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Nongshim RedForce.png"} 
+[2024-12-05 00:22:39] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-05"} 
+[2024-12-05 00:22:39] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-05"} 
+[2024-12-05 00:22:39] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":null,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":null,"Team2Final":"LGD Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-05 00:22:40] local.INFO: Game Details: {"Number of games":0,"Match BestOf":1,"Match Score":"-","Games":[]} 
+[2024-12-05 00:22:40] local.INFO: Match data: {"Team1":"Hanwha Life Esports","Team1OverviewPage":"Hanwha Life Esports","Team2":"Nongshim RedForce","Team2OverviewPage":"Nongshim RedForce"} 
+[2024-12-05 00:22:40] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-05 00:22:40] local.INFO: Found direct image file for team  
+[2024-12-05 00:22:40] local.INFO: Looking up team image for: {"teamName":"Nongshim RedForce"} 
+[2024-12-05 00:22:40] local.INFO: Found direct image file for team  
+[2024-12-05 00:22:40] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Nongshim RedForce.png"} 
+[2024-12-05 00:23:05] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-05"} 
+[2024-12-05 00:23:05] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-05"} 
+[2024-12-05 00:23:05] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":null,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":null,"Team2Final":"LGD Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-05 00:23:06] local.INFO: Game Details: {"Number of games":0,"Match BestOf":1,"Match Score":"-","Games":[]} 
+[2024-12-05 00:23:06] local.INFO: Match data: {"Team1":"Hanwha Life Esports","Team1OverviewPage":"Hanwha Life Esports","Team2":"Nongshim RedForce","Team2OverviewPage":"Nongshim RedForce"} 
+[2024-12-05 00:23:06] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-05 00:23:06] local.INFO: Found direct image file for team  
+[2024-12-05 00:23:06] local.INFO: Looking up team image for: {"teamName":"Nongshim RedForce"} 
+[2024-12-05 00:23:06] local.INFO: Found direct image file for team  
+[2024-12-05 00:23:06] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Nongshim RedForce.png"} 
+[2024-12-05 00:24:50] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-05"} 
+[2024-12-05 00:24:50] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-05"} 
+[2024-12-05 00:24:50] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":null,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":null,"Team2Final":"LGD Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-05 00:24:51] local.INFO: Game Details: {"Number of games":0,"Match BestOf":1,"Match Score":"-","Games":[]} 
+[2024-12-05 00:24:51] local.INFO: Match data: {"Team1":"Hanwha Life Esports","Team1OverviewPage":"Hanwha Life Esports","Team2":"Nongshim RedForce","Team2OverviewPage":"Nongshim RedForce"} 
+[2024-12-05 00:24:51] local.INFO: Looking up team image for: {"teamName":"Hanwha Life Esports"} 
+[2024-12-05 00:24:51] local.INFO: Found direct image file for team  
+[2024-12-05 00:24:51] local.INFO: Looking up team image for: {"teamName":"Nongshim RedForce"} 
+[2024-12-05 00:24:51] local.INFO: Found direct image file for team  
+[2024-12-05 00:24:51] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Hanwha Life Esports.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Nongshim RedForce.png"} 
