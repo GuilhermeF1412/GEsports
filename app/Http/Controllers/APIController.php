@@ -99,8 +99,8 @@ class APIController extends Controller
             }
 
             // Get recent matches for both teams
-            $team1RecentMatches = $this->apiService->getTeamMatches($match['Team1']);
-            $team2RecentMatches = $this->apiService->getTeamMatches($match['Team2']);
+            $team1RecentMatches = array_slice($this->apiService->getTeamMatches($match['Team1']), 0, 5);
+            $team2RecentMatches = array_slice($this->apiService->getTeamMatches($match['Team2']), 0, 5);
 
             // Fetch game details
             $gameDetails = $this->apiService->getMatchGames(

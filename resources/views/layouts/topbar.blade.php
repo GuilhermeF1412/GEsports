@@ -9,7 +9,7 @@
             <div class="search-form d-flex align-items-center">
                 <input type="text" 
                        id="searchInput" 
-                       placeholder="Search teams or matches..." 
+                       placeholder="Search Teams" 
                        autocomplete="off">
                 <button type="button"><i class="bi bi-search"></i></button>
                 <div id="searchResults" class="search-results"></div>

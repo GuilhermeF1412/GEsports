@@ -25,7 +25,7 @@ class TeamController extends Controller
             $recentMatches = [];
             $futureMatches = [];
             if ($team) {
-                $recentMatches = $this->apiService->getTeamMatches($teamName);
+                $recentMatches = array_slice($this->apiService->getTeamMatches($teamName), 0, 20);
                 $futureMatches = $this->apiService->getTeamFutureMatches($teamName);
             }
 

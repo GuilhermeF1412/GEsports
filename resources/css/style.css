@@ -9,3 +9,59 @@
     background-color: #666; /* Replace with your desired color */
     color: #fff; /* Text color */
 }
+
+/* Match page recent matches styles */
+.recent-matches-container {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.team-recent-matches {
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--bs-gray-300);
+}
+
+.recent-matches-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: var(--bs-gray-100);
+}
+
+.recent-matches-header h3 {
+    position: relative;
+    padding-bottom: 0.5rem;
+    border: none !important;
+    border-bottom: none !important;
+}
+
+.matches-list {
+    padding: 0 1rem;
+    border: none !important;
+}
+
+.matches-list .match-item {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    border: none !important;
+    border-bottom: none !important;
+}
+
+.matches-list .match-item:hover {
+    background-color: var(--bs-gray-100);
+}
+
+.match-page .recent-matches-container .match-item {
+    border-bottom: none !important;
+}
+
+.match-page .recent-matches-container .recent-matches-header h3 {
+    border-bottom: none !important;
+}
