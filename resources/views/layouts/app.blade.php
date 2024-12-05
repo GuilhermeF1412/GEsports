@@ -3,6 +3,7 @@
 <head>
     @include('layouts.head')
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
 </head>
 <body class="page-container">
     <header class="topbar-custom">
@@ -26,6 +27,7 @@
     @include('layouts.footer')
 
     <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
     <script src="{{ asset('js/app.js') }}"></script>
     @stack('script')
 </body>

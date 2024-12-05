@@ -241,8 +241,9 @@ main {
 }
 
 .home-page .date-selector {
-    text-align: center;
     position: relative;
+    text-align: center;
+    display: inline-block;
 }
 
 .home-page .date-input {
@@ -266,6 +267,8 @@ main {
     min-width: 250px;
     display: inline-block;
     transition: all 0.2s ease;
+    position: relative;
+    z-index: 1;
 }
 
 .home-page .date-selector:hover .current-date {
@@ -404,6 +407,90 @@ main {
     font-weight: 500;
     margin-bottom: 2px;
     animation: blink 1s infinite;
+}
+
+/* Date Picker (Flatpickr) Styles */
+.flatpickr-calendar {
+    background: #111c25 !important;
+    border: 1px solid #1a242d !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+    position: absolute !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    top: 100% !important;
+    margin-top: 8px !important;
+    z-index: 1000 !important;
+}
+
+.flatpickr-calendar:before,
+.flatpickr-calendar:after {
+    display: none !important;
+}
+
+.flatpickr-current-month .flatpickr-monthDropdown-months {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+}
+
+.flatpickr-day {
+    color: #fff !important;
+    border-radius: 4px !important;
+}
+
+.flatpickr-day:hover {
+    background: #1a242d !important;
+}
+
+.flatpickr-day.selected {
+    background: #00dc82 !important;
+    border-color: #00dc82 !important;
+}
+
+.flatpickr-months .flatpickr-month,
+.flatpickr-current-month .flatpickr-monthDropdown-months,
+.flatpickr-months .flatpickr-prev-month, 
+.flatpickr-months .flatpickr-next-month {
+    color: #fff !important;
+    fill: #fff !important;
+}
+
+.flatpickr-months .flatpickr-prev-month:hover,
+.flatpickr-months .flatpickr-next-month:hover {
+    background: #1a242d !important;
+}
+
+.flatpickr-months .flatpickr-prev-month svg,
+.flatpickr-months .flatpickr-next-month svg {
+    fill: #fff !important;
+}
+
+.flatpickr-weekday {
+    color: #8f9faa !important;
+}
+
+/* Month select dropdown styles */
+.flatpickr-monthDropdown-months {
+    background: #111c25 !important;
+}
+
+.flatpickr-monthDropdown-month {
+    background: #111c25 !important;
+    color: #fff !important;
+}
+
+.flatpickr-monthDropdown-month:hover {
+    background: #1a242d !important;
+}
+
+/* Close button (X) */
+.flatpickr-close-icon {
+    color: #fff !important;
+    opacity: 0.7;
+}
+
+.flatpickr-close-icon:hover {
+    opacity: 1;
 }
 
 /* Team Page Specific Styles */

@@ -96,4 +96,30 @@ function changeDate(days) {
     currentDate.setDate(currentDate.getDate() + days);
     dateInput.value = currentDate.toISOString().split('T')[0];
     dateInput.form.submit();
+}
+
+// Setup date picker
+const dateInput = document.getElementById('dateSelect');
+if (dateInput) {
+    console.log('Initializing Flatpickr');
+    const fp = flatpickr("#dateSelect", {
+        defaultDate: dateInput.value,
+        dateFormat: "Y-m-d",
+        onChange: (selectedDates) => {
+            const formattedDate = selectedDates[0].toISOString().split('T')[0];
+            console.log('Selected date:', formattedDate);
+            dateInput.value = formattedDate;
+            dateInput.form.submit();
+        },
+        theme: "dark",
+        appendTo: document.querySelector('.date-selector')
+    });
+
+    // Make the current date display clickable
+    const currentDateDisplay = document.getElementById('currentDate');
+    currentDateDisplay.style.cursor = 'pointer';
+    currentDateDisplay.addEventListener('click', () => {
+        console.log('Date display clicked');
+        fp.open();
+    });
 } 

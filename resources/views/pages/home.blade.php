@@ -1,5 +1,4 @@
 @extends('layouts.app')
-
 @php
 use App\Http\Controllers\TeamImageController;
 use App\Services\APIService;
@@ -21,9 +20,8 @@ $teamImageController = new TeamImageController(new APIService, new ImageBuilder)
                 <form action="{{ route('lolhome') }}" method="GET" class="date-selector">
                     <input type="date" name="date" id="dateSelect" 
                            value="{{ $selectedDate }}" 
-                           onchange="this.form.submit()"
-                           class="date-input">
-                    <div class="current-date">
+                           style="display: none;">
+                    <div class="current-date" id="currentDate">
                         {{ \Carbon\Carbon::parse($selectedDate)->format('l, F j, Y') }}
                     </div>
                 </form>
@@ -121,3 +119,4 @@ $teamImageController = new TeamImageController(new APIService, new ImageBuilder)
     </div>
 </div>
 @endsection
+
