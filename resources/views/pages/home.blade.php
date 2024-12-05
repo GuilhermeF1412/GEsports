@@ -1,11 +1,4 @@
 @extends('layouts.app')
-@php
-use App\Http\Controllers\TeamImageController;
-use App\Services\APIService;
-use App\Helpers\ImageBuilder;
-
-$teamImageController = new TeamImageController(new APIService, new ImageBuilder);
-@endphp
 
 @section('content')
 <div class="home-page">
@@ -22,7 +15,7 @@ $teamImageController = new TeamImageController(new APIService, new ImageBuilder)
                            value="{{ $selectedDate }}" 
                            style="display: none;">
                     <div class="current-date" id="currentDate">
-                        {{ \Carbon\Carbon::parse($selectedDate)->format('l, F j, Y') }}
+                        {{ $formattedDate }}
                     </div>
                 </form>
                 
@@ -34,88 +27,79 @@ $teamImageController = new TeamImageController(new APIService, new ImageBuilder)
 
         <!-- Matches Container -->
         <div class="matches-container">
-            @if (!empty($todayMatches))
-                @php
-                    $currentTournament = '';
-                    $tournamentIndex = 0;
-                @endphp
+            @if (!empty($matches))
+                @php $currentTournament = ''; @endphp
                 
-                @foreach($todayMatches as $match)
+                @foreach($matches as $match)
                     @if ($currentTournament !== $match['Name'])
                         @if ($currentTournament !== '')
                             </div> <!-- Close tournament-matches -->
                         @endif
                         
-                        @php
-                            $currentTournament = $match['Name'];
-                            $tournamentIndex++;
-                        @endphp
+                        @php $currentTournament = $match['Name']; @endphp
                         
                         <div class="tournament-section">
                             <div class="tournament-header" data-bs-toggle="collapse" 
-                                 data-bs-target="#tournament{{ $tournamentIndex }}"
+                                 data-bs-target="#tournament{{ $match['tournamentIndex'] }}"
                                  aria-expanded="true"
-                                 aria-controls="tournament{{ $tournamentIndex }}">
+                                 aria-controls="tournament{{ $match['tournamentIndex'] }}">
                                 <div class="tournament-name">
                                     {{ $currentTournament }}
                                 </div>
                                 <i class="bi bi-chevron-down toggle-icon"></i>
                             </div>
                             
-                            <div id="tournament{{ $tournamentIndex }}" 
+                            <div id="tournament{{ $match['tournamentIndex'] }}" 
                                  class="tournament-matches collapse show"
-                                 aria-labelledby="tournament{{ $tournamentIndex }}">
+                                 aria-labelledby="tournament{{ $match['tournamentIndex'] }}">
+                    @endif
+
+                    <div class="match-row {{ $match['isLive'] ? 'match-live' : '' }}">
+                        <a href="{{ $match['matchUrl'] }}" class="match-link">
+                            <div class="match-time">
+                                @if($match['isLive'])
+                                    <div class="live-indicator">LIVE</div>
+                                @endif
+                                <div class="time">{{ $match['formattedTime'] }}</div>
+                            </div>
+
+                            <div class="match-teams">
+                                <div class="team team-1 {{ $match['Winner'] === '1' ? 'winner' : '' }}">
+                                    <img src="{{ $match['team1Image'] }}" 
+                                         alt="{{ $match['Team1'] }}" class="team-logo">
+                                    <span class="team-name">{{ $match['Team1'] }}</span>
+                                    <span class="team-score">{{ $match['team1Score'] }}</span>
+                                </div>
+                                <div class="team team-2 {{ $match['Winner'] === '2' ? 'winner' : '' }}">
+                                    <img src="{{ $match['team2Image'] }}" 
+                                         alt="{{ $match['Team2'] }}" class="team-logo">
+                                    <span class="team-name">{{ $match['Team2'] }}</span>
+                                    <span class="team-score">{{ $match['team2Score'] }}</span>
+                                </div>
+                            </div>
+
+                            <div class="match-info">
+                                <span class="match-format">Bo{{ $match['BestOf'] }}</span>
+                                @if(!empty($match['Stream']))
+                                    <a href="{{ $match['Stream'] }}" target="_blank" class="stream-link" onclick="event.stopPropagation();">
+                                        <i class="bi bi-broadcast"></i>
+                                    </a>
+                                @endif
+                            </div>
+                        </a>
+                    </div>
+                @endforeach
+                
+                @if (!empty($currentTournament))
+                    </div> <!-- Close last tournament-matches -->
                 @endif
-
-                <div class="match-row {{ $match['status'] === 'IS LIVE' ? 'match-live' : '' }}">
-                    <a href="{{ route('match.show', [
-                        'matchId' => $match['Team1'] . '-vs-' . $match['Team2'],
-                        'date' => $selectedDate
-                    ]) }}" 
-                       class="match-link">
-                        <div class="match-time">
-                            @if($match['status'] === 'IS LIVE')
-                                <div class="live-indicator">LIVE</div>
-                            @endif
-                            <div class="time">{{ date('H:i', strtotime($match['DateTime_UTC'])) }}</div>
-                        </div>
-
-                        <div class="match-teams">
-                            <div class="team team-1 {{ $match['Winner'] === '1' ? 'winner' : '' }}">
-                                <img src="{{ $teamImageController->getTeamImagePath($match['Team1OverviewPage']) }}" 
-                                     alt="{{ $match['Team1'] }}" class="team-logo">
-                                <span class="team-name">{{ $match['Team1'] }}</span>
-                                <span class="team-score">{{ $match['Team1Score'] ?? '-' }}</span>
-                            </div>
-                            <div class="team team-2 {{ $match['Winner'] === '2' ? 'winner' : '' }}">
-                                <img src="{{ $teamImageController->getTeamImagePath($match['Team2OverviewPage']) }}" 
-                                     alt="{{ $match['Team2'] }}" class="team-logo">
-                                <span class="team-name">{{ $match['Team2'] }}</span>
-                                <span class="team-score">{{ $match['Team2Score'] ?? '-' }}</span>
-                            </div>
-                        </div>
-
-                        <div class="match-info">
-                            <span class="match-format">Bo{{ $match['BestOf'] }}</span>
-                            @if(!empty($match['Stream']))
-                                <a href="{{ $match['Stream'] }}" target="_blank" class="stream-link" onclick="event.stopPropagation();">
-                                    <i class="bi bi-broadcast"></i>
-                                </a>
-                            @endif
-                        </div>
-                    </a>
+            @else
+                <div class="no-matches">
+                    <i class="bi bi-calendar-x"></i>
+                    <p>No matches scheduled for this date</p>
                 </div>
-            @endforeach
-            
-            @if (!empty($currentTournament))
-                </div> <!-- Close last tournament-matches -->
             @endif
-        @else
-            <div class="no-matches">
-                <i class="bi bi-calendar-x"></i>
-                <p>No matches scheduled for this date</p>
-            </div>
-        @endif
+        </div>
     </div>
 </div>
 @endsection

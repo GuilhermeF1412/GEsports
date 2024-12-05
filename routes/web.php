@@ -22,7 +22,7 @@ use App\Http\Controllers\TeamController;
 
 
 // API Routes
-Route::get('/lolhome', [APIController::class, 'todayMatches'])->name('lolhome');
+Route::get('/lolhome', [HomeController::class, 'index'])->name('lolhome');
 Route::get('/match/{matchId}/{date?}', [APIController::class, 'showMatch'])->name('match.show');
 
 // Team Image Route
