@@ -18,20 +18,25 @@ use App\Http\Controllers\TeamController;
 |
 */
 
+// Game Routes
+Route::get('/lolhome', [HomeController::class, 'index'])->name('lolhome');
 
-
+// Coming Soon Game Pages
+Route::view('/valhome', 'pages.valorant')->name('valhome');
+Route::view('/cs2home', 'pages.cs2')->name('cs2home');
+Route::view('/dota2home', 'pages.dota2')->name('dota2home');
+Route::view('/rocketleaguehome', 'pages.rocket-league')->name('rocketleaguehome');
 
 // API Routes
-Route::get('/lolhome', [HomeController::class, 'index'])->name('lolhome');
 Route::get('/match/{matchId}/{date?}', [APIController::class, 'showMatch'])->name('match.show');
 
 // Team Image Route
 Route::get('/store-team-images', [TeamImageController::class, 'storeTeamImage'])->name('store.team.images');
 
+// Team Route
+Route::get('/team/{teamName}', [TeamController::class, 'show'])->name('team.show');
 
 // Default Welcome Route
 Route::get('/', function () {
     return redirect()->route('lolhome');
 });
-
-Route::get('/team/{teamName}', [TeamController::class, 'show'])->name('team.show');
