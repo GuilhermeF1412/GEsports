@@ -14,7 +14,7 @@
                 @php
                     $teamData = [
                         'name' => $match["Team{$teamNumber}"],
-                        'image' => $match["team{$teamNumber}Image"],
+                        'image' => asset('storage/teamimages/' . $match["Team{$teamNumber}"] . '.png'),
                         'score' => $match["team{$teamNumber}Score"],
                         'isWinner' => $match['Winner'] === $teamNumber
                     ];
@@ -23,7 +23,8 @@
                 <div class="team team-{{ $teamNumber }} {{ $teamData['isWinner'] ? 'winner' : '' }}">
                     <img src="{{ $teamData['image'] }}" 
                          alt="{{ $teamData['name'] }}" 
-                         class="team-logo">
+                         class="team-logo"
+                         onerror="this.src='{{ asset('storage/teamimages/placeholder.png') }}'">
                     <span class="team-name">{{ $teamData['name'] }}</span>
                     <span class="team-score">{{ $teamData['score'] }}</span>
                 </div>

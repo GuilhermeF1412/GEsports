@@ -18379,3 +18379,132 @@ Internal Server Error
 [2024-12-06 01:33:46] local.INFO: Looking up team image for: {"teamName":"Team WE"} 
 [2024-12-06 01:33:46] local.INFO: Found direct image file for team  
 [2024-12-06 01:33:46] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Top Esports.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Team WE.png"} 
+[2024-12-06 02:14:36] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-06"} 
+[2024-12-06 02:14:36] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-06"} 
+[2024-12-06 02:14:36] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-06 06:00:00","Team1":"Bilibili Gaming","Team1Score":null,"Team1Final":"Bilibili Gaming","Team2":"Anyone's Legend","Team2Score":null,"Team2Final":"Anyone's Legend","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Bilibili Gaminglogo profile.png","Team2Image":"Anyone's Legendlogo profile.png","Team1OverviewPage":"Bilibili Gaming","Team2OverviewPage":"Anyone's Legend","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 02:14:36] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 02:14:36] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 02:14:36] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 02:14:36] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 02:14:36] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 02:14:36] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 02:14:36] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 02:14:36] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 02:14:36] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 02:14:36] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 02:14:36] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 02:14:36] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 02:14:36] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 02:14:36] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 02:14:36] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 02:14:36] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 02:14:36] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 02:14:36] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 02:14:36] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 02:14:36] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 02:14:36] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 02:14:36] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 02:14:36] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 02:14:36] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 02:14:36] local.INFO: Getting team image for: {"teamId":"Bilibili Gaming"} 
+[2024-12-06 02:14:36] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 02:14:36] local.INFO: Returning direct team image: {"path":"storage/teamimages/Bilibili%20Gaming.png"} 
+[2024-12-06 02:14:36] local.INFO: Getting team image for: {"teamId":"Anyone's Legend"} 
+[2024-12-06 02:14:36] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 02:14:36] local.INFO: Returning direct team image: {"path":"storage/teamimages/Anyone%27s%20Legend.png"} 
+[2024-12-06 02:14:36] local.INFO: Getting team image for: {"teamId":"Top Esports"} 
+[2024-12-06 02:14:36] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 02:14:36] local.INFO: Returning direct team image: {"path":"storage/teamimages/Top%20Esports.png"} 
+[2024-12-06 02:14:36] local.INFO: Getting team image for: {"teamId":"Team WE"} 
+[2024-12-06 02:14:36] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 02:14:36] local.INFO: Returning direct team image: {"path":"storage/teamimages/Team%20WE.png"} 
+[2024-12-06 02:14:36] local.INFO: Getting team image for: {"teamId":"LNG Esports"} 
+[2024-12-06 02:14:36] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 02:14:36] local.INFO: Returning direct team image: {"path":"storage/teamimages/LNG%20Esports.png"} 
+[2024-12-06 02:14:36] local.INFO: Getting team image for: {"teamId":"Oh My God"} 
+[2024-12-06 02:14:36] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 02:14:36] local.INFO: Returning direct team image: {"path":"storage/teamimages/Oh%20My%20God.png"} 
+[2024-12-06 02:14:36] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 02:14:36] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 02:14:36] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 02:14:36] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 02:14:39] local.INFO: Search request received {"query":"DRX"} 
+[2024-12-06 02:14:39] local.INFO: Teams found {"teams":[{"Name":"DRX","OverviewPage":"DRX","Location":null,"TeamLocation":"South Korea","Region":"Korea"},{"Name":"DRX Challengers","OverviewPage":"DRX Challengers","Location":null,"TeamLocation":"South Korea","Region":"Korea"},{"Name":"DRX Shinhan Bank","OverviewPage":"DRX Shinhan Bank","Location":null,"TeamLocation":"South Korea","Region":"Korea"}]} 
+[2024-12-06 02:14:39] local.INFO: Processing team {"team":{"Name":"DRX","OverviewPage":"DRX","Location":null,"TeamLocation":"South Korea","Region":"Korea"}} 
+[2024-12-06 02:14:39] local.INFO: Processing team {"team":{"Name":"DRX Challengers","OverviewPage":"DRX Challengers","Location":null,"TeamLocation":"South Korea","Region":"Korea"}} 
+[2024-12-06 02:14:39] local.INFO: Processing team {"team":{"Name":"DRX Shinhan Bank","OverviewPage":"DRX Shinhan Bank","Location":null,"TeamLocation":"South Korea","Region":"Korea"}} 
+[2024-12-06 02:14:39] local.INFO: Final results {"results":{"Illuminate\\Support\\Collection":[{"name":"DRX","image":"http://127.0.0.1:8000/storage/teamimages/DRX.png","url":"http://127.0.0.1:8000/team/DRX","type":"Team"},{"name":"DRX Challengers","image":"http://127.0.0.1:8000/storage/teamimages/DRX Challengers.png","url":"http://127.0.0.1:8000/team/DRX%20Challengers","type":"Team"},{"name":"DRX Shinhan Bank","image":"http://127.0.0.1:8000/storage/teamimages/DRX Shinhan Bank.png","url":"http://127.0.0.1:8000/team/DRX%20Shinhan%20Bank","type":"Team"}]}} 
+[2024-12-06 02:17:07] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-06"} 
+[2024-12-06 02:17:07] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-06"} 
+[2024-12-06 02:17:07] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-06 06:00:00","Team1":"Bilibili Gaming","Team1Score":null,"Team1Final":"Bilibili Gaming","Team2":"Anyone's Legend","Team2Score":null,"Team2Final":"Anyone's Legend","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Bilibili Gaminglogo profile.png","Team2Image":"Anyone's Legendlogo profile.png","Team1OverviewPage":"Bilibili Gaming","Team2OverviewPage":"Anyone's Legend","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 02:17:26] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-06"} 
+[2024-12-06 02:17:26] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-06"} 
+[2024-12-06 02:17:27] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-06 06:00:00","Team1":"Bilibili Gaming","Team1Score":null,"Team1Final":"Bilibili Gaming","Team2":"Anyone's Legend","Team2Score":null,"Team2Final":"Anyone's Legend","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Bilibili Gaminglogo profile.png","Team2Image":"Anyone's Legendlogo profile.png","Team1OverviewPage":"Bilibili Gaming","Team2OverviewPage":"Anyone's Legend","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 02:17:30] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-06"} 
+[2024-12-06 02:17:30] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-06"} 
+[2024-12-06 02:17:30] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-06 06:00:00","Team1":"Bilibili Gaming","Team1Score":null,"Team1Final":"Bilibili Gaming","Team2":"Anyone's Legend","Team2Score":null,"Team2Final":"Anyone's Legend","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Bilibili Gaminglogo profile.png","Team2Image":"Anyone's Legendlogo profile.png","Team1OverviewPage":"Bilibili Gaming","Team2OverviewPage":"Anyone's Legend","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 02:17:31] local.INFO: Game Details: {"Number of games":0,"Match BestOf":1,"Match Score":"-","Games":[]} 
+[2024-12-06 02:17:31] local.INFO: Match data: {"Team1":"T1BARÕES","Team1OverviewPage":null,"Team2":"Never Give Up (Brazilian Team)","Team2OverviewPage":null} 
+[2024-12-06 02:17:31] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/placeholder.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/placeholder.png"} 
+[2024-12-06 02:17:35] local.INFO: Search request received {"query":"DRX"} 
+[2024-12-06 02:17:35] local.INFO: Teams found {"teams":[{"Name":"DRX","OverviewPage":"DRX","Location":null,"TeamLocation":"South Korea","Region":"Korea"},{"Name":"DRX Challengers","OverviewPage":"DRX Challengers","Location":null,"TeamLocation":"South Korea","Region":"Korea"},{"Name":"DRX Shinhan Bank","OverviewPage":"DRX Shinhan Bank","Location":null,"TeamLocation":"South Korea","Region":"Korea"}]} 
+[2024-12-06 02:17:35] local.INFO: Processing team {"team":{"Name":"DRX","OverviewPage":"DRX","Location":null,"TeamLocation":"South Korea","Region":"Korea"}} 
+[2024-12-06 02:17:35] local.INFO: Processing team {"team":{"Name":"DRX Challengers","OverviewPage":"DRX Challengers","Location":null,"TeamLocation":"South Korea","Region":"Korea"}} 
+[2024-12-06 02:17:35] local.INFO: Processing team {"team":{"Name":"DRX Shinhan Bank","OverviewPage":"DRX Shinhan Bank","Location":null,"TeamLocation":"South Korea","Region":"Korea"}} 
+[2024-12-06 02:17:35] local.INFO: Final results {"results":{"Illuminate\\Support\\Collection":[{"name":"DRX","image":"http://127.0.0.1:8000/storage/teamimages/DRX.png","url":"http://127.0.0.1:8000/team/DRX","type":"Team"},{"name":"DRX Challengers","image":"http://127.0.0.1:8000/storage/teamimages/DRX Challengers.png","url":"http://127.0.0.1:8000/team/DRX%20Challengers","type":"Team"},{"name":"DRX Shinhan Bank","image":"http://127.0.0.1:8000/storage/teamimages/DRX Shinhan Bank.png","url":"http://127.0.0.1:8000/team/DRX%20Shinhan%20Bank","type":"Team"}]}} 
+[2024-12-06 02:17:37] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-06"} 
+[2024-12-06 02:17:37] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-06"} 
+[2024-12-06 02:17:38] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-06 06:00:00","Team1":"Bilibili Gaming","Team1Score":null,"Team1Final":"Bilibili Gaming","Team2":"Anyone's Legend","Team2Score":null,"Team2Final":"Anyone's Legend","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Bilibili Gaminglogo profile.png","Team2Image":"Anyone's Legendlogo profile.png","Team1OverviewPage":"Bilibili Gaming","Team2OverviewPage":"Anyone's Legend","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 02:17:38] local.ERROR: Error fetching team matches: Server error: `GET http://127.0.0.1:8001/TeamMatches?team=Anyone%27s%20Legend` resulted in a `500 Internal Server Error` response:
+{"detail":"('db_error', 'A database query error has occurred. This may indicate a bug in the software.', 'See https://lo (truncated...)
+  
+[2024-12-06 02:17:38] local.ERROR: Error fetching match games: Server error: `GET http://127.0.0.1:8001/MatchGames?team1=Bilibili%20Gaming&team2=Anyone%27s%20Legend&date=2024-12-06` resulted in a `500 Internal Server Error` response:
+{"detail":"Error fetching game details: 500: Error in Step 1: ('internal_api_error_MWException', '[442a4592cb83d40e6e749 (truncated...)
+  
+[2024-12-06 02:17:38] local.INFO: Game Details: {"Number of games":0,"Match BestOf":2,"Match Score":"-","Games":[]} 
+[2024-12-06 02:17:38] local.INFO: Match data: {"Team1":"Bilibili Gaming","Team1OverviewPage":"Bilibili Gaming","Team2":"Anyone's Legend","Team2OverviewPage":"Anyone's Legend"} 
+[2024-12-06 02:17:38] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Bilibili Gaming.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Anyone's Legend.png"} 
+[2024-12-06 02:18:43] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-06"} 
+[2024-12-06 02:18:43] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-06"} 
+[2024-12-06 02:18:44] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-06 06:00:00","Team1":"Bilibili Gaming","Team1Score":null,"Team1Final":"Bilibili Gaming","Team2":"Anyone's Legend","Team2Score":null,"Team2Final":"Anyone's Legend","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Bilibili Gaminglogo profile.png","Team2Image":"Anyone's Legendlogo profile.png","Team1OverviewPage":"Bilibili Gaming","Team2OverviewPage":"Anyone's Legend","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 02:18:59] local.INFO: Search request received {"query":"DRX"} 
+[2024-12-06 02:18:59] local.INFO: Teams found {"teams":[{"Name":"DRX","OverviewPage":"DRX","Location":null,"TeamLocation":"South Korea","Region":"Korea"},{"Name":"DRX Challengers","OverviewPage":"DRX Challengers","Location":null,"TeamLocation":"South Korea","Region":"Korea"},{"Name":"DRX Shinhan Bank","OverviewPage":"DRX Shinhan Bank","Location":null,"TeamLocation":"South Korea","Region":"Korea"}]} 
+[2024-12-06 02:18:59] local.INFO: Processing team {"team":{"Name":"DRX","OverviewPage":"DRX","Location":null,"TeamLocation":"South Korea","Region":"Korea"}} 
+[2024-12-06 02:18:59] local.INFO: Processing team {"team":{"Name":"DRX Challengers","OverviewPage":"DRX Challengers","Location":null,"TeamLocation":"South Korea","Region":"Korea"}} 
+[2024-12-06 02:18:59] local.INFO: Processing team {"team":{"Name":"DRX Shinhan Bank","OverviewPage":"DRX Shinhan Bank","Location":null,"TeamLocation":"South Korea","Region":"Korea"}} 
+[2024-12-06 02:18:59] local.INFO: Final results {"results":{"Illuminate\\Support\\Collection":[{"name":"DRX","image":"http://127.0.0.1:8000/storage/teamimages/DRX.png","url":"http://127.0.0.1:8000/team/DRX","type":"Team"},{"name":"DRX Challengers","image":"http://127.0.0.1:8000/storage/teamimages/DRX Challengers.png","url":"http://127.0.0.1:8000/team/DRX%20Challengers","type":"Team"},{"name":"DRX Shinhan Bank","image":"http://127.0.0.1:8000/storage/teamimages/DRX Shinhan Bank.png","url":"http://127.0.0.1:8000/team/DRX%20Shinhan%20Bank","type":"Team"}]}} 
+[2024-12-06 02:19:03] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-06"} 
+[2024-12-06 02:19:03] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-06"} 
+[2024-12-06 02:19:04] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-06 06:00:00","Team1":"Bilibili Gaming","Team1Score":null,"Team1Final":"Bilibili Gaming","Team2":"Anyone's Legend","Team2Score":null,"Team2Final":"Anyone's Legend","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Bilibili Gaminglogo profile.png","Team2Image":"Anyone's Legendlogo profile.png","Team1OverviewPage":"Bilibili Gaming","Team2OverviewPage":"Anyone's Legend","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 02:19:07] local.INFO: Raw date parameter received in APIService: {"date":"2024-10-22"} 
+[2024-12-06 02:19:07] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-10-22"} 
+[2024-12-06 02:19:08] local.INFO: Successfully fetched matches {"count":20,"first_match":{"Name":"ACL 2024 Fall","DateTime_UTC":"2024-10-22 00:00:00","Team1":"Pulse Star","Team1Score":2,"Team1Final":"Pulse Star","Team2":"Next Level Esports","Team2Score":0,"Team2Final":"Next Level Esports","Winner":"1","Stream":null,"BestOf":3,"Team1Image":"Pulse Starlogo square.png","Team2Image":"Next Level Esportslogo square.png","Team1OverviewPage":"Pulse Star","Team2OverviewPage":"Next Level Esports","Phase":null,"ShownName":"ACL 2024 Fall","MatchDay":5,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 02:19:10] local.INFO: Raw date parameter received in APIService: {"date":"2024-10-22"} 
+[2024-12-06 02:19:10] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-10-22"} 
+[2024-12-06 02:19:11] local.INFO: Successfully fetched matches {"count":20,"first_match":{"Name":"ACL 2024 Fall","DateTime_UTC":"2024-10-22 00:00:00","Team1":"Pulse Star","Team1Score":2,"Team1Final":"Pulse Star","Team2":"Next Level Esports","Team2Score":0,"Team2Final":"Next Level Esports","Winner":"1","Stream":null,"BestOf":3,"Team1Image":"Pulse Starlogo square.png","Team2Image":"Next Level Esportslogo square.png","Team1OverviewPage":"Pulse Star","Team2OverviewPage":"Next Level Esports","Phase":null,"ShownName":"ACL 2024 Fall","MatchDay":5,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 02:19:12] local.INFO: Game Details: {"Number of games":1,"Match BestOf":3,"Match Score":"2-0","Games":[{"DateTime":"2024-10-22 18:06:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-06 02:19:12] local.INFO: Match data: {"Team1":"Dynasty","Team1OverviewPage":"Dynasty","Team2":"Fight For Ever","Team2OverviewPage":null} 
+[2024-12-06 02:19:12] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Dynasty.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/placeholder.png"} 
+[2024-12-06 02:19:13] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 02:19:13] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 02:19:13] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 02:19:13] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 02:19:13] local.INFO: Missing item mapping for: Blackfire Torch  
+[2024-12-06 02:19:13] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 02:19:13] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-06 02:19:13] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 02:19:13] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 02:19:13] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 02:19:13] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 02:19:13] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 02:19:13] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-06 02:19:13] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 02:19:13] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 02:19:13] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-06 02:19:13] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-06 02:19:13] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 02:19:13] local.INFO: Missing item mapping for: Blackfire Torch  
+[2024-12-06 02:19:13] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 02:19:13] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 02:19:13] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 02:19:13] local.INFO: Getting rune icon for: Domination  

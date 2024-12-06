@@ -170,26 +170,14 @@ class APIController extends Controller
 
     private function getTeamImage($teamName)
     {
-        if (!$teamName) {
+        if (empty($teamName)) {
             return asset('storage/teamimages/placeholder.png');
         }
         
-        Log::info('Looking up team image for:', ['teamName' => $teamName]);
-        
-        // Try to find by team name
-        $teamImage = TeamImage::where('team_id', $teamName)->first();
-        if ($teamImage) {
-            Log::info('Found team image:', ['source' => $teamImage->source]);
-            return asset('storage/' . $teamImage->source);
-        }
-        
-        // Check if image exists directly
         if (Storage::disk('public')->exists('teamimages/' . $teamName . '.png')) {
-            Log::info('Found direct image file for team');
             return asset('storage/teamimages/' . $teamName . '.png');
         }
         
-        Log::info('No image found for team, using placeholder');
         return asset('storage/teamimages/placeholder.png');
     }
 

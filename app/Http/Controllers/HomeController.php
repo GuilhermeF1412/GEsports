@@ -3,19 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Controllers\TeamImageController;
 use App\Services\APIService;
-use App\Helpers\ImageBuilder;
 
 class HomeController extends Controller
 {
-    protected $teamImageController;
-
-    public function __construct()
-    {
-        $this->teamImageController = new TeamImageController(new APIService, new ImageBuilder);
-    }
-
     public function index(Request $request)
     {
         $selectedDate = $request->date ?? now()->format('Y-m-d');
@@ -59,8 +50,6 @@ class HomeController extends Controller
                 // Process match data
                 $processedMatch = $match;
                 $processedMatch['tournamentIndex'] = $tournamentIndex;
-                $processedMatch['team1Image'] = $this->teamImageController->getTeamImagePath($match['Team1OverviewPage']);
-                $processedMatch['team2Image'] = $this->teamImageController->getTeamImagePath($match['Team2OverviewPage']);
                 $processedMatch['matchUrl'] = route('match.show', [
                     'matchId' => $match['Team1'] . '-vs-' . $match['Team2'],
                     'date' => $selectedDate
