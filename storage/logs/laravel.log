@@ -17227,3 +17227,672 @@ Internal Server Error
 [2024-12-06 00:16:29] local.INFO: TeamId is empty, returning placeholder  
 [2024-12-06 00:16:29] local.INFO: Getting team image for: {"teamId":null} 
 [2024-12-06 00:16:29] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:27:35] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-06"} 
+[2024-12-06 00:27:35] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-06"} 
+[2024-12-06 00:27:36] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-06 06:00:00","Team1":"Bilibili Gaming","Team1Score":null,"Team1Final":"Bilibili Gaming","Team2":"Anyone's Legend","Team2Score":null,"Team2Final":"Anyone's Legend","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Bilibili Gaminglogo profile.png","Team2Image":"Anyone's Legendlogo profile.png","Team1OverviewPage":"Bilibili Gaming","Team2OverviewPage":"Anyone's Legend","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 00:27:36] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:27:36] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:27:36] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:27:36] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:27:36] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:27:36] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:27:36] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:27:36] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:27:36] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:27:36] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:27:36] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:27:36] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:27:36] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:27:36] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:27:36] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:27:36] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:27:36] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:27:36] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:27:36] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:27:36] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:27:36] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:27:36] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:27:36] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:27:36] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:27:36] local.INFO: Getting team image for: {"teamId":"Bilibili Gaming"} 
+[2024-12-06 00:27:36] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:27:36] local.INFO: Returning direct team image: {"path":"storage/teamimages/Bilibili%20Gaming.png"} 
+[2024-12-06 00:27:36] local.INFO: Getting team image for: {"teamId":"Anyone's Legend"} 
+[2024-12-06 00:27:36] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:27:36] local.INFO: Returning direct team image: {"path":"storage/teamimages/Anyone%27s%20Legend.png"} 
+[2024-12-06 00:27:36] local.INFO: Getting team image for: {"teamId":"Top Esports"} 
+[2024-12-06 00:27:36] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:27:36] local.INFO: Returning direct team image: {"path":"storage/teamimages/Top%20Esports.png"} 
+[2024-12-06 00:27:36] local.INFO: Getting team image for: {"teamId":"Team WE"} 
+[2024-12-06 00:27:36] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:27:36] local.INFO: Returning direct team image: {"path":"storage/teamimages/Team%20WE.png"} 
+[2024-12-06 00:27:36] local.INFO: Getting team image for: {"teamId":"LNG Esports"} 
+[2024-12-06 00:27:36] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:27:36] local.INFO: Returning direct team image: {"path":"storage/teamimages/LNG%20Esports.png"} 
+[2024-12-06 00:27:36] local.INFO: Getting team image for: {"teamId":"Oh My God"} 
+[2024-12-06 00:27:36] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:27:36] local.INFO: Returning direct team image: {"path":"storage/teamimages/Oh%20My%20God.png"} 
+[2024-12-06 00:27:36] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:27:36] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:27:36] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:27:36] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:29:30] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-06"} 
+[2024-12-06 00:29:30] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-06"} 
+[2024-12-06 00:29:31] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-06 06:00:00","Team1":"Bilibili Gaming","Team1Score":null,"Team1Final":"Bilibili Gaming","Team2":"Anyone's Legend","Team2Score":null,"Team2Final":"Anyone's Legend","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Bilibili Gaminglogo profile.png","Team2Image":"Anyone's Legendlogo profile.png","Team1OverviewPage":"Bilibili Gaming","Team2OverviewPage":"Anyone's Legend","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 00:29:31] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:29:31] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:29:31] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:29:31] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:29:31] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:29:31] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:29:31] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:29:31] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:29:31] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:29:31] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:29:31] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:29:31] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:29:31] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:29:31] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:29:31] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:29:31] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:29:31] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:29:31] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:29:31] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:29:31] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:29:31] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:29:31] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:29:31] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:29:31] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:29:31] local.INFO: Getting team image for: {"teamId":"Bilibili Gaming"} 
+[2024-12-06 00:29:31] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:29:31] local.INFO: Returning direct team image: {"path":"storage/teamimages/Bilibili%20Gaming.png"} 
+[2024-12-06 00:29:31] local.INFO: Getting team image for: {"teamId":"Anyone's Legend"} 
+[2024-12-06 00:29:31] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:29:31] local.INFO: Returning direct team image: {"path":"storage/teamimages/Anyone%27s%20Legend.png"} 
+[2024-12-06 00:29:31] local.INFO: Getting team image for: {"teamId":"Top Esports"} 
+[2024-12-06 00:29:31] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:29:31] local.INFO: Returning direct team image: {"path":"storage/teamimages/Top%20Esports.png"} 
+[2024-12-06 00:29:31] local.INFO: Getting team image for: {"teamId":"Team WE"} 
+[2024-12-06 00:29:31] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:29:31] local.INFO: Returning direct team image: {"path":"storage/teamimages/Team%20WE.png"} 
+[2024-12-06 00:29:31] local.INFO: Getting team image for: {"teamId":"LNG Esports"} 
+[2024-12-06 00:29:31] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:29:31] local.INFO: Returning direct team image: {"path":"storage/teamimages/LNG%20Esports.png"} 
+[2024-12-06 00:29:31] local.INFO: Getting team image for: {"teamId":"Oh My God"} 
+[2024-12-06 00:29:31] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:29:31] local.INFO: Returning direct team image: {"path":"storage/teamimages/Oh%20My%20God.png"} 
+[2024-12-06 00:29:31] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:29:31] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:29:31] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:29:31] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:30:18] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-06"} 
+[2024-12-06 00:30:18] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-06"} 
+[2024-12-06 00:30:19] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-06 06:00:00","Team1":"Bilibili Gaming","Team1Score":null,"Team1Final":"Bilibili Gaming","Team2":"Anyone's Legend","Team2Score":null,"Team2Final":"Anyone's Legend","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Bilibili Gaminglogo profile.png","Team2Image":"Anyone's Legendlogo profile.png","Team1OverviewPage":"Bilibili Gaming","Team2OverviewPage":"Anyone's Legend","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 00:30:19] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:30:19] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:30:19] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:30:19] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:30:19] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:30:19] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:30:19] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:30:19] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:30:19] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:30:19] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:30:19] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:30:19] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:30:19] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:30:19] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:30:19] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:30:19] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:30:19] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:30:19] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:30:19] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:30:19] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:30:19] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:30:19] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:30:19] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:30:19] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:30:19] local.INFO: Getting team image for: {"teamId":"Bilibili Gaming"} 
+[2024-12-06 00:30:19] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:19] local.INFO: Returning direct team image: {"path":"storage/teamimages/Bilibili%20Gaming.png"} 
+[2024-12-06 00:30:19] local.INFO: Getting team image for: {"teamId":"Anyone's Legend"} 
+[2024-12-06 00:30:19] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:19] local.INFO: Returning direct team image: {"path":"storage/teamimages/Anyone%27s%20Legend.png"} 
+[2024-12-06 00:30:19] local.INFO: Getting team image for: {"teamId":"Top Esports"} 
+[2024-12-06 00:30:19] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:19] local.INFO: Returning direct team image: {"path":"storage/teamimages/Top%20Esports.png"} 
+[2024-12-06 00:30:19] local.INFO: Getting team image for: {"teamId":"Team WE"} 
+[2024-12-06 00:30:19] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:19] local.INFO: Returning direct team image: {"path":"storage/teamimages/Team%20WE.png"} 
+[2024-12-06 00:30:19] local.INFO: Getting team image for: {"teamId":"LNG Esports"} 
+[2024-12-06 00:30:19] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:19] local.INFO: Returning direct team image: {"path":"storage/teamimages/LNG%20Esports.png"} 
+[2024-12-06 00:30:19] local.INFO: Getting team image for: {"teamId":"Oh My God"} 
+[2024-12-06 00:30:19] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:19] local.INFO: Returning direct team image: {"path":"storage/teamimages/Oh%20My%20God.png"} 
+[2024-12-06 00:30:19] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:30:19] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:30:19] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:30:19] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:30:29] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-05"} 
+[2024-12-06 00:30:29] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-05"} 
+[2024-12-06 00:30:30] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":2,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":0,"Team2Final":"LGD Gaming","Winner":"1","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 00:30:30] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:30:30] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:30:30] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:30:30] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:30:30] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:30:30] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:30:30] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:30:30] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:30:30] local.INFO: Getting team image for: {"teamId":"Gen.G"} 
+[2024-12-06 00:30:30] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:30] local.INFO: Returning direct team image: {"path":"storage/teamimages/Gen.G.png"} 
+[2024-12-06 00:30:30] local.INFO: Getting team image for: {"teamId":"Team Vitality"} 
+[2024-12-06 00:30:30] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:30] local.INFO: Returning direct team image: {"path":"storage/teamimages/Team%20Vitality.png"} 
+[2024-12-06 00:30:30] local.INFO: Getting team image for: {"teamId":"Hanwha Life Esports"} 
+[2024-12-06 00:30:30] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:30] local.INFO: Returning direct team image: {"path":"storage/teamimages/Hanwha%20Life%20Esports.png"} 
+[2024-12-06 00:30:30] local.INFO: Getting team image for: {"teamId":"Nongshim RedForce"} 
+[2024-12-06 00:30:30] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:30] local.INFO: Returning direct team image: {"path":"storage/teamimages/Nongshim%20RedForce.png"} 
+[2024-12-06 00:30:30] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:30:30] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:30:30] local.INFO: Getting team image for: {"teamId":"KT Rolster"} 
+[2024-12-06 00:30:30] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:30] local.INFO: Returning direct team image: {"path":"storage/teamimages/KT%20Rolster.png"} 
+[2024-12-06 00:30:30] local.INFO: Getting team image for: {"teamId":"KT Rolster"} 
+[2024-12-06 00:30:30] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:30] local.INFO: Returning direct team image: {"path":"storage/teamimages/KT%20Rolster.png"} 
+[2024-12-06 00:30:30] local.INFO: Getting team image for: {"teamId":"Hanwha Life Esports"} 
+[2024-12-06 00:30:30] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:30] local.INFO: Returning direct team image: {"path":"storage/teamimages/Hanwha%20Life%20Esports.png"} 
+[2024-12-06 00:30:30] local.INFO: Getting team image for: {"teamId":"Dplus KIA"} 
+[2024-12-06 00:30:30] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:30] local.INFO: Returning direct team image: {"path":"storage/teamimages/Dplus%20KIA.png"} 
+[2024-12-06 00:30:30] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:30:30] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:30:30] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:30:30] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:30:30] local.INFO: Getting team image for: {"teamId":"Hanwha Life Esports"} 
+[2024-12-06 00:30:30] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:30] local.INFO: Returning direct team image: {"path":"storage/teamimages/Hanwha%20Life%20Esports.png"} 
+[2024-12-06 00:30:30] local.INFO: Getting team image for: {"teamId":"FunPlus Phoenix"} 
+[2024-12-06 00:30:30] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:30] local.INFO: Returning direct team image: {"path":"storage/teamimages/FunPlus%20Phoenix.png"} 
+[2024-12-06 00:30:30] local.INFO: Getting team image for: {"teamId":"LGD Gaming"} 
+[2024-12-06 00:30:30] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:30] local.INFO: Returning direct team image: {"path":"storage/teamimages/LGD%20Gaming.png"} 
+[2024-12-06 00:30:30] local.INFO: Getting team image for: {"teamId":"Weibo Gaming"} 
+[2024-12-06 00:30:30] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:30] local.INFO: Returning direct team image: {"path":"storage/teamimages/Weibo%20Gaming.png"} 
+[2024-12-06 00:30:30] local.INFO: Getting team image for: {"teamId":"Anyone's Legend"} 
+[2024-12-06 00:30:30] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:30] local.INFO: Returning direct team image: {"path":"storage/teamimages/Anyone%27s%20Legend.png"} 
+[2024-12-06 00:30:30] local.INFO: Getting team image for: {"teamId":"Royal Never Give Up"} 
+[2024-12-06 00:30:30] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:30] local.INFO: Returning direct team image: {"path":"storage/teamimages/Royal%20Never%20Give%20Up.png"} 
+[2024-12-06 00:30:30] local.INFO: Getting team image for: {"teamId":"Oh My God"} 
+[2024-12-06 00:30:30] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:30] local.INFO: Returning direct team image: {"path":"storage/teamimages/Oh%20My%20God.png"} 
+[2024-12-06 00:30:39] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-05"} 
+[2024-12-06 00:30:39] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-05"} 
+[2024-12-06 00:30:40] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":2,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":0,"Team2Final":"LGD Gaming","Winner":"1","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 00:30:41] local.INFO: Game Details: {"Number of games":0,"Match BestOf":2,"Match Score":"2-0","Games":[]} 
+[2024-12-06 00:30:41] local.INFO: Match data: {"Team1":"FunPlus Phoenix","Team1OverviewPage":"FunPlus Phoenix","Team2":"LGD Gaming","Team2OverviewPage":"LGD Gaming"} 
+[2024-12-06 00:30:41] local.INFO: Looking up team image for: {"teamName":"FunPlus Phoenix"} 
+[2024-12-06 00:30:41] local.INFO: Found direct image file for team  
+[2024-12-06 00:30:41] local.INFO: Looking up team image for: {"teamName":"LGD Gaming"} 
+[2024-12-06 00:30:41] local.INFO: Found direct image file for team  
+[2024-12-06 00:30:41] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/FunPlus Phoenix.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/LGD Gaming.png"} 
+[2024-12-06 00:30:51] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-06 00:30:51] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-06 00:30:52] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 00:30:52] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:30:52] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:30:52] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:30:52] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:30:52] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:30:52] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:30:52] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:30:52] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:30:52] local.INFO: Getting team image for: {"teamId":"DRX"} 
+[2024-12-06 00:30:52] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:52] local.INFO: Returning direct team image: {"path":"storage/teamimages/DRX.png"} 
+[2024-12-06 00:30:52] local.INFO: Getting team image for: {"teamId":"Nongshim RedForce"} 
+[2024-12-06 00:30:52] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:52] local.INFO: Returning direct team image: {"path":"storage/teamimages/Nongshim%20RedForce.png"} 
+[2024-12-06 00:30:52] local.INFO: Getting team image for: {"teamId":"KT Rolster"} 
+[2024-12-06 00:30:52] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:52] local.INFO: Returning direct team image: {"path":"storage/teamimages/KT%20Rolster.png"} 
+[2024-12-06 00:30:52] local.INFO: Getting team image for: {"teamId":"Hanwha Life Esports"} 
+[2024-12-06 00:30:52] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:52] local.INFO: Returning direct team image: {"path":"storage/teamimages/Hanwha%20Life%20Esports.png"} 
+[2024-12-06 00:30:52] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:30:52] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:30:52] local.INFO: Getting team image for: {"teamId":"Dplus KIA"} 
+[2024-12-06 00:30:52] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:52] local.INFO: Returning direct team image: {"path":"storage/teamimages/Dplus%20KIA.png"} 
+[2024-12-06 00:30:52] local.INFO: Getting team image for: {"teamId":"OKSavingsBank BRION"} 
+[2024-12-06 00:30:52] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:52] local.INFO: Returning direct team image: {"path":"storage/teamimages/OKSavingsBank%20BRION.png"} 
+[2024-12-06 00:30:52] local.INFO: Getting team image for: {"teamId":"Gen.G"} 
+[2024-12-06 00:30:52] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:52] local.INFO: Returning direct team image: {"path":"storage/teamimages/Gen.G.png"} 
+[2024-12-06 00:30:52] local.INFO: Getting team image for: {"teamId":"OKSavingsBank BRION"} 
+[2024-12-06 00:30:52] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:52] local.INFO: Returning direct team image: {"path":"storage/teamimages/OKSavingsBank%20BRION.png"} 
+[2024-12-06 00:30:52] local.INFO: Getting team image for: {"teamId":"Dplus KIA"} 
+[2024-12-06 00:30:52] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:52] local.INFO: Returning direct team image: {"path":"storage/teamimages/Dplus%20KIA.png"} 
+[2024-12-06 00:30:52] local.INFO: Getting team image for: {"teamId":"Weibo Gaming"} 
+[2024-12-06 00:30:52] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:52] local.INFO: Returning direct team image: {"path":"storage/teamimages/Weibo%20Gaming.png"} 
+[2024-12-06 00:30:52] local.INFO: Getting team image for: {"teamId":"Bilibili Gaming"} 
+[2024-12-06 00:30:52] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:52] local.INFO: Returning direct team image: {"path":"storage/teamimages/Bilibili%20Gaming.png"} 
+[2024-12-06 00:30:52] local.INFO: Getting team image for: {"teamId":"LGD Gaming"} 
+[2024-12-06 00:30:52] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:52] local.INFO: Returning direct team image: {"path":"storage/teamimages/LGD%20Gaming.png"} 
+[2024-12-06 00:30:52] local.INFO: Getting team image for: {"teamId":"Anyone's Legend"} 
+[2024-12-06 00:30:52] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:52] local.INFO: Returning direct team image: {"path":"storage/teamimages/Anyone%27s%20Legend.png"} 
+[2024-12-06 00:30:52] local.INFO: Getting team image for: {"teamId":"LNG Esports"} 
+[2024-12-06 00:30:52] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:52] local.INFO: Returning direct team image: {"path":"storage/teamimages/LNG%20Esports.png"} 
+[2024-12-06 00:30:52] local.INFO: Getting team image for: {"teamId":"Team WE"} 
+[2024-12-06 00:30:52] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:30:52] local.INFO: Returning direct team image: {"path":"storage/teamimages/Team%20WE.png"} 
+[2024-12-06 00:30:55] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-04"} 
+[2024-12-06 00:30:55] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-04"} 
+[2024-12-06 00:30:56] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-04 06:00:00","Team1":"Weibo Gaming","Team1Score":1,"Team1Final":"Weibo Gaming","Team2":"Bilibili Gaming","Team2Score":1,"Team2Final":"Bilibili Gaming","Winner":"0","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Weibo Gaminglogo profile.png","Team2Image":"Bilibili Gaminglogo profile.png","Team1OverviewPage":"Weibo Gaming","Team2OverviewPage":"Bilibili Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 00:30:57] local.INFO: Game Details: {"Number of games":1,"Match BestOf":1,"Match Score":"0-1","Games":[{"DateTime":"2024-12-04 07:08:00","Winner":"2","Score":"0-1"}]} 
+[2024-12-06 00:30:57] local.INFO: Match data: {"Team1":"DRX","Team1OverviewPage":"DRX","Team2":"Nongshim RedForce","Team2OverviewPage":"Nongshim RedForce"} 
+[2024-12-06 00:30:57] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-06 00:30:57] local.INFO: Found direct image file for team  
+[2024-12-06 00:30:57] local.INFO: Looking up team image for: {"teamName":"Nongshim RedForce"} 
+[2024-12-06 00:30:57] local.INFO: Found direct image file for team  
+[2024-12-06 00:30:57] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/DRX.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Nongshim RedForce.png"} 
+[2024-12-06 00:30:57] local.INFO: Looking up team image for: {"teamName":"DRX"} 
+[2024-12-06 00:30:57] local.INFO: Found direct image file for team  
+[2024-12-06 00:30:57] local.INFO: Looking up team image for: {"teamName":"Nongshim RedForce"} 
+[2024-12-06 00:30:57] local.INFO: Found direct image file for team  
+[2024-12-06 00:30:57] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 00:30:57] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 00:30:57] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 00:30:57] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 00:30:57] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 00:30:57] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-06 00:30:57] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 00:30:57] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 00:30:57] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-06 00:30:57] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-06 00:30:57] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 00:30:57] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 00:30:57] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 00:30:57] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 00:30:57] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 00:30:57] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 00:30:57] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 00:30:57] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-06 00:30:57] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-06 00:30:57] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 00:30:57] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 00:30:57] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 00:31:56] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-06"} 
+[2024-12-06 00:31:56] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-06"} 
+[2024-12-06 00:31:56] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-06 06:00:00","Team1":"Bilibili Gaming","Team1Score":null,"Team1Final":"Bilibili Gaming","Team2":"Anyone's Legend","Team2Score":null,"Team2Final":"Anyone's Legend","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Bilibili Gaminglogo profile.png","Team2Image":"Anyone's Legendlogo profile.png","Team1OverviewPage":"Bilibili Gaming","Team2OverviewPage":"Anyone's Legend","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 00:31:56] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:31:56] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:31:56] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:31:56] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:31:56] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:31:56] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:31:56] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:31:56] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:31:56] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:31:56] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:31:56] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:31:56] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:31:56] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:31:56] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:31:56] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:31:56] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:31:56] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:31:56] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:31:56] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:31:56] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:31:56] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:31:56] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:31:56] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:31:56] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:31:56] local.INFO: Getting team image for: {"teamId":"Bilibili Gaming"} 
+[2024-12-06 00:31:56] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:31:56] local.INFO: Returning direct team image: {"path":"storage/teamimages/Bilibili%20Gaming.png"} 
+[2024-12-06 00:31:56] local.INFO: Getting team image for: {"teamId":"Anyone's Legend"} 
+[2024-12-06 00:31:56] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:31:56] local.INFO: Returning direct team image: {"path":"storage/teamimages/Anyone%27s%20Legend.png"} 
+[2024-12-06 00:31:56] local.INFO: Getting team image for: {"teamId":"Top Esports"} 
+[2024-12-06 00:31:56] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:31:56] local.INFO: Returning direct team image: {"path":"storage/teamimages/Top%20Esports.png"} 
+[2024-12-06 00:31:56] local.INFO: Getting team image for: {"teamId":"Team WE"} 
+[2024-12-06 00:31:56] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:31:56] local.INFO: Returning direct team image: {"path":"storage/teamimages/Team%20WE.png"} 
+[2024-12-06 00:31:56] local.INFO: Getting team image for: {"teamId":"LNG Esports"} 
+[2024-12-06 00:31:56] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:31:56] local.INFO: Returning direct team image: {"path":"storage/teamimages/LNG%20Esports.png"} 
+[2024-12-06 00:31:56] local.INFO: Getting team image for: {"teamId":"Oh My God"} 
+[2024-12-06 00:31:56] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:31:56] local.INFO: Returning direct team image: {"path":"storage/teamimages/Oh%20My%20God.png"} 
+[2024-12-06 00:31:56] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:31:56] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:31:56] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:31:56] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:34:44] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-03"} 
+[2024-12-06 00:34:44] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-03"} 
+[2024-12-06 00:34:45] local.INFO: Successfully fetched matches {"count":16,"first_match":{"Name":"ACL 2024 Fall Playoffs","DateTime_UTC":"2024-12-03 01:00:00","Team1":"St. Clair College","Team1Score":2,"Team1Final":"St. Clair College","Team2":"Pulse Gooners","Team2Score":1,"Team2Final":"Pulse Gooners","Winner":"1","Stream":null,"BestOf":3,"Team1Image":"St. Clair Collegelogo square.png","Team2Image":"Pulse Goonerslogo square.png","Team1OverviewPage":"St. Clair College","Team2OverviewPage":"Pulse Gooners","Phase":null,"ShownName":"ACL 2024 Fall Playoffs","MatchDay":2,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":"St. Clair College"} 
+[2024-12-06 00:34:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:34:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/St.%20Clair%20College.png"} 
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":"Pulse Gooners"} 
+[2024-12-06 00:34:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:34:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/Pulse%20Gooners.png"} 
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":"AOE Esports"} 
+[2024-12-06 00:34:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:34:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/AOE%20Esports.png"} 
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":"Mirage Alliance Baguette"} 
+[2024-12-06 00:34:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:34:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/Mirage%20Alliance%20Baguette.png"} 
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":"Pulse Star"} 
+[2024-12-06 00:34:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:34:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/Pulse%20Star.png"} 
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":"Straw Hat Crew"} 
+[2024-12-06 00:34:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:34:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/Straw%20Hat%20Crew.png"} 
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":"Illinois State University"} 
+[2024-12-06 00:34:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:34:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/Illinois%20State%20University.png"} 
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":"Peak Performers (North American Team)"} 
+[2024-12-06 00:34:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:34:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/Peak%20Performers%20%28North%20American%20Team%29.png"} 
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":"Nongshim RedForce"} 
+[2024-12-06 00:34:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:34:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/Nongshim%20RedForce.png"} 
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:34:45] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":"Hanwha Life Esports"} 
+[2024-12-06 00:34:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:34:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/Hanwha%20Life%20Esports.png"} 
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":"Gen.G"} 
+[2024-12-06 00:34:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:34:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/Gen.G.png"} 
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:34:45] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":"Dplus KIA"} 
+[2024-12-06 00:34:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:34:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/Dplus%20KIA.png"} 
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":"T1"} 
+[2024-12-06 00:34:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:34:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/T1.png"} 
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":"Nongshim RedForce"} 
+[2024-12-06 00:34:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:34:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/Nongshim%20RedForce.png"} 
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:34:45] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":"Hanwha Life Esports"} 
+[2024-12-06 00:34:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:34:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/Hanwha%20Life%20Esports.png"} 
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":"Gen.G"} 
+[2024-12-06 00:34:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:34:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/Gen.G.png"} 
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":"Nongshim RedForce"} 
+[2024-12-06 00:34:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:34:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/Nongshim%20RedForce.png"} 
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":"Dplus KIA"} 
+[2024-12-06 00:34:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:34:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/Dplus%20KIA.png"} 
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":"T1"} 
+[2024-12-06 00:34:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:34:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/T1.png"} 
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":"FunPlus Phoenix"} 
+[2024-12-06 00:34:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:34:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/FunPlus%20Phoenix.png"} 
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":"Bilibili Gaming"} 
+[2024-12-06 00:34:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:34:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/Bilibili%20Gaming.png"} 
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":"Royal Never Give Up"} 
+[2024-12-06 00:34:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:34:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/Royal%20Never%20Give%20Up.png"} 
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":"LNG Esports"} 
+[2024-12-06 00:34:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:34:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/LNG%20Esports.png"} 
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":"Team WE"} 
+[2024-12-06 00:34:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:34:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/Team%20WE.png"} 
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":"Oh My God"} 
+[2024-12-06 00:34:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:34:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/Oh%20My%20God.png"} 
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:34:45] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:34:45] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":"Los Ratones"} 
+[2024-12-06 00:34:45] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:34:45] local.INFO: Returning direct team image: {"path":"storage/teamimages/Los%20Ratones.png"} 
+[2024-12-06 00:34:45] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:34:45] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:34:56] local.INFO: Search request received {"query":"T1 ESP"} 
+[2024-12-06 00:34:56] local.INFO: Teams found {"teams":[{"Name":"T1 Esports Academy","OverviewPage":"T1 Esports Academy"},{"Name":"T1 Esports Academy Rookies","OverviewPage":"T1 Esports Academy Rookies"}]} 
+[2024-12-06 00:34:56] local.INFO: Processing team {"team":{"Name":"T1 Esports Academy","OverviewPage":"T1 Esports Academy"}} 
+[2024-12-06 00:34:56] local.INFO: Processing team {"team":{"Name":"T1 Esports Academy Rookies","OverviewPage":"T1 Esports Academy Rookies"}} 
+[2024-12-06 00:34:56] local.INFO: Final results {"results":{"Illuminate\\Support\\Collection":[{"name":"T1 Esports Academy","image":"http://127.0.0.1:8000/storage/teamimages/T1 Esports Academy.png","url":"http://127.0.0.1:8000/team/T1%20Esports%20Academy","type":"Team"},{"name":"T1 Esports Academy Rookies","image":"http://127.0.0.1:8000/storage/teamimages/T1 Esports Academy Rookies.png","url":"http://127.0.0.1:8000/team/T1%20Esports%20Academy%20Rookies","type":"Team"}]}} 
+[2024-12-06 00:34:57] local.INFO: Search request received {"query":"T1 ES"} 
+[2024-12-06 00:34:57] local.INFO: Teams found {"teams":[{"Name":"T1 Esports Academy","OverviewPage":"T1 Esports Academy"},{"Name":"T1 Esports Academy Rookies","OverviewPage":"T1 Esports Academy Rookies"}]} 
+[2024-12-06 00:34:57] local.INFO: Processing team {"team":{"Name":"T1 Esports Academy","OverviewPage":"T1 Esports Academy"}} 
+[2024-12-06 00:34:57] local.INFO: Processing team {"team":{"Name":"T1 Esports Academy Rookies","OverviewPage":"T1 Esports Academy Rookies"}} 
+[2024-12-06 00:34:57] local.INFO: Final results {"results":{"Illuminate\\Support\\Collection":[{"name":"T1 Esports Academy","image":"http://127.0.0.1:8000/storage/teamimages/T1 Esports Academy.png","url":"http://127.0.0.1:8000/team/T1%20Esports%20Academy","type":"Team"},{"name":"T1 Esports Academy Rookies","image":"http://127.0.0.1:8000/storage/teamimages/T1 Esports Academy Rookies.png","url":"http://127.0.0.1:8000/team/T1%20Esports%20Academy%20Rookies","type":"Team"}]}} 
+[2024-12-06 00:34:59] local.INFO: Search request received {"query":"T1"} 
+[2024-12-06 00:34:59] local.INFO: Teams found {"teams":[{"Name":"SK Telecom T1","OverviewPage":"SK Telecom T1"},{"Name":"SK Telecom T1 K","OverviewPage":"SK Telecom T1 K"},{"Name":"SK Telecom T1 S","OverviewPage":"SK Telecom T1 S"},{"Name":"T1","OverviewPage":"T1"},{"Name":"T1 Esports Academy","OverviewPage":"T1 Esports Academy"}]} 
+[2024-12-06 00:34:59] local.INFO: Processing team {"team":{"Name":"SK Telecom T1","OverviewPage":"SK Telecom T1"}} 
+[2024-12-06 00:34:59] local.INFO: Processing team {"team":{"Name":"SK Telecom T1 K","OverviewPage":"SK Telecom T1 K"}} 
+[2024-12-06 00:34:59] local.INFO: Processing team {"team":{"Name":"SK Telecom T1 S","OverviewPage":"SK Telecom T1 S"}} 
+[2024-12-06 00:34:59] local.INFO: Processing team {"team":{"Name":"T1","OverviewPage":"T1"}} 
+[2024-12-06 00:34:59] local.INFO: Processing team {"team":{"Name":"T1 Esports Academy","OverviewPage":"T1 Esports Academy"}} 
+[2024-12-06 00:34:59] local.INFO: Final results {"results":{"Illuminate\\Support\\Collection":[{"name":"SK Telecom T1","image":"http://127.0.0.1:8000/storage/teamimages/SK Telecom T1.png","url":"http://127.0.0.1:8000/team/SK%20Telecom%20T1","type":"Team"},{"name":"SK Telecom T1 K","image":"http://127.0.0.1:8000/storage/teamimages/SK Telecom T1 K.png","url":"http://127.0.0.1:8000/team/SK%20Telecom%20T1%20K","type":"Team"},{"name":"SK Telecom T1 S","image":"http://127.0.0.1:8000/storage/teamimages/SK Telecom T1 S.png","url":"http://127.0.0.1:8000/team/SK%20Telecom%20T1%20S","type":"Team"},{"name":"T1","image":"http://127.0.0.1:8000/storage/teamimages/T1.png","url":"http://127.0.0.1:8000/team/T1","type":"Team"},{"name":"T1 Esports Academy","image":"http://127.0.0.1:8000/storage/teamimages/T1 Esports Academy.png","url":"http://127.0.0.1:8000/team/T1%20Esports%20Academy","type":"Team"}]}} 
+[2024-12-06 00:44:09] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-06"} 
+[2024-12-06 00:44:09] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-06"} 
+[2024-12-06 00:44:10] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-06 06:00:00","Team1":"Bilibili Gaming","Team1Score":null,"Team1Final":"Bilibili Gaming","Team2":"Anyone's Legend","Team2Score":null,"Team2Final":"Anyone's Legend","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Bilibili Gaminglogo profile.png","Team2Image":"Anyone's Legendlogo profile.png","Team1OverviewPage":"Bilibili Gaming","Team2OverviewPage":"Anyone's Legend","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 00:44:10] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:44:10] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:44:10] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:44:10] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:44:10] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:44:10] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:44:10] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:44:10] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:44:10] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:44:10] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:44:10] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:44:10] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:44:10] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:44:10] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:44:10] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:44:10] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:44:10] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:44:10] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:44:10] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:44:10] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:44:10] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:44:10] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:44:10] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:44:10] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:44:10] local.INFO: Getting team image for: {"teamId":"Bilibili Gaming"} 
+[2024-12-06 00:44:10] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:44:10] local.INFO: Returning direct team image: {"path":"storage/teamimages/Bilibili%20Gaming.png"} 
+[2024-12-06 00:44:10] local.INFO: Getting team image for: {"teamId":"Anyone's Legend"} 
+[2024-12-06 00:44:10] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:44:10] local.INFO: Returning direct team image: {"path":"storage/teamimages/Anyone%27s%20Legend.png"} 
+[2024-12-06 00:44:10] local.INFO: Getting team image for: {"teamId":"Top Esports"} 
+[2024-12-06 00:44:10] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:44:10] local.INFO: Returning direct team image: {"path":"storage/teamimages/Top%20Esports.png"} 
+[2024-12-06 00:44:10] local.INFO: Getting team image for: {"teamId":"Team WE"} 
+[2024-12-06 00:44:10] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:44:10] local.INFO: Returning direct team image: {"path":"storage/teamimages/Team%20WE.png"} 
+[2024-12-06 00:44:10] local.INFO: Getting team image for: {"teamId":"LNG Esports"} 
+[2024-12-06 00:44:10] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:44:10] local.INFO: Returning direct team image: {"path":"storage/teamimages/LNG%20Esports.png"} 
+[2024-12-06 00:44:10] local.INFO: Getting team image for: {"teamId":"Oh My God"} 
+[2024-12-06 00:44:10] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:44:10] local.INFO: Returning direct team image: {"path":"storage/teamimages/Oh%20My%20God.png"} 
+[2024-12-06 00:44:10] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:44:10] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:44:10] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:44:10] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:14] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-06"} 
+[2024-12-06 00:45:14] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-06"} 
+[2024-12-06 00:45:15] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-06 06:00:00","Team1":"Bilibili Gaming","Team1Score":null,"Team1Final":"Bilibili Gaming","Team2":"Anyone's Legend","Team2Score":null,"Team2Final":"Anyone's Legend","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Bilibili Gaminglogo profile.png","Team2Image":"Anyone's Legendlogo profile.png","Team1OverviewPage":"Bilibili Gaming","Team2OverviewPage":"Anyone's Legend","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 00:45:15] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:15] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:15] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:15] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:15] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:15] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:15] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:15] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:15] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:15] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:15] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:15] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:15] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:15] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:15] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:15] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:15] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:15] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:15] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:15] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:15] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:15] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:15] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:15] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:15] local.INFO: Getting team image for: {"teamId":"Bilibili Gaming"} 
+[2024-12-06 00:45:15] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:45:15] local.INFO: Returning direct team image: {"path":"storage/teamimages/Bilibili%20Gaming.png"} 
+[2024-12-06 00:45:15] local.INFO: Getting team image for: {"teamId":"Anyone's Legend"} 
+[2024-12-06 00:45:15] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:45:15] local.INFO: Returning direct team image: {"path":"storage/teamimages/Anyone%27s%20Legend.png"} 
+[2024-12-06 00:45:15] local.INFO: Getting team image for: {"teamId":"Top Esports"} 
+[2024-12-06 00:45:15] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:45:15] local.INFO: Returning direct team image: {"path":"storage/teamimages/Top%20Esports.png"} 
+[2024-12-06 00:45:15] local.INFO: Getting team image for: {"teamId":"Team WE"} 
+[2024-12-06 00:45:15] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:45:15] local.INFO: Returning direct team image: {"path":"storage/teamimages/Team%20WE.png"} 
+[2024-12-06 00:45:15] local.INFO: Getting team image for: {"teamId":"LNG Esports"} 
+[2024-12-06 00:45:15] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:45:15] local.INFO: Returning direct team image: {"path":"storage/teamimages/LNG%20Esports.png"} 
+[2024-12-06 00:45:15] local.INFO: Getting team image for: {"teamId":"Oh My God"} 
+[2024-12-06 00:45:15] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:45:15] local.INFO: Returning direct team image: {"path":"storage/teamimages/Oh%20My%20God.png"} 
+[2024-12-06 00:45:15] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:15] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:15] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:15] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:20] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-06"} 
+[2024-12-06 00:45:20] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-06"} 
+[2024-12-06 00:45:21] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-06 06:00:00","Team1":"Bilibili Gaming","Team1Score":null,"Team1Final":"Bilibili Gaming","Team2":"Anyone's Legend","Team2Score":null,"Team2Final":"Anyone's Legend","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Bilibili Gaminglogo profile.png","Team2Image":"Anyone's Legendlogo profile.png","Team1OverviewPage":"Bilibili Gaming","Team2OverviewPage":"Anyone's Legend","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 00:45:21] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:21] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:21] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:21] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:21] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:21] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:21] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:21] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:21] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:21] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:21] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:21] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:21] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:21] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:21] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:21] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:21] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:21] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:21] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:21] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:21] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:21] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:21] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:21] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:21] local.INFO: Getting team image for: {"teamId":"Bilibili Gaming"} 
+[2024-12-06 00:45:21] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:45:21] local.INFO: Returning direct team image: {"path":"storage/teamimages/Bilibili%20Gaming.png"} 
+[2024-12-06 00:45:21] local.INFO: Getting team image for: {"teamId":"Anyone's Legend"} 
+[2024-12-06 00:45:21] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:45:21] local.INFO: Returning direct team image: {"path":"storage/teamimages/Anyone%27s%20Legend.png"} 
+[2024-12-06 00:45:21] local.INFO: Getting team image for: {"teamId":"Top Esports"} 
+[2024-12-06 00:45:21] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:45:21] local.INFO: Returning direct team image: {"path":"storage/teamimages/Top%20Esports.png"} 
+[2024-12-06 00:45:21] local.INFO: Getting team image for: {"teamId":"Team WE"} 
+[2024-12-06 00:45:21] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:45:21] local.INFO: Returning direct team image: {"path":"storage/teamimages/Team%20WE.png"} 
+[2024-12-06 00:45:21] local.INFO: Getting team image for: {"teamId":"LNG Esports"} 
+[2024-12-06 00:45:21] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:45:21] local.INFO: Returning direct team image: {"path":"storage/teamimages/LNG%20Esports.png"} 
+[2024-12-06 00:45:21] local.INFO: Getting team image for: {"teamId":"Oh My God"} 
+[2024-12-06 00:45:21] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:45:21] local.INFO: Returning direct team image: {"path":"storage/teamimages/Oh%20My%20God.png"} 
+[2024-12-06 00:45:21] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:21] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:21] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:21] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:45] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-06"} 
+[2024-12-06 00:45:45] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-06"} 
+[2024-12-06 00:45:46] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-06 06:00:00","Team1":"Bilibili Gaming","Team1Score":null,"Team1Final":"Bilibili Gaming","Team2":"Anyone's Legend","Team2Score":null,"Team2Final":"Anyone's Legend","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Bilibili Gaminglogo profile.png","Team2Image":"Anyone's Legendlogo profile.png","Team1OverviewPage":"Bilibili Gaming","Team2OverviewPage":"Anyone's Legend","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 00:45:46] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:46] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:46] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:46] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:46] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:46] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:46] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:46] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:46] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:46] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:46] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:46] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:46] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:46] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:46] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:46] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:46] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:46] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:46] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:46] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:46] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:46] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:46] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:46] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:46] local.INFO: Getting team image for: {"teamId":"Bilibili Gaming"} 
+[2024-12-06 00:45:46] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:45:46] local.INFO: Returning direct team image: {"path":"storage/teamimages/Bilibili%20Gaming.png"} 
+[2024-12-06 00:45:46] local.INFO: Getting team image for: {"teamId":"Anyone's Legend"} 
+[2024-12-06 00:45:46] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:45:46] local.INFO: Returning direct team image: {"path":"storage/teamimages/Anyone%27s%20Legend.png"} 
+[2024-12-06 00:45:46] local.INFO: Getting team image for: {"teamId":"Top Esports"} 
+[2024-12-06 00:45:46] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:45:46] local.INFO: Returning direct team image: {"path":"storage/teamimages/Top%20Esports.png"} 
+[2024-12-06 00:45:46] local.INFO: Getting team image for: {"teamId":"Team WE"} 
+[2024-12-06 00:45:46] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:45:46] local.INFO: Returning direct team image: {"path":"storage/teamimages/Team%20WE.png"} 
+[2024-12-06 00:45:46] local.INFO: Getting team image for: {"teamId":"LNG Esports"} 
+[2024-12-06 00:45:46] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:45:46] local.INFO: Returning direct team image: {"path":"storage/teamimages/LNG%20Esports.png"} 
+[2024-12-06 00:45:46] local.INFO: Getting team image for: {"teamId":"Oh My God"} 
+[2024-12-06 00:45:46] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 00:45:46] local.INFO: Returning direct team image: {"path":"storage/teamimages/Oh%20My%20God.png"} 
+[2024-12-06 00:45:46] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:46] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 00:45:46] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 00:45:46] local.INFO: TeamId is empty, returning placeholder  

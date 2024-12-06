@@ -83,6 +83,12 @@ main {
     color: #00dc82;
 }
 
+.footer-custom img {
+    height: 1em;
+    width: auto;
+    vertical-align: middle;
+}
+
 /* Search Bar */
 .search-bar {
     position: relative;

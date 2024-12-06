@@ -18,6 +18,9 @@ use App\Http\Controllers\TeamController;
 |
 */
 
+// Landing Page
+Route::view('/home', 'pages.landing')->name('home');
+
 // Game Routes
 Route::get('/lolhome', [HomeController::class, 'index'])->name('lolhome');
 
@@ -38,5 +41,5 @@ Route::get('/team/{teamName}', [TeamController::class, 'show'])->name('team.show
 
 // Default Welcome Route
 Route::get('/', function () {
-    return redirect()->route('lolhome');
+    return redirect()->route('home');
 });

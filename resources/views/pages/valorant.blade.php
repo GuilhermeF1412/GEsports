@@ -92,9 +92,9 @@
             </div>
             <h2>Under Construction</h2>
             <p>The Valorant section is currently being developed.</p>
-            <a href="{{ route('lolhome') }}" class="back-button">
+            <a href="{{ route('home') }}" class="back-button">
                 <i class="bi bi-arrow-left"></i>
-                Back to League of Legends
+                Back to Home
             </a>
         </div>
     </div>
