@@ -17896,3 +17896,486 @@ Internal Server Error
 [2024-12-06 00:45:46] local.INFO: TeamId is empty, returning placeholder  
 [2024-12-06 00:45:46] local.INFO: Getting team image for: {"teamId":null} 
 [2024-12-06 00:45:46] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 01:31:52] local.ERROR: Undefined array key "Instagram" {"view":{"view":"C:\\Users\\Gigabyte\\GEsports\\resources\\views\\components\\team\\social-links.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-656873629 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#320</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-656873629\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","team":"<pre class=sf-dump id=sf-dump-806372182 data-indent-pad=\"  \"><span class=sf-dump-note>array:9</span> [<samp data-depth=1 class=sf-dump-expanded>
+  \"<span class=sf-dump-key>Name</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Weibo Gaming</span>\"
+  \"<span class=sf-dump-key>OverviewPage</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Weibo Gaming</span>\"
+  \"<span class=sf-dump-key>Location</span>\" => \"<span class=sf-dump-str title=\"5 characters\">China</span>\"
+  \"<span class=sf-dump-key>TeamLocation</span>\" => \"<span class=sf-dump-str title=\"5 characters\">China</span>\"
+  \"<span class=sf-dump-key>Region</span>\" => \"<span class=sf-dump-str title=\"5 characters\">China</span>\"
+  \"<span class=sf-dump-key>Image</span>\" => \"<span class=sf-dump-str title=\"28 characters\">Weibo Gaminglogo profile.png</span>\"
+  \"<span class=sf-dump-key>Twitter</span>\" => \"<span class=sf-dump-str title=\"14 characters\">WeiboGamingLoL</span>\"
+  \"<span class=sf-dump-key>Website</span>\" => \"<span class=sf-dump-str title=\"18 characters\">https://weibo.com/</span>\"
+  \"<span class=sf-dump-key>IsDisbanded</span>\" => <span class=sf-dump-const>false</span>
+</samp>]
+</pre><script>Sfdump(\"sf-dump-806372182\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","recentMatches":"<pre class=sf-dump id=sf-dump-1086547126 data-indent-pad=\"  \"><span class=sf-dump-note>array:20</span> [<samp data-depth=1 class=sf-dump-expanded>
+  <span class=sf-dump-index>0</span> => <span class=sf-dump-note>array:10</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>Name</span>\" => \"<span class=sf-dump-str title=\"9 characters\">NEST 2024</span>\"
+    \"<span class=sf-dump-key>DateTime_UTC</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2024-12-05 08:00:00</span>\"
+    \"<span class=sf-dump-key>Team1</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Weibo Gaming</span>\"
+    \"<span class=sf-dump-key>Team1Score</span>\" => \"<span class=sf-dump-str>2</span>\"
+    \"<span class=sf-dump-key>Team2</span>\" => \"<span class=sf-dump-str title=\"15 characters\">Anyone&#039;s Legend</span>\"
+    \"<span class=sf-dump-key>Team2Score</span>\" => \"<span class=sf-dump-str>0</span>\"
+    \"<span class=sf-dump-key>Winner</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>BestOf</span>\" => \"<span class=sf-dump-str>2</span>\"
+    \"<span class=sf-dump-key>Phase</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>DateTime_UTC__precision</span>\" => \"<span class=sf-dump-str>0</span>\"
+  </samp>]
+  <span class=sf-dump-index>1</span> => <span class=sf-dump-note>array:10</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>Name</span>\" => \"<span class=sf-dump-str title=\"9 characters\">NEST 2024</span>\"
+    \"<span class=sf-dump-key>DateTime_UTC</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2024-12-04 06:00:00</span>\"
+    \"<span class=sf-dump-key>Team1</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Weibo Gaming</span>\"
+    \"<span class=sf-dump-key>Team1Score</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>Team2</span>\" => \"<span class=sf-dump-str title=\"15 characters\">Bilibili Gaming</span>\"
+    \"<span class=sf-dump-key>Team2Score</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>Winner</span>\" => \"<span class=sf-dump-str>0</span>\"
+    \"<span class=sf-dump-key>BestOf</span>\" => \"<span class=sf-dump-str>2</span>\"
+    \"<span class=sf-dump-key>Phase</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>DateTime_UTC__precision</span>\" => \"<span class=sf-dump-str>0</span>\"
+  </samp>]
+  <span class=sf-dump-index>2</span> => <span class=sf-dump-note>array:10</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>Name</span>\" => \"<span class=sf-dump-str title=\"9 characters\">NEST 2024</span>\"
+    \"<span class=sf-dump-key>DateTime_UTC</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2024-12-02 06:00:00</span>\"
+    \"<span class=sf-dump-key>Team1</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Weibo Gaming</span>\"
+    \"<span class=sf-dump-key>Team1Score</span>\" => \"<span class=sf-dump-str>0</span>\"
+    \"<span class=sf-dump-key>Team2</span>\" => \"<span class=sf-dump-str title=\"15 characters\">FunPlus Phoenix</span>\"
+    \"<span class=sf-dump-key>Team2Score</span>\" => \"<span class=sf-dump-str>2</span>\"
+    \"<span class=sf-dump-key>Winner</span>\" => \"<span class=sf-dump-str>2</span>\"
+    \"<span class=sf-dump-key>BestOf</span>\" => \"<span class=sf-dump-str>2</span>\"
+    \"<span class=sf-dump-key>Phase</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>DateTime_UTC__precision</span>\" => \"<span class=sf-dump-str>0</span>\"
+  </samp>]
+  <span class=sf-dump-index>3</span> => <span class=sf-dump-note>array:10</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>Name</span>\" => \"<span class=sf-dump-str title=\"22 characters\">Worlds 2024 Main Event</span>\"
+    \"<span class=sf-dump-key>DateTime_UTC</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2024-10-26 12:00:00</span>\"
+    \"<span class=sf-dump-key>Team1</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Weibo Gaming</span>\"
+    \"<span class=sf-dump-key>Team1Score</span>\" => \"<span class=sf-dump-str>0</span>\"
+    \"<span class=sf-dump-key>Team2</span>\" => \"<span class=sf-dump-str title=\"15 characters\">Bilibili Gaming</span>\"
+    \"<span class=sf-dump-key>Team2Score</span>\" => \"<span class=sf-dump-str>3</span>\"
+    \"<span class=sf-dump-key>Winner</span>\" => \"<span class=sf-dump-str>2</span>\"
+    \"<span class=sf-dump-key>BestOf</span>\" => \"<span class=sf-dump-str>5</span>\"
+    \"<span class=sf-dump-key>Phase</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>DateTime_UTC__precision</span>\" => \"<span class=sf-dump-str>0</span>\"
+  </samp>]
+  <span class=sf-dump-index>4</span> => <span class=sf-dump-note>array:10</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>Name</span>\" => \"<span class=sf-dump-str title=\"22 characters\">Worlds 2024 Main Event</span>\"
+    \"<span class=sf-dump-key>DateTime_UTC</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2024-10-17 12:00:00</span>\"
+    \"<span class=sf-dump-key>Team1</span>\" => \"<span class=sf-dump-str title=\"11 characters\">LNG Esports</span>\"
+    \"<span class=sf-dump-key>Team1Score</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>Team2</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Weibo Gaming</span>\"
+    \"<span class=sf-dump-key>Team2Score</span>\" => \"<span class=sf-dump-str>3</span>\"
+    \"<span class=sf-dump-key>Winner</span>\" => \"<span class=sf-dump-str>2</span>\"
+    \"<span class=sf-dump-key>BestOf</span>\" => \"<span class=sf-dump-str>5</span>\"
+    \"<span class=sf-dump-key>Phase</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>DateTime_UTC__precision</span>\" => \"<span class=sf-dump-str>0</span>\"
+  </samp>]
+  <span class=sf-dump-index>5</span> => <span class=sf-dump-note>array:10</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>Name</span>\" => \"<span class=sf-dump-str title=\"22 characters\">Worlds 2024 Main Event</span>\"
+    \"<span class=sf-dump-key>DateTime_UTC</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2024-10-13 12:00:00</span>\"
+    \"<span class=sf-dump-key>Team1</span>\" => \"<span class=sf-dump-str title=\"9 characters\">Dplus KIA</span>\"
+    \"<span class=sf-dump-key>Team1Score</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>Team2</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Weibo Gaming</span>\"
+    \"<span class=sf-dump-key>Team2Score</span>\" => \"<span class=sf-dump-str>2</span>\"
+    \"<span class=sf-dump-key>Winner</span>\" => \"<span class=sf-dump-str>2</span>\"
+    \"<span class=sf-dump-key>BestOf</span>\" => \"<span class=sf-dump-str>3</span>\"
+    \"<span class=sf-dump-key>Phase</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>DateTime_UTC__precision</span>\" => \"<span class=sf-dump-str>0</span>\"
+  </samp>]
+  <span class=sf-dump-index>6</span> => <span class=sf-dump-note>array:10</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>Name</span>\" => \"<span class=sf-dump-str title=\"22 characters\">Worlds 2024 Main Event</span>\"
+    \"<span class=sf-dump-key>DateTime_UTC</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2024-10-12 12:00:00</span>\"
+    \"<span class=sf-dump-key>Team1</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Weibo Gaming</span>\"
+    \"<span class=sf-dump-key>Team1Score</span>\" => \"<span class=sf-dump-str>2</span>\"
+    \"<span class=sf-dump-key>Team2</span>\" => \"<span class=sf-dump-str title=\"6 characters\">Fnatic</span>\"
+    \"<span class=sf-dump-key>Team2Score</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>Winner</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>BestOf</span>\" => \"<span class=sf-dump-str>3</span>\"
+    \"<span class=sf-dump-key>Phase</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>DateTime_UTC__precision</span>\" => \"<span class=sf-dump-str>0</span>\"
+  </samp>]
+  <span class=sf-dump-index>7</span> => <span class=sf-dump-note>array:10</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>Name</span>\" => \"<span class=sf-dump-str title=\"22 characters\">Worlds 2024 Main Event</span>\"
+    \"<span class=sf-dump-key>DateTime_UTC</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2024-10-06 15:00:00</span>\"
+    \"<span class=sf-dump-key>Team1</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Weibo Gaming</span>\"
+    \"<span class=sf-dump-key>Team1Score</span>\" => \"<span class=sf-dump-str>0</span>\"
+    \"<span class=sf-dump-key>Team2</span>\" => \"<span class=sf-dump-str title=\"10 characters\">G2 Esports</span>\"
+    \"<span class=sf-dump-key>Team2Score</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>Winner</span>\" => \"<span class=sf-dump-str>2</span>\"
+    \"<span class=sf-dump-key>BestOf</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>Phase</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>DateTime_UTC__precision</span>\" => \"<span class=sf-dump-str>0</span>\"
+  </samp>]
+  <span class=sf-dump-index>8</span> => <span class=sf-dump-note>array:10</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>Name</span>\" => \"<span class=sf-dump-str title=\"22 characters\">Worlds 2024 Main Event</span>\"
+    \"<span class=sf-dump-key>DateTime_UTC</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2024-10-04 15:00:00</span>\"
+    \"<span class=sf-dump-key>Team1</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Weibo Gaming</span>\"
+    \"<span class=sf-dump-key>Team1Score</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>Team2</span>\" => \"<span class=sf-dump-str title=\"11 characters\">Team Liquid</span>\"
+    \"<span class=sf-dump-key>Team2Score</span>\" => \"<span class=sf-dump-str>0</span>\"
+    \"<span class=sf-dump-key>Winner</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>BestOf</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>Phase</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>DateTime_UTC__precision</span>\" => \"<span class=sf-dump-str>0</span>\"
+  </samp>]
+  <span class=sf-dump-index>9</span> => <span class=sf-dump-note>array:10</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>Name</span>\" => \"<span class=sf-dump-str title=\"22 characters\">Worlds 2024 Main Event</span>\"
+    \"<span class=sf-dump-key>DateTime_UTC</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2024-10-03 14:00:00</span>\"
+    \"<span class=sf-dump-key>Team1</span>\" => \"<span class=sf-dump-str title=\"5 characters\">Gen.G</span>\"
+    \"<span class=sf-dump-key>Team1Score</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>Team2</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Weibo Gaming</span>\"
+    \"<span class=sf-dump-key>Team2Score</span>\" => \"<span class=sf-dump-str>0</span>\"
+    \"<span class=sf-dump-key>Winner</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>BestOf</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>Phase</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>DateTime_UTC__precision</span>\" => \"<span class=sf-dump-str>0</span>\"
+  </samp>]
+  <span class=sf-dump-index>10</span> => <span class=sf-dump-note>array:10</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>Name</span>\" => \"<span class=sf-dump-str title=\"24 characters\">LPL 2024 Regional Finals</span>\"
+    \"<span class=sf-dump-key>DateTime_UTC</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2024-09-02 08:30:00</span>\"
+    \"<span class=sf-dump-key>Team1</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Weibo Gaming</span>\"
+    \"<span class=sf-dump-key>Team1Score</span>\" => \"<span class=sf-dump-str>3</span>\"
+    \"<span class=sf-dump-key>Team2</span>\" => \"<span class=sf-dump-str title=\"9 characters\">JD Gaming</span>\"
+    \"<span class=sf-dump-key>Team2Score</span>\" => \"<span class=sf-dump-str>2</span>\"
+    \"<span class=sf-dump-key>Winner</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>BestOf</span>\" => \"<span class=sf-dump-str>5</span>\"
+    \"<span class=sf-dump-key>Phase</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>DateTime_UTC__precision</span>\" => \"<span class=sf-dump-str>0</span>\"
+  </samp>]
+  <span class=sf-dump-index>11</span> => <span class=sf-dump-note>array:10</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>Name</span>\" => \"<span class=sf-dump-str title=\"24 characters\">LPL 2024 Regional Finals</span>\"
+    \"<span class=sf-dump-key>DateTime_UTC</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2024-08-31 08:30:00</span>\"
+    \"<span class=sf-dump-key>Team1</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Weibo Gaming</span>\"
+    \"<span class=sf-dump-key>Team1Score</span>\" => \"<span class=sf-dump-str>0</span>\"
+    \"<span class=sf-dump-key>Team2</span>\" => \"<span class=sf-dump-str title=\"11 characters\">LNG Esports</span>\"
+    \"<span class=sf-dump-key>Team2Score</span>\" => \"<span class=sf-dump-str>3</span>\"
+    \"<span class=sf-dump-key>Winner</span>\" => \"<span class=sf-dump-str>2</span>\"
+    \"<span class=sf-dump-key>BestOf</span>\" => \"<span class=sf-dump-str>5</span>\"
+    \"<span class=sf-dump-key>Phase</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>DateTime_UTC__precision</span>\" => \"<span class=sf-dump-str>0</span>\"
+  </samp>]
+  <span class=sf-dump-index>12</span> => <span class=sf-dump-note>array:10</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>Name</span>\" => \"<span class=sf-dump-str title=\"24 characters\">LPL 2024 Summer Playoffs</span>\"
+    \"<span class=sf-dump-key>DateTime_UTC</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2024-08-30 08:00:00</span>\"
+    \"<span class=sf-dump-key>Team1</span>\" => \"<span class=sf-dump-str title=\"15 characters\">Bilibili Gaming</span>\"
+    \"<span class=sf-dump-key>Team1Score</span>\" => \"<span class=sf-dump-str>3</span>\"
+    \"<span class=sf-dump-key>Team2</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Weibo Gaming</span>\"
+    \"<span class=sf-dump-key>Team2Score</span>\" => \"<span class=sf-dump-str>0</span>\"
+    \"<span class=sf-dump-key>Winner</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>BestOf</span>\" => \"<span class=sf-dump-str>5</span>\"
+    \"<span class=sf-dump-key>Phase</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>DateTime_UTC__precision</span>\" => \"<span class=sf-dump-str>0</span>\"
+  </samp>]
+  <span class=sf-dump-index>13</span> => <span class=sf-dump-note>array:10</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>Name</span>\" => \"<span class=sf-dump-str title=\"24 characters\">LPL 2024 Summer Playoffs</span>\"
+    \"<span class=sf-dump-key>DateTime_UTC</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2024-08-24 10:00:00</span>\"
+    \"<span class=sf-dump-key>Team1</span>\" => \"<span class=sf-dump-str title=\"11 characters\">Top Esports</span>\"
+    \"<span class=sf-dump-key>Team1Score</span>\" => \"<span class=sf-dump-str>2</span>\"
+    \"<span class=sf-dump-key>Team2</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Weibo Gaming</span>\"
+    \"<span class=sf-dump-key>Team2Score</span>\" => \"<span class=sf-dump-str>3</span>\"
+    \"<span class=sf-dump-key>Winner</span>\" => \"<span class=sf-dump-str>2</span>\"
+    \"<span class=sf-dump-key>BestOf</span>\" => \"<span class=sf-dump-str>5</span>\"
+    \"<span class=sf-dump-key>Phase</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>DateTime_UTC__precision</span>\" => \"<span class=sf-dump-str>0</span>\"
+  </samp>]
+  <span class=sf-dump-index>14</span> => <span class=sf-dump-note>array:10</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>Name</span>\" => \"<span class=sf-dump-str title=\"24 characters\">LPL 2024 Summer Playoffs</span>\"
+    \"<span class=sf-dump-key>DateTime_UTC</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2024-08-22 10:00:00</span>\"
+    \"<span class=sf-dump-key>Team1</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Weibo Gaming</span>\"
+    \"<span class=sf-dump-key>Team1Score</span>\" => \"<span class=sf-dump-str>3</span>\"
+    \"<span class=sf-dump-key>Team2</span>\" => \"<span class=sf-dump-str title=\"11 characters\">LNG Esports</span>\"
+    \"<span class=sf-dump-key>Team2Score</span>\" => \"<span class=sf-dump-str>2</span>\"
+    \"<span class=sf-dump-key>Winner</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>BestOf</span>\" => \"<span class=sf-dump-str>5</span>\"
+    \"<span class=sf-dump-key>Phase</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>DateTime_UTC__precision</span>\" => \"<span class=sf-dump-str>0</span>\"
+  </samp>]
+  <span class=sf-dump-index>15</span> => <span class=sf-dump-note>array:10</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>Name</span>\" => \"<span class=sf-dump-str title=\"24 characters\">LPL 2024 Summer Playoffs</span>\"
+    \"<span class=sf-dump-key>DateTime_UTC</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2024-08-17 10:00:00</span>\"
+    \"<span class=sf-dump-key>Team1</span>\" => \"<span class=sf-dump-str title=\"15 characters\">Bilibili Gaming</span>\"
+    \"<span class=sf-dump-key>Team1Score</span>\" => \"<span class=sf-dump-str>3</span>\"
+    \"<span class=sf-dump-key>Team2</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Weibo Gaming</span>\"
+    \"<span class=sf-dump-key>Team2Score</span>\" => \"<span class=sf-dump-str>0</span>\"
+    \"<span class=sf-dump-key>Winner</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>BestOf</span>\" => \"<span class=sf-dump-str>5</span>\"
+    \"<span class=sf-dump-key>Phase</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>DateTime_UTC__precision</span>\" => \"<span class=sf-dump-str>0</span>\"
+  </samp>]
+  <span class=sf-dump-index>16</span> => <span class=sf-dump-note>array:10</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>Name</span>\" => \"<span class=sf-dump-str title=\"24 characters\">LPL 2024 Summer Playoffs</span>\"
+    \"<span class=sf-dump-key>DateTime_UTC</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2024-08-15 10:00:00</span>\"
+    \"<span class=sf-dump-key>Team1</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Weibo Gaming</span>\"
+    \"<span class=sf-dump-key>Team1Score</span>\" => \"<span class=sf-dump-str>3</span>\"
+    \"<span class=sf-dump-key>Team2</span>\" => \"<span class=sf-dump-str title=\"20 characters\">Ninjas in Pyjamas.CN</span>\"
+    \"<span class=sf-dump-key>Team2Score</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>Winner</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>BestOf</span>\" => \"<span class=sf-dump-str>5</span>\"
+    \"<span class=sf-dump-key>Phase</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>DateTime_UTC__precision</span>\" => \"<span class=sf-dump-str>0</span>\"
+  </samp>]
+  <span class=sf-dump-index>17</span> => <span class=sf-dump-note>array:10</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>Name</span>\" => \"<span class=sf-dump-str title=\"15 characters\">LPL 2024 Summer</span>\"
+    \"<span class=sf-dump-key>DateTime_UTC</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2024-07-28 11:00:00</span>\"
+    \"<span class=sf-dump-key>Team1</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Weibo Gaming</span>\"
+    \"<span class=sf-dump-key>Team1Score</span>\" => \"<span class=sf-dump-str>2</span>\"
+    \"<span class=sf-dump-key>Team2</span>\" => \"<span class=sf-dump-str title=\"15 characters\">FunPlus Phoenix</span>\"
+    \"<span class=sf-dump-key>Team2Score</span>\" => \"<span class=sf-dump-str>0</span>\"
+    \"<span class=sf-dump-key>Winner</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>BestOf</span>\" => \"<span class=sf-dump-str>3</span>\"
+    \"<span class=sf-dump-key>Phase</span>\" => \"<span class=sf-dump-str title=\"11 characters\">Group Stage</span>\"
+    \"<span class=sf-dump-key>DateTime_UTC__precision</span>\" => \"<span class=sf-dump-str>0</span>\"
+  </samp>]
+  <span class=sf-dump-index>18</span> => <span class=sf-dump-note>array:10</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>Name</span>\" => \"<span class=sf-dump-str title=\"15 characters\">LPL 2024 Summer</span>\"
+    \"<span class=sf-dump-key>DateTime_UTC</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2024-07-25 11:00:00</span>\"
+    \"<span class=sf-dump-key>Team1</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Weibo Gaming</span>\"
+    \"<span class=sf-dump-key>Team1Score</span>\" => \"<span class=sf-dump-str>2</span>\"
+    \"<span class=sf-dump-key>Team2</span>\" => \"<span class=sf-dump-str title=\"10 characters\">LGD Gaming</span>\"
+    \"<span class=sf-dump-key>Team2Score</span>\" => \"<span class=sf-dump-str>0</span>\"
+    \"<span class=sf-dump-key>Winner</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>BestOf</span>\" => \"<span class=sf-dump-str>3</span>\"
+    \"<span class=sf-dump-key>Phase</span>\" => \"<span class=sf-dump-str title=\"11 characters\">Group Stage</span>\"
+    \"<span class=sf-dump-key>DateTime_UTC__precision</span>\" => \"<span class=sf-dump-str>0</span>\"
+  </samp>]
+  <span class=sf-dump-index>19</span> => <span class=sf-dump-note>array:10</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>Name</span>\" => \"<span class=sf-dump-str title=\"15 characters\">LPL 2024 Summer</span>\"
+    \"<span class=sf-dump-key>DateTime_UTC</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2024-07-23 09:00:00</span>\"
+    \"<span class=sf-dump-key>Team1</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Weibo Gaming</span>\"
+    \"<span class=sf-dump-key>Team1Score</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>Team2</span>\" => \"<span class=sf-dump-str title=\"15 characters\">Bilibili Gaming</span>\"
+    \"<span class=sf-dump-key>Team2Score</span>\" => \"<span class=sf-dump-str>2</span>\"
+    \"<span class=sf-dump-key>Winner</span>\" => \"<span class=sf-dump-str>2</span>\"
+    \"<span class=sf-dump-key>BestOf</span>\" => \"<span class=sf-dump-str>3</span>\"
+    \"<span class=sf-dump-key>Phase</span>\" => \"<span class=sf-dump-str title=\"11 characters\">Group Stage</span>\"
+    \"<span class=sf-dump-key>DateTime_UTC__precision</span>\" => \"<span class=sf-dump-str>0</span>\"
+  </samp>]
+</samp>]
+</pre><script>Sfdump(\"sf-dump-1086547126\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","futureMatches":"<pre class=sf-dump id=sf-dump-1602069877 data-indent-pad=\"  \"><span class=sf-dump-note>array:1</span> [<samp data-depth=1 class=sf-dump-expanded>
+  <span class=sf-dump-index>0</span> => <span class=sf-dump-note>array:10</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>Name</span>\" => \"<span class=sf-dump-str title=\"9 characters\">NEST 2024</span>\"
+    \"<span class=sf-dump-key>DateTime_UTC</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2024-12-07 06:00:00</span>\"
+    \"<span class=sf-dump-key>Team1</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Weibo Gaming</span>\"
+    \"<span class=sf-dump-key>Team1Score</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>Team2</span>\" => \"<span class=sf-dump-str title=\"10 characters\">LGD Gaming</span>\"
+    \"<span class=sf-dump-key>Team2Score</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>Winner</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>BestOf</span>\" => \"<span class=sf-dump-str>2</span>\"
+    \"<span class=sf-dump-key>Phase</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>DateTime_UTC__precision</span>\" => \"<span class=sf-dump-str>0</span>\"
+  </samp>]
+</samp>]
+</pre><script>Sfdump(\"sf-dump-1602069877\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","attributes":"<pre class=sf-dump id=sf-dump-1989503164 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\View\\ComponentAttributeBag</span> {<a class=sf-dump-ref>#349</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1989503164\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+"}},"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined array key \"Instagram\" at C:\\Users\\Gigabyte\\GEsports\\resources\\views\\components\\team\\social-links.blade.php:1)
+[stacktrace]
+#0 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\Users\\\\Gigaby...')
+#1 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#2 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\Gigaby...', Array)
+#3 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(72): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Users\\\\Gigaby...', Array)
+#4 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(207): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Users\\\\Gigaby...', Array)
+#5 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(190): Illuminate\\View\\View->getContents()
+#6 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(159): Illuminate\\View\\View->renderContents()
+#7 C:\\Users\\Gigabyte\\GEsports\\resources\\views\\components\\team\\header.blade.php(25): Illuminate\\View\\View->render()
+#8 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\Users\\\\Gigaby...')
+#9 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#10 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\Gigaby...', Array)
+#11 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(72): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Users\\\\Gigaby...', Array)
+#12 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(207): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Users\\\\Gigaby...', Array)
+#13 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(190): Illuminate\\View\\View->getContents()
+#14 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(159): Illuminate\\View\\View->renderContents()
+#15 C:\\Users\\Gigabyte\\GEsports\\resources\\views\\pages\\team.blade.php(7): Illuminate\\View\\View->render()
+#16 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\Users\\\\Gigaby...')
+#17 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#18 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\Gigaby...', Array)
+#19 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(72): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Users\\\\Gigaby...', Array)
+#20 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(207): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Users\\\\Gigaby...', Array)
+#21 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(190): Illuminate\\View\\View->getContents()
+#22 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(159): Illuminate\\View\\View->renderContents()
+#23 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#24 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#25 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(918): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#26 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(885): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#27 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(805): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#28 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#37 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(805): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#44 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(748): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#46 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#47 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#48 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#50 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#51 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#54 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#55 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#56 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#57 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#58 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#59 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#60 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#61 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#62 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#63 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#64 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#65 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#66 C:\\Users\\Gigabyte\\GEsports\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#67 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\Gigaby...')
+#68 {main}
+
+[previous exception] [object] (ErrorException(code: 0): Undefined array key \"Instagram\" at C:\\Users\\Gigabyte\\GEsports\\storage\\framework\\views\\1ecc8c31b62c36dae481ff78eb934fe2.php:7)
+[stacktrace]
+#0 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Undefined array...', 'C:\\\\Users\\\\Gigaby...', 7)
+#1 C:\\Users\\Gigabyte\\GEsports\\storage\\framework\\views\\1ecc8c31b62c36dae481ff78eb934fe2.php(7): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'Undefined array...', 'C:\\\\Users\\\\Gigaby...', 7)
+#2 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\Users\\\\Gigaby...')
+#3 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\Gigaby...', Array)
+#5 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(72): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Users\\\\Gigaby...', Array)
+#6 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(207): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Users\\\\Gigaby...', Array)
+#7 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(190): Illuminate\\View\\View->getContents()
+#8 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(159): Illuminate\\View\\View->renderContents()
+#9 C:\\Users\\Gigabyte\\GEsports\\storage\\framework\\views\\9f156d1ef705711191c489469327d50c.php(38): Illuminate\\View\\View->render()
+#10 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\Users\\\\Gigaby...')
+#11 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#12 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\Gigaby...', Array)
+#13 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(72): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Users\\\\Gigaby...', Array)
+#14 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(207): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Users\\\\Gigaby...', Array)
+#15 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(190): Illuminate\\View\\View->getContents()
+#16 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(159): Illuminate\\View\\View->renderContents()
+#17 C:\\Users\\Gigabyte\\GEsports\\storage\\framework\\views\\333343f7dade6cb0bcc87cd1c3384f72.php(5): Illuminate\\View\\View->render()
+#18 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\Users\\\\Gigaby...')
+#19 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#20 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\Gigaby...', Array)
+#21 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(72): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Users\\\\Gigaby...', Array)
+#22 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(207): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Users\\\\Gigaby...', Array)
+#23 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(190): Illuminate\\View\\View->getContents()
+#24 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(159): Illuminate\\View\\View->renderContents()
+#25 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#26 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#27 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(918): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#28 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(885): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#29 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(805): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#30 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#39 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(805): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#46 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#47 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(748): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#48 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#49 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#50 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#51 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#52 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#53 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#54 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#55 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#56 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#57 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#58 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#59 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#60 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#61 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#62 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#63 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#64 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#65 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#66 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#67 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#68 C:\\Users\\Gigabyte\\GEsports\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#69 C:\\Users\\Gigabyte\\GEsports\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\Gigaby...')
+#70 {main}
+"} 
+[2024-12-06 01:33:41] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-06"} 
+[2024-12-06 01:33:41] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-06"} 
+[2024-12-06 01:33:42] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-06 06:00:00","Team1":"Bilibili Gaming","Team1Score":null,"Team1Final":"Bilibili Gaming","Team2":"Anyone's Legend","Team2Score":null,"Team2Final":"Anyone's Legend","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Bilibili Gaminglogo profile.png","Team2Image":"Anyone's Legendlogo profile.png","Team1OverviewPage":"Bilibili Gaming","Team2OverviewPage":"Anyone's Legend","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 01:33:42] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 01:33:42] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 01:33:42] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 01:33:42] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 01:33:42] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 01:33:42] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 01:33:42] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 01:33:42] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 01:33:42] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 01:33:42] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 01:33:42] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 01:33:42] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 01:33:42] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 01:33:42] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 01:33:42] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 01:33:42] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 01:33:42] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 01:33:42] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 01:33:42] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 01:33:42] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 01:33:42] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 01:33:42] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 01:33:42] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 01:33:42] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 01:33:42] local.INFO: Getting team image for: {"teamId":"Bilibili Gaming"} 
+[2024-12-06 01:33:42] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 01:33:42] local.INFO: Returning direct team image: {"path":"storage/teamimages/Bilibili%20Gaming.png"} 
+[2024-12-06 01:33:42] local.INFO: Getting team image for: {"teamId":"Anyone's Legend"} 
+[2024-12-06 01:33:42] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 01:33:42] local.INFO: Returning direct team image: {"path":"storage/teamimages/Anyone%27s%20Legend.png"} 
+[2024-12-06 01:33:42] local.INFO: Getting team image for: {"teamId":"Top Esports"} 
+[2024-12-06 01:33:42] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 01:33:42] local.INFO: Returning direct team image: {"path":"storage/teamimages/Top%20Esports.png"} 
+[2024-12-06 01:33:42] local.INFO: Getting team image for: {"teamId":"Team WE"} 
+[2024-12-06 01:33:42] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 01:33:42] local.INFO: Returning direct team image: {"path":"storage/teamimages/Team%20WE.png"} 
+[2024-12-06 01:33:42] local.INFO: Getting team image for: {"teamId":"LNG Esports"} 
+[2024-12-06 01:33:42] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 01:33:42] local.INFO: Returning direct team image: {"path":"storage/teamimages/LNG%20Esports.png"} 
+[2024-12-06 01:33:42] local.INFO: Getting team image for: {"teamId":"Oh My God"} 
+[2024-12-06 01:33:42] local.INFO: Found team image: {"teamImage":null} 
+[2024-12-06 01:33:42] local.INFO: Returning direct team image: {"path":"storage/teamimages/Oh%20My%20God.png"} 
+[2024-12-06 01:33:42] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 01:33:42] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 01:33:42] local.INFO: Getting team image for: {"teamId":null} 
+[2024-12-06 01:33:42] local.INFO: TeamId is empty, returning placeholder  
+[2024-12-06 01:33:44] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-06"} 
+[2024-12-06 01:33:44] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-06"} 
+[2024-12-06 01:33:45] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-06 06:00:00","Team1":"Bilibili Gaming","Team1Score":null,"Team1Final":"Bilibili Gaming","Team2":"Anyone's Legend","Team2Score":null,"Team2Final":"Anyone's Legend","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Bilibili Gaminglogo profile.png","Team2Image":"Anyone's Legendlogo profile.png","Team1OverviewPage":"Bilibili Gaming","Team2OverviewPage":"Anyone's Legend","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 01:33:46] local.INFO: Game Details: {"Number of games":0,"Match BestOf":2,"Match Score":"-","Games":[]} 
+[2024-12-06 01:33:46] local.INFO: Match data: {"Team1":"Top Esports","Team1OverviewPage":"Top Esports","Team2":"Team WE","Team2OverviewPage":"Team WE"} 
+[2024-12-06 01:33:46] local.INFO: Looking up team image for: {"teamName":"Top Esports"} 
+[2024-12-06 01:33:46] local.INFO: Found direct image file for team  
+[2024-12-06 01:33:46] local.INFO: Looking up team image for: {"teamName":"Team WE"} 
+[2024-12-06 01:33:46] local.INFO: Found direct image file for team  
+[2024-12-06 01:33:46] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Top Esports.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Team WE.png"} 
