@@ -18508,3 +18508,656 @@ Internal Server Error
 [2024-12-06 02:19:13] local.INFO: Getting rune icon for: Inspiration  
 [2024-12-06 02:19:13] local.INFO: Getting rune icon for: Resolve  
 [2024-12-06 02:19:13] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 13:57:10] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-06"} 
+[2024-12-06 13:57:10] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-06"} 
+[2024-12-06 13:57:10] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-06 06:00:00","Team1":"Bilibili Gaming","Team1Score":2,"Team1Final":"Bilibili Gaming","Team2":"Anyone's Legend","Team2Score":0,"Team2Final":"Anyone's Legend","Winner":"1","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Bilibili Gaminglogo profile.png","Team2Image":"Anyone's Legendlogo profile.png","Team1OverviewPage":"Bilibili Gaming","Team2OverviewPage":"Anyone's Legend","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 13:57:16] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-06"} 
+[2024-12-06 13:57:16] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-06"} 
+[2024-12-06 13:57:16] local.INFO: Successfully fetched matches {"count":10,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-06 06:00:00","Team1":"Bilibili Gaming","Team1Score":2,"Team1Final":"Bilibili Gaming","Team2":"Anyone's Legend","Team2Score":0,"Team2Final":"Anyone's Legend","Winner":"1","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"Bilibili Gaminglogo profile.png","Team2Image":"Anyone's Legendlogo profile.png","Team1OverviewPage":"Bilibili Gaming","Team2OverviewPage":"Anyone's Legend","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 13:57:17] local.INFO: Game Details: {"Number of games":0,"Match BestOf":2,"Match Score":"-","Games":[]} 
+[2024-12-06 13:57:17] local.INFO: Match data: {"Team1":"LNG Esports","Team1OverviewPage":"LNG Esports","Team2":"Oh My God","Team2OverviewPage":"Oh My God"} 
+[2024-12-06 13:57:17] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/LNG Esports.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Oh My God.png"} 
+[2024-12-06 13:57:20] local.INFO: Raw date parameter received in APIService: {"date":"2024-10-17"} 
+[2024-12-06 13:57:20] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-10-17"} 
+[2024-12-06 13:57:21] local.INFO: Successfully fetched matches {"count":20,"first_match":{"Name":"Life's Good Tournament 2024 S2 Dino OEG Stadium Qual","DateTime_UTC":"2024-10-17 08:00:00","Team1":"Fullsync DeluXe","Team1Score":0,"Team1Final":"Fullsync DeluXe","Team2":"HST","Team2Score":3,"Team2Final":"HST","Winner":"2","Stream":null,"BestOf":5,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"LG Tournament 2024 S2 OEG Stadium Qual","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 13:57:23] local.INFO: Game Details: {"Number of games":4,"Match BestOf":5,"Match Score":"1-3","Games":[{"DateTime":"2024-10-17 12:17:00","Winner":"1","Score":"1-0"},{"DateTime":"2024-10-17 13:12:00","Winner":"1","Score":"1-1"},{"DateTime":"2024-10-17 14:16:00","Winner":"1","Score":"2-1"},{"DateTime":"2024-10-17 15:13:00","Winner":"2","Score":"1-3"}]} 
+[2024-12-06 13:57:23] local.INFO: Match data: {"Team1":"LNG Esports","Team1OverviewPage":"LNG Esports","Team2":"Weibo Gaming","Team2OverviewPage":"Weibo Gaming"} 
+[2024-12-06 13:57:23] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/LNG Esports.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Weibo Gaming.png"} 
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 13:57:23] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 17:23:56] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-06"} 
+[2024-12-06 17:23:56] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-06"} 
+[2024-12-06 17:23:57] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"ACL 2024 Fall Playoffs","DateTime_UTC":"2024-12-06 01:00:00","Team1":"Peak Performers (North American Team)","Team1Score":2,"Team1Final":"Peak Performers (North American Team)","Team2":"Straw Hat Crew","Team2Score":0,"Team2Final":"Straw Hat Crew","Winner":"1","Stream":null,"BestOf":3,"Team1Image":"Peak Performers (North American Team)logo square.png","Team2Image":"Straw Hat Crewlogo square.png","Team1OverviewPage":"Peak Performers (North American Team)","Team2OverviewPage":"Straw Hat Crew","Phase":null,"ShownName":"ACL 2024 Fall Playoffs","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 17:31:30] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-06"} 
+[2024-12-06 17:31:30] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-06"} 
+[2024-12-06 17:31:31] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"ACL 2024 Fall Playoffs","DateTime_UTC":"2024-12-06 01:00:00","Team1":"Peak Performers (North American Team)","Team1Score":2,"Team1Final":"Peak Performers (North American Team)","Team2":"Straw Hat Crew","Team2Score":0,"Team2Final":"Straw Hat Crew","Winner":"1","Stream":null,"BestOf":3,"Team1Image":"Peak Performers (North American Team)logo square.png","Team2Image":"Straw Hat Crewlogo square.png","Team1OverviewPage":"Peak Performers (North American Team)","Team2OverviewPage":"Straw Hat Crew","Phase":null,"ShownName":"ACL 2024 Fall Playoffs","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 17:31:32] local.ERROR: Error fetching team matches: Server error: `GET http://127.0.0.1:8001/TeamMatches?team=Anyone%27s%20Legend` resulted in a `500 Internal Server Error` response:
+{"detail":"('db_error', 'A database query error has occurred. This may indicate a bug in the software.', 'See https://lo (truncated...)
+  
+[2024-12-06 17:31:32] local.ERROR: Error fetching match games: Server error: `GET http://127.0.0.1:8001/MatchGames?team1=Bilibili%20Gaming&team2=Anyone%27s%20Legend&date=2024-12-06` resulted in a `500 Internal Server Error` response:
+{"detail":"Error fetching game details: 500: Error in Step 1: ('internal_api_error_MWException', '[7567ce30047d83847d571 (truncated...)
+  
+[2024-12-06 17:31:32] local.INFO: Game Details: {"Number of games":0,"Match BestOf":2,"Match Score":"2-0","Games":[]} 
+[2024-12-06 17:31:32] local.INFO: Match data: {"Team1":"Bilibili Gaming","Team1OverviewPage":"Bilibili Gaming","Team2":"Anyone's Legend","Team2OverviewPage":"Anyone's Legend"} 
+[2024-12-06 17:31:32] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Bilibili Gaming.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Anyone's Legend.png"} 
+[2024-12-06 17:32:36] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-03"} 
+[2024-12-06 17:32:36] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-03"} 
+[2024-12-06 17:32:37] local.INFO: Successfully fetched matches {"count":16,"first_match":{"Name":"ACL 2024 Fall Playoffs","DateTime_UTC":"2024-12-03 01:00:00","Team1":"St. Clair College","Team1Score":2,"Team1Final":"St. Clair College","Team2":"Pulse Gooners","Team2Score":1,"Team2Final":"Pulse Gooners","Winner":"1","Stream":null,"BestOf":3,"Team1Image":"St. Clair Collegelogo square.png","Team2Image":"Pulse Goonerslogo square.png","Team1OverviewPage":"St. Clair College","Team2OverviewPage":"Pulse Gooners","Phase":null,"ShownName":"ACL 2024 Fall Playoffs","MatchDay":2,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 17:32:38] local.INFO: Game Details: {"Number of games":0,"Match BestOf":2,"Match Score":"1-1","Games":[]} 
+[2024-12-06 17:32:38] local.INFO: Match data: {"Team1":"FunPlus Phoenix","Team1OverviewPage":"FunPlus Phoenix","Team2":"Bilibili Gaming","Team2OverviewPage":"Bilibili Gaming"} 
+[2024-12-06 17:32:38] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/FunPlus Phoenix.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Bilibili Gaming.png"} 
+[2024-12-06 17:33:03] local.INFO: Raw date parameter received in APIService: {"date":"2024-11-02"} 
+[2024-12-06 17:33:03] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-11-02"} 
+[2024-12-06 17:33:04] local.INFO: Successfully fetched matches {"count":28,"first_match":{"Name":"ACL 2024 Fall","DateTime_UTC":"2024-11-02 00:00:00","Team1":"CCG Glorp","Team1Score":2,"Team1Final":"CCG Glorp","Team2":"Chaotic Solar","Team2Score":0,"Team2Final":"Chaotic Solar","Winner":"1","Stream":null,"BestOf":3,"Team1Image":"CCG Glorplogo square.png","Team2Image":"Chaotic Solarlogo square.png","Team1OverviewPage":"CCG Glorp","Team2OverviewPage":"Chaotic Solar","Phase":null,"ShownName":"ACL 2024 Fall","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 17:33:06] local.INFO: Game Details: {"Number of games":5,"Match BestOf":5,"Match Score":"2-3","Games":[{"DateTime":"2024-11-02 14:35:00","Winner":"2","Score":"0-1"},{"DateTime":"2024-11-02 15:28:00","Winner":"1","Score":"1-1"},{"DateTime":"2024-11-02 16:15:00","Winner":"1","Score":"2-1"},{"DateTime":"2024-11-02 17:01:00","Winner":"1","Score":"2-2"},{"DateTime":"2024-11-02 17:54:00","Winner":"2","Score":"2-3"}]} 
+[2024-12-06 17:33:06] local.INFO: Match data: {"Team1":"Bilibili Gaming","Team1OverviewPage":"Bilibili Gaming","Team2":"T1","Team2OverviewPage":"T1"} 
+[2024-12-06 17:33:06] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Bilibili Gaming.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/T1.png"} 
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 17:33:06] local.INFO: Missing item mapping for: Navori Flickerblade  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 17:33:06] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 17:36:46] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-03"} 
+[2024-12-06 17:36:46] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-03"} 
+[2024-12-06 17:36:47] local.INFO: Successfully fetched matches {"count":16,"first_match":{"Name":"ACL 2024 Fall Playoffs","DateTime_UTC":"2024-12-03 01:00:00","Team1":"St. Clair College","Team1Score":2,"Team1Final":"St. Clair College","Team2":"Pulse Gooners","Team2Score":1,"Team2Final":"Pulse Gooners","Winner":"1","Stream":null,"BestOf":3,"Team1Image":"St. Clair Collegelogo square.png","Team2Image":"Pulse Goonerslogo square.png","Team1OverviewPage":"St. Clair College","Team2OverviewPage":"Pulse Gooners","Phase":null,"ShownName":"ACL 2024 Fall Playoffs","MatchDay":2,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 17:36:47] local.INFO: Game Details: {"Number of games":0,"Match BestOf":2,"Match Score":"1-1","Games":[]} 
+[2024-12-06 17:36:47] local.INFO: Match data: {"Team1":"FunPlus Phoenix","Team1OverviewPage":"FunPlus Phoenix","Team2":"Bilibili Gaming","Team2OverviewPage":"Bilibili Gaming"} 
+[2024-12-06 17:36:47] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/FunPlus Phoenix.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Bilibili Gaming.png"} 
+[2024-12-06 17:36:57] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-06"} 
+[2024-12-06 17:36:57] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-06"} 
+[2024-12-06 17:36:58] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"ACL 2024 Fall Playoffs","DateTime_UTC":"2024-12-06 01:00:00","Team1":"Peak Performers (North American Team)","Team1Score":2,"Team1Final":"Peak Performers (North American Team)","Team2":"Straw Hat Crew","Team2Score":0,"Team2Final":"Straw Hat Crew","Winner":"1","Stream":null,"BestOf":3,"Team1Image":"Peak Performers (North American Team)logo square.png","Team2Image":"Straw Hat Crewlogo square.png","Team1OverviewPage":"Peak Performers (North American Team)","Team2OverviewPage":"Straw Hat Crew","Phase":null,"ShownName":"ACL 2024 Fall Playoffs","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 18:44:49] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-06"} 
+[2024-12-06 18:44:49] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-06"} 
+[2024-12-06 18:44:50] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"ACL 2024 Fall Playoffs","DateTime_UTC":"2024-12-06 01:00:00","Team1":"Peak Performers (North American Team)","Team1Score":2,"Team1Final":"Peak Performers (North American Team)","Team2":"Straw Hat Crew","Team2Score":0,"Team2Final":"Straw Hat Crew","Winner":"1","Stream":null,"BestOf":3,"Team1Image":"Peak Performers (North American Team)logo square.png","Team2Image":"Straw Hat Crewlogo square.png","Team1OverviewPage":"Peak Performers (North American Team)","Team2OverviewPage":"Straw Hat Crew","Phase":null,"ShownName":"ACL 2024 Fall Playoffs","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 18:45:24] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-05"} 
+[2024-12-06 18:45:24] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-05"} 
+[2024-12-06 18:45:25] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":2,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":0,"Team2Final":"LGD Gaming","Winner":"1","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 18:45:37] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-05"} 
+[2024-12-06 18:45:37] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-05"} 
+[2024-12-06 18:45:38] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"NEST 2024","DateTime_UTC":"2024-12-05 06:00:00","Team1":"FunPlus Phoenix","Team1Score":2,"Team1Final":"FunPlus Phoenix","Team2":"LGD Gaming","Team2Score":0,"Team2Final":"LGD Gaming","Winner":"1","Stream":"https://www.huya.com/660125","BestOf":2,"Team1Image":"FunPlus Phoenixlogo_square.png","Team2Image":"LGD_logo.png","Team1OverviewPage":"FunPlus Phoenix","Team2OverviewPage":"LGD Gaming","Phase":null,"ShownName":"NEST 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 18:45:38] local.ERROR: Error fetching team matches: Server error: `GET http://127.0.0.1:8001/TeamMatches?team=Anyone%27s%20Legend` resulted in a `500 Internal Server Error` response:
+{"detail":"('db_error', 'A database query error has occurred. This may indicate a bug in the software.', 'See https://lo (truncated...)
+  
+[2024-12-06 18:45:39] local.ERROR: Error fetching match games: Server error: `GET http://127.0.0.1:8001/MatchGames?team1=Weibo%20Gaming&team2=Anyone%27s%20Legend&date=2024-12-05` resulted in a `500 Internal Server Error` response:
+{"detail":"Error fetching game details: 500: Error in Step 1: ('internal_api_error_MWException', '[336ea14f093bfe3ea015b (truncated...)
+  
+[2024-12-06 18:45:39] local.INFO: Game Details: {"Number of games":0,"Match BestOf":2,"Match Score":"2-0","Games":[]} 
+[2024-12-06 18:45:39] local.INFO: Match data: {"Team1":"Weibo Gaming","Team1OverviewPage":"Weibo Gaming","Team2":"Anyone's Legend","Team2OverviewPage":"Anyone's Legend"} 
+[2024-12-06 18:45:39] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Weibo Gaming.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Anyone's Legend.png"} 
+[2024-12-06 18:45:48] local.INFO: Raw date parameter received in APIService: {"date":"2024-10-26"} 
+[2024-12-06 18:45:48] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-10-26"} 
+[2024-12-06 18:45:49] local.INFO: Successfully fetched matches {"count":56,"first_match":{"Name":"ACL 2024 Fall","DateTime_UTC":"2024-10-26 00:00:00","Team1":"Converse University","Team1Score":0,"Team1Final":"Converse University","Team2":"Pulse Star","Team2Score":2,"Team2Final":"Pulse Star","Winner":"2","Stream":null,"BestOf":3,"Team1Image":"Converse Universitylogo profile.png","Team2Image":"Pulse Starlogo square.png","Team1OverviewPage":"Converse University","Team2OverviewPage":"Pulse Star","Phase":null,"ShownName":"ACL 2024 Fall","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 18:45:51] local.INFO: Game Details: {"Number of games":3,"Match BestOf":5,"Match Score":"0-3","Games":[{"DateTime":"2024-10-26 12:22:00","Winner":"2","Score":"0-1"},{"DateTime":"2024-10-26 13:24:00","Winner":"2","Score":"0-2"},{"DateTime":"2024-10-26 14:16:00","Winner":"2","Score":"0-3"}]} 
+[2024-12-06 18:45:51] local.INFO: Match data: {"Team1":"Weibo Gaming","Team1OverviewPage":"Weibo Gaming","Team2":"Bilibili Gaming","Team2OverviewPage":"Bilibili Gaming"} 
+[2024-12-06 18:45:51] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Weibo Gaming.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Bilibili Gaming.png"} 
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 18:45:51] local.INFO: Missing item mapping for: Navori Flickerblade  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Domination  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Precision  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Resolve  
+[2024-12-06 18:45:51] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-06 18:48:36] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-06"} 
+[2024-12-06 18:48:36] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-06"} 
+[2024-12-06 18:48:36] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"ACL 2024 Fall Playoffs","DateTime_UTC":"2024-12-06 01:00:00","Team1":"Peak Performers (North American Team)","Team1Score":2,"Team1Final":"Peak Performers (North American Team)","Team2":"Straw Hat Crew","Team2Score":0,"Team2Final":"Straw Hat Crew","Winner":"1","Stream":null,"BestOf":3,"Team1Image":"Peak Performers (North American Team)logo square.png","Team2Image":"Straw Hat Crewlogo square.png","Team1OverviewPage":"Peak Performers (North American Team)","Team2OverviewPage":"Straw Hat Crew","Phase":null,"ShownName":"ACL 2024 Fall Playoffs","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 19:40:57] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-06"} 
+[2024-12-06 19:40:57] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-06"} 
+[2024-12-06 19:40:58] local.INFO: Successfully fetched matches {"count":11,"first_match":{"Name":"ACL 2024 Fall Playoffs","DateTime_UTC":"2024-12-06 01:00:00","Team1":"Peak Performers (North American Team)","Team1Score":2,"Team1Final":"Peak Performers (North American Team)","Team2":"Straw Hat Crew","Team2Score":0,"Team2Final":"Straw Hat Crew","Winner":"1","Stream":null,"BestOf":3,"Team1Image":"Peak Performers (North American Team)logo square.png","Team2Image":"Straw Hat Crewlogo square.png","Team1OverviewPage":"Peak Performers (North American Team)","Team2OverviewPage":"Straw Hat Crew","Phase":null,"ShownName":"ACL 2024 Fall Playoffs","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-06 19:41:08] local.INFO: Search request received {"query":"DRX"} 
+[2024-12-06 19:41:08] local.INFO: Teams found {"teams":[{"Name":"DRX","OverviewPage":"DRX"},{"Name":"DRX Challengers","OverviewPage":"DRX Challengers"},{"Name":"DRX Shinhan Bank","OverviewPage":"DRX Shinhan Bank"}]} 
+[2024-12-06 19:41:08] local.INFO: Processing team {"team":{"Name":"DRX","OverviewPage":"DRX"}} 
+[2024-12-06 19:41:08] local.INFO: Processing team {"team":{"Name":"DRX Challengers","OverviewPage":"DRX Challengers"}} 
+[2024-12-06 19:41:08] local.INFO: Processing team {"team":{"Name":"DRX Shinhan Bank","OverviewPage":"DRX Shinhan Bank"}} 
+[2024-12-06 19:41:08] local.INFO: Final results {"results":{"Illuminate\\Support\\Collection":[{"name":"DRX","image":"http://127.0.0.1:8000/storage/teamimages/DRX.png","url":"http://127.0.0.1:8000/team/DRX","type":"Team"},{"name":"DRX Challengers","image":"http://127.0.0.1:8000/storage/teamimages/DRX Challengers.png","url":"http://127.0.0.1:8000/team/DRX%20Challengers","type":"Team"},{"name":"DRX Shinhan Bank","image":"http://127.0.0.1:8000/storage/teamimages/DRX Shinhan Bank.png","url":"http://127.0.0.1:8000/team/DRX%20Shinhan%20Bank","type":"Team"}]}} 
+[2024-12-06 19:41:14] local.INFO: Search request received {"query":"DR"} 
+[2024-12-06 19:41:14] local.INFO: Teams found {"teams":[{"Name":"5 Hydra Esport","OverviewPage":"5 Hydra Esport"},{"Name":"Adriatic Wolves","OverviewPage":"Adriatic Wolves"},{"Name":"Area of Effect Dream","OverviewPage":"Area of Effect Dream"},{"Name":"Berjaya Dragons","OverviewPage":"Berjaya Dragons"},{"Name":"BloodRain-Gaming","OverviewPage":"BloodRain-Gaming"}]} 
+[2024-12-06 19:41:14] local.INFO: Processing team {"team":{"Name":"5 Hydra Esport","OverviewPage":"5 Hydra Esport"}} 
+[2024-12-06 19:41:14] local.INFO: Processing team {"team":{"Name":"Adriatic Wolves","OverviewPage":"Adriatic Wolves"}} 
+[2024-12-06 19:41:14] local.INFO: Processing team {"team":{"Name":"Area of Effect Dream","OverviewPage":"Area of Effect Dream"}} 
+[2024-12-06 19:41:14] local.INFO: Processing team {"team":{"Name":"Berjaya Dragons","OverviewPage":"Berjaya Dragons"}} 
+[2024-12-06 19:41:14] local.INFO: Processing team {"team":{"Name":"BloodRain-Gaming","OverviewPage":"BloodRain-Gaming"}} 
+[2024-12-06 19:41:14] local.INFO: Final results {"results":{"Illuminate\\Support\\Collection":[{"name":"5 Hydra Esport","image":"http://127.0.0.1:8000/storage/teamimages/5 Hydra Esport.png","url":"http://127.0.0.1:8000/team/5%20Hydra%20Esport","type":"Team"},{"name":"Adriatic Wolves","image":"http://127.0.0.1:8000/storage/teamimages/Adriatic Wolves.png","url":"http://127.0.0.1:8000/team/Adriatic%20Wolves","type":"Team"},{"name":"Area of Effect Dream","image":"http://127.0.0.1:8000/storage/teamimages/Area of Effect Dream.png","url":"http://127.0.0.1:8000/team/Area%20of%20Effect%20Dream","type":"Team"},{"name":"Berjaya Dragons","image":"http://127.0.0.1:8000/storage/teamimages/Berjaya Dragons.png","url":"http://127.0.0.1:8000/team/Berjaya%20Dragons","type":"Team"},{"name":"BloodRain-Gaming","image":"http://127.0.0.1:8000/storage/teamimages/BloodRain-Gaming.png","url":"http://127.0.0.1:8000/team/BloodRain-Gaming","type":"Team"}]}} 
+[2024-12-06 19:41:15] local.INFO: Search request received {"query":"DRX"} 
+[2024-12-06 19:41:15] local.INFO: Teams found {"teams":[{"Name":"DRX","OverviewPage":"DRX"},{"Name":"DRX Challengers","OverviewPage":"DRX Challengers"},{"Name":"DRX Shinhan Bank","OverviewPage":"DRX Shinhan Bank"}]} 
+[2024-12-06 19:41:15] local.INFO: Processing team {"team":{"Name":"DRX","OverviewPage":"DRX"}} 
+[2024-12-06 19:41:15] local.INFO: Processing team {"team":{"Name":"DRX Challengers","OverviewPage":"DRX Challengers"}} 
+[2024-12-06 19:41:15] local.INFO: Processing team {"team":{"Name":"DRX Shinhan Bank","OverviewPage":"DRX Shinhan Bank"}} 
+[2024-12-06 19:41:15] local.INFO: Final results {"results":{"Illuminate\\Support\\Collection":[{"name":"DRX","image":"http://127.0.0.1:8000/storage/teamimages/DRX.png","url":"http://127.0.0.1:8000/team/DRX","type":"Team"},{"name":"DRX Challengers","image":"http://127.0.0.1:8000/storage/teamimages/DRX Challengers.png","url":"http://127.0.0.1:8000/team/DRX%20Challengers","type":"Team"},{"name":"DRX Shinhan Bank","image":"http://127.0.0.1:8000/storage/teamimages/DRX Shinhan Bank.png","url":"http://127.0.0.1:8000/team/DRX%20Shinhan%20Bank","type":"Team"}]}} 
+[2024-12-15 23:51:51] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-15"} 
+[2024-12-15 23:51:51] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-15"} 
+[2024-12-15 23:51:53] local.INFO: Successfully fetched matches {"count":18,"first_match":{"Name":"League of Legends Legendary Legends","DateTime_UTC":"2024-12-15 02:45:00","Team1":"Legends Team (Riot Games One 2024)","Team1Score":0,"Team1Final":"Legends Team (Riot Games One 2024)","Team2":"Streamer Team 2","Team2Score":1,"Team2Final":"Streamer Team 2","Winner":"2","Stream":"https://www.twitch.tv/riotgamesjp","BestOf":1,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"League of Legends Legendary Legends","MatchDay":2,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-15 23:52:05] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-15"} 
+[2024-12-15 23:52:05] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-15"} 
+[2024-12-15 23:52:06] local.INFO: Successfully fetched matches {"count":18,"first_match":{"Name":"League of Legends Legendary Legends","DateTime_UTC":"2024-12-15 02:45:00","Team1":"Legends Team (Riot Games One 2024)","Team1Score":0,"Team1Final":"Legends Team (Riot Games One 2024)","Team2":"Streamer Team 2","Team2Score":1,"Team2Final":"Streamer Team 2","Winner":"2","Stream":"https://www.twitch.tv/riotgamesjp","BestOf":1,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"League of Legends Legendary Legends","MatchDay":2,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-15 23:52:07] local.INFO: Game Details: {"Number of games":0,"Match BestOf":1,"Match Score":"0-1","Games":[]} 
+[2024-12-15 23:52:07] local.INFO: Match data: {"Team1":"T1","Team1OverviewPage":"T1","Team2":"Los Ratones","Team2OverviewPage":"Los Ratones"} 
+[2024-12-15 23:52:07] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/T1.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Los Ratones.png"} 
+[2024-12-15 23:52:42] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-15"} 
+[2024-12-15 23:52:42] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-15"} 
+[2024-12-15 23:52:42] local.INFO: Successfully fetched matches {"count":18,"first_match":{"Name":"League of Legends Legendary Legends","DateTime_UTC":"2024-12-15 02:45:00","Team1":"Legends Team (Riot Games One 2024)","Team1Score":0,"Team1Final":"Legends Team (Riot Games One 2024)","Team2":"Streamer Team 2","Team2Score":1,"Team2Final":"Streamer Team 2","Winner":"2","Stream":"https://www.twitch.tv/riotgamesjp","BestOf":1,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"League of Legends Legendary Legends","MatchDay":2,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-15 23:52:43] local.INFO: Game Details: {"Number of games":0,"Match BestOf":1,"Match Score":"0-1","Games":[]} 
+[2024-12-15 23:52:43] local.INFO: Match data: {"Team1":"G2 Esports","Team1OverviewPage":"G2 Esports","Team2":"Karmine Corp","Team2OverviewPage":"Karmine Corp"} 
+[2024-12-15 23:52:43] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/G2 Esports.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Karmine Corp.png"} 
+[2024-12-16 01:52:21] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-15"} 
+[2024-12-16 01:52:21] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-15"} 
+[2024-12-16 01:52:22] local.INFO: Successfully fetched matches {"count":18,"first_match":{"Name":"League of Legends Legendary Legends","DateTime_UTC":"2024-12-15 02:45:00","Team1":"Legends Team (Riot Games One 2024)","Team1Score":0,"Team1Final":"Legends Team (Riot Games One 2024)","Team2":"Streamer Team 2","Team2Score":1,"Team2Final":"Streamer Team 2","Winner":"2","Stream":"https://www.twitch.tv/riotgamesjp","BestOf":1,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"League of Legends Legendary Legends","MatchDay":2,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-16 01:52:23] local.INFO: Game Details: {"Number of games":0,"Match BestOf":5,"Match Score":"3-1","Games":[]} 
+[2024-12-16 01:52:23] local.INFO: Match data: {"Team1":"KAC5","Team1OverviewPage":null,"Team2":"Bạc Đoàn Gaming","Team2OverviewPage":null} 
+[2024-12-16 01:52:23] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/placeholder.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/placeholder.png"} 
+[2024-12-16 02:08:54] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-16"} 
+[2024-12-16 02:08:54] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-16"} 
+[2024-12-16 02:08:55] local.INFO: Successfully fetched matches {"count":6,"first_match":{"Name":"Demacia Cup 2024","DateTime_UTC":"2024-12-16 08:00:00","Team1":"Team WE","Team1Score":null,"Team1Final":"Team WE","Team2":"ThunderTalk Gaming","Team2Score":null,"Team2Final":"ThunderTalk Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":3,"Team1Image":"Team WElogo profile.png","Team2Image":"ThunderTalk Gaminglogo square.png","Team1OverviewPage":"Team WE","Team2OverviewPage":"ThunderTalk Gaming","Phase":null,"ShownName":"Demacia Cup 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-16 02:09:03] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-16"} 
+[2024-12-16 02:09:03] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-16"} 
+[2024-12-16 02:09:04] local.INFO: Successfully fetched matches {"count":6,"first_match":{"Name":"Demacia Cup 2024","DateTime_UTC":"2024-12-16 08:00:00","Team1":"Team WE","Team1Score":null,"Team1Final":"Team WE","Team2":"ThunderTalk Gaming","Team2Score":null,"Team2Final":"ThunderTalk Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":3,"Team1Image":"Team WElogo profile.png","Team2Image":"ThunderTalk Gaminglogo square.png","Team1OverviewPage":"Team WE","Team2OverviewPage":"ThunderTalk Gaming","Phase":null,"ShownName":"Demacia Cup 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-16 02:09:05] local.INFO: Game Details: {"Number of games":0,"Match BestOf":3,"Match Score":"-","Games":[]} 
+[2024-12-16 02:09:05] local.INFO: Match data: {"Team1":"ThunderTalk Gaming","Team1OverviewPage":"ThunderTalk Gaming","Team2":"Blood (Chinese Team)","Team2OverviewPage":null} 
+[2024-12-16 02:09:05] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/ThunderTalk Gaming.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/placeholder.png"} 
+[2024-12-16 02:30:21] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-16"} 
+[2024-12-16 02:30:21] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-16"} 
+[2024-12-16 02:30:21] local.INFO: Successfully fetched matches {"count":6,"first_match":{"Name":"Demacia Cup 2024","DateTime_UTC":"2024-12-16 08:00:00","Team1":"Team WE","Team1Score":null,"Team1Final":"Team WE","Team2":"ThunderTalk Gaming","Team2Score":null,"Team2Final":"ThunderTalk Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":3,"Team1Image":"Team WElogo profile.png","Team2Image":"ThunderTalk Gaminglogo square.png","Team1OverviewPage":"Team WE","Team2OverviewPage":"ThunderTalk Gaming","Phase":null,"ShownName":"Demacia Cup 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-16 02:34:56] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-16"} 
+[2024-12-16 02:34:56] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-16"} 
+[2024-12-16 02:34:57] local.INFO: Successfully fetched matches {"count":6,"first_match":{"Name":"Demacia Cup 2024","DateTime_UTC":"2024-12-16 08:00:00","Team1":"Team WE","Team1Score":null,"Team1Final":"Team WE","Team2":"ThunderTalk Gaming","Team2Score":null,"Team2Final":"ThunderTalk Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":3,"Team1Image":"Team WElogo profile.png","Team2Image":"ThunderTalk Gaminglogo square.png","Team1OverviewPage":"Team WE","Team2OverviewPage":"ThunderTalk Gaming","Phase":null,"ShownName":"Demacia Cup 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-16 02:56:12] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-16"} 
+[2024-12-16 02:56:12] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-16"} 
+[2024-12-16 02:56:13] local.INFO: Successfully fetched matches {"count":6,"first_match":{"Name":"Demacia Cup 2024","DateTime_UTC":"2024-12-16 08:00:00","Team1":"Team WE","Team1Score":null,"Team1Final":"Team WE","Team2":"ThunderTalk Gaming","Team2Score":null,"Team2Final":"ThunderTalk Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":3,"Team1Image":"Team WElogo profile.png","Team2Image":"ThunderTalk Gaminglogo square.png","Team1OverviewPage":"Team WE","Team2OverviewPage":"ThunderTalk Gaming","Phase":null,"ShownName":"Demacia Cup 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-16 03:14:07] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-15"} 
+[2024-12-16 03:14:07] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-15"} 
+[2024-12-16 03:14:08] local.INFO: Successfully fetched matches {"count":18,"first_match":{"Name":"League of Legends Legendary Legends","DateTime_UTC":"2024-12-15 02:45:00","Team1":"Legends Team (Riot Games One 2024)","Team1Score":0,"Team1Final":"Legends Team (Riot Games One 2024)","Team2":"Streamer Team 2","Team2Score":1,"Team2Final":"Streamer Team 2","Winner":"2","Stream":"https://www.twitch.tv/riotgamesjp","BestOf":1,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"League of Legends Legendary Legends","MatchDay":2,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-16 03:15:44] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-15"} 
+[2024-12-16 03:15:44] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-15"} 
+[2024-12-16 03:15:44] local.INFO: Successfully fetched matches {"count":18,"first_match":{"Name":"League of Legends Legendary Legends","DateTime_UTC":"2024-12-15 02:45:00","Team1":"Legends Team (Riot Games One 2024)","Team1Score":0,"Team1Final":"Legends Team (Riot Games One 2024)","Team2":"Streamer Team 2","Team2Score":1,"Team2Final":"Streamer Team 2","Winner":"2","Stream":"https://www.twitch.tv/riotgamesjp","BestOf":1,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"League of Legends Legendary Legends","MatchDay":2,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-16 03:15:45] local.INFO: Game Details: {"Number of games":0,"Match BestOf":3,"Match Score":"0-2","Games":[]} 
+[2024-12-16 03:15:45] local.INFO: Match data: {"Team1":"Oh My God","Team1OverviewPage":"Oh My God","Team2":"LGD Gaming","Team2OverviewPage":"LGD Gaming"} 
+[2024-12-16 03:15:45] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Oh My God.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/LGD Gaming.png"} 
+[2024-12-16 03:15:50] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-15"} 
+[2024-12-16 03:15:50] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-15"} 
+[2024-12-16 03:15:51] local.INFO: Successfully fetched matches {"count":18,"first_match":{"Name":"League of Legends Legendary Legends","DateTime_UTC":"2024-12-15 02:45:00","Team1":"Legends Team (Riot Games One 2024)","Team1Score":0,"Team1Final":"Legends Team (Riot Games One 2024)","Team2":"Streamer Team 2","Team2Score":1,"Team2Final":"Streamer Team 2","Winner":"2","Stream":"https://www.twitch.tv/riotgamesjp","BestOf":1,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"League of Legends Legendary Legends","MatchDay":2,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-16 03:15:52] local.INFO: Game Details: {"Number of games":0,"Match BestOf":2,"Match Score":"0-2","Games":[]} 
+[2024-12-16 03:15:52] local.INFO: Match data: {"Team1":"Uniwersytet w Siedlcach","Team1OverviewPage":null,"Team2":"Aghresorzy Akademia Górniczo-Hutnicza","Team2OverviewPage":null} 
+[2024-12-16 03:15:52] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/placeholder.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/placeholder.png"} 
+[2024-12-16 03:29:55] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-14"} 
+[2024-12-16 03:29:55] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-14"} 
+[2024-12-16 03:29:56] local.INFO: Successfully fetched matches {"count":36,"first_match":{"Name":"ACL 2024 Fall Playoffs","DateTime_UTC":"2024-12-14 00:00:00","Team1":"Guangdong Flying Tigers","Team1Score":0,"Team1Final":"Guangdong Flying Tigers","Team2":"CCG Esports","Team2Score":3,"Team2Final":"CCG Esports","Winner":"2","Stream":null,"BestOf":5,"Team1Image":"Guangdong Flying Tigerslogo square.png","Team2Image":"CCG Esportslogo square.png","Team1OverviewPage":"Guangdong Flying Tigers","Team2OverviewPage":"CCG Esports","Phase":null,"ShownName":"ACL 2024 Fall Playoffs","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-16 03:30:05] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-14"} 
+[2024-12-16 03:30:05] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-14"} 
+[2024-12-16 03:30:06] local.INFO: Successfully fetched matches {"count":36,"first_match":{"Name":"ACL 2024 Fall Playoffs","DateTime_UTC":"2024-12-14 00:00:00","Team1":"Guangdong Flying Tigers","Team1Score":0,"Team1Final":"Guangdong Flying Tigers","Team2":"CCG Esports","Team2Score":3,"Team2Final":"CCG Esports","Winner":"2","Stream":null,"BestOf":5,"Team1Image":"Guangdong Flying Tigerslogo square.png","Team2Image":"CCG Esportslogo square.png","Team1OverviewPage":"Guangdong Flying Tigers","Team2OverviewPage":"CCG Esports","Phase":null,"ShownName":"ACL 2024 Fall Playoffs","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-16 03:30:06] local.INFO: Game Details: {"Number of games":0,"Match BestOf":3,"Match Score":"1-2","Games":[]} 
+[2024-12-16 03:30:06] local.INFO: Match data: {"Team1":"Top Esports","Team1OverviewPage":"Top Esports","Team2":"LGD Gaming","Team2OverviewPage":"LGD Gaming"} 
+[2024-12-16 03:30:06] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Top Esports.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/LGD Gaming.png"} 
+[2024-12-16 03:30:10] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-14"} 
+[2024-12-16 03:30:10] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-14"} 
+[2024-12-16 03:30:11] local.INFO: Successfully fetched matches {"count":36,"first_match":{"Name":"ACL 2024 Fall Playoffs","DateTime_UTC":"2024-12-14 00:00:00","Team1":"Guangdong Flying Tigers","Team1Score":0,"Team1Final":"Guangdong Flying Tigers","Team2":"CCG Esports","Team2Score":3,"Team2Final":"CCG Esports","Winner":"2","Stream":null,"BestOf":5,"Team1Image":"Guangdong Flying Tigerslogo square.png","Team2Image":"CCG Esportslogo square.png","Team1OverviewPage":"Guangdong Flying Tigers","Team2OverviewPage":"CCG Esports","Phase":null,"ShownName":"ACL 2024 Fall Playoffs","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-16 03:30:12] local.INFO: Game Details: {"Number of games":0,"Match BestOf":5,"Match Score":"0-3","Games":[]} 
+[2024-12-16 03:30:12] local.INFO: Match data: {"Team1":"Guangdong Flying Tigers","Team1OverviewPage":"Guangdong Flying Tigers","Team2":"CCG Esports","Team2OverviewPage":"CCG Esports"} 
+[2024-12-16 03:30:12] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Guangdong Flying Tigers.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/CCG Esports.png"} 
+[2024-12-16 03:30:22] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-15"} 
+[2024-12-16 03:30:22] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-15"} 
+[2024-12-16 03:30:22] local.INFO: Successfully fetched matches {"count":18,"first_match":{"Name":"League of Legends Legendary Legends","DateTime_UTC":"2024-12-15 02:45:00","Team1":"Legends Team (Riot Games One 2024)","Team1Score":0,"Team1Final":"Legends Team (Riot Games One 2024)","Team2":"Streamer Team 2","Team2Score":1,"Team2Final":"Streamer Team 2","Winner":"2","Stream":"https://www.twitch.tv/riotgamesjp","BestOf":1,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"League of Legends Legendary Legends","MatchDay":2,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-16 03:30:24] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-15"} 
+[2024-12-16 03:30:24] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-15"} 
+[2024-12-16 03:30:25] local.INFO: Successfully fetched matches {"count":18,"first_match":{"Name":"League of Legends Legendary Legends","DateTime_UTC":"2024-12-15 02:45:00","Team1":"Legends Team (Riot Games One 2024)","Team1Score":0,"Team1Final":"Legends Team (Riot Games One 2024)","Team2":"Streamer Team 2","Team2Score":1,"Team2Final":"Streamer Team 2","Winner":"2","Stream":"https://www.twitch.tv/riotgamesjp","BestOf":1,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"League of Legends Legendary Legends","MatchDay":2,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-16 03:30:26] local.INFO: Game Details: {"Number of games":0,"Match BestOf":1,"Match Score":"1-0","Games":[]} 
+[2024-12-16 03:30:26] local.INFO: Match data: {"Team1":"T1","Team1OverviewPage":"T1","Team2":"G2 Esports","Team2OverviewPage":"G2 Esports"} 
+[2024-12-16 03:30:26] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/T1.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/G2 Esports.png"} 
+[2024-12-16 03:30:30] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-15"} 
+[2024-12-16 03:30:30] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-15"} 
+[2024-12-16 03:30:30] local.INFO: Successfully fetched matches {"count":18,"first_match":{"Name":"League of Legends Legendary Legends","DateTime_UTC":"2024-12-15 02:45:00","Team1":"Legends Team (Riot Games One 2024)","Team1Score":0,"Team1Final":"Legends Team (Riot Games One 2024)","Team2":"Streamer Team 2","Team2Score":1,"Team2Final":"Streamer Team 2","Winner":"2","Stream":"https://www.twitch.tv/riotgamesjp","BestOf":1,"Team1Image":null,"Team2Image":null,"Team1OverviewPage":null,"Team2OverviewPage":null,"Phase":null,"ShownName":"League of Legends Legendary Legends","MatchDay":2,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-16 03:30:31] local.INFO: Game Details: {"Number of games":0,"Match BestOf":1,"Match Score":"1-0","Games":[]} 
+[2024-12-16 03:30:31] local.INFO: Match data: {"Team1":"T1","Team1OverviewPage":"T1","Team2":"Karmine Corp","Team2OverviewPage":"Karmine Corp"} 
+[2024-12-16 03:30:31] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/T1.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Karmine Corp.png"} 
+[2024-12-16 03:30:35] local.INFO: Raw date parameter received in APIService: {"date":"2024-07-26"} 
+[2024-12-16 03:30:35] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-07-26"} 
+[2024-12-16 03:30:36] local.INFO: Successfully fetched matches {"count":22,"first_match":{"Name":"LCK CL 2024 Summer","DateTime_UTC":"2024-07-26 05:00:00","Team1":"Kwangdong Freecs Challengers","Team1Score":0,"Team1Final":"Kwangdong Freecs Challengers","Team2":"OKSavingsBank BRION Challengers","Team2Score":2,"Team2Final":"OKSavingsBank BRION Challengers","Winner":"2","Stream":null,"BestOf":3,"Team1Image":"Kwangdong Freecslogo profile.png","Team2Image":"OKSavingsBank BRIONlogo profile.png","Team1OverviewPage":"Kwangdong Freecs Challengers","Team2OverviewPage":"OKSavingsBank BRION Challengers","Phase":null,"ShownName":"LCK CL 2024 Summer","MatchDay":4,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-16 03:30:38] local.INFO: Game Details: {"Number of games":5,"Match BestOf":5,"Match Score":"3-2","Games":[{"DateTime":"2024-07-26 15:08:00","Winner":"2","Score":"0-1"},{"DateTime":"2024-07-26 16:09:00","Winner":"1","Score":"1-1"},{"DateTime":"2024-07-26 16:54:00","Winner":"2","Score":"1-2"},{"DateTime":"2024-07-26 18:00:00","Winner":"1","Score":"2-2"},{"DateTime":"2024-07-26 18:51:00","Winner":"1","Score":"3-2"}]} 
+[2024-12-16 03:30:38] local.INFO: Match data: {"Team1":"Team BDS","Team1OverviewPage":"Team BDS","Team2":"Karmine Corp","Team2OverviewPage":"Karmine Corp"} 
+[2024-12-16 03:30:38] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Team BDS.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Karmine Corp.png"} 
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Resolve  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Resolve  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Resolve  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Domination  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Resolve  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Resolve  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Domination  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Resolve  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Resolve  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Resolve  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Domination  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Resolve  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Resolve  
+[2024-12-16 03:30:39] local.INFO: Missing item mapping for: Navori Flickerblade  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Missing item mapping for: Navori Flickerblade  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Summon Aery  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Resolve  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Missing item mapping for: Blackfire Torch  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Resolve  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Resolve  
+[2024-12-16 03:30:39] local.INFO: Missing item mapping for: Navori Flickerblade  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Resolve  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Arcane Comet  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Resolve  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Domination  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Resolve  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Resolve  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Domination  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Resolve  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Domination  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Resolve  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Resolve  
+[2024-12-16 03:30:39] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:52:11] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-16"} 
+[2024-12-16 03:52:11] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-16"} 
+[2024-12-16 03:52:12] local.INFO: Successfully fetched matches {"count":6,"first_match":{"Name":"Demacia Cup 2024","DateTime_UTC":"2024-12-16 08:00:00","Team1":"Team WE","Team1Score":null,"Team1Final":"Team WE","Team2":"ThunderTalk Gaming","Team2Score":null,"Team2Final":"ThunderTalk Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":3,"Team1Image":"Team WElogo profile.png","Team2Image":"ThunderTalk Gaminglogo square.png","Team1OverviewPage":"Team WE","Team2OverviewPage":"ThunderTalk Gaming","Phase":null,"ShownName":"Demacia Cup 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-16 03:52:14] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-16"} 
+[2024-12-16 03:52:14] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-16"} 
+[2024-12-16 03:52:14] local.INFO: Successfully fetched matches {"count":6,"first_match":{"Name":"Demacia Cup 2024","DateTime_UTC":"2024-12-16 08:00:00","Team1":"Team WE","Team1Score":null,"Team1Final":"Team WE","Team2":"ThunderTalk Gaming","Team2Score":null,"Team2Final":"ThunderTalk Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":3,"Team1Image":"Team WElogo profile.png","Team2Image":"ThunderTalk Gaminglogo square.png","Team1OverviewPage":"Team WE","Team2OverviewPage":"ThunderTalk Gaming","Phase":null,"ShownName":"Demacia Cup 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-16 03:52:15] local.INFO: Game Details: {"Number of games":0,"Match BestOf":3,"Match Score":"-","Games":[]} 
+[2024-12-16 03:52:15] local.INFO: Match data: {"Team1":"JD Gaming","Team1OverviewPage":"JD Gaming","Team2":"Team WE","Team2OverviewPage":"Team WE"} 
+[2024-12-16 03:52:15] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/JD Gaming.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Team WE.png"} 
+[2024-12-16 03:52:46] local.INFO: Raw date parameter received in APIService: {"date":"2024-07-31"} 
+[2024-12-16 03:52:46] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-07-31"} 
+[2024-12-16 03:52:47] local.INFO: Successfully fetched matches {"count":29,"first_match":{"Name":"LCK 2024 Summer","DateTime_UTC":"2024-07-31 08:00:00","Team1":"T1","Team1Score":2,"Team1Final":"T1","Team2":"Dplus KIA","Team2Score":1,"Team2Final":"Dplus KIA","Winner":"1","Stream":"https://www.twitch.tv/lck","BestOf":3,"Team1Image":"T1logo profile.png","Team2Image":"Dplus KIAlogo profile.png","Team1OverviewPage":"T1","Team2OverviewPage":"Dplus KIA","Phase":null,"ShownName":"LCK 2024 Summer","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-16 03:52:48] local.INFO: Game Details: {"Number of games":2,"Match BestOf":3,"Match Score":"2-0","Games":[{"DateTime":"2024-07-31 11:18:00","Winner":"2","Score":"0-1"},{"DateTime":"2024-07-31 12:19:00","Winner":"1","Score":"2-0"}]} 
+[2024-12-16 03:52:48] local.INFO: Match data: {"Team1":"Top Esports","Team1OverviewPage":"Top Esports","Team2":"JD Gaming","Team2OverviewPage":"JD Gaming"} 
+[2024-12-16 03:52:48] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/Top Esports.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/JD Gaming.png"} 
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Resolve  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Domination  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Resolve  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Domination  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Domination  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Resolve  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Resolve  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Domination  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Resolve  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Resolve  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Sorcery  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Resolve  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Precision  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Resolve  
+[2024-12-16 03:52:48] local.INFO: Getting rune icon for: Inspiration  
+[2024-12-16 03:52:55] local.INFO: Search request received {"query":"GEB"} 
+[2024-12-16 03:52:55] local.INFO: Teams found {"teams":[]} 
+[2024-12-16 03:52:55] local.INFO: Final results {"results":{"Illuminate\\Support\\Collection":[]}} 
+[2024-12-16 03:52:55] local.INFO: No results found  
+[2024-12-16 03:52:55] local.INFO: Search request received {"query":"GEN.G"} 
+[2024-12-16 03:52:56] local.INFO: Teams found {"teams":[{"Name":"Gen.G","OverviewPage":"Gen.G"},{"Name":"Gen.G Global Academy","OverviewPage":"Gen.G Global Academy"},{"Name":"Gen.G Scholars","OverviewPage":"Gen.G Scholars"}]} 
+[2024-12-16 03:52:56] local.INFO: Processing team {"team":{"Name":"Gen.G","OverviewPage":"Gen.G"}} 
+[2024-12-16 03:52:56] local.INFO: Processing team {"team":{"Name":"Gen.G Global Academy","OverviewPage":"Gen.G Global Academy"}} 
+[2024-12-16 03:52:56] local.INFO: Processing team {"team":{"Name":"Gen.G Scholars","OverviewPage":"Gen.G Scholars"}} 
+[2024-12-16 03:52:56] local.INFO: Final results {"results":{"Illuminate\\Support\\Collection":[{"name":"Gen.G","image":"http://127.0.0.1:8000/storage/teamimages/Gen.G.png","url":"http://127.0.0.1:8000/team/Gen.G","type":"Team"},{"name":"Gen.G Global Academy","image":"http://127.0.0.1:8000/storage/teamimages/Gen.G Global Academy.png","url":"http://127.0.0.1:8000/team/Gen.G%20Global%20Academy","type":"Team"},{"name":"Gen.G Scholars","image":"http://127.0.0.1:8000/storage/teamimages/Gen.G Scholars.png","url":"http://127.0.0.1:8000/team/Gen.G%20Scholars","type":"Team"}]}} 
+[2024-12-16 03:53:03] local.INFO: Search request received {"query":"Fnatic"} 
+[2024-12-16 03:53:03] local.INFO: Teams found {"teams":[{"Name":"Fnatic","OverviewPage":"Fnatic"},{"Name":"Fnatic Academy","OverviewPage":"Fnatic Academy"},{"Name":"Fnatic Rising","OverviewPage":"Fnatic Rising"},{"Name":"Fnatic TQ","OverviewPage":"Fnatic TQ"}]} 
+[2024-12-16 03:53:03] local.INFO: Processing team {"team":{"Name":"Fnatic","OverviewPage":"Fnatic"}} 
+[2024-12-16 03:53:03] local.INFO: Processing team {"team":{"Name":"Fnatic Academy","OverviewPage":"Fnatic Academy"}} 
+[2024-12-16 03:53:03] local.INFO: Processing team {"team":{"Name":"Fnatic Rising","OverviewPage":"Fnatic Rising"}} 
+[2024-12-16 03:53:03] local.INFO: Processing team {"team":{"Name":"Fnatic TQ","OverviewPage":"Fnatic TQ"}} 
+[2024-12-16 03:53:03] local.INFO: Final results {"results":{"Illuminate\\Support\\Collection":[{"name":"Fnatic","image":"http://127.0.0.1:8000/storage/teamimages/Fnatic.png","url":"http://127.0.0.1:8000/team/Fnatic","type":"Team"},{"name":"Fnatic Academy","image":"http://127.0.0.1:8000/storage/teamimages/Fnatic Academy.png","url":"http://127.0.0.1:8000/team/Fnatic%20Academy","type":"Team"},{"name":"Fnatic Rising","image":"http://127.0.0.1:8000/storage/teamimages/Fnatic Rising.png","url":"http://127.0.0.1:8000/team/Fnatic%20Rising","type":"Team"},{"name":"Fnatic TQ","image":"http://127.0.0.1:8000/storage/teamimages/Fnatic TQ.png","url":"http://127.0.0.1:8000/team/Fnatic%20TQ","type":"Team"}]}} 
+[2024-12-16 03:53:09] local.INFO: Search request received {"query":"G2"} 
+[2024-12-16 03:53:10] local.INFO: Teams found {"teams":[{"Name":"G2 Arctic","OverviewPage":"G2 Arctic"},{"Name":"G2 Esports","OverviewPage":"G2 Esports"},{"Name":"G2 Hel","OverviewPage":"G2 Hel"},{"Name":"G2 Heretics","OverviewPage":"G2 Heretics"},{"Name":"G2 Vodafone","OverviewPage":"G2 Vodafone"}]} 
+[2024-12-16 03:53:10] local.INFO: Processing team {"team":{"Name":"G2 Arctic","OverviewPage":"G2 Arctic"}} 
+[2024-12-16 03:53:10] local.INFO: Processing team {"team":{"Name":"G2 Esports","OverviewPage":"G2 Esports"}} 
+[2024-12-16 03:53:10] local.INFO: Processing team {"team":{"Name":"G2 Hel","OverviewPage":"G2 Hel"}} 
+[2024-12-16 03:53:10] local.INFO: Processing team {"team":{"Name":"G2 Heretics","OverviewPage":"G2 Heretics"}} 
+[2024-12-16 03:53:10] local.INFO: Processing team {"team":{"Name":"G2 Vodafone","OverviewPage":"G2 Vodafone"}} 
+[2024-12-16 03:53:10] local.INFO: Final results {"results":{"Illuminate\\Support\\Collection":[{"name":"G2 Arctic","image":"http://127.0.0.1:8000/storage/teamimages/G2 Arctic.png","url":"http://127.0.0.1:8000/team/G2%20Arctic","type":"Team"},{"name":"G2 Esports","image":"http://127.0.0.1:8000/storage/teamimages/G2 Esports.png","url":"http://127.0.0.1:8000/team/G2%20Esports","type":"Team"},{"name":"G2 Hel","image":"http://127.0.0.1:8000/storage/teamimages/G2 Hel.png","url":"http://127.0.0.1:8000/team/G2%20Hel","type":"Team"},{"name":"G2 Heretics","image":"http://127.0.0.1:8000/storage/teamimages/G2 Heretics.png","url":"http://127.0.0.1:8000/team/G2%20Heretics","type":"Team"},{"name":"G2 Vodafone","image":"http://127.0.0.1:8000/storage/teamimages/G2 Vodafone.png","url":"http://127.0.0.1:8000/team/G2%20Vodafone","type":"Team"}]}} 
+[2024-12-16 04:00:10] local.INFO: Search request received {"query":"T1"} 
+[2024-12-16 04:00:10] local.INFO: Teams found {"teams":[{"Name":"SK Telecom T1","OverviewPage":"SK Telecom T1"},{"Name":"SK Telecom T1 K","OverviewPage":"SK Telecom T1 K"},{"Name":"SK Telecom T1 S","OverviewPage":"SK Telecom T1 S"},{"Name":"T1","OverviewPage":"T1"},{"Name":"T1 Esports Academy","OverviewPage":"T1 Esports Academy"}]} 
+[2024-12-16 04:00:10] local.INFO: Processing team {"team":{"Name":"SK Telecom T1","OverviewPage":"SK Telecom T1"}} 
+[2024-12-16 04:00:10] local.INFO: Processing team {"team":{"Name":"SK Telecom T1 K","OverviewPage":"SK Telecom T1 K"}} 
+[2024-12-16 04:00:10] local.INFO: Processing team {"team":{"Name":"SK Telecom T1 S","OverviewPage":"SK Telecom T1 S"}} 
+[2024-12-16 04:00:10] local.INFO: Processing team {"team":{"Name":"T1","OverviewPage":"T1"}} 
+[2024-12-16 04:00:10] local.INFO: Processing team {"team":{"Name":"T1 Esports Academy","OverviewPage":"T1 Esports Academy"}} 
+[2024-12-16 04:00:10] local.INFO: Final results {"results":{"Illuminate\\Support\\Collection":[{"name":"SK Telecom T1","image":"http://127.0.0.1:8000/storage/teamimages/SK Telecom T1.png","url":"http://127.0.0.1:8000/team/SK%20Telecom%20T1","type":"Team"},{"name":"SK Telecom T1 K","image":"http://127.0.0.1:8000/storage/teamimages/SK Telecom T1 K.png","url":"http://127.0.0.1:8000/team/SK%20Telecom%20T1%20K","type":"Team"},{"name":"SK Telecom T1 S","image":"http://127.0.0.1:8000/storage/teamimages/SK Telecom T1 S.png","url":"http://127.0.0.1:8000/team/SK%20Telecom%20T1%20S","type":"Team"},{"name":"T1","image":"http://127.0.0.1:8000/storage/teamimages/T1.png","url":"http://127.0.0.1:8000/team/T1","type":"Team"},{"name":"T1 Esports Academy","image":"http://127.0.0.1:8000/storage/teamimages/T1 Esports Academy.png","url":"http://127.0.0.1:8000/team/T1%20Esports%20Academy","type":"Team"}]}} 
+[2024-12-16 04:00:18] local.INFO: Search request received {"query":"DRX"} 
+[2024-12-16 04:00:18] local.INFO: Teams found {"teams":[{"Name":"DRX","OverviewPage":"DRX"},{"Name":"DRX Challengers","OverviewPage":"DRX Challengers"},{"Name":"DRX Shinhan Bank","OverviewPage":"DRX Shinhan Bank"}]} 
+[2024-12-16 04:00:18] local.INFO: Processing team {"team":{"Name":"DRX","OverviewPage":"DRX"}} 
+[2024-12-16 04:00:18] local.INFO: Processing team {"team":{"Name":"DRX Challengers","OverviewPage":"DRX Challengers"}} 
+[2024-12-16 04:00:18] local.INFO: Processing team {"team":{"Name":"DRX Shinhan Bank","OverviewPage":"DRX Shinhan Bank"}} 
+[2024-12-16 04:00:18] local.INFO: Final results {"results":{"Illuminate\\Support\\Collection":[{"name":"DRX","image":"http://127.0.0.1:8000/storage/teamimages/DRX.png","url":"http://127.0.0.1:8000/team/DRX","type":"Team"},{"name":"DRX Challengers","image":"http://127.0.0.1:8000/storage/teamimages/DRX Challengers.png","url":"http://127.0.0.1:8000/team/DRX%20Challengers","type":"Team"},{"name":"DRX Shinhan Bank","image":"http://127.0.0.1:8000/storage/teamimages/DRX Shinhan Bank.png","url":"http://127.0.0.1:8000/team/DRX%20Shinhan%20Bank","type":"Team"}]}} 
+[2024-12-16 04:01:10] local.INFO: Raw date parameter received in APIService: {"date":"2024-12-16"} 
+[2024-12-16 04:01:10] local.INFO: Making request to URL: {"url":"/TodayMatches?date=2024-12-16"} 
+[2024-12-16 04:01:11] local.INFO: Successfully fetched matches {"count":6,"first_match":{"Name":"Demacia Cup 2024","DateTime_UTC":"2024-12-16 08:00:00","Team1":"Team WE","Team1Score":null,"Team1Final":"Team WE","Team2":"ThunderTalk Gaming","Team2Score":null,"Team2Final":"ThunderTalk Gaming","Winner":null,"Stream":"https://www.huya.com/660125","BestOf":1,"Team1Image":"Team WElogo profile.png","Team2Image":"ThunderTalk Gaminglogo square.png","Team1OverviewPage":"Team WE","Team2OverviewPage":"ThunderTalk Gaming","Phase":null,"ShownName":"Demacia Cup 2024","MatchDay":1,"HasTime":true,"Venue":null,"GroupName":null}} 
+[2024-12-16 04:01:12] local.INFO: Game Details: {"Number of games":0,"Match BestOf":1,"Match Score":"-","Games":[]} 
+[2024-12-16 04:01:12] local.INFO: Match data: {"Team1":"JD Gaming","Team1OverviewPage":"JD Gaming","Team2":"Team WE","Team2OverviewPage":"Team WE"} 
+[2024-12-16 04:01:12] local.INFO: Team images: {"Team1Image":"http://127.0.0.1:8000/storage/teamimages/JD Gaming.png","Team2Image":"http://127.0.0.1:8000/storage/teamimages/Team WE.png"} 
